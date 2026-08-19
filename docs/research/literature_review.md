@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-08-19  
-**Corpus:** 12 papers across 9 categories
+**Corpus:** 1,555 papers across 10 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | DevOps & CI/CD | 2 |
-| 2 | Code Quality | 2 |
-| 3 | AI for Software Engineering | 2 |
-| 4 | Developer Tools | 1 |
-| 5 | Software Engineering | 1 |
-| 6 | Programming Languages | 1 |
-| 7 | Human Factors & DX | 1 |
-| 8 | Security & Supply Chain | 1 |
+| 1 | Code Quality | 378 |
+| 2 | DevOps & CI/CD | 189 |
+| 3 | Security & Supply Chain | 187 |
+| 4 | Software Architecture | 187 |
+| 5 | Developer Tools | 162 |
+| 6 | AI for Software Engineering | 153 |
+| 7 | Programming Languages | 102 |
+| 8 | Open Source | 84 |
 
-**Time span:** 1986–2026 (median year 2022)
-**Dominant aspects:** Surveys & Reviews (6), Method (3), Theory (2)
+**Time span:** 1986–2026 (median year 2023)
+**Dominant aspects:** Tooling (368), Method (338), Surveys & Reviews (323)
 
 ---
 
@@ -29,15 +29,16 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Developer Tools | 1 | 1 | 0 | — | 100% | 0.1 |
-| Ai For Se | 2 | 0 | 0 | — | 0% | 0.0 |
-| Code Quality | 2 | 0 | 0 | — | 0% | 0.0 |
-| Devops | 2 | 0 | 0 | — | 0% | 0.0 |
-| Human Factors | 1 | 0 | 0 | — | 0% | 0.0 |
-| Programming Languages | 1 | 0 | 0 | — | 0% | 0.0 |
-| Security | 1 | 0 | 0 | — | 0% | 0.0 |
-| Software Architecture | 1 | 0 | 0 | — | 0% | 0.0 |
-| Software Engineering | 1 | 0 | 0 | — | 0% | 0.0 |
+| Developer Tools | 162 | 162 | 0 | — | 100% | 13.5 |
+| Open Source | 84 | 84 | 0 | — | 100% | 7.0 |
+| Code Quality | 378 | 376 | 0 | — | 100% | 31.3 |
+| Security | 187 | 186 | 0 | — | 100% | 15.5 |
+| Software Architecture | 187 | 186 | 0 | — | 100% | 15.5 |
+| Programming Languages | 102 | 101 | 0 | — | 99% | 8.4 |
+| Devops | 189 | 187 | 0 | — | 99% | 15.6 |
+| Ai For Se | 153 | 151 | 0 | — | 99% | 12.6 |
+| Human Factors | 71 | 70 | 0 | — | 99% | 5.8 |
+| Software Engineering | 42 | 41 | 0 | — | 98% | 3.4 |
 
 ---
 
@@ -45,110 +46,137 @@
 
 | Cell | Papers |
 |------|--------:|
-| `developer-tools/method` | 1 |
 | `software-engineering/theory` | 1 |
-| `programming-languages/theory` | 1 |
 | `devops/method` | 1 |
-| `devops/survey` | 1 |
-| `code-quality/evaluation` | 1 |
 | `code-quality/survey` | 1 |
 | `ai-for-se/survey` | 1 |
+| `ai-for-se/evaluation` | 10 |
+| `devops/development` | 16 |
+| `developer-tools/method` | 20 |
+| `security/development` | 21 |
 
 ---
 
 
 ## Category Insights
 
-### DevOps & CI/CD (`devops`)
-
-**Corpus size:** 2 papers
-
-**Recent papers:**
-
-- [2024-01] Infrastructure as Code: A Systematic Mapping Study — https://arxiv.org/abs/2401.01001
-- [2007-06] Continuous Integration: Improving Software Quality and Reducing Risk — https://doi.org/10.1109/MS.2007.93
-
----
-
 ### Code Quality (`code-quality`)
 
-**Corpus size:** 2 papers
+**Corpus size:** 378 papers
 
 **Recent papers:**
 
-- [2023-06] Code Review at the Speed of Light: What's Wrong with Pull Requests? — https://arxiv.org/abs/2306.12345
-- [2022-09] Technical Debt: A Systematic Literature Review — https://arxiv.org/abs/2209.01234
+- [2026-08] From AI Technical Debt to Agentic Technical Debt: A Systematic Mapping of Root Causes and Manif — https://arxiv.org/abs/2608.01001
+- [2026-08] SmellCC: A Tool for Automated Code Smells Remediation — https://arxiv.org/abs/2608.09477
+- [2026-08] Strategic Technical Debt: A Real Options Approach to Early-Stage Software Experimentation — https://arxiv.org/abs/2608.16112
 
 ---
 
-### AI for Software Engineering (`ai-for-se`)
+### DevOps & CI/CD (`devops`)
 
-**Corpus size:** 2 papers
-
-**Recent papers:**
-
-- [2024-03] Large Language Models for Software Engineering: A Systematic Literature Review — https://arxiv.org/abs/2403.00001
-- [2023-10] Automated Program Repair via Conversational Large Language Models — https://arxiv.org/abs/2301.00001
-
----
-
-### Developer Tools (`developer-tools`)
-
-**Corpus size:** 1 papers
+**Corpus size:** 189 papers
 
 **Recent papers:**
 
-- [2026-08] The Stoic Unix Philosophy: Building Calm Tools for a Chaotic World — https://tobias-weiss.org/content/devops/stoic-unix-philosophy/
-
----
-
-### Software Engineering (`software-engineering`)
-
-**Corpus size:** 1 papers
-
-**Recent papers:**
-
-- [1986-04] No Silver Bullet: Essence and Accidents of Software Engineering — https://doi.org/10.1145/358849.358862
-
----
-
-### Programming Languages (`programming-languages`)
-
-**Corpus size:** 1 papers
-
-**Recent papers:**
-
-- [2013-05] A Tour of C++: Type Safety and Resource Management — https://doi.org/10.1145/2504585.2504603
-
----
-
-### Human Factors & DX (`human-factors`)
-
-**Corpus size:** 1 papers
-
-**Recent papers:**
-
-- [2023-06] Measuring Developer Productivity: A Systematic Literature Review — https://arxiv.org/abs/2306.00001
+- [2026-08] Studying Developer Perceptions on the Potential of CI Recommendation Systems — https://arxiv.org/abs/2608.02682
+- [2026-08] Stylometric Defenses Against Author Impersonation in Software Repositories — https://arxiv.org/abs/2608.02695
+- [2026-08] Doc2CI: A Multi-Service Study of CI Configuration Generation Using Large Language Models — https://arxiv.org/abs/2608.01451
 
 ---
 
 ### Security & Supply Chain (`security`)
 
-**Corpus size:** 1 papers
+**Corpus size:** 187 papers
 
 **Recent papers:**
 
-- [2024-01] Software Supply Chain Security: A Systematic Literature Review — https://arxiv.org/abs/2401.00001
+- [2026-08] DCI: Dependency Confidence Index for Assessing Open-Source Dependency Trustworthiness — https://arxiv.org/abs/2608.16430
+- [2026-08] Cross-Corpus Evaluation of Generalizable Vulnerability Detection in IoT Firmware — https://arxiv.org/abs/2608.11492
+- [2026-08] VICBench: A Multi-Language Benchmark for Code Vulnerability Detection — https://arxiv.org/abs/2608.12246
 
 ---
 
 ### Software Architecture (`software-architecture`)
 
-**Corpus size:** 1 papers
+**Corpus size:** 187 papers
 
 **Recent papers:**
 
-- [2022-03] Microservices: Yesterday, Today, and Tomorrow — https://arxiv.org/abs/2203.00001
+- [2026-08] An Empirical Comparison of Monolithic and Microservices Architectures for an E-Commerce Applica — https://arxiv.org/abs/2608.15668
+- [2026-08] Energy Efficiency in Microservice Architectures: A Systematic Literature Review — https://arxiv.org/abs/2608.04070
+- [2026-08] ORCA: Observability-Grounded Program Repair for Microservice Incidents — https://arxiv.org/abs/2608.17018
+
+---
+
+### Developer Tools (`developer-tools`)
+
+**Corpus size:** 162 papers
+
+**Recent papers:**
+
+- [2026-08] The Stoic Unix Philosophy: Building Calm Tools for a Chaotic World — https://tobias-weiss.org/content/devops/stoic-unix-philosophy/
+- [2026-08] Characterizing Visual Accessibility Issues in AI Developer Tools: An Empirical Study — https://arxiv.org/abs/2608.05116
+- [2026-08] Can LLMs Test Terminal User Interfaces? — https://arxiv.org/abs/2608.03743
+
+---
+
+### AI for Software Engineering (`ai-for-se`)
+
+**Corpus size:** 153 papers
+
+**Recent papers:**
+
+- [2026-08] Entropy-based Code Adversarial Translation for Real-world Repository Migration — https://arxiv.org/abs/2608.09273
+- [2026-08] Rethinking Automated Program Repair: The Impact of Bug Complexity, Fault Localization, and LLM  — https://arxiv.org/abs/2608.14065
+- [2026-08] Decomposing the Doer Effect in Programming Practice: Code Writing Stands Out Among Active Pract — https://arxiv.org/abs/2608.02541
+
+---
+
+### Programming Languages (`programming-languages`)
+
+**Corpus size:** 102 papers
+
+**Recent papers:**
+
+- [2026-08] Sound Enforcement of Dynamic Release Information Flow Policy-Full Version — https://arxiv.org/abs/2608.09506
+- [2026-08] Let it Flow: A Formally Verified Compilation Framework for Asynchronous Dataflow — https://arxiv.org/abs/2608.05451
+- [2026-08] Categorical Models of Amortized Cost: An Adjoint Relationship between Cost and Potential — https://arxiv.org/abs/2608.09635
+
+---
+
+### Open Source (`open-source`)
+
+**Corpus size:** 84 papers
+
+**Recent papers:**
+
+- [2026-08] Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysi — https://arxiv.org/abs/2608.13884
+- [2026-08] Expertise-Based Developer Assignment for Long-Term Software Components in Open-Source Projects — https://arxiv.org/abs/2608.05919
+- [2026-08] Towards Competence-Based Management for Open Source Software Projects — https://arxiv.org/abs/2608.05599
+
+---
+
+### Human Factors & DX (`human-factors`)
+
+**Corpus size:** 71 papers
+
+**Recent papers:**
+
+- [2026-08] Mobile App Rewrites via Dual Boot — https://arxiv.org/abs/2608.15135
+- [2026-08] Detecting Behavioral Changes in Python Refactoring Implementations with Foundation Models — https://arxiv.org/abs/2608.09919
+- [2026-08] Unreliable in Practice? A Comprehensive Study of Errors in LLM-Generated Code — https://arxiv.org/abs/2608.00661
+
+---
+
+### Software Engineering (`software-engineering`)
+
+**Corpus size:** 42 papers
+
+**Recent papers:**
+
+- [2026-08] Reshaping the SDLC for Data- and AI-Centric Systems — https://arxiv.org/abs/2608.17824
+- [2026-08] Algorithm-driven Development: A Proactive Approach to Improving Software Quality and Reducing D — https://arxiv.org/abs/2608.01533
+- [2026-08] Exploring Dependence, Overreliance, and Addiction Related Behaviors Associated with Large Langu — https://arxiv.org/abs/2608.05561
 
 ---
 
