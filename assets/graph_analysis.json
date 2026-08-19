@@ -47,20 +47,20 @@
   {
    "id": "developer-tools",
    "name": "Developer Tools",
-   "count": 162,
+   "count": 161,
    "trajectory": {
     "2025": 49,
-    "2026": 113
+    "2026": 112
    },
    "momentum": {
     "id": "developer-tools",
     "name": "Developer Tools",
-    "total": 162,
-    "recent": 162,
+    "total": 161,
+    "recent": 161,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
-    "papers_per_month": 13.5,
+    "papers_per_month": 13.4,
     "score": 100.0
    }
   },
@@ -251,7 +251,7 @@
   {
    "id": "tooling",
    "name": "Tooling",
-   "count": 368
+   "count": 367
   }
  ],
  "timeline": [
@@ -2899,11 +2899,6 @@
    "2026-01",
    "developer-tools",
    "method"
-  ],
-  [
-   "2026-01",
-   "developer-tools",
-   "tooling"
   ],
   [
    "2026-01",
@@ -8086,7 +8081,7 @@
    "recent": 72,
    "total": 72,
    "burst_score": 1.01,
-   "recent_share": 0.0466
+   "recent_share": 0.0467
   },
   {
    "keyword": "open source",
@@ -8114,7 +8109,7 @@
    "recent": 22,
    "total": 22,
    "burst_score": 1.01,
-   "recent_share": 0.0142
+   "recent_share": 0.0143
   },
   {
    "keyword": "automated testing",
@@ -8128,21 +8123,21 @@
    "recent": 679,
    "total": 681,
    "burst_score": 1.0,
-   "recent_share": 0.4398
+   "recent_share": 0.4401
   },
   {
    "keyword": "large language model",
    "recent": 480,
    "total": 482,
    "burst_score": 1.0,
-   "recent_share": 0.3109
+   "recent_share": 0.3111
   },
   {
    "keyword": "security",
    "recent": 300,
    "total": 302,
    "burst_score": 1.0,
-   "recent_share": 0.1943
+   "recent_share": 0.1944
   },
   {
    "keyword": "static analysis",
@@ -8160,10 +8155,10 @@
   },
   {
    "keyword": "observability",
-   "recent": 101,
-   "total": 102,
+   "recent": 100,
+   "total": 101,
    "burst_score": 1.0,
-   "recent_share": 0.0654
+   "recent_share": 0.0648
   },
   {
    "keyword": "code review",

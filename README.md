@@ -320,7 +320,6 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 - [2026] **Agentic Much? Adoption of Coding Agents on GitHub** [[paper](https://arxiv.org/abs/2601.18341)]
 - [2026] **From LLMs to Agents in Programming: The Impact of Providing an LLM with a Compiler** [[paper](https://arxiv.org/abs/2601.12146)]
 - [2026] **A Large Scale Empirical Analysis on the Adherence Gap between Standards and Tools in SBOM** [[paper](https://arxiv.org/abs/2601.05622)] [[code](https://github.com/dw763j/SAP)]
-- [2026] **Empirical Characterization of Logging Smells in Machine Learning Code** [[paper](https://arxiv.org/abs/2601.05540)]
 - [2026] **VarParser: Unleashing the Neglected Power of Variables for LLM-based Log Parsing** *WWW 2026* [[paper](https://arxiv.org/abs/2601.22676)]
 - [2026] **DeLog: An Efficient Log Compression Framework with Pattern Signature Synthesis** [[paper](https://arxiv.org/abs/2601.15084)]
 - [2026] **Small is Beautiful: A Practical and Efficient Log Parsing Framework** [[paper](https://arxiv.org/abs/2601.22590)]

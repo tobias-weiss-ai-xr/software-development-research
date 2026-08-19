@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-08-19  
-**Corpus:** 1,555 papers across 10 categories
+**Corpus:** 1,554 papers across 10 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -15,13 +15,13 @@
 | 2 | DevOps & CI/CD | 189 |
 | 3 | Security & Supply Chain | 187 |
 | 4 | Software Architecture | 187 |
-| 5 | Developer Tools | 162 |
+| 5 | Developer Tools | 161 |
 | 6 | AI for Software Engineering | 153 |
 | 7 | Programming Languages | 102 |
 | 8 | Open Source | 84 |
 
 **Time span:** 1986–2026 (median year 2023)
-**Dominant aspects:** Tooling (368), Method (338), Surveys & Reviews (323)
+**Dominant aspects:** Tooling (367), Method (338), Surveys & Reviews (323)
 
 ---
 
@@ -29,7 +29,7 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Developer Tools | 162 | 162 | 0 | — | 100% | 13.5 |
+| Developer Tools | 161 | 161 | 0 | — | 100% | 13.4 |
 | Open Source | 84 | 84 | 0 | — | 100% | 7.0 |
 | Code Quality | 378 | 376 | 0 | — | 100% | 31.3 |
 | Security | 187 | 186 | 0 | — | 100% | 15.5 |
@@ -110,7 +110,7 @@
 
 ### Developer Tools (`developer-tools`)
 
-**Corpus size:** 162 papers
+**Corpus size:** 161 papers
 
 **Recent papers:**
 
