@@ -1,17 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this research corpus skeleton, please cite it as follows."
-title: "Research Corpus Skeleton — Data-Driven Agentic Literature Review"
-abstract: "Skeleton repository for a data-driven, auto-validated, agentic literature review corpus. Papers in papers.yaml, everything else generated."
+message: "If you use this research corpus, please cite it as follows."
+title: "Software Development Research — Agentic Literature Review"
+abstract: >-
+  Data-driven, auto-validated literature review corpus covering software
+  engineering practices, developer tooling, DevOps/CI-CD, code quality,
+  software architecture, AI-assisted software engineering, and the human
+  factors of programming tools.
 authors:
   - family-names: "Weiß"
     given-names: "Tobias"
     orcid: ""
-date-released: "2026-08-06"
+date-released: "2026-08-18"
 license: MIT
 keywords:
+  - software-engineering
+  - developer-tools
+  - devops
+  - code-quality
+  - ai-for-se
   - literature-review
   - research-corpus
   - agentic-ai
-  - papers
-  - open-science
-repository-code: "https://github.com/<YOUR_ORG>/skeleton-research"
+repository-code: "https://github.com/tobias-weiss-ai-xr/software-development-research"

@@ -1,15 +1,55 @@
 {
  "categories": [
   {
-   "id": "application",
-   "name": "Applications",
-   "count": 1,
+   "id": "ai-for-se",
+   "name": "AI for Software Engineering",
+   "count": 2,
    "trajectory": {
-    "2025": 1
+    "2023": 1,
+    "2024": 1
    },
    "momentum": {
-    "id": "application",
-    "name": "Application",
+    "id": "ai-for-se",
+    "name": "Ai For Se",
+    "total": 2,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "code-quality",
+   "name": "Code Quality",
+   "count": 2,
+   "trajectory": {
+    "2022": 1,
+    "2023": 1
+   },
+   "momentum": {
+    "id": "code-quality",
+    "name": "Code Quality",
+    "total": 2,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "developer-tools",
+   "name": "Developer Tools",
+   "count": 1,
+   "trajectory": {
+    "2026": 1
+   },
+   "momentum": {
+    "id": "developer-tools",
+    "name": "Developer Tools",
     "total": 1,
     "recent": 1,
     "prior": 0,
@@ -20,107 +60,230 @@
    }
   },
   {
-   "id": "method",
-   "name": "Methods & Architectures",
-   "count": 1,
+   "id": "devops",
+   "name": "DevOps & CI/CD",
+   "count": 2,
    "trajectory": {
-    "2026": 1
+    "2007": 1,
+    "2024": 1
    },
    "momentum": {
-    "id": "method",
-    "name": "Method",
-    "total": 1,
-    "recent": 1,
+    "id": "devops",
+    "name": "Devops",
+    "total": 2,
+    "recent": 0,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 1.0,
-    "papers_per_month": 0.1,
-    "score": 100.0
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
    }
   },
   {
-   "id": "survey",
-   "name": "Surveys & Taxonomies",
+   "id": "human-factors",
+   "name": "Human Factors & DX",
    "count": 1,
    "trajectory": {
-    "2026": 1
+    "2023": 1
    },
    "momentum": {
-    "id": "survey",
-    "name": "Survey",
+    "id": "human-factors",
+    "name": "Human Factors",
     "total": 1,
-    "recent": 1,
+    "recent": 0,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 1.0,
-    "papers_per_month": 0.1,
-    "score": 100.0
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "programming-languages",
+   "name": "Programming Languages",
+   "count": 1,
+   "trajectory": {
+    "2013": 1
+   },
+   "momentum": {
+    "id": "programming-languages",
+    "name": "Programming Languages",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "security",
+   "name": "Security & Supply Chain",
+   "count": 1,
+   "trajectory": {
+    "2024": 1
+   },
+   "momentum": {
+    "id": "security",
+    "name": "Security",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "software-architecture",
+   "name": "Software Architecture",
+   "count": 1,
+   "trajectory": {
+    "2022": 1
+   },
+   "momentum": {
+    "id": "software-architecture",
+    "name": "Software Architecture",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "software-engineering",
+   "name": "Software Engineering",
+   "count": 1,
+   "trajectory": {
+    "1986": 1
+   },
+   "momentum": {
+    "id": "software-engineering",
+    "name": "Software Engineering",
+    "total": 1,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
    }
   }
  ],
  "subcategories": [
   {
-   "id": "agentic",
-   "name": "Agentic",
+   "id": "evaluation",
+   "name": "Evaluation",
    "count": 1
   },
   {
-   "id": "hybrid",
-   "name": "Hybrid",
-   "count": 1
+   "id": "method",
+   "name": "Method",
+   "count": 3
   },
   {
-   "id": "non-agentic",
-   "name": "Non-Agentic",
-   "count": 1
+   "id": "survey",
+   "name": "Survey",
+   "count": 6
+  },
+  {
+   "id": "theory",
+   "name": "Theory",
+   "count": 2
   }
  ],
  "timeline": [
   [
-   "2025-11",
-   "application",
-   "non-agentic"
+   "1986-04",
+   "software-engineering",
+   "theory"
   ],
   [
-   "2026-01",
-   "survey",
-   "hybrid"
+   "2007-06",
+   "devops",
+   "method"
   ],
   [
-   "2026-03",
-   "method",
-   "agentic"
+   "2013-05",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2022-03",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2022-09",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2023-06",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2023-06",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2023-10",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2024-01",
+   "devops",
+   "survey"
+  ],
+  [
+   "2024-01",
+   "security",
+   "survey"
+  ],
+  [
+   "2024-03",
+   "ai-for-se",
+   "survey"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "method"
   ]
  ],
- "venues": [],
+ "venues": [
+  {
+   "name": "tobias-weiss.org",
+   "papers": 1
+  },
+  {
+   "name": "IEEE Computer",
+   "papers": 1
+  },
+  {
+   "name": "Communications of the ACM",
+   "papers": 1
+  },
+  {
+   "name": "IEEE Software",
+   "papers": 1
+  }
+ ],
  "keyword_bursts": [
   {
-   "keyword": "survey",
+   "keyword": "llm",
    "recent": 1,
-   "total": 1,
-   "burst_score": 1.0,
-   "recent_share": 0.3333
-  },
-  {
-   "keyword": "method",
-   "recent": 1,
-   "total": 1,
-   "burst_score": 1.0,
-   "recent_share": 0.3333
-  },
-  {
-   "keyword": "application",
-   "recent": 1,
-   "total": 1,
-   "burst_score": 1.0,
-   "recent_share": 0.3333
-  },
-  {
-   "keyword": "analysis",
-   "recent": 1,
-   "total": 1,
-   "burst_score": 1.0,
-   "recent_share": 0.3333
+   "total": 3,
+   "burst_score": 4.0,
+   "recent_share": 1.0
   }
  ]
 }

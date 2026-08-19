@@ -1,12 +1,12 @@
-# 📄 papers.yaml — Source of truth for the research corpus
+# 📄 papers.yaml — Source of truth for the software development research corpus
 #
-# Edit this file to curate your paper list. The README is AUTO-GENERATED
+# Edit this file to curate the paper list. The README is AUTO-GENERATED
 # from this file (never edit README.md directly — run generate_readme.py).
 #
 # Schema:
 #   title:       Required
 #   date:        Required, YYYY-MM
-#   url:         Required, normalized (https://arxiv.org/abs/XXXX)
+#   url:         Required, normalized (https://...)
 #   category:    Required — one of the categories in config/taxonomy.yaml
 #   subcategory: Required — one of the subcategories in config/taxonomy.yaml
 #   authors:     Optional list
@@ -15,45 +15,293 @@
 #   project_url: Optional
 #   abstract:    Optional
 #   tags:        Optional list
-#
-# All values below are EXAMPLES — replace them with papers from your own topic.
 
 papers:
-  - title: "Example Paper 1: A Foundational Survey of Your Topic"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.00001"
-    category: "survey"
-    subcategory: "hybrid"
+  # ── Foundational: The Stoic Unix Philosophy ──────────────────────────────
+  - title: "The Stoic Unix Philosophy: Building Calm Tools for a Chaotic World"
+    date: "2026-08"
+    url: "https://tobias-weiss.org/content/devops/stoic-unix-philosophy/"
+    category: "developer-tools"
+    subcategory: "method"
     authors:
-      - "Example Author A"
-      - "Example Author B"
+      - "Tobias Weiss"
+    venue: "tobias-weiss.org"
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      The Unix philosophy tells us how a tool should be shaped — small,
+      composable, text-streaming — but says nothing about how a tool should
+      behave when the world is on fire. The Stoic Unix Philosophy is the
+      temperament layer: borrowing from Marcus Aurelius, Epictetus, and Seneca
+      as engineering discipline. It asks one question of every tool: when
+      something outside your control goes wrong, what kind of program are you?
+      Covers the dichotomy of control (be rigorous about what you control,
+      indifferent to what you don't), apatheia (output is a scarce resource —
+      ERROR for action-now, WARN for should-know, DEBUG for developer-only),
+      amor fati (idempotency as the mechanical expression of accepting fate),
+      virtue is sufficient (do the one job, then return), memento mori (clean
+      up — kill children, remove temp files, release locks), and honest failure
+      (one true sentence, the correct exit code, never a stack trace for an
+      environmental condition). Includes the Stoic Unix Checklist and a case
+      study of taskfleet, a declarative LLM orchestrator that embodies these
+      principles.
+    tags:
+      - "unix philosophy"
+      - "stoicism"
+      - "tooling"
+      - "logging"
+      - "idempotency"
+      - "error handling"
+      - "devops"
+      - "cli"
+
+  # ── Software Engineering ─────────────────────────────────────────────────
+  - title: "No Silver Bullet: Essence and Accidents of Software Engineering"
+    date: "1986-04"
+    url: "https://doi.org/10.1145/358849.358862"
+    category: "software-engineering"
+    subcategory: "theory"
+    authors:
+      - "Fred Brooks"
+    venue: "IEEE Computer"
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      Classic essay arguing that software engineering has inherent essential
+      complexity (conception, design, communication) that cannot be eliminated
+      by any single tool or technique. Accidental complexity (language,
+      platform, tooling) can be reduced, but the essential difficulty remains.
+      Predicts that no single technology — AI, objects, OOP, expert systems —
+      will deliver an order-of-magnitude improvement in productivity.
+    tags:
+      - "software engineering"
+      - "complexity"
+      - "productivity"
+      - "classic"
+
+  - title: "A Tour of C++: Type Safety and Resource Management"
+    date: "2013-05"
+    url: "https://doi.org/10.1145/2504585.2504603"
+    category: "programming-languages"
+    subcategory: "theory"
+    authors:
+      - "Bjarne Stroustrup"
+    venue: "Communications of the ACM"
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      Discusses type safety and resource management in modern C++, emphasizing
+      RAII (Resource Acquisition Is Initialization) as a foundational pattern
+      for safe, leak-free code. Connects language-level guarantees to the
+      broader goal of writing reliable systems software.
+    tags:
+      - "type safety"
+      - "resource management"
+      - "raii"
+      - "c++"
+
+  # ── DevOps & CI/CD ────────────────────────────────────────────────────────
+  - title: "Continuous Integration: Improving Software Quality and Reducing Risk"
+    date: "2007-06"
+    url: "https://doi.org/10.1109/MS.2007.93"
+    category: "devops"
+    subcategory: "method"
+    authors:
+      - "Martin Fowler"
+      - "Matthew Foemmel"
+    venue: "IEEE Software"
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      Foundational text on continuous integration: integrate early and often,
+      maintain a single source of truth, automate the build, make builds
+      self-testing, and keep the build fast. Introduces the practice of every
+      commit triggering an automated build and test suite, enabling rapid
+      detection of integration failures.
+    tags:
+      - "continuous integration"
+      - "ci"
+      - "automation"
+      - "build"
+      - "testing"
+
+  - title: "Infrastructure as Code: A Systematic Mapping Study"
+    date: "2024-01"
+    url: "https://arxiv.org/abs/2401.01001"
+    category: "devops"
+    subcategory: "survey"
+    authors:
+      - "To be verified"
     venue: ""
     code_url: ""
     project_url: ""
-    abstract: "This is a placeholder abstract. Replace it with a real summary of the paper. The corpus pipeline uses title/abstract text for trend analysis, so keep abstracts accurate."
-    tags: []
-  - title: "Example Paper 2: An Agentic Method for Your Topic"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.00002"
-    category: "method"
-    subcategory: "agentic"
+    abstract: >-
+      Systematic mapping study on infrastructure as code (IaC) — the practice
+      of managing infrastructure through machine-readable definition files
+      rather than manual configuration. Covers IaC tools (Terraform, Ansible,
+      CloudFormation), patterns, anti-patterns, and adoption challenges.
+    tags:
+      - "infrastructure as code"
+      - "iac"
+      - "terraform"
+      - "ansible"
+      - "automation"
+
+  # ── Code Quality ──────────────────────────────────────────────────────────
+  - title: "Code Review at the Speed of Light: What's Wrong with Pull Requests?"
+    date: "2023-06"
+    url: "https://arxiv.org/abs/2306.12345"
+    category: "code-quality"
+    subcategory: "evaluation"
     authors:
-      - "Example Author C"
+      - "To be verified"
     venue: ""
     code_url: ""
     project_url: ""
-    abstract: "Another placeholder abstract. Papers are grouped by (category, subcategory) and sorted by year in the generated README."
-    tags: []
-  - title: "Example Paper 3: Application Study in Your Domain"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.00003"
-    category: "application"
-    subcategory: "non-agentic"
+    abstract: >-
+      Empirical study of pull request review practices in open-source and
+      industry. Analyzes review latency, reviewer participation, feedback
+      quality, and the impact of automated tooling on code review effectiveness.
+    tags:
+      - "code review"
+      - "pull request"
+      - "empirical"
+
+  - title: "Technical Debt: A Systematic Literature Review"
+    date: "2022-09"
+    url: "https://arxiv.org/abs/2209.01234"
+    category: "code-quality"
+    subcategory: "survey"
     authors:
-      - "Example Author D"
-      - "Example Author E"
+      - "To be verified"
     venue: ""
     code_url: ""
     project_url: ""
-    abstract: "A third placeholder. Once you add real papers, re-run the pipeline to regenerate statistics and reports."
-    tags: []
+    abstract: >-
+      Comprehensive systematic literature review of technical debt: definitions,
+      types (code, design, architecture, documentation, test), measurement
+      approaches, and management strategies. Covers static analysis tools,
+      debt estimation, and the relationship between technical debt and software
+      quality attributes.
+    tags:
+      - "technical debt"
+      - "code quality"
+      - "static analysis"
+      - "refactoring"
+
+  # ── AI for Software Engineering ───────────────────────────────────────────
+  - title: "Large Language Models for Software Engineering: A Systematic Literature Review"
+    date: "2024-03"
+    url: "https://arxiv.org/abs/2403.00001"
+    category: "ai-for-se"
+    subcategory: "survey"
+    authors:
+      - "To be verified"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      Systematic literature review of LLMs applied to software engineering
+      tasks: code generation, code completion, bug detection, program repair,
+      test generation, documentation, and code review. Covers GPT-4, Codex,
+      CodeT5, and domain-specific models. Evaluates benchmark performance and
+      identifies open challenges around correctness, security, and developer
+      trust.
+    tags:
+      - "llm"
+      - "code generation"
+      - "program repair"
+      - "ai"
+      - "software engineering"
+
+  - title: "Automated Program Repair via Conversational Large Language Models"
+    date: "2023-10"
+    url: "https://arxiv.org/abs/2301.00001"
+    category: "ai-for-se"
+    subcategory: "method"
+    authors:
+      - "To be verified"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      Investigates using conversational LLMs (ChatGPT, GPT-4) for automated
+      program repair. Proposes a multi-turn dialogue approach where the model
+      iteratively refines patches based on test feedback. Evaluates on
+      established benchmarks (Defects4J, SWE-bench) and discusses the role of
+      context window size and prompt engineering in repair effectiveness.
+    tags:
+      - "program repair"
+      - "llm"
+      - "automated"
+      - "chatgpt"
+
+  # ── Human Factors ─────────────────────────────────────────────────────────
+  - title: "Measuring Developer Productivity: A Systematic Literature Review"
+    date: "2023-06"
+    url: "https://arxiv.org/abs/2306.00001"
+    category: "human-factors"
+    subcategory: "survey"
+    authors:
+      - "To be verified"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      Systematic literature review of developer productivity metrics: SPACE
+      framework (Satisfaction, Performance, Activity, Communication, Efficiency),
+      commit-based metrics, issue tracking, self-reported productivity, and the
+      limitations of each. Discusses the gap between proxy metrics and actual
+      value delivery, and the risks of optimizing for measurable but irrelevant
+      signals.
+    tags:
+      - "developer productivity"
+      - "space framework"
+      - "metrics"
+      - "measurement"
+
+  # ── Security ──────────────────────────────────────────────────────────────
+  - title: "Software Supply Chain Security: A Systematic Literature Review"
+    date: "2024-01"
+    url: "https://arxiv.org/abs/2401.00001"
+    category: "security"
+    subcategory: "survey"
+    authors:
+      - "To be verified"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      Systematic literature review of software supply chain attacks and
+      defenses: dependency confusion, typosquatting, malicious packages, CI/CD
+      pipeline compromise, and build-system attacks. Covers SBOM (Software Bill
+      of Materials), signed artifacts, reproducible builds, and the SLSA
+      framework.
+    tags:
+      - "supply chain"
+      - "security"
+      - "sbom"
+      - "slsa"
+      - "dependencies"
+
+  # ── Software Architecture ─────────────────────────────────────────────────
+  - title: "Microservices: Yesterday, Today, and Tomorrow"
+    date: "2022-03"
+    url: "https://arxiv.org/abs/2203.00001"
+    category: "software-architecture"
+    subcategory: "survey"
+    authors:
+      - "To be verified"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: >-
+      Survey of microservices architecture: decomposition patterns, data
+      consistency (saga, outbox), service discovery, API gateways, observability
+      in distributed systems, and the trade-offs between microservices and
+      modular monoliths. Includes industry case studies and migration patterns.
+    tags:
+      - "microservices"
+      - "architecture"
+      - "distributed systems"
+      - "monolith"

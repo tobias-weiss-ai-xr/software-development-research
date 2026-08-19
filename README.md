@@ -1,18 +1,13 @@
 <h1 align="center">
-  <strong>Research Corpus Skeleton</strong>
+  <strong>Software Development Research</strong>
 </h1>
-<h3 align="center">Agentic literature review, jump-started — fork me for your own topic</h3>
+<h3 align="center">Agentic literature review on software engineering, developer tools, DevOps, code quality & AI for SE</h3>
 
 ### 🔗 Links
 
-- **License**: https://github.com/tobias-weiss-ai-xr/skeleton-research/blob/main/LICENSE
-- **CI**: https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/validate.yml
-- **GitHub Pages**: https://<YOUR_ORG>.github.io/<YOUR_REPO>/
-
-
-> 🎓 **Workshop-ready:** This repository is the *skeleton* for a data-driven,
-> auto-validated, agentic literature review — the same architecture used by the
-> `*-research` corpus repos (agent-memory, agent-skill, agent-learning, …).
+- **License**: https://github.com/tobias-weiss-ai-xr/software-development-research/blob/main/LICENSE
+- **CI**: https://github.com/tobias-weiss-ai-xr/software-development-research/actions/workflows/validate.yml
+- **GitHub Pages**: https://tobias-weiss-ai-xr.github.io/software-development-research/
 
 ## What you get
 
@@ -35,8 +30,8 @@
 
 ```bash
 # 1. Clone and rename
-git clone https://github.com/<YOUR_ORG>/skeleton-research.git my-topic-research
-cd my-topic-research
+git clone https://github.com/tobias-weiss-ai-xr/software-development-research.git
+cd software-development-research
 
 # 2. Define your topic & taxonomy
 #    Edit config/taxonomy.yaml: topic name, categories, subcategories, queries
@@ -54,7 +49,7 @@ python3 scripts/standard_stats.py
 python3 scripts/analysis/generate_reports.py
 
 # 5. Commit & let CI keep it healthy
-git add -A && git commit -m "bootstrap corpus for <YOUR TOPIC>"
+git add -A && git commit -m "bootstrap corpus for software development"
 git push
 ```
 
@@ -98,57 +93,159 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📚 Paper list
 
-- [📚 Methods & Architectures](#methods-&-architectures)
-  - [Agentic](#agentic)
-- [📚 Applications](#applications)
-  - [Non-Agentic](#non-agentic)
-- [📚 Evaluation & Benchmarks](#evaluation-&-benchmarks)
-- [📚 Surveys & Taxonomies](#surveys-&-taxonomies)
-  - [Hybrid](#hybrid)
+- [📚 Software Engineering](#software-engineering)
+  - [Theory](#theory)
+- [📚 Developer Tools](#developer-tools)
+  - [Method](#method)
+- [📚 DevOps & CI/CD](#devops-&-ci/cd)
+  - [Method](#method)
+  - [Survey](#survey)
+- [📚 Code Quality](#code-quality)
+  - [Evaluation](#evaluation)
+  - [Survey](#survey)
+- [📚 Software Architecture](#software-architecture)
+  - [Survey](#survey)
+- [📚 Programming Languages](#programming-languages)
+  - [Theory](#theory)
+- [📚 Human Factors & DX](#human-factors-&-dx)
+  - [Survey](#survey)
+- [📚 AI for Software Engineering](#ai-for-software-engineering)
+  - [Method](#method)
+  - [Survey](#survey)
+- [📚 Security & Supply Chain](#security-&-supply-chain)
+  - [Survey](#survey)
+- [📚 Open Source](#open-source)
+- [📚 Surveys & Reviews](#surveys-&-reviews)
 
-### Methods & Architectures
+### Software Engineering
 
-#### Agentic
+#### Theory
+
+##### 1986
+
+- [1986] **No Silver Bullet: Essence and Accidents of Software Engineering** *IEEE Computer* [[paper](https://doi.org/10.1145/358849.358862)]
+
+[⬆ Back to top](#paper-list)
+
+### Developer Tools
+
+#### Method
 
 ##### 2026
 
-- [2026] **Example Paper 2: An Agentic Method for Your Topic** [[paper](https://arxiv.org/abs/2603.00002)]
+- [2026] **The Stoic Unix Philosophy: Building Calm Tools for a Chaotic World** *tobias-weiss.org* [[paper](https://tobias-weiss.org/content/devops/stoic-unix-philosophy/)]
 
 [⬆ Back to top](#paper-list)
 
-### Applications
+### DevOps & CI/CD
 
-#### Non-Agentic
+#### Method
 
-##### 2025
+##### 2007
 
-- [2025] **Example Paper 3: Application Study in Your Domain** [[paper](https://arxiv.org/abs/2511.00003)]
+- [2007] **Continuous Integration: Improving Software Quality and Reducing Risk** *IEEE Software* [[paper](https://doi.org/10.1109/MS.2007.93)]
+
+[⬆ Back to top](#paper-list)
+
+#### Survey
+
+##### 2024
+
+- [2024] **Infrastructure as Code: A Systematic Mapping Study** [[paper](https://arxiv.org/abs/2401.01001)]
 
 [⬆ Back to top](#paper-list)
 
-### Evaluation & Benchmarks
+### Code Quality
 
-### Surveys & Taxonomies
+#### Evaluation
 
-#### Hybrid
+##### 2023
 
-##### 2026
-
-- [2026] **Example Paper 1: A Foundational Survey of Your Topic** [[paper](https://arxiv.org/abs/2601.00001)]
+- [2023] **Code Review at the Speed of Light: What's Wrong with Pull Requests?** [[paper](https://arxiv.org/abs/2306.12345)]
 
 [⬆ Back to top](#paper-list)
+
+#### Survey
+
+##### 2022
+
+- [2022] **Technical Debt: A Systematic Literature Review** [[paper](https://arxiv.org/abs/2209.01234)]
+
+[⬆ Back to top](#paper-list)
+
+### Software Architecture
+
+#### Survey
+
+##### 2022
+
+- [2022] **Microservices: Yesterday, Today, and Tomorrow** [[paper](https://arxiv.org/abs/2203.00001)]
+
+[⬆ Back to top](#paper-list)
+
+### Programming Languages
+
+#### Theory
+
+##### 2013
+
+- [2013] **A Tour of C++: Type Safety and Resource Management** *Communications of the ACM* [[paper](https://doi.org/10.1145/2504585.2504603)]
+
+[⬆ Back to top](#paper-list)
+
+### Human Factors & DX
+
+#### Survey
+
+##### 2023
+
+- [2023] **Measuring Developer Productivity: A Systematic Literature Review** [[paper](https://arxiv.org/abs/2306.00001)]
+
+[⬆ Back to top](#paper-list)
+
+### AI for Software Engineering
+
+#### Method
+
+##### 2023
+
+- [2023] **Automated Program Repair via Conversational Large Language Models** [[paper](https://arxiv.org/abs/2301.00001)]
+
+[⬆ Back to top](#paper-list)
+
+#### Survey
+
+##### 2024
+
+- [2024] **Large Language Models for Software Engineering: A Systematic Literature Review** [[paper](https://arxiv.org/abs/2403.00001)]
+
+[⬆ Back to top](#paper-list)
+
+### Security & Supply Chain
+
+#### Survey
+
+##### 2024
+
+- [2024] **Software Supply Chain Security: A Systematic Literature Review** [[paper](https://arxiv.org/abs/2401.00001)]
+
+[⬆ Back to top](#paper-list)
+
+### Open Source
+
+### Surveys & Reviews
 
 ## 📖 Citation
 
 If you use this skeleton for a project, please cite:
 
 ```bibtex
-@misc{skeleton-research,
+@misc{software-development-research,
   author = {Weiß, Tobias},
-  title = {Research Corpus Skeleton: Data-Driven Agentic Literature Review},
+  title = {Software Development Research: Agentic Literature Review},
   year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/<YOUR_ORG>/skeleton-research}
+  url = {https://github.com/tobias-weiss-ai-xr/software-development-research}
 }
 ```
 

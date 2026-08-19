@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-08-15  
-**Corpus:** 3 papers across 3 categories
+**Generated:** 2026-08-19  
+**Corpus:** 12 papers across 9 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,12 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Surveys & Taxonomies | 1 |
-| 2 | Methods & Architectures | 1 |
-| 3 | Applications | 1 |
+| 1 | DevOps & CI/CD | 2 |
+| 2 | Code Quality | 2 |
+| 3 | AI for Software Engineering | 2 |
+| 4 | Developer Tools | 1 |
+| 5 | Software Engineering | 1 |
+| 6 | Programming Languages | 1 |
+| 7 | Human Factors & DX | 1 |
+| 8 | Security & Supply Chain | 1 |
 
-**Time span:** 2025–2026 (median year 2026)
-**Dominant aspects:** Hybrid (1), Agentic (1), Non-Agentic (1)
+**Time span:** 1986–2026 (median year 2022)
+**Dominant aspects:** Surveys & Reviews (6), Method (3), Theory (2)
 
 ---
 
@@ -24,9 +29,15 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Application | 1 | 1 | 0 | — | 100% | 0.1 |
-| Method | 1 | 1 | 0 | — | 100% | 0.1 |
-| Survey | 1 | 1 | 0 | — | 100% | 0.1 |
+| Developer Tools | 1 | 1 | 0 | — | 100% | 0.1 |
+| Ai For Se | 2 | 0 | 0 | — | 0% | 0.0 |
+| Code Quality | 2 | 0 | 0 | — | 0% | 0.0 |
+| Devops | 2 | 0 | 0 | — | 0% | 0.0 |
+| Human Factors | 1 | 0 | 0 | — | 0% | 0.0 |
+| Programming Languages | 1 | 0 | 0 | — | 0% | 0.0 |
+| Security | 1 | 0 | 0 | — | 0% | 0.0 |
+| Software Architecture | 1 | 0 | 0 | — | 0% | 0.0 |
+| Software Engineering | 1 | 0 | 0 | — | 0% | 0.0 |
 
 ---
 
@@ -34,42 +45,110 @@
 
 | Cell | Papers |
 |------|--------:|
-| `survey/hybrid` | 1 |
-| `method/agentic` | 1 |
-| `application/non-agentic` | 1 |
+| `developer-tools/method` | 1 |
+| `software-engineering/theory` | 1 |
+| `programming-languages/theory` | 1 |
+| `devops/method` | 1 |
+| `devops/survey` | 1 |
+| `code-quality/evaluation` | 1 |
+| `code-quality/survey` | 1 |
+| `ai-for-se/survey` | 1 |
 
 ---
 
 
 ## Category Insights
 
-### Surveys & Taxonomies (`survey`)
+### DevOps & CI/CD (`devops`)
 
-**Corpus size:** 1 papers
+**Corpus size:** 2 papers
 
 **Recent papers:**
 
-- [2026-01] Example Paper 1: A Foundational Survey of Your Topic — https://arxiv.org/abs/2601.00001
+- [2024-01] Infrastructure as Code: A Systematic Mapping Study — https://arxiv.org/abs/2401.01001
+- [2007-06] Continuous Integration: Improving Software Quality and Reducing Risk — https://doi.org/10.1109/MS.2007.93
 
 ---
 
-### Methods & Architectures (`method`)
+### Code Quality (`code-quality`)
 
-**Corpus size:** 1 papers
+**Corpus size:** 2 papers
 
 **Recent papers:**
 
-- [2026-03] Example Paper 2: An Agentic Method for Your Topic — https://arxiv.org/abs/2603.00002
+- [2023-06] Code Review at the Speed of Light: What's Wrong with Pull Requests? — https://arxiv.org/abs/2306.12345
+- [2022-09] Technical Debt: A Systematic Literature Review — https://arxiv.org/abs/2209.01234
 
 ---
 
-### Applications (`application`)
+### AI for Software Engineering (`ai-for-se`)
+
+**Corpus size:** 2 papers
+
+**Recent papers:**
+
+- [2024-03] Large Language Models for Software Engineering: A Systematic Literature Review — https://arxiv.org/abs/2403.00001
+- [2023-10] Automated Program Repair via Conversational Large Language Models — https://arxiv.org/abs/2301.00001
+
+---
+
+### Developer Tools (`developer-tools`)
 
 **Corpus size:** 1 papers
 
 **Recent papers:**
 
-- [2025-11] Example Paper 3: Application Study in Your Domain — https://arxiv.org/abs/2511.00003
+- [2026-08] The Stoic Unix Philosophy: Building Calm Tools for a Chaotic World — https://tobias-weiss.org/content/devops/stoic-unix-philosophy/
+
+---
+
+### Software Engineering (`software-engineering`)
+
+**Corpus size:** 1 papers
+
+**Recent papers:**
+
+- [1986-04] No Silver Bullet: Essence and Accidents of Software Engineering — https://doi.org/10.1145/358849.358862
+
+---
+
+### Programming Languages (`programming-languages`)
+
+**Corpus size:** 1 papers
+
+**Recent papers:**
+
+- [2013-05] A Tour of C++: Type Safety and Resource Management — https://doi.org/10.1145/2504585.2504603
+
+---
+
+### Human Factors & DX (`human-factors`)
+
+**Corpus size:** 1 papers
+
+**Recent papers:**
+
+- [2023-06] Measuring Developer Productivity: A Systematic Literature Review — https://arxiv.org/abs/2306.00001
+
+---
+
+### Security & Supply Chain (`security`)
+
+**Corpus size:** 1 papers
+
+**Recent papers:**
+
+- [2024-01] Software Supply Chain Security: A Systematic Literature Review — https://arxiv.org/abs/2401.00001
+
+---
+
+### Software Architecture (`software-architecture`)
+
+**Corpus size:** 1 papers
+
+**Recent papers:**
+
+- [2022-03] Microservices: Yesterday, Today, and Tomorrow — https://arxiv.org/abs/2203.00001
 
 ---
 
