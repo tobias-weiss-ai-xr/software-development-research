@@ -1,413 +1,425 @@
-# ⚙️ Research Taxonomy & Discovery Config
-#
-# Topic: Software Development Research
-# Focus: Software engineering practices, developer tools, DevOps, code quality,
-#         software architecture, AI for SE, and the human factors of tooling.
-#
-# Pipeline:  config/taxonomy.yaml → papers.yaml → validate → README → reports
-
-# ── Topic ────────────────────────────────────────────────────────────────────
 topic:
-  name: "Software Development Research"
-  short: "software-development"
-  description: >-
-    Agentic literature review covering software engineering practices,
-    developer tooling, DevOps/CI-CD, code quality, software architecture,
-    AI-assisted software engineering, and the human factors of programming tools.
-  openalex_mailto: "research@tobias-weiss-ai-xr.de"
-
-# ── Taxonomy ─────────────────────────────────────────────────────────────────
+  name: Software Development Research
+  short: software-development
+  description: Agentic literature review covering software engineering practices, developer tooling, DevOps/CI-CD, code quality, software architecture, AI-assisted software engineering, and the human factors of programming tools.
+  openalex_mailto: research@tobias-weiss-ai-xr.de
 taxonomy:
   categories:
-    - id: software-engineering
-      display: "Software Engineering"
-    - id: developer-tools
-      display: "Developer Tools"
-    - id: devops
-      display: "DevOps & CI/CD"
-    - id: code-quality
-      display: "Code Quality"
-    - id: software-architecture
-      display: "Software Architecture"
-    - id: programming-languages
-      display: "Programming Languages"
-    - id: human-factors
-      display: "Human Factors & DX"
-    - id: ai-for-se
-      display: "AI for Software Engineering"
-    - id: security
-      display: "Security & Supply Chain"
-    - id: open-source
-      display: "Open Source"
-    - id: survey
-      display: "Surveys & Reviews"
-  subcategories:
-    - id: method
-      display: "Method"
-    - id: theory
-      display: "Theory"
-    - id: application
-      display: "Application"
-    - id: evaluation
-      display: "Evaluation"
-    - id: survey
-      display: "Survey"
-    - id: systems
-      display: "Systems"
-    - id: development
-      display: "Development"
-    - id: tooling
-      display: "Tooling"
-
-# ── Discovery: arXiv queries (fetch_new_papers.py) ───────────────────────────
-arxiv_queries:
-  # Software engineering practices
-  - query: 'cat:cs.SE AND abs:"software engineering practices"'
-    category: software-engineering
-    subcategory_hint: survey
-  - query: 'cat:cs.SE AND abs:"technical debt"'
-    category: code-quality
-    subcategory_hint: evaluation
-  - query: 'cat:cs.SE AND abs:"software refactoring"'
-    category: code-quality
-    subcategory_hint: method
-  - query: 'cat:cs.SE AND abs:"code review"'
-    category: code-quality
-    subcategory_hint: evaluation
-  - query: 'cat:cs.SE AND abs:"software testing"'
-    category: code-quality
-    subcategory_hint: method
-  - query: 'cat:cs.SE AND abs:"static analysis"'
-    category: code-quality
-    subcategory_hint: tooling
-
-  # Developer tools & UX
-  - query: 'cat:cs.SE AND abs:"developer productivity"'
-    category: human-factors
-    subcategory_hint: evaluation
-  - query: 'cat:cs.SE AND abs:"developer experience"'
-    category: human-factors
-    subcategory_hint: survey
-  - query: 'cat:cs.SE AND abs:"command line interface"'
-    category: developer-tools
-    subcategory_hint: tooling
-  - query: 'cat:cs.SE AND abs:"developer tools"'
-    category: developer-tools
-    subcategory_hint: tooling
-
-  # DevOps & CI/CD
-  - query: 'cat:cs.SE AND abs:"continuous integration"'
-    category: devops
-    subcategory_hint: application
-  - query: 'cat:cs.SE AND abs:"DevOps"'
-    category: devops
-    subcategory_hint: survey
-  - query: 'cat:cs.SE AND abs:"infrastructure as code"'
-    category: devops
-    subcategory_hint: development
-  - query: 'cat:cs.SE AND abs:"deployment automation"'
-    category: devops
-    subcategory_hint: application
-
-  # Software architecture
-  - query: 'cat:cs.SE AND abs:"microservices"'
-    category: software-architecture
-    subcategory_hint: systems
-  - query: 'cat:cs.SE AND abs:"software architecture"'
-    category: software-architecture
-    subcategory_hint: survey
-  - query: 'cat:cs.SE AND abs:"design patterns"'
-    category: software-architecture
-    subcategory_hint: method
-
-  # Programming languages
-  - query: 'cat:cs.PL AND abs:"type system"'
-    category: programming-languages
-    subcategory_hint: theory
-  - query: 'cat:cs.PL AND abs:"programming language design"'
-    category: programming-languages
-    subcategory_hint: theory
-
-  # AI for software engineering
-  - query: 'cat:cs.SE AND abs:"large language model code"'
-    category: ai-for-se
-    subcategory_hint: method
-  - query: 'cat:cs.SE AND abs:"AI code generation"'
-    category: ai-for-se
-    subcategory_hint: evaluation
-  - query: 'cat:cs.SE AND abs:"automated program repair"'
-    category: ai-for-se
-    subcategory_hint: method
-  - query: 'cat:cs.SE AND abs:"LLM software engineering"'
-    category: ai-for-se
-    subcategory_hint: survey
-  - query: 'cat:cs.SE AND abs:"code completion"'
-    category: ai-for-se
-    subcategory_hint: tooling
-
-  # Security
-  - query: 'cat:cs.CR AND abs:"software supply chain"'
-    category: security
-    subcategory_hint: survey
-  - query: 'cat:cs.CR AND abs:"vulnerability detection"'
-    category: security
-    subcategory_hint: method
-  - query: 'cat:cs.SE AND abs:"secure coding"'
-    category: security
-    subcategory_hint: development
-
-  # Open source
-  - query: 'cat:cs.SE AND abs:"open source software"'
-    category: open-source
-    subcategory_hint: survey
-  - query: 'cat:cs.SE AND abs:"open source sustainability"'
-    category: open-source
-    subcategory_hint: survey
-
-  # Logging, error handling, observability
-  - query: 'cat:cs.SE AND abs:"logging"'
-    category: developer-tools
-    subcategory_hint: tooling
-  - query: 'cat:cs.SE AND abs:"error handling"'
-    category: developer-tools
-    subcategory_hint: method
-  - query: 'cat:cs.SE AND abs:"observability"'
-    category: devops
-    subcategory_hint: tooling
-
-# ── Discovery: multi-source queries (fetch_other_sources.py) ─────────────────
-other_sources_queries:
-  - source: dblp
-    query: software engineering practices survey
-    category: software-engineering
-    subcategory_hint: survey
-  - source: dblp
-    query: developer productivity
-    category: human-factors
-    subcategory_hint: evaluation
-  - source: dblp
-    query: continuous integration DevOps
-    category: devops
-    subcategory_hint: survey
-  - source: dblp
-    query: code review automation
-    category: code-quality
-    subcategory_hint: tooling
-  - source: dblp
-    query: microservices architecture
-    category: software-architecture
-    subcategory_hint: systems
-  - source: dblp
-    query: LLM code generation
-    category: ai-for-se
-    subcategory_hint: method
-  - source: dblp
-    query: technical debt management
-    category: code-quality
-    subcategory_hint: evaluation
-  - source: crossref
-    query: software engineering practices systematic review
-    category: software-engineering
-    subcategory_hint: survey
-  - source: crossref
-    query: developer experience productivity
-    category: human-factors
-    subcategory_hint: survey
-  - source: crossref
-    query: DevOps continuous integration
-    category: devops
-    subcategory_hint: survey
-  - source: crossref
-    query: AI code generation LLM
-    category: ai-for-se
-    subcategory_hint: method
-  - source: crossref
-    query: software supply chain security
-    category: security
-    subcategory_hint: survey
-  - source: crossref
-    query: open source software sustainability
-    category: open-source
-    subcategory_hint: survey
-  - source: crossref
-    query: software testing automation
-    category: code-quality
-    subcategory_hint: method
-  - source: crossref
-    query: microservices architecture patterns
-    category: software-architecture
-    subcategory_hint: systems
-  - source: crossref
-    query: type system programming language
-    category: programming-languages
-    subcategory_hint: theory
-  - source: crossref
-    query: observability monitoring logging
-    category: devops
-    subcategory_hint: tooling
-  - source: crossref
-    query: technical debt refactoring
-    category: code-quality
-    subcategory_hint: evaluation
-  - source: crossref
-    query: automated program repair
-    category: ai-for-se
-    subcategory_hint: method
-  - source: europepmc
-    query: software engineering developer productivity
-    category: human-factors
-    subcategory_hint: survey
-
-# ── OpenAlex bulk fetch (fetch_openalex_bulk.py) ─────────────────────────────
-openalex_queries:
-  - category: software-engineering
-    query: "software engineering practices"
-  - category: software-engineering
-    query: "software development methodology"
-  - category: code-quality
-    query: "software testing"
-  - category: code-quality
-    query: "static analysis"
-  - category: code-quality
-    query: "code review"
-  - category: code-quality
-    query: "technical debt"
-  - category: devops
-    query: "continuous integration"
-  - category: devops
-    query: "DevOps"
-  - category: devops
-    query: "infrastructure as code"
-  - category: developer-tools
-    query: "developer tools"
-  - category: developer-tools
-    query: "command line interface"
-  - category: developer-tools
-    query: "logging error handling"
-  - category: software-architecture
-    query: "microservices"
-  - category: software-architecture
-    query: "software architecture patterns"
-  - category: human-factors
-    query: "developer productivity"
-  - category: human-factors
-    query: "developer experience"
-  - category: ai-for-se
-    query: "LLM code generation"
-  - category: ai-for-se
-    query: "AI software engineering"
-  - category: ai-for-se
-    query: "automated program repair"
-  - category: security
-    query: "software supply chain security"
-  - category: security
-    query: "vulnerability detection"
-  - category: open-source
-    query: "open source software"
-  - category: programming-languages
-    query: "type system"
-  - category: programming-languages
-    query: "programming language design"
-
-# ── GitHub repository discovery ─────────────────────────────────────────────
-github_queries:
-  - query: "topic:devops+stars:>100"
-    category: devops
-  - query: "topic:ci-cd+stars:>200"
-    category: devops
-  - query: "topic:testing+language:python+stars:>500"
-    category: code-quality
-  - query: "topic:static-analysis+stars:>200"
-    category: code-quality
-  - query: "topic:developer-tools+stars:>100"
-    category: developer-tools
-  - query: "topic:cli+stars:>500"
-    category: developer-tools
-  - query: "topic:microservices+stars:>300"
-    category: software-architecture
-  - query: "topic:code-review+stars:>100"
-    category: code-quality
-  - query: "topic:llm+code+stars:>200"
-    category: ai-for-se
-  - query: "topic:ai+coding+stars:>200"
-    category: ai-for-se
-  - query: "topic:supply-chain+security+stars:>100"
-    category: security
-  - query: "topic:observability+stars:>200"
-    category: devops
-  - query: "topic:technical-debt+stars:>50"
-    category: code-quality
-
-# ── Codeberg repository discovery ───────────────────────────────────────────
-codeberg_queries:
-  - query: "devops"
-    category: devops
-    min_stars: 10
-  - query: "ci-cd"
-    category: devops
-    min_stars: 10
-  - query: "static analysis"
-    category: code-quality
-    min_stars: 5
-  - query: "developer tools"
-    category: developer-tools
-    min_stars: 5
-
-# ── Relevance signals for repo fetchers ──────────────────────────────────────
-repo_signals:
-  - "software engineering"
-  - "developer tools"
-  - "devops"
-  - "ci-cd"
-  - "code quality"
-  - "testing"
-  - "static analysis"
-  - "microservices"
-  - "developer productivity"
-  - "ai code"
-  - "llm"
-  - "supply chain"
-  - "observability"
-  - "technical debt"
-
-# ── Trend / burst keywords ───────────────────────────────────────────────────
-trend_keywords:
-  - "large language model"
-  - "llm"
-  - "code generation"
-  - "developer productivity"
-  - "devops"
-  - "continuous integration"
-  - "technical debt"
-  - "code review"
-  - "static analysis"
-  - "microservices"
-  - "supply chain"
-  - "observability"
-  - "developer experience"
-  - "automated testing"
-  - "program repair"
-  - "type system"
-  - "open source"
-  - "software architecture"
-  - "refactoring"
-  - "security"
-
-# ── Subclassification keywords ──────────────────────────────────────────────
-subcategory_keywords:
-  - id: theory
-    keywords: ["theory", "theoretical", "proof", "formal", "semantics", "type system", "calculus"]
-  - id: method
-    keywords: ["method", "algorithm", "approach", "technique", "framework", "novel", "methodology"]
-  - id: application
-    keywords: ["application", "applied", "real-world", "case study", "empirical", "industry", "practice"]
-  - id: evaluation
-    keywords: ["benchmark", "evaluation", "comparison", "baseline", "empirical study", "experiment", "results"]
+  - id: software-engineering
+    display: Software Engineering
+  - id: developer-tools
+    display: Developer Tools
+  - id: devops
+    display: DevOps & CI/CD
+  - id: code-quality
+    display: Code Quality
+  - id: software-architecture
+    display: Software Architecture
+  - id: programming-languages
+    display: Programming Languages
+  - id: human-factors
+    display: Human Factors & DX
+  - id: ai-for-se
+    display: AI for Software Engineering
+  - id: security
+    display: Security & Supply Chain
+  - id: open-source
+    display: Open Source
   - id: survey
-    keywords: ["survey", "review", "literature", "tutorial", "overview", "taxonomy", "systematic"]
+    display: Surveys & Reviews
+  subcategories:
+  - id: method
+    display: Method
+  - id: theory
+    display: Theory
+  - id: application
+    display: Application
+  - id: evaluation
+    display: Evaluation
+  - id: survey
+    display: Survey
   - id: systems
-    keywords: ["system", "framework", "platform", "scalable", "distributed", "infrastructure", "architecture"]
+    display: Systems
   - id: development
-    keywords: ["implementation", "software", "package", "library", "toolkit", "open-source", "development", "practice"]
+    display: Development
   - id: tooling
-    keywords: ["tool", "cli", "compiler", "debugger", "ide", "linter", "analyzer", "automation", "pipeline"]
+    display: Tooling
+arxiv_queries:
+- query: cat:cs.SE AND abs:"software engineering practices"
+  category: software-engineering
+  subcategory_hint: survey
+- query: cat:cs.SE AND abs:"technical debt"
+  category: code-quality
+  subcategory_hint: evaluation
+- query: cat:cs.SE AND abs:"software refactoring"
+  category: code-quality
+  subcategory_hint: method
+- query: cat:cs.SE AND abs:"code review"
+  category: code-quality
+  subcategory_hint: evaluation
+- query: cat:cs.SE AND abs:"software testing"
+  category: code-quality
+  subcategory_hint: method
+- query: cat:cs.SE AND abs:"static analysis"
+  category: code-quality
+  subcategory_hint: tooling
+- query: cat:cs.SE AND abs:"developer productivity"
+  category: human-factors
+  subcategory_hint: evaluation
+- query: cat:cs.SE AND abs:"developer experience"
+  category: human-factors
+  subcategory_hint: survey
+- query: cat:cs.SE AND abs:"command line interface"
+  category: developer-tools
+  subcategory_hint: tooling
+- query: cat:cs.SE AND abs:"developer tools"
+  category: developer-tools
+  subcategory_hint: tooling
+- query: cat:cs.SE AND abs:"continuous integration"
+  category: devops
+  subcategory_hint: application
+- query: cat:cs.SE AND abs:"DevOps"
+  category: devops
+  subcategory_hint: survey
+- query: cat:cs.SE AND abs:"infrastructure as code"
+  category: devops
+  subcategory_hint: development
+- query: cat:cs.SE AND abs:"deployment automation"
+  category: devops
+  subcategory_hint: application
+- query: cat:cs.SE AND abs:"microservices"
+  category: software-architecture
+  subcategory_hint: systems
+- query: cat:cs.SE AND abs:"software architecture"
+  category: software-architecture
+  subcategory_hint: survey
+- query: cat:cs.SE AND abs:"design patterns"
+  category: software-architecture
+  subcategory_hint: method
+- query: cat:cs.PL AND abs:"type system"
+  category: programming-languages
+  subcategory_hint: theory
+- query: cat:cs.PL AND abs:"programming language design"
+  category: programming-languages
+  subcategory_hint: theory
+- query: cat:cs.SE AND abs:"large language model code"
+  category: ai-for-se
+  subcategory_hint: method
+- query: cat:cs.SE AND abs:"AI code generation"
+  category: ai-for-se
+  subcategory_hint: evaluation
+- query: cat:cs.SE AND abs:"automated program repair"
+  category: ai-for-se
+  subcategory_hint: method
+- query: cat:cs.SE AND abs:"LLM software engineering"
+  category: ai-for-se
+  subcategory_hint: survey
+- query: cat:cs.SE AND abs:"code completion"
+  category: ai-for-se
+  subcategory_hint: tooling
+- query: cat:cs.CR AND abs:"software supply chain"
+  category: security
+  subcategory_hint: survey
+- query: cat:cs.CR AND abs:"vulnerability detection"
+  category: security
+  subcategory_hint: method
+- query: cat:cs.SE AND abs:"secure coding"
+  category: security
+  subcategory_hint: development
+- query: cat:cs.SE AND abs:"open source software"
+  category: open-source
+  subcategory_hint: survey
+- query: cat:cs.SE AND abs:"open source sustainability"
+  category: open-source
+  subcategory_hint: survey
+- query: cat:cs.SE AND abs:"logging"
+  category: developer-tools
+  subcategory_hint: tooling
+- query: cat:cs.SE AND abs:"error handling"
+  category: developer-tools
+  subcategory_hint: method
+- query: cat:cs.SE AND abs:"observability"
+  category: devops
+  subcategory_hint: tooling
+other_sources_queries:
+- source: dblp
+  query: software engineering practices survey
+  category: software-engineering
+  subcategory_hint: survey
+- source: dblp
+  query: developer productivity
+  category: human-factors
+  subcategory_hint: evaluation
+- source: dblp
+  query: continuous integration DevOps
+  category: devops
+  subcategory_hint: survey
+- source: dblp
+  query: code review automation
+  category: code-quality
+  subcategory_hint: tooling
+- source: dblp
+  query: microservices architecture
+  category: software-architecture
+  subcategory_hint: systems
+- source: dblp
+  query: LLM code generation
+  category: ai-for-se
+  subcategory_hint: method
+- source: dblp
+  query: technical debt management
+  category: code-quality
+  subcategory_hint: evaluation
+- source: crossref
+  query: software engineering practices systematic review
+  category: software-engineering
+  subcategory_hint: survey
+- source: crossref
+  query: developer experience productivity
+  category: human-factors
+  subcategory_hint: survey
+- source: crossref
+  query: DevOps continuous integration
+  category: devops
+  subcategory_hint: survey
+- source: crossref
+  query: AI code generation LLM
+  category: ai-for-se
+  subcategory_hint: method
+- source: crossref
+  query: software supply chain security
+  category: security
+  subcategory_hint: survey
+- source: crossref
+  query: open source software sustainability
+  category: open-source
+  subcategory_hint: survey
+- source: crossref
+  query: software testing automation
+  category: code-quality
+  subcategory_hint: method
+- source: crossref
+  query: microservices architecture patterns
+  category: software-architecture
+  subcategory_hint: systems
+- source: crossref
+  query: type system programming language
+  category: programming-languages
+  subcategory_hint: theory
+- source: crossref
+  query: observability monitoring logging
+  category: devops
+  subcategory_hint: tooling
+- source: crossref
+  query: technical debt refactoring
+  category: code-quality
+  subcategory_hint: evaluation
+- source: crossref
+  query: automated program repair
+  category: ai-for-se
+  subcategory_hint: method
+- source: europepmc
+  query: software engineering developer productivity
+  category: human-factors
+  subcategory_hint: survey
+openalex_queries:
+- category: software-engineering
+  query: software engineering practices
+- category: software-engineering
+  query: software development methodology
+- category: code-quality
+  query: software testing
+- category: code-quality
+  query: static analysis
+- category: code-quality
+  query: code review
+- category: code-quality
+  query: technical debt
+- category: devops
+  query: continuous integration
+- category: devops
+  query: DevOps
+- category: devops
+  query: infrastructure as code
+- category: developer-tools
+  query: developer tools
+- category: developer-tools
+  query: command line interface
+- category: developer-tools
+  query: logging error handling
+- category: software-architecture
+  query: microservices
+- category: software-architecture
+  query: software architecture patterns
+- category: human-factors
+  query: developer productivity
+- category: human-factors
+  query: developer experience
+- category: ai-for-se
+  query: LLM code generation
+- category: ai-for-se
+  query: AI software engineering
+- category: ai-for-se
+  query: automated program repair
+- category: security
+  query: software supply chain security
+- category: security
+  query: vulnerability detection
+- category: open-source
+  query: open source software
+- category: programming-languages
+  query: type system
+- category: programming-languages
+  query: programming language design
+github_queries:
+- query: topic:devops+stars:>100
+  category: devops
+- query: topic:ci-cd+stars:>200
+  category: devops
+- query: topic:testing+language:python+stars:>500
+  category: code-quality
+- query: topic:static-analysis+stars:>200
+  category: code-quality
+- query: topic:developer-tools+stars:>100
+  category: developer-tools
+- query: topic:cli+stars:>500
+  category: developer-tools
+- query: topic:microservices+stars:>300
+  category: software-architecture
+- query: topic:code-review+stars:>100
+  category: code-quality
+- query: topic:llm+code+stars:>200
+  category: ai-for-se
+- query: topic:ai+coding+stars:>200
+  category: ai-for-se
+- query: topic:supply-chain+security+stars:>100
+  category: security
+- query: topic:observability+stars:>200
+  category: devops
+- query: topic:technical-debt+stars:>50
+  category: code-quality
+codeberg_queries:
+- query: devops
+  category: devops
+  min_stars: 0
+- query: ci-cd
+  category: devops
+  min_stars: 0
+- query: static analysis
+  category: code-quality
+  min_stars: 0
+- query: developer tools
+  category: developer-tools
+  min_stars: 0
+repo_signals:
+- software engineering
+- developer tools
+- devops
+- ci-cd
+- code quality
+- testing
+- static analysis
+- microservices
+- developer productivity
+- ai code
+- llm
+- supply chain
+- observability
+- technical debt
+trend_keywords:
+- large language model
+- llm
+- code generation
+- developer productivity
+- devops
+- continuous integration
+- technical debt
+- code review
+- static analysis
+- microservices
+- supply chain
+- observability
+- developer experience
+- automated testing
+- program repair
+- type system
+- open source
+- software architecture
+- refactoring
+- security
+subcategory_keywords:
+- id: theory
+  keywords:
+  - theory
+  - theoretical
+  - proof
+  - formal
+  - semantics
+  - type system
+  - calculus
+- id: method
+  keywords:
+  - method
+  - algorithm
+  - approach
+  - technique
+  - framework
+  - novel
+  - methodology
+- id: application
+  keywords:
+  - application
+  - applied
+  - real-world
+  - case study
+  - empirical
+  - industry
+  - practice
+- id: evaluation
+  keywords:
+  - benchmark
+  - evaluation
+  - comparison
+  - baseline
+  - empirical study
+  - experiment
+  - results
+- id: survey
+  keywords:
+  - survey
+  - review
+  - literature
+  - tutorial
+  - overview
+  - taxonomy
+  - systematic
+- id: systems
+  keywords:
+  - system
+  - framework
+  - platform
+  - scalable
+  - distributed
+  - infrastructure
+  - architecture
+- id: development
+  keywords:
+  - implementation
+  - software
+  - package
+  - library
+  - toolkit
+  - open-source
+  - development
+  - practice
+- id: tooling
+  keywords:
+  - tool
+  - cli
+  - compiler
+  - debugger
+  - ide
+  - linter
+  - analyzer
+  - automation
+  - pipeline

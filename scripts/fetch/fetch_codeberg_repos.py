@@ -65,14 +65,16 @@ def load_codeberg_queries(cfg):
         q = item.get("query", "")
         if not q:
             continue
-        queries.append({
+        entry = {
             "query": q,
             "category": item.get("category", ""),
             "subcategory_hint": item.get("subcategory_hint", ""),
-            "min_stars": item.get("min_stars"),
             "language": item.get("language", ""),
             "owner": item.get("owner", ""),
-        })
+        }
+        if item.get("min_stars") is not None:
+            entry["min_stars"] = item["min_stars"]
+        queries.append(entry)
     return queries
 
 

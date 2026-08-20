@@ -1,24 +1,140 @@
 # Multi-source discovery queries (fetch_other_sources.py)
-# Replace the example queries below with topic-specific ones.
-# Sources supported: dblp, crossref, europepmc, openalex, semantic_scholar
+# Sources supported: dblp, crossref, europepmc
+
+# ── DBLP ──────────────────────────────────────────────────────────────────────
+- source: dblp
+  query: software engineering practices survey
+  category: software-engineering
+  subcategory_hint: survey
 
 - source: dblp
-  query: your topic a
-  category: method
-  subcategory_hint: agentic
+  query: developer productivity
+  category: human-factors
+  subcategory_hint: survey
+
+- source: dblp
+  query: continuous integration DevOps
+  category: devops
+  subcategory_hint: survey
+
+- source: dblp
+  query: code review automation
+  category: code-quality
+  subcategory_hint: tooling
+
+- source: dblp
+  query: microservices architecture
+  category: software-architecture
+  subcategory_hint: survey
+
+- source: dblp
+  query: LLM code generation
+  category: ai-for-se
+  subcategory_hint: tooling
+
+- source: dblp
+  query: technical debt management
+  category: code-quality
+  subcategory_hint: evaluation
+
+- source: dblp
+  query: type system programming language
+  category: programming-languages
+  subcategory_hint: theory
+
+- source: dblp
+  query: software supply chain security
+  category: security
+  subcategory_hint: survey
+
+- source: dblp
+  query: static analysis program verification
+  category: code-quality
+  subcategory_hint: method
+
+# ── CrossRef ──────────────────────────────────────────────────────────────────
 - source: crossref
-  query: your topic b agent survey
-  category: survey
-  subcategory_hint: hybrid
+  query: software engineering practices systematic review
+  category: software-engineering
+  subcategory_hint: survey
+
+- source: crossref
+  query: developer experience productivity
+  category: human-factors
+  subcategory_hint: survey
+
+- source: crossref
+  query: DevOps continuous integration
+  category: devops
+  subcategory_hint: survey
+
+- source: crossref
+  query: AI code generation LLM
+  category: ai-for-se
+  subcategory_hint: tooling
+
+- source: crossref
+  query: software supply chain security
+  category: security
+  subcategory_hint: survey
+
+- source: crossref
+  query: open source software sustainability
+  category: open-source
+  subcategory_hint: survey
+
+- source: crossref
+  query: software testing automation
+  category: code-quality
+  subcategory_hint: tooling
+
+- source: crossref
+  query: microservices architecture patterns
+  category: software-architecture
+  subcategory_hint: survey
+
+- source: crossref
+  query: type system programming language
+  category: programming-languages
+  subcategory_hint: theory
+
+- source: crossref
+  query: observability monitoring logging
+  category: developer-tools
+  subcategory_hint: tooling
+
+- source: crossref
+  query: technical debt refactoring
+  category: code-quality
+  subcategory_hint: evaluation
+
+- source: crossref
+  query: automated program repair
+  category: ai-for-se
+  subcategory_hint: method
+
+# ── Europe PMC ────────────────────────────────────────────────────────────────
 - source: europepmc
-  query: your topic c
-  category: application
-  subcategory_hint: non-agentic
-- source: openalex
-  query: your topic d evaluation benchmark
-  category: evaluation
-  subcategory_hint: hybrid
-- source: semantic_scholar
-  query: your topic e
-  category: method
-  subcategory_hint: agentic
+  query: software engineering developer productivity
+  category: human-factors
+  subcategory_hint: survey
+
+- source: europepmc
+  query: software testing quality assurance
+  category: code-quality
+  subcategory_hint: evaluation
+
+- source: europepmc
+  query: continuous integration DevOps automation
+  category: devops
+  subcategory_hint: tooling
+
+- source: europepmc
+  query: AI software engineering code generation
+  category: ai-for-se
+  subcategory_hint: tooling
+
+- source: europepmc
+  query: software supply chain security vulnerability
+  category: security
+  subcategory_hint: survey

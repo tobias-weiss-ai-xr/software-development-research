@@ -24,6 +24,7 @@ Output: repos.yaml in the repo root.
 import argparse
 import json
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -58,41 +59,53 @@ def load_github_queries(cfg):
         q = item.get("query", "")
         if not q:
             continue
-        queries.append({
+        entry = {
             "query": q,
             "category": item.get("category", ""),
             "subcategory_hint": item.get("subcategory_hint", ""),
-            "min_stars": item.get("min_stars"),
-        })
+        }
+        if item.get("min_stars") is not None:
+            entry["min_stars"] = item["min_stars"]
+        queries.append(entry)
     return queries
 
 
 # ── GitHub API helpers ────────────────────────────────────────────────────
 
 def gh_search_repos(query, sort="stars", order="desc", per_page=30, page=1):
-    """Search GitHub repos via ``gh api``.  Returns (items, total_count)."""
-    cmd = [
-        "gh", "api", "--method", "GET",
-        f"search/repositories?q={query}&sort={sort}&order={order}"
-        f"&per_page={per_page}&page={page}",
-    ]
+    """Search GitHub repos via GitHub REST API (curl fallback if gh unavailable)."""
+    # Try gh CLI first, fall back to unauthenticated curl
+    if shutil.which("gh"):
+        cmd = [
+            "gh", "api", "--method", "GET",
+            f"search/repositories?q={query}&sort={sort}&order={order}"
+            f"&per_page={per_page}&page={page}",
+        ]
+        try:
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+            if result.returncode == 0:
+                data = json.loads(result.stdout)
+                return data.get("items", []), data.get("total_count", 0)
+        except (subprocess.TimeoutExpired, json.JSONDecodeError):
+            pass
+
+    # Fallback: unauthenticated curl (60 req/hr, 10 search req/hr)
+    import urllib.parse
+    encoded = urllib.parse.quote(query, safe='+:>')
+    url = (f"https://api.github.com/search/repositories?q={encoded}"
+           f"&sort={sort}&order={order}&per_page={per_page}&page={page}")
+    cmd = ["curl", "-s", "-H", "Accept: application/vnd.github+json", url]
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
         if result.returncode != 0:
-            err = result.stderr.strip()
-            if "422" in err or "rate limit" in err.lower():
-                return [], 0
-            if "could not resolve host" in err.lower():
-                print("  WARNING: network error — skipping query", flush=True)
-                return [], 0
-            print(f"  WARNING: gh api error: {err[:120]}", flush=True)
+            print("  WARNING: curl error — skipping query", flush=True)
             return [], 0
         data = json.loads(result.stdout)
+        if "message" in data and "rate limit" in data.get("message", "").lower():
+            print("  WARNING: GitHub API rate limited — skipping query", flush=True)
+            return [], 0
         return data.get("items", []), data.get("total_count", 0)
-    except subprocess.TimeoutExpired:
-        print("  WARNING: gh api timeout (30s)", flush=True)
-        return [], 0
-    except json.JSONDecodeError:
+    except (subprocess.TimeoutExpired, json.JSONDecodeError):
         return [], 0
 
 

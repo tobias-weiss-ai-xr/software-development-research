@@ -333,6 +333,8 @@ def main():
         description="Multi-source fetch from DBLP, CrossRef, Europe PMC")
     parser.add_argument("--dry-run", action="store_true",
                         help="Print results but don't write papers.yaml")
+    parser.add_argument("--local", action="store_true",
+                        help="Use papers.yaml in current directory")
     parser.add_argument("--sleep", type=float, default=5.0,
                         help="Seconds to sleep between queries (default: 5)")
     parser.add_argument("--config", type=str, default=None,

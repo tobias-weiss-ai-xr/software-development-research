@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-08-19  
-**Corpus:** 1,554 papers across 10 categories
+**Generated:** 2026-08-20  
+**Corpus:** 3,576 papers across 10 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Code Quality | 378 |
-| 2 | DevOps & CI/CD | 189 |
-| 3 | Security & Supply Chain | 187 |
-| 4 | Software Architecture | 187 |
-| 5 | Developer Tools | 161 |
-| 6 | AI for Software Engineering | 153 |
-| 7 | Programming Languages | 102 |
-| 8 | Open Source | 84 |
+| 1 | Code Quality | 664 |
+| 2 | DevOps & CI/CD | 457 |
+| 3 | Developer Tools | 403 |
+| 4 | AI for Software Engineering | 373 |
+| 5 | Software Architecture | 368 |
+| 6 | Security & Supply Chain | 367 |
+| 7 | Programming Languages | 304 |
+| 8 | Software Engineering | 241 |
 
-**Time span:** 1986–2026 (median year 2023)
-**Dominant aspects:** Tooling (367), Method (338), Surveys & Reviews (323)
+**Time span:** 1986–2026 (median year 2013)
+**Dominant aspects:** Method (1222), Surveys & Reviews (521), Theory (470)
 
 ---
 
@@ -29,16 +29,16 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Developer Tools | 161 | 161 | 0 | — | 100% | 13.4 |
-| Open Source | 84 | 84 | 0 | — | 100% | 7.0 |
-| Code Quality | 378 | 376 | 0 | — | 100% | 31.3 |
-| Security | 187 | 186 | 0 | — | 100% | 15.5 |
-| Software Architecture | 187 | 186 | 0 | — | 100% | 15.5 |
-| Programming Languages | 102 | 101 | 0 | — | 99% | 8.4 |
-| Devops | 189 | 187 | 0 | — | 99% | 15.6 |
-| Ai For Se | 153 | 151 | 0 | — | 99% | 12.6 |
-| Human Factors | 71 | 70 | 0 | — | 99% | 5.8 |
-| Software Engineering | 42 | 41 | 0 | — | 98% | 3.4 |
+| Code Quality | 664 | 614 | 3 | +20367% | 92% | 51.2 |
+| Open Source | 173 | 163 | 1 | +16200% | 94% | 13.6 |
+| Developer Tools | 403 | 394 | 3 | +13033% | 98% | 32.8 |
+| Devops | 457 | 433 | 4 | +10725% | 95% | 36.1 |
+| Ai For Se | 373 | 352 | 5 | +6940% | 94% | 29.3 |
+| Software Engineering | 241 | 211 | 3 | +6933% | 88% | 17.6 |
+| Security | 367 | 340 | 14 | +2329% | 93% | 28.3 |
+| Human Factors | 226 | 192 | 19 | +910% | 85% | 16.0 |
+| Software Architecture | 368 | 358 | 0 | — | 97% | 29.8 |
+| Programming Languages | 304 | 277 | 0 | — | 91% | 23.1 |
 
 ---
 
@@ -46,14 +46,14 @@
 
 | Cell | Papers |
 |------|--------:|
-| `software-engineering/theory` | 1 |
-| `devops/method` | 1 |
-| `code-quality/survey` | 1 |
-| `ai-for-se/survey` | 1 |
-| `ai-for-se/evaluation` | 10 |
-| `devops/development` | 16 |
-| `developer-tools/method` | 20 |
-| `security/development` | 21 |
+| `software-engineering/systems` | 1 |
+| `programming-languages/tooling` | 1 |
+| `open-source/systems` | 2 |
+| `ai-for-se/survey` | 3 |
+| `software-architecture/tooling` | 3 |
+| `software-architecture/development` | 4 |
+| `human-factors/systems` | 4 |
+| `security/systems` | 4 |
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### Code Quality (`code-quality`)
 
-**Corpus size:** 378 papers
+**Corpus size:** 664 papers
 
 **Recent papers:**
 
@@ -74,7 +74,7 @@
 
 ### DevOps & CI/CD (`devops`)
 
-**Corpus size:** 189 papers
+**Corpus size:** 457 papers
 
 **Recent papers:**
 
@@ -84,33 +84,9 @@
 
 ---
 
-### Security & Supply Chain (`security`)
-
-**Corpus size:** 187 papers
-
-**Recent papers:**
-
-- [2026-08] DCI: Dependency Confidence Index for Assessing Open-Source Dependency Trustworthiness — https://arxiv.org/abs/2608.16430
-- [2026-08] Cross-Corpus Evaluation of Generalizable Vulnerability Detection in IoT Firmware — https://arxiv.org/abs/2608.11492
-- [2026-08] VICBench: A Multi-Language Benchmark for Code Vulnerability Detection — https://arxiv.org/abs/2608.12246
-
----
-
-### Software Architecture (`software-architecture`)
-
-**Corpus size:** 187 papers
-
-**Recent papers:**
-
-- [2026-08] An Empirical Comparison of Monolithic and Microservices Architectures for an E-Commerce Applica — https://arxiv.org/abs/2608.15668
-- [2026-08] Energy Efficiency in Microservice Architectures: A Systematic Literature Review — https://arxiv.org/abs/2608.04070
-- [2026-08] ORCA: Observability-Grounded Program Repair for Microservice Incidents — https://arxiv.org/abs/2608.17018
-
----
-
 ### Developer Tools (`developer-tools`)
 
-**Corpus size:** 161 papers
+**Corpus size:** 403 papers
 
 **Recent papers:**
 
@@ -122,7 +98,7 @@
 
 ### AI for Software Engineering (`ai-for-se`)
 
-**Corpus size:** 153 papers
+**Corpus size:** 373 papers
 
 **Recent papers:**
 
@@ -132,9 +108,33 @@
 
 ---
 
+### Software Architecture (`software-architecture`)
+
+**Corpus size:** 368 papers
+
+**Recent papers:**
+
+- [2026-08] An Empirical Comparison of Monolithic and Microservices Architectures for an E-Commerce Applica — https://arxiv.org/abs/2608.15668
+- [2026-08] Energy Efficiency in Microservice Architectures: A Systematic Literature Review — https://arxiv.org/abs/2608.04070
+- [2026-08] ORCA: Observability-Grounded Program Repair for Microservice Incidents — https://arxiv.org/abs/2608.17018
+
+---
+
+### Security & Supply Chain (`security`)
+
+**Corpus size:** 367 papers
+
+**Recent papers:**
+
+- [2026-08] DCI: Dependency Confidence Index for Assessing Open-Source Dependency Trustworthiness — https://arxiv.org/abs/2608.16430
+- [2026-08] Cross-Corpus Evaluation of Generalizable Vulnerability Detection in IoT Firmware — https://arxiv.org/abs/2608.11492
+- [2026-08] VICBench: A Multi-Language Benchmark for Code Vulnerability Detection — https://arxiv.org/abs/2608.12246
+
+---
+
 ### Programming Languages (`programming-languages`)
 
-**Corpus size:** 102 papers
+**Corpus size:** 304 papers
 
 **Recent papers:**
 
@@ -144,21 +144,21 @@
 
 ---
 
-### Open Source (`open-source`)
+### Software Engineering (`software-engineering`)
 
-**Corpus size:** 84 papers
+**Corpus size:** 241 papers
 
 **Recent papers:**
 
-- [2026-08] Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysi — https://arxiv.org/abs/2608.13884
-- [2026-08] Expertise-Based Developer Assignment for Long-Term Software Components in Open-Source Projects — https://arxiv.org/abs/2608.05919
-- [2026-08] Towards Competence-Based Management for Open Source Software Projects — https://arxiv.org/abs/2608.05599
+- [2026-08] Reshaping the SDLC for Data- and AI-Centric Systems — https://arxiv.org/abs/2608.17824
+- [2026-08] Algorithm-driven Development: A Proactive Approach to Improving Software Quality and Reducing D — https://arxiv.org/abs/2608.01533
+- [2026-08] Exploring Dependence, Overreliance, and Addiction Related Behaviors Associated with Large Langu — https://arxiv.org/abs/2608.05561
 
 ---
 
 ### Human Factors & DX (`human-factors`)
 
-**Corpus size:** 71 papers
+**Corpus size:** 226 papers
 
 **Recent papers:**
 
@@ -168,15 +168,15 @@
 
 ---
 
-### Software Engineering (`software-engineering`)
+### Open Source (`open-source`)
 
-**Corpus size:** 42 papers
+**Corpus size:** 173 papers
 
 **Recent papers:**
 
-- [2026-08] Reshaping the SDLC for Data- and AI-Centric Systems — https://arxiv.org/abs/2608.17824
-- [2026-08] Algorithm-driven Development: A Proactive Approach to Improving Software Quality and Reducing D — https://arxiv.org/abs/2608.01533
-- [2026-08] Exploring Dependence, Overreliance, and Addiction Related Behaviors Associated with Large Langu — https://arxiv.org/abs/2608.05561
+- [2026-08] Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysi — https://arxiv.org/abs/2608.13884
+- [2026-08] Expertise-Based Developer Assignment for Long-Term Software Components in Open-Source Projects — https://arxiv.org/abs/2608.05919
+- [2026-08] Towards Competence-Based Management for Open Source Software Projects — https://arxiv.org/abs/2608.05599
 
 ---
 
