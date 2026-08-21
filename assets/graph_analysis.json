@@ -3,31 +3,31 @@
   {
    "id": "ai-for-se",
    "name": "AI for Software Engineering",
-   "count": 373,
+   "count": 463,
    "trajectory": {
     "2021": 3,
     "2022": 3,
     "2023": 4,
     "2024": 6,
     "2025": 123,
-    "2026": 234
+    "2026": 324
    },
    "momentum": {
     "id": "ai-for-se",
     "name": "Ai For Se",
-    "total": 373,
-    "recent": 352,
+    "total": 463,
+    "recent": 442,
     "prior": 5,
-    "growth_pct": 6940.0,
-    "recent_share": 0.944,
-    "papers_per_month": 29.3,
-    "score": 7034.4
+    "growth_pct": 8740.0,
+    "recent_share": 0.955,
+    "papers_per_month": 36.8,
+    "score": 8835.5
    }
   },
   {
    "id": "code-quality",
    "name": "Code Quality",
-   "count": 664,
+   "count": 829,
    "trajectory": {
     "2006": 7,
     "2007": 1,
@@ -48,46 +48,46 @@
     "2023": 7,
     "2024": 5,
     "2025": 236,
-    "2026": 381
+    "2026": 546
    },
    "momentum": {
     "id": "code-quality",
     "name": "Code Quality",
-    "total": 664,
-    "recent": 614,
+    "total": 829,
+    "recent": 779,
     "prior": 3,
-    "growth_pct": 20366.7,
-    "recent_share": 0.925,
-    "papers_per_month": 51.2,
-    "score": 20459.2
+    "growth_pct": 25866.7,
+    "recent_share": 0.94,
+    "papers_per_month": 64.9,
+    "score": 25960.7
    }
   },
   {
    "id": "developer-tools",
    "name": "Developer Tools",
-   "count": 403,
+   "count": 504,
    "trajectory": {
     "2023": 1,
     "2024": 6,
     "2025": 149,
-    "2026": 247
+    "2026": 348
    },
    "momentum": {
     "id": "developer-tools",
     "name": "Developer Tools",
-    "total": 403,
-    "recent": 394,
+    "total": 504,
+    "recent": 495,
     "prior": 3,
-    "growth_pct": 13033.3,
-    "recent_share": 0.978,
-    "papers_per_month": 32.8,
-    "score": 13131.1
+    "growth_pct": 16400.0,
+    "recent_share": 0.982,
+    "papers_per_month": 41.2,
+    "score": 16498.2
    }
   },
   {
    "id": "devops",
    "name": "DevOps & CI/CD",
-   "count": 457,
+   "count": 564,
    "trajectory": {
     "2007": 1,
     "2015": 1,
@@ -100,24 +100,24 @@
     "2023": 2,
     "2024": 4,
     "2025": 153,
-    "2026": 284
+    "2026": 391
    },
    "momentum": {
     "id": "devops",
     "name": "Devops",
-    "total": 457,
-    "recent": 433,
+    "total": 564,
+    "recent": 540,
     "prior": 4,
-    "growth_pct": 10725.0,
-    "recent_share": 0.947,
-    "papers_per_month": 36.1,
-    "score": 10819.7
+    "growth_pct": 13400.0,
+    "recent_share": 0.957,
+    "papers_per_month": 45.0,
+    "score": 13495.7
    }
   },
   {
    "id": "human-factors",
    "name": "Human Factors & DX",
-   "count": 226,
+   "count": 265,
    "trajectory": {
     "2009": 1,
     "2013": 2,
@@ -127,18 +127,18 @@
     "2023": 6,
     "2024": 1,
     "2025": 75,
-    "2026": 136
+    "2026": 175
    },
    "momentum": {
     "id": "human-factors",
     "name": "Human Factors",
-    "total": 226,
-    "recent": 192,
+    "total": 265,
+    "recent": 231,
     "prior": 19,
-    "growth_pct": 910.5,
-    "recent_share": 0.85,
-    "papers_per_month": 16.0,
-    "score": 995.5
+    "growth_pct": 1115.8,
+    "recent_share": 0.872,
+    "papers_per_month": 19.2,
+    "score": 1203.0
    }
   },
   {
@@ -168,7 +168,7 @@
   {
    "id": "programming-languages",
    "name": "Programming Languages",
-   "count": 304,
+   "count": 421,
    "trajectory": {
     "1990": 1,
     "1992": 1,
@@ -186,62 +186,62 @@
     "2022": 1,
     "2024": 6,
     "2025": 148,
-    "2026": 129
+    "2026": 246
    },
    "momentum": {
     "id": "programming-languages",
     "name": "Programming Languages",
-    "total": 304,
-    "recent": 277,
+    "total": 421,
+    "recent": 394,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 0.911,
-    "papers_per_month": 23.1,
-    "score": 91.1
+    "recent_share": 0.936,
+    "papers_per_month": 32.8,
+    "score": 93.6
    }
   },
   {
    "id": "security",
    "name": "Security & Supply Chain",
-   "count": 367,
+   "count": 449,
    "trajectory": {
     "2024": 13,
     "2025": 164,
-    "2026": 190
+    "2026": 272
    },
    "momentum": {
     "id": "security",
     "name": "Security",
-    "total": 367,
-    "recent": 340,
+    "total": 449,
+    "recent": 422,
     "prior": 14,
-    "growth_pct": 2328.6,
-    "recent_share": 0.926,
-    "papers_per_month": 28.3,
-    "score": 2421.2
+    "growth_pct": 2914.3,
+    "recent_share": 0.94,
+    "papers_per_month": 35.2,
+    "score": 3008.3
    }
   },
   {
    "id": "software-architecture",
    "name": "Software Architecture",
-   "count": 368,
+   "count": 449,
    "trajectory": {
     "2019": 4,
     "2022": 5,
     "2024": 1,
     "2025": 139,
-    "2026": 219
+    "2026": 300
    },
    "momentum": {
     "id": "software-architecture",
     "name": "Software Architecture",
-    "total": 368,
-    "recent": 358,
+    "total": 449,
+    "recent": 439,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 0.973,
-    "papers_per_month": 29.8,
-    "score": 97.3
+    "recent_share": 0.978,
+    "papers_per_month": 36.6,
+    "score": 97.8
    }
   },
   {
@@ -286,42 +286,42 @@
   {
    "id": "application",
    "name": "Application",
-   "count": 230
+   "count": 309
   },
   {
    "id": "development",
    "name": "Development",
-   "count": 125
+   "count": 154
   },
   {
    "id": "evaluation",
    "name": "Evaluation",
-   "count": 362
+   "count": 407
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 1222
+   "count": 1557
   },
   {
    "id": "survey",
    "name": "Survey",
-   "count": 521
+   "count": 559
   },
   {
    "id": "systems",
    "name": "Systems",
-   "count": 190
+   "count": 263
   },
   {
    "id": "theory",
    "name": "Theory",
-   "count": 470
+   "count": 630
   },
   {
    "id": "tooling",
    "name": "Tooling",
-   "count": 456
+   "count": 479
   }
  ],
  "timeline": [
@@ -10743,7 +10743,12 @@
   [
    "2026-02",
    "ai-for-se",
-   "tooling"
+   "theory"
+  ],
+  [
+   "2026-02",
+   "ai-for-se",
+   "theory"
   ],
   [
    "2026-02",
@@ -10767,8 +10772,8 @@
   ],
   [
    "2026-02",
-   "code-quality",
-   "evaluation"
+   "ai-for-se",
+   "tooling"
   ],
   [
    "2026-02",
@@ -10833,7 +10838,7 @@
   [
    "2026-02",
    "code-quality",
-   "method"
+   "evaluation"
   ],
   [
    "2026-02",
@@ -10914,6 +10919,51 @@
    "2026-02",
    "code-quality",
    "method"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "survey"
   ],
   [
    "2026-02",
@@ -10953,6 +11003,16 @@
   [
    "2026-02",
    "code-quality",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "code-quality",
    "tooling"
   ],
   [
@@ -11053,1424 +11113,1999 @@
   [
    "2026-02",
    "developer-tools",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "developer-tools",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "application"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "development"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "method"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "devops",
    "systems"
   ],
   [
    "2026-02",
-   "devops",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "devops",
-   "tooling"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "application"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "method"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "method"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "method"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "method"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "human-factors",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "application"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "method"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "method"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "method"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "open-source",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "evaluation"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "method"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "method"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "method"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "method"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "programming-languages",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "security",
-   "development"
-  ],
-  [
-   "2026-02",
-   "security",
-   "development"
-  ],
-  [
-   "2026-02",
-   "security",
-   "development"
-  ],
-  [
-   "2026-02",
-   "security",
-   "development"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "method"
-  ],
-  [
-   "2026-02",
-   "security",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "security",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "application"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "systems"
-  ],
-  [
-   "2026-02",
-   "software-architecture",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "application"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "application"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "survey"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "theory"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "application"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "development"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "development"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "development"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "method"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "ai-for-se",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "application"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "development"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "method"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "survey"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "theory"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "code-quality",
-   "tooling"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "evaluation"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
-   "developer-tools",
-   "method"
-  ],
-  [
-   "2026-03",
    "developer-tools",
    "theory"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "theory"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "theory"
   ],
   [
-   "2026-03",
+   "2026-02",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "developer-tools",
    "tooling"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
    "devops",
    "application"
   ],
   [
-   "2026-03",
+   "2026-02",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-02",
    "devops",
    "development"
   ],
   [
+   "2026-02",
+   "devops",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "tooling"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "tooling"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "tooling"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "tooling"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "tooling"
+  ],
+  [
+   "2026-02",
+   "devops",
+   "tooling"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "application"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "human-factors",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "application"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "method"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "method"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "method"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "open-source",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "application"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "programming-languages",
+   "tooling"
+  ],
+  [
+   "2026-02",
+   "security",
+   "application"
+  ],
+  [
+   "2026-02",
+   "security",
+   "development"
+  ],
+  [
+   "2026-02",
+   "security",
+   "development"
+  ],
+  [
+   "2026-02",
+   "security",
+   "development"
+  ],
+  [
+   "2026-02",
+   "security",
+   "development"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
+  ],
+  [
+   "2026-02",
+   "security",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "security",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "security",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "application"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "application"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "application"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "survey"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "theory"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "development"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "development"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "development"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "development"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "ai-for-se",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "development"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "development"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "development"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "development"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "development"
+  ],
+  [
    "2026-03",
    "devops",
    "development"
@@ -12483,6 +13118,71 @@
   [
    "2026-03",
    "devops",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-03",
+   "devops",
    "method"
   ],
   [
@@ -12513,6 +13213,26 @@
   [
    "2026-03",
    "devops",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "devops",
    "theory"
   ],
   [
@@ -12524,6 +13244,31 @@
    "2026-03",
    "devops",
    "theory"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "devops",
+   "tooling"
   ],
   [
    "2026-03",
@@ -12593,6 +13338,16 @@
   [
    "2026-03",
    "human-factors",
+   "application"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "application"
+  ],
+  [
+   "2026-03",
+   "human-factors",
    "evaluation"
   ],
   [
@@ -12638,7 +13393,22 @@
   [
    "2026-03",
    "human-factors",
-   "survey"
+   "method"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "method"
   ],
   [
    "2026-03",
@@ -12654,6 +13424,31 @@
    "2026-03",
    "human-factors",
    "survey"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "human-factors",
+   "theory"
   ],
   [
    "2026-03",
@@ -12733,6 +13528,86 @@
   [
    "2026-03",
    "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
    "method"
   ],
   [
@@ -12748,7 +13623,72 @@
   [
    "2026-03",
    "programming-languages",
-   "theory"
+   "survey"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "systems"
   ],
   [
    "2026-03",
@@ -12809,6 +13749,76 @@
    "2026-03",
    "programming-languages",
    "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "security",
+   "application"
+  ],
+  [
+   "2026-03",
+   "security",
+   "application"
+  ],
+  [
+   "2026-03",
+   "security",
+   "application"
+  ],
+  [
+   "2026-03",
+   "security",
+   "development"
+  ],
+  [
+   "2026-03",
+   "security",
+   "evaluation"
   ],
   [
    "2026-03",
@@ -12883,6 +13893,41 @@
   [
    "2026-03",
    "security",
+   "method"
+  ],
+  [
+   "2026-03",
+   "security",
+   "method"
+  ],
+  [
+   "2026-03",
+   "security",
+   "method"
+  ],
+  [
+   "2026-03",
+   "security",
+   "method"
+  ],
+  [
+   "2026-03",
+   "security",
+   "method"
+  ],
+  [
+   "2026-03",
+   "security",
+   "method"
+  ],
+  [
+   "2026-03",
+   "security",
+   "method"
+  ],
+  [
+   "2026-03",
+   "security",
    "survey"
   ],
   [
@@ -12922,8 +13967,18 @@
   ],
   [
    "2026-03",
-   "software-architecture",
-   "application"
+   "security",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "security",
+   "theory"
   ],
   [
    "2026-03",
@@ -12943,6 +13998,61 @@
   [
    "2026-03",
    "software-architecture",
+   "application"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
    "method"
   ],
   [
@@ -13028,7 +14138,7 @@
   [
    "2026-03",
    "software-architecture",
-   "systems"
+   "survey"
   ],
   [
    "2026-03",
@@ -13064,6 +14174,51 @@
    "2026-03",
    "software-architecture",
    "systems"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-03",
+   "software-architecture",
+   "theory"
   ],
   [
    "2026-03",
@@ -13114,6 +14269,11 @@
    "2026-03",
    "software-engineering",
    "survey"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "application"
   ],
   [
    "2026-04",
@@ -13133,7 +14293,7 @@
   [
    "2026-04",
    "ai-for-se",
-   "evaluation"
+   "development"
   ],
   [
    "2026-04",
@@ -13153,7 +14313,7 @@
   [
    "2026-04",
    "ai-for-se",
-   "method"
+   "evaluation"
   ],
   [
    "2026-04",
@@ -13274,6 +14434,71 @@
    "2026-04",
    "ai-for-se",
    "method"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "ai-for-se",
+   "theory"
   ],
   [
    "2026-04",
@@ -13334,6 +14559,36 @@
    "2026-04",
    "code-quality",
    "application"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "development"
   ],
   [
    "2026-04",
@@ -13463,7 +14718,12 @@
   [
    "2026-04",
    "code-quality",
-   "method"
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "evaluation"
   ],
   [
    "2026-04",
@@ -13554,6 +14814,101 @@
    "2026-04",
    "code-quality",
    "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "survey"
   ],
   [
    "2026-04",
@@ -13573,6 +14928,56 @@
   [
    "2026-04",
    "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "code-quality",
    "tooling"
   ],
   [
@@ -13679,6 +15084,36 @@
    "2026-04",
    "developer-tools",
    "application"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "development"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "development"
   ],
   [
    "2026-04",
@@ -13743,6 +15178,61 @@
   [
    "2026-04",
    "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
    "survey"
   ],
   [
@@ -13753,7 +15243,27 @@
   [
    "2026-04",
    "developer-tools",
-   "tooling"
+   "theory"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "theory"
   ],
   [
    "2026-04",
@@ -13854,6 +15364,41 @@
    "2026-04",
    "developer-tools",
    "tooling"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-04",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "application"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "application"
   ],
   [
    "2026-04",
@@ -13958,6 +15503,56 @@
   [
    "2026-04",
    "devops",
+   "method"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "devops",
    "survey"
   ],
   [
@@ -13969,6 +15564,26 @@
    "2026-04",
    "devops",
    "systems"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "devops",
+   "theory"
   ],
   [
    "2026-04",
@@ -14038,7 +15653,12 @@
   [
    "2026-04",
    "human-factors",
-   "evaluation"
+   "application"
+  ],
+  [
+   "2026-04",
+   "human-factors",
+   "application"
   ],
   [
    "2026-04",
@@ -14049,6 +15669,36 @@
    "2026-04",
    "human-factors",
    "evaluation"
+  ],
+  [
+   "2026-04",
+   "human-factors",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-04",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-04",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-04",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-04",
+   "human-factors",
+   "method"
   ],
   [
    "2026-04",
@@ -14148,6 +15798,61 @@
   [
    "2026-04",
    "programming-languages",
+   "application"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "application"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
    "method"
   ],
   [
@@ -14159,6 +15864,56 @@
    "2026-04",
    "programming-languages",
    "survey"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "programming-languages",
+   "theory"
   ],
   [
    "2026-04",
@@ -14242,6 +15997,21 @@
   ],
   [
    "2026-04",
+   "programming-languages",
+   "tooling"
+  ],
+  [
+   "2026-04",
+   "security",
+   "application"
+  ],
+  [
+   "2026-04",
+   "security",
+   "application"
+  ],
+  [
+   "2026-04",
    "security",
    "evaluation"
   ],
@@ -14298,7 +16068,57 @@
   [
    "2026-04",
    "security",
-   "survey"
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
+  ],
+  [
+   "2026-04",
+   "security",
+   "method"
   ],
   [
    "2026-04",
@@ -14339,6 +16159,21 @@
    "2026-04",
    "security",
    "survey"
+  ],
+  [
+   "2026-04",
+   "security",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "security",
+   "survey"
+  ],
+  [
+   "2026-04",
+   "security",
+   "systems"
   ],
   [
    "2026-04",
@@ -14357,8 +16192,23 @@
   ],
   [
    "2026-04",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-04",
    "software-architecture",
-   "method"
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "evaluation"
   ],
   [
    "2026-04",
@@ -14393,6 +16243,36 @@
   [
    "2026-04",
    "software-architecture",
+   "method"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
    "survey"
   ],
   [
@@ -14494,6 +16374,41 @@
    "2026-04",
    "software-architecture",
    "systems"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-04",
+   "software-architecture",
+   "theory"
   ],
   [
    "2026-04",
@@ -14578,6 +16493,31 @@
   [
    "2026-05",
    "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "development"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
    "evaluation"
   ],
   [
@@ -14644,6 +16584,46 @@
    "2026-05",
    "ai-for-se",
    "method"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "ai-for-se",
+   "systems"
   ],
   [
    "2026-05",
@@ -14693,7 +16673,17 @@
   [
    "2026-05",
    "code-quality",
-   "evaluation"
+   "application"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "development"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "development"
   ],
   [
    "2026-05",
@@ -14759,6 +16749,96 @@
    "2026-05",
    "code-quality",
    "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
   ],
   [
    "2026-05",
@@ -14833,6 +16913,26 @@
   [
    "2026-05",
    "code-quality",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "code-quality",
    "systems"
   ],
   [
@@ -14853,6 +16953,36 @@
   [
    "2026-05",
    "code-quality",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-05",
+   "code-quality",
    "tooling"
   ],
   [
@@ -14884,6 +17014,21 @@
    "2026-05",
    "developer-tools",
    "application"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "development"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "evaluation"
   ],
   [
    "2026-05",
@@ -14904,6 +17049,96 @@
    "2026-05",
    "developer-tools",
    "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-05",
+   "developer-tools",
+   "tooling"
   ],
   [
    "2026-05",
@@ -15068,6 +17303,51 @@
   [
    "2026-05",
    "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-05",
+   "devops",
    "survey"
   ],
   [
@@ -15098,12 +17378,57 @@
   [
    "2026-05",
    "devops",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "devops",
    "theory"
   ],
   [
    "2026-05",
    "devops",
    "theory"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "devops",
+   "tooling"
   ],
   [
    "2026-05",
@@ -15223,7 +17548,27 @@
   [
    "2026-05",
    "human-factors",
-   "survey"
+   "method"
+  ],
+  [
+   "2026-05",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-05",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-05",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-05",
+   "human-factors",
+   "method"
   ],
   [
    "2026-05",
@@ -15234,6 +17579,21 @@
    "2026-05",
    "human-factors",
    "survey"
+  ],
+  [
+   "2026-05",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "human-factors",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "human-factors",
+   "theory"
   ],
   [
    "2026-05",
@@ -15283,12 +17643,92 @@
   [
    "2026-05",
    "programming-languages",
+   "application"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "development"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
    "method"
   ],
   [
    "2026-05",
    "programming-languages",
-   "theory"
+   "method"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "systems"
   ],
   [
    "2026-05",
@@ -15324,6 +17764,31 @@
    "2026-05",
    "programming-languages",
    "theory"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "security",
+   "application"
+  ],
+  [
+   "2026-05",
+   "security",
+   "application"
   ],
   [
    "2026-05",
@@ -15398,6 +17863,31 @@
   [
    "2026-05",
    "security",
+   "method"
+  ],
+  [
+   "2026-05",
+   "security",
+   "method"
+  ],
+  [
+   "2026-05",
+   "security",
+   "method"
+  ],
+  [
+   "2026-05",
+   "security",
+   "method"
+  ],
+  [
+   "2026-05",
+   "security",
+   "method"
+  ],
+  [
+   "2026-05",
+   "security",
    "survey"
   ],
   [
@@ -15439,6 +17929,51 @@
    "2026-05",
    "security",
    "theory"
+  ],
+  [
+   "2026-05",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "application"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "application"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "application"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "application"
   ],
   [
    "2026-05",
@@ -15483,7 +18018,47 @@
   [
    "2026-05",
    "software-architecture",
-   "survey"
+   "method"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "method"
   ],
   [
    "2026-05",
@@ -15514,6 +18089,21 @@
    "2026-05",
    "software-architecture",
    "survey"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "systems"
   ],
   [
    "2026-05",
@@ -15613,6 +18203,31 @@
   [
    "2026-06",
    "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
    "evaluation"
   ],
   [
@@ -15624,6 +18239,46 @@
    "2026-06",
    "ai-for-se",
    "evaluation"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "method"
   ],
   [
    "2026-06",
@@ -15668,6 +18323,16 @@
   [
    "2026-06",
    "ai-for-se",
+   "survey"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
    "theory"
   ],
   [
@@ -15678,7 +18343,17 @@
   [
    "2026-06",
    "ai-for-se",
-   "tooling"
+   "theory"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "ai-for-se",
+   "theory"
   ],
   [
    "2026-06",
@@ -15697,8 +18372,33 @@
   ],
   [
    "2026-06",
+   "ai-for-se",
+   "tooling"
+  ],
+  [
+   "2026-06",
    "code-quality",
-   "evaluation"
+   "application"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "development"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "development"
   ],
   [
    "2026-06",
@@ -15759,6 +18459,41 @@
    "2026-06",
    "code-quality",
    "evaluation"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "method"
   ],
   [
    "2026-06",
@@ -15808,6 +18543,36 @@
   [
    "2026-06",
    "code-quality",
+   "survey"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "code-quality",
    "theory"
   ],
   [
@@ -15849,6 +18614,61 @@
    "2026-06",
    "code-quality",
    "tooling"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "application"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "development"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "development"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "development"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "development"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "method"
   ],
   [
    "2026-06",
@@ -15929,6 +18749,31 @@
    "2026-06",
    "developer-tools",
    "tooling"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-06",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "application"
   ],
   [
    "2026-06",
@@ -15953,6 +18798,76 @@
   [
    "2026-06",
    "devops",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-06",
+   "devops",
    "method"
   ],
   [
@@ -16008,6 +18923,26 @@
   [
    "2026-06",
    "devops",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "devops",
    "theory"
   ],
   [
@@ -16064,6 +18999,26 @@
    "2026-06",
    "devops",
    "tooling"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "application"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "application"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "application"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "application"
   ],
   [
    "2026-06",
@@ -16078,12 +19033,32 @@
   [
    "2026-06",
    "human-factors",
+   "development"
+  ],
+  [
+   "2026-06",
+   "human-factors",
    "evaluation"
   ],
   [
    "2026-06",
    "human-factors",
    "evaluation"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "method"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "method"
   ],
   [
    "2026-06",
@@ -16139,6 +19114,16 @@
    "2026-06",
    "human-factors",
    "theory"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "human-factors",
+   "tooling"
   ],
   [
    "2026-06",
@@ -16168,12 +19153,67 @@
   [
    "2026-06",
    "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
    "method"
   ],
   [
    "2026-06",
    "programming-languages",
-   "theory"
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "systems"
   ],
   [
    "2026-06",
@@ -16209,6 +19249,41 @@
    "2026-06",
    "programming-languages",
    "theory"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "security",
+   "application"
+  ],
+  [
+   "2026-06",
+   "security",
+   "application"
   ],
   [
    "2026-06",
@@ -16218,6 +19293,36 @@
   [
    "2026-06",
    "security",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "security",
+   "method"
+  ],
+  [
+   "2026-06",
+   "security",
+   "method"
+  ],
+  [
+   "2026-06",
+   "security",
+   "method"
+  ],
+  [
+   "2026-06",
+   "security",
+   "method"
+  ],
+  [
+   "2026-06",
+   "security",
+   "method"
+  ],
+  [
+   "2026-06",
+   "security",
    "method"
   ],
   [
@@ -16329,6 +19434,21 @@
    "2026-06",
    "security",
    "survey"
+  ],
+  [
+   "2026-06",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "evaluation"
   ],
   [
    "2026-06",
@@ -16359,6 +19479,41 @@
    "2026-06",
    "software-architecture",
    "method"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "survey"
   ],
   [
    "2026-06",
@@ -16464,6 +19619,41 @@
    "2026-06",
    "software-architecture",
    "systems"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-06",
+   "software-architecture",
+   "theory"
   ],
   [
    "2026-06",
@@ -16523,12 +19713,62 @@
   [
    "2026-07",
    "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "development"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "development"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
    "evaluation"
   ],
   [
    "2026-07",
    "ai-for-se",
    "evaluation"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "method"
   ],
   [
    "2026-07",
@@ -16598,7 +19838,7 @@
   [
    "2026-07",
    "ai-for-se",
-   "theory"
+   "systems"
   ],
   [
    "2026-07",
@@ -16623,7 +19863,12 @@
   [
    "2026-07",
    "ai-for-se",
-   "tooling"
+   "theory"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "theory"
   ],
   [
    "2026-07",
@@ -16662,6 +19907,51 @@
   ],
   [
    "2026-07",
+   "ai-for-se",
+   "tooling"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "tooling"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "application"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "development"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "development"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-07",
    "code-quality",
    "evaluation"
   ],
@@ -16849,6 +20139,121 @@
    "2026-07",
    "code-quality",
    "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "survey"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "theory"
   ],
   [
    "2026-07",
@@ -16919,6 +20324,31 @@
    "2026-07",
    "developer-tools",
    "evaluation"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "method"
   ],
   [
    "2026-07",
@@ -16968,6 +20398,31 @@
   [
    "2026-07",
    "developer-tools",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
    "theory"
   ],
   [
@@ -16994,6 +20449,21 @@
    "2026-07",
    "developer-tools",
    "theory"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-07",
+   "developer-tools",
+   "tooling"
   ],
   [
    "2026-07",
@@ -17113,12 +20583,67 @@
   [
    "2026-07",
    "devops",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "devops",
    "method"
   ],
   [
    "2026-07",
    "devops",
    "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "survey"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "survey"
   ],
   [
    "2026-07",
@@ -17134,6 +20659,51 @@
    "2026-07",
    "devops",
    "systems"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "theory"
   ],
   [
    "2026-07",
@@ -17223,6 +20793,16 @@
   [
    "2026-07",
    "human-factors",
+   "method"
+  ],
+  [
+   "2026-07",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2026-07",
+   "human-factors",
    "survey"
   ],
   [
@@ -17303,12 +20883,32 @@
   [
    "2026-07",
    "programming-languages",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "programming-languages",
    "method"
   ],
   [
    "2026-07",
    "programming-languages",
    "method"
+  ],
+  [
+   "2026-07",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-07",
+   "programming-languages",
+   "method"
+  ],
+  [
+   "2026-07",
+   "programming-languages",
+   "systems"
   ],
   [
    "2026-07",
@@ -17394,6 +20994,21 @@
    "2026-07",
    "security",
    "application"
+  ],
+  [
+   "2026-07",
+   "security",
+   "application"
+  ],
+  [
+   "2026-07",
+   "security",
+   "application"
+  ],
+  [
+   "2026-07",
+   "security",
+   "development"
   ],
   [
    "2026-07",
@@ -17443,7 +21058,27 @@
   [
    "2026-07",
    "security",
-   "survey"
+   "method"
+  ],
+  [
+   "2026-07",
+   "security",
+   "method"
+  ],
+  [
+   "2026-07",
+   "security",
+   "method"
+  ],
+  [
+   "2026-07",
+   "security",
+   "method"
+  ],
+  [
+   "2026-07",
+   "security",
+   "method"
   ],
   [
    "2026-07",
@@ -17464,6 +21099,41 @@
    "2026-07",
    "security",
    "survey"
+  ],
+  [
+   "2026-07",
+   "security",
+   "survey"
+  ],
+  [
+   "2026-07",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "security",
+   "theory"
   ],
   [
    "2026-07",
@@ -17533,6 +21203,26 @@
   [
    "2026-07",
    "software-architecture",
+   "method"
+  ],
+  [
+   "2026-07",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-07",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-07",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-07",
+   "software-architecture",
    "survey"
   ],
   [
@@ -17604,6 +21294,26 @@
    "2026-07",
    "software-architecture",
    "systems"
+  ],
+  [
+   "2026-07",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-07",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2026-07",
+   "software-architecture",
+   "theory"
   ],
   [
    "2026-07",
@@ -17658,6 +21368,36 @@
   [
    "2026-08",
    "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-08",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-08",
+   "ai-for-se",
+   "application"
+  ],
+  [
+   "2026-08",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "ai-for-se",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2026-08",
+   "ai-for-se",
    "method"
   ],
   [
@@ -17669,6 +21409,11 @@
    "2026-08",
    "ai-for-se",
    "method"
+  ],
+  [
+   "2026-08",
+   "ai-for-se",
+   "systems"
   ],
   [
    "2026-08",
@@ -17759,6 +21504,36 @@
    "2026-08",
    "code-quality",
    "method"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "survey"
   ],
   [
    "2026-08",
@@ -17768,6 +21543,16 @@
   [
    "2026-08",
    "code-quality",
+   "systems"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "code-quality",
    "tooling"
   ],
   [
@@ -17803,7 +21588,12 @@
   [
    "2026-08",
    "developer-tools",
-   "evaluation"
+   "development"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "development"
   ],
   [
    "2026-08",
@@ -17813,7 +21603,7 @@
   [
    "2026-08",
    "developer-tools",
-   "method"
+   "evaluation"
   ],
   [
    "2026-08",
@@ -17829,6 +21619,26 @@
    "2026-08",
    "developer-tools",
    "method"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "method"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "survey"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "theory"
   ],
   [
    "2026-08",
@@ -17928,6 +21738,16 @@
   [
    "2026-08",
    "devops",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "devops",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "devops",
    "survey"
   ],
   [
@@ -18003,12 +21823,22 @@
   [
    "2026-08",
    "human-factors",
+   "method"
+  ],
+  [
+   "2026-08",
+   "human-factors",
    "survey"
   ],
   [
    "2026-08",
    "human-factors",
    "survey"
+  ],
+  [
+   "2026-08",
+   "human-factors",
+   "theory"
   ],
   [
    "2026-08",
@@ -18044,6 +21874,11 @@
    "2026-08",
    "programming-languages",
    "method"
+  ],
+  [
+   "2026-08",
+   "programming-languages",
+   "theory"
   ],
   [
    "2026-08",
@@ -18098,12 +21933,42 @@
   [
    "2026-08",
    "security",
+   "application"
+  ],
+  [
+   "2026-08",
+   "security",
    "development"
   ],
   [
    "2026-08",
    "security",
    "development"
+  ],
+  [
+   "2026-08",
+   "security",
+   "development"
+  ],
+  [
+   "2026-08",
+   "security",
+   "method"
+  ],
+  [
+   "2026-08",
+   "security",
+   "method"
+  ],
+  [
+   "2026-08",
+   "security",
+   "method"
+  ],
+  [
+   "2026-08",
+   "security",
+   "method"
   ],
   [
    "2026-08",
@@ -18147,8 +22012,53 @@
   ],
   [
    "2026-08",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "security",
+   "theory"
+  ],
+  [
+   "2026-08",
+   "software-architecture",
+   "application"
+  ],
+  [
+   "2026-08",
    "software-architecture",
    "method"
+  ],
+  [
+   "2026-08",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-08",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-08",
+   "software-architecture",
+   "method"
+  ],
+  [
+   "2026-08",
+   "software-architecture",
+   "systems"
   ],
   [
    "2026-08",
@@ -18209,31 +22119,39 @@
  "venues": [
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 185
+   "papers": 420
   },
   {
    "name": "arXiv (Cornell University)",
-   "papers": 39
+   "papers": 79
+  },
+  {
+   "name": "Open MIND",
+   "papers": 44
   },
   {
    "name": "ACM Transactions on Software Engineering and Methodology",
-   "papers": 34
+   "papers": 43
   },
   {
    "name": "Lecture notes in computer science",
-   "papers": 32
+   "papers": 39
+  },
+  {
+   "name": "Figshare",
+   "papers": 29
   },
   {
    "name": "MED",
    "papers": 28
   },
   {
-   "name": "Open MIND",
-   "papers": 24
+   "name": "Information and Software Technology",
+   "papers": 26
   },
   {
-   "name": "Information and Software Technology",
-   "papers": 20
+   "name": "Journal of Systems and Software",
+   "papers": 22
   },
   {
    "name": "PPR",
@@ -18244,135 +22162,127 @@
    "papers": 19
   },
   {
-   "name": "Journal of Systems and Software",
-   "papers": 19
-  },
-  {
    "name": "CoRR",
    "papers": 18
   },
   {
    "name": "IEEE Transactions on Software Engineering",
+   "papers": 18
+  },
+  {
+   "name": "Scientific Reports",
    "papers": 17
   },
   {
    "name": "IEEE Access",
    "papers": 15
-  },
-  {
-   "name": "Scientific Reports",
-   "papers": 15
-  },
-  {
-   "name": "Communications in computer and information science",
-   "papers": 13
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "software architecture",
-   "recent": 105,
-   "total": 105,
-   "burst_score": 1.07,
-   "recent_share": 0.0315
+   "recent": 121,
+   "total": 121,
+   "burst_score": 1.06,
+   "recent_share": 0.0294
   },
   {
    "keyword": "automated testing",
-   "recent": 32,
-   "total": 32,
-   "burst_score": 1.07,
-   "recent_share": 0.0096
+   "recent": 40,
+   "total": 40,
+   "burst_score": 1.06,
+   "recent_share": 0.0097
   },
   {
    "keyword": "llm",
-   "recent": 952,
-   "total": 965,
-   "burst_score": 1.06,
-   "recent_share": 0.2855
+   "recent": 1075,
+   "total": 1088,
+   "burst_score": 1.05,
+   "recent_share": 0.2612
   },
   {
    "keyword": "large language model",
-   "recent": 709,
-   "total": 719,
-   "burst_score": 1.06,
-   "recent_share": 0.2127
+   "recent": 795,
+   "total": 805,
+   "burst_score": 1.05,
+   "recent_share": 0.1931
   },
   {
    "keyword": "code review",
-   "recent": 143,
-   "total": 147,
+   "recent": 175,
+   "total": 179,
    "burst_score": 1.04,
-   "recent_share": 0.0429
-  },
-  {
-   "keyword": "code generation",
-   "recent": 257,
-   "total": 267,
-   "burst_score": 1.03,
-   "recent_share": 0.0771
+   "recent_share": 0.0425
   },
   {
    "keyword": "security",
-   "recent": 574,
-   "total": 604,
+   "recent": 709,
+   "total": 739,
    "burst_score": 1.02,
-   "recent_share": 0.1722
+   "recent_share": 0.1723
+  },
+  {
+   "keyword": "code generation",
+   "recent": 298,
+   "total": 308,
+   "burst_score": 1.02,
+   "recent_share": 0.0724
   },
   {
    "keyword": "static analysis",
-   "recent": 172,
-   "total": 181,
+   "recent": 233,
+   "total": 242,
    "burst_score": 1.02,
-   "recent_share": 0.0516
+   "recent_share": 0.0566
   },
   {
    "keyword": "microservices",
-   "recent": 142,
-   "total": 151,
+   "recent": 176,
+   "total": 185,
    "burst_score": 1.01,
-   "recent_share": 0.0426
+   "recent_share": 0.0428
   },
   {
    "keyword": "observability",
-   "recent": 126,
-   "total": 134,
-   "burst_score": 1.01,
-   "recent_share": 0.0378
+   "recent": 136,
+   "total": 144,
+   "burst_score": 1.0,
+   "recent_share": 0.033
   },
   {
    "keyword": "program repair",
-   "recent": 132,
-   "total": 142,
-   "burst_score": 1.0,
-   "recent_share": 0.0396
-  },
-  {
-   "keyword": "type system",
-   "recent": 129,
-   "total": 139,
-   "burst_score": 1.0,
-   "recent_share": 0.0387
+   "recent": 149,
+   "total": 159,
+   "burst_score": 0.99,
+   "recent_share": 0.0362
   },
   {
    "keyword": "developer experience",
-   "recent": 82,
-   "total": 89,
+   "recent": 94,
+   "total": 101,
    "burst_score": 0.99,
-   "recent_share": 0.0246
+   "recent_share": 0.0228
   },
   {
    "keyword": "devops",
-   "recent": 168,
-   "total": 185,
-   "burst_score": 0.97,
-   "recent_share": 0.0504
+   "recent": 217,
+   "total": 234,
+   "burst_score": 0.98,
+   "recent_share": 0.0527
+  },
+  {
+   "keyword": "type system",
+   "recent": 132,
+   "total": 142,
+   "burst_score": 0.98,
+   "recent_share": 0.0321
   },
   {
    "keyword": "open source",
-   "recent": 107,
-   "total": 118,
-   "burst_score": 0.97,
-   "recent_share": 0.0321
+   "recent": 110,
+   "total": 121,
+   "burst_score": 0.96,
+   "recent_share": 0.0267
   }
  ]
 }
