@@ -115231,3 +115231,1147 @@ papers:
     framework offers a general theory for reproducible and scalable ontology development
     in dynamic scientific domains.
   venue: ''
+- title: 'Escaping the Quicksand: A Call to Arms'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.19674v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Peter Sewell
+  - Jean Pichon-Pharabod
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Computing has been an astonishing success - but the accumulated technical
+    debt exposes us all to huge costs in business and societal risk. For 75 years,
+    we''ve built systems to prose specifications with test-and-debug development.
+    That works well enough for industry to thrive, but it''s an expensive and ineffective
+    feedback loop, and leaves everyone relying on shaky foundations. Now, AI-enabled
+    engineering is amplifying the success by reducing coding costs, but also amplifies
+    the risks, by rapidly increasing technical debt, and by automating detection of
+    the vulnerabilities therein. How can we do better? Research has long pursued mathematical
+    proof of correctness, which, unlike testing, can cover all cases. This too has
+    advanced massively, but it remains hard to apply, both technically and because
+    of a deep-seated cultural disconnect. Instead, we argue for a pragmatic approach
+    to flexible combinations of testing, *specification*, and proof, that provides
+    more effective feedback loops for both AI and human development. Most simply,
+    one can incrementally co-develop executable-as-test-oracle partial specifications
+    alongside conventional prose descriptions, code, and tests. This clarifies design
+    and makes testing much more discriminating. Developers can and should do it today.
+    Or, even better, one can use specifications that support the full gamut of testing,
+    property-based testing, symbolic execution, and proof. This enables a range of
+    intertwined feedback loops, again both for AI and humans, from cheap testing to
+    more expensive proof. However, making it really practical needs *semantics infrastructure*:
+    specifications and tooling for the main programming languages and other abstractions,
+    which we now more-or-less know how to build, but which is not yet in place. We
+    call the community to arms to create and deploy it - to enable a future built
+    on firmer ground.'
+- title: 'Adversarial Review: Structured Disagreement for Grounded Agentic Code Review'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.18167v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Eric S. Qiu
+  - Joyce Gill
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Early multi-agent LLM systems often used role-separated teams, yet scaling
+    agent count yields diminishing returns on repository-level coding tasks. Recent
+    alternatives treat agents as passive tools (subagents), yet this removes the benefits
+    of agent interaction entirely. We study whether a subagent paradigm can support
+    a middle ground: minimal agentic cooperation without the overhead of large multi-agent
+    teams. We introduce Adversarial Review (AR), a minimal cooperative code-review
+    protocol in which a main coding agent works with a reviewer and a critic agent.
+    The reviewer evaluates code, while the critic audits the review through structured
+    disagreement before the main agent edits. On LiveCodeBench, AR achieves the highest
+    pass rate among tested methods, outperforming a five-agent baseline while using
+    only three agents. On SWE-PRBench, naive AR exposes a false-consensus failure
+    mode, where agents converge on agreement without sufficient evidence, but a single
+    prompt iteration that adds disagreement explicitly achieves the highest F1 among
+    tested methods. On SWE-bench Verified, AR also shows improvements over the baselines
+    on repository-level coding tasks. Together, AR demonstrates that cooperative code
+    review does not require many agents or complex communication structures: it requires
+    that disagreement be minimal, structured, and evidence-grounded.'
+- title: 'QASecClaw: A Multi-Agent LLM Approach for False Positive Reduction in Static
+    Application Security Testing'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.01885v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Mohd Ruhul Ameen
+  - Md Takrim Ul Alam
+  - Akif Islam
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Static Application Security Testing tools help developers find security
+    vulnerabilities before release, but they often produce many false positives. This
+    increases manual review effort, reduces developer trust, and may cause real vulnerabilities
+    to be ignored among noisy reports. We present QASecClaw, a multi agent approach
+    that combines conventional Static Application Security Testing with coding specialized
+    Large Language Model based contextual code review. A SAST engine first reports
+    candidate vulnerabilities, and a Large Language Model based SAST Filter Agent
+    then reviews each finding with source code context to decide whether it is likely
+    to be a true positive or a false positive. QASecClaw is coordinated by a Mission
+    Orchestrator and includes specialized agents for test planning, security validation,
+    evidence correlation, filtering, and reporting. We evaluate QASecClaw on OWASP
+    Benchmark v1.2, which contains 2,740 Java test cases across 11 Common Weakness
+    Enumeration categories with ground truth labels. QASecClaw achieves an F1 score
+    of 90.93 percent, compared with 78.39 percent for standalone Semgrep. The improvement
+    is mainly driven by an 88.6 percent reduction in false positives, from 560 to
+    64, with only a 3.1 percent reduction in recall. These results show that Large
+    Language Model augmented multi agent verification can make Static Application
+    Security Testing output more accurate, useful, and trustworthy.
+- title: Exploring Semantic Stability Across Reviews in the Linux Kernel
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.10101v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Lucas Ciziks
+  - Paulo Meirelles
+  - Marco Aurélio Gerosa
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Code review is credited with substantially changing a patch''s code between
+    its first submission and the version that eventually lands. However, prior work
+    typically studied only the final merged patch without comparing it to the first
+    submission. We present a function-level measurement that tracks 10,117 trajectories
+    (each function followed across the numbered revisions of one patch series) through
+    the patch history of the Linux IIO subsystem, comparing similarity scores against
+    unrelated function pairs as a baseline. A naive reading yields near-total similarity,
+    but this is largely an artifact of composition: 75.3% of tracked trajectories
+    are never textually modified between versions, contributing a trivial 100% similarity
+    that inflates the headline. Restricting to the trajectories with a real edit,
+    semantic purpose is still largely preserved (mean similarity 0.990 vs. a 0.909
+    baseline), but drift appears to concentrate in the first review round mainly because
+    later rounds contain more functions that nobody touched, not because edits become
+    more conservative over time. After controlling for it, a statistically detectable
+    but small residual effect remains. This points to an open question: whether near-ceiling
+    similarity reflects preserved purpose or a measurement tool that cannot detect
+    the significance of small, localized edits. We present this work as a first look
+    and outline next steps.'
+- title: 'SWE-Cycle: Benchmarking Code Agents across the Complete Issue Resolution
+    Cycle'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.13139v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Hao Guan
+  - Lingyue Fu
+  - Shao Zhang
+  - Yaoming Zhu
+  - Kangning Zhang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As autonomous code agents move toward end-to-end software development,
+    evaluating their practical autonomy becomes critical. Current benchmarks hide
+    friction by testing agents in pre-configured environments, and their static evaluation
+    pipelines frequently fail when parsing fully autonomous trajectories. We address
+    these limitations with SWE-Cycle, a benchmark of 489 rigorously filtered instances.
+    SWE-Cycle evaluates agents across three isolated tasks, including environment
+    reconstruction, code implementation, and verification test generation, as well
+    as an end-to-end FullCycle task that integrates all three. The FullCycle task
+    requires agents to work autonomously in a bare repository without human scaffolding.
+    To reliably assess these complex execution paths, we developed SWE-Judge. By combining
+    static code review with dynamic testing, this execution-capable evaluation agent
+    accurately verifies functional correctness and eliminates the systematic measurement
+    errors of traditional static parsers. We evaluate code agents powered by six state-of-the-art
+    LLMs across these four tasks. The results reveal a sharp drop in solve rates when
+    transitioning from isolated tasks to FullCycle execution, exposing critical bottlenecks
+    in handling cross-phase dependencies and maintaining code quality. Together, SWE-Cycle
+    and SWE-Judge provide a comprehensive framework for accurately measuring the end-to-end
+    capabilities of autonomous software agents.
+- title: 'AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise
+    2x Mandate'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.01904v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Hao He
+  - Shyam Agarwal
+  - Yegor Denisov-Blanch
+  - Pavel Azaletskiy
+  - Sanmi Koyejo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Enterprises increasingly mandate AI coding tools and report large productivity
+    gains, yet longitudinal evidence on how such a mandate unfolds is scarce. In this
+    paper, we present a quantitative case study of a documented enterprise "2x" mandate
+    at a mid-sized, AI-forward company that has been committed to doubling merged
+    pull requests per engineer since mid-2025. In a panel of 802 developers and 196,212
+    pull requests (January 2024-April 2026), per-capita throughput eventually doubled,
+    reaching 2.09x the pre-mandate baseline in April 2026, among the largest gains
+    reported from a field deployment of AI coding tools to our knowledge. A staggered
+    difference-in-differences design links the within-developer share of this gain
+    to AI adoption and to a further gain that grows with accumulated use, with the
+    mandate acting as a catalyst rather than a direct driver. Because adoption and
+    usage intensity were not randomly assigned, we read this evidence as strongly
+    implicating an adoption-and-use channel rather than as exact causal attribution.
+    The gain is broadly shared across seniority yet concentrated in newer code and
+    not separable across model generations. Adoption also restructured code review
+    around automation: per-reviewer load roughly doubled and automated review overtook
+    human review, while merge and revert rates held steady.'
+- title: 'AI-Assisted Code Review as a Scaffold for Code Quality and Self-Regulated
+    Learning: An Experience Report'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.23251v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Eduardo Oliveira
+  - Michael Fu
+  - Patanamon Thongtanunam
+  - Sonsoles López-Pernas
+  - Mohammed Saqr
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Code review is central to software engineering education but hard to
+    scale in capstone projects due to tight deadlines, uneven peer feedback, and limited
+    prior experience. We investigate an LLM-as-reviewer integrated directly into GitHub
+    pull requests (human-in-the-loop) across two cohorts (more than 100 students,
+    2023--2024). Using a mixed-methods design -- GitHub data, reflective reports,
+    and a targeted survey -- we examine engagement and responsiveness as behavioral
+    indicators of self-regulated learning processes. Quantitatively, the 2024 cohort
+    produced more iterative activity (1176 vs. 581 PRs), while technical issues observed
+    in 2023 (227 failed AI attempts) dropped to zero after tool and instructional
+    refinements. Despite different adoption levels (93\% vs. 50\% of teams using the
+    tool), responsiveness was stable: 32\% (2023) and 33\% (2024) of successfully
+    AI-reviewed PRs were followed by subsequent commits on the same PR. Qualitatively,
+    students used the LLM''s structured comments to focus reviews and discuss code
+    quality, while guidance reduced over-reliance. We contribute: (i) an in-workflow
+    design for an AI reviewer that scaffolds learning while mitigating cognitive offloading;
+    (ii) a repeated cross sectional comparison across two cohorts in authentic settings;
+    (iii) a mixed-methods analysis combining objective GitHub metrics with student
+    self-reports; and (iv) evidence-based pedagogical recommendations for responsible,
+    student-led AI-assisted review.'
+- title: Are LLMs Reliable Code Reviewers? Systematic Overcorrection in Requirement
+    Conformance Judgement
+  date: 2026-02
+  url: https://arxiv.org/abs/2603.00539v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Haolin Jin
+  - Huaming Chen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Large language models (LLMs) have become essential tools in software development,
+    widely used for requirements engineering, code generation and review tasks. Software
+    engineers often rely on LLMs to verify if code implementation satisfy task requirements,
+    thereby ensuring code robustness and accuracy. However, it remains unclear whether
+    LLMs can reliably determine code against the given task descriptions, which is
+    usually in a form of natural language specifications. In this paper, we uncover
+    a systematic failure of LLMs in matching code to natural language requirements.
+    Specifically, with widely adopted benchmarks and unified prompts design, we demonstrate
+    that LLMs frequently misclassify correct code implementation as non-compliant
+    or defective. Surprisingly, we find that more detailed prompt design, particularly
+    with those requiring explanations and proposed corrections, leads to higher misjudgment
+    rates, highlighting critical reliability issues for LLM-based code assistants.
+    We further analyze the mechanisms driving these failures and evaluate the reliability
+    of rationale-required judgments. Building on these findings, we propose a Fix-guided
+    Verification Filter that treats the model proposed fix as executable counterfactual
+    evidence, and validates the original and revised implementations using benchmark
+    tests and spec-constrained augmented tests. Our results expose previously under-explored
+    limitations in LLM-based code review capabilities, and provide practical guidance
+    for integrating LLM-based reviewers with safeguards in automated review and development
+    pipelines.
+- title: 'AfterVibe: What Remains When the Conversation Ends'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.09900v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Matteo Paltenghi
+  - Satish Chandra
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'We present AfterVibe, a framework that recovers natural-language specifications
+    from a vibe coding session. Given a code artifact and the conversation trajectory
+    that produced it, AfterVibe uses an LLM to extract an abstract natural-language
+    specification capturing the developer''s intent, and validates it through a regeneration
+    test: a second, blind AI agent re-implements the artifact from the spec alone,
+    and the resulting code is graded against the original through a multi-tier validation
+    pipeline. Spec quality is thus measured by whether an agent can regenerate passing
+    code; if the verifiers deem the implementations equivalent the spec is considered
+    strong, otherwise it is iteratively refined. Evaluating AfterVibe on 72 real-world
+    vibe-coded projects from a company''s internal coding sessions, we find that its
+    recovered specs are abstract by design-capturing behavioral intent without dictating
+    implementation-yet strong. Multiple independent regenerations achieve a high mean
+    regeneration score of 5.06 out of 6.0 while remaining diverse in their details,
+    confirming that the spec constrains what without over-prescribing how. Besides
+    outperforming existing human-authored descriptions, the specs can be further strengthened
+    iteratively to a score of 5.74. A practical implication is that specifications-not
+    code-could become the primary artifact for human review and the source of record
+    at a time when AI-generated code is outpacing customary code review.'
+- title: 'Finding a Crab in the C: Assured Translation via Comparative Symbolic Execution'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.12731v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Caleb Helbling
+  - Graham Leach-Krouse
+  - Michael Crystal
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Modern high-assurance software systems development favors memory safe
+    languages such as SPARK (ADA) or Rust. However, developers often encounter non-memory
+    safe code (e.g., C) in legacy systems and libraries which would be prohibitively
+    expensive or risky to re-write. In response, developers have begun turning to
+    machine learning/AI systems and other automated code translators. Automated translation
+    comes with its own risks, however. The original and ported code are not precisely
+    the same, semantically - otherwise there would be no point in performing the translation.
+    To reduce these risks, we have developed cozy, a comparative binary analysis tool
+    that simultaneously analyzes a binary compiled from "unsafe" source code and a
+    binary compiled from a translation of the source code to a memory safe language.
+    cozy walks the developer through differences in the behavior of the two binaries,
+    presenting each difference and asking the user to assess whether the difference
+    is intentional (good) or erroneous. Outside of the flagged differences, the binaries
+    are formally verified to be equivalent. Consequently, the review process guarantees
+    equivalence modulo changes approved by the developer. cozy has applications to
+    automated translation, bug correction, code reviews, operation authorization,
+    and automatic translation.
+- title: 'When AI Reviews Its Own Code: Recursive Self-Training Collapse in Code LLMs'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.28438v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Xinyuan Song
+  - Zekun Cai
+  - Liang Zhao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Recursive self-training can degrade neural generative models when generated
+    data is reused without fresh human data or external quality control. We study
+    this risk in code LLMs, where AI-generated code can enter real repositories, later
+    become training data, and create a repository-scale self-training loop. While
+    software development traditionally interrupts this loop through pull-request review,
+    tests, compilation, and human approval, AI coding tools now produce code faster
+    than humans can review it, and code review itself is increasingly automated by
+    AI systems. We therefore compare three recursive fine-tuning regimes: no review,
+    Human-gate review using model-independent filters such as compilation and static
+    quality checks, and AI-self-gate review using the code LLM''s own signals such
+    as perplexity and binary self-scoring. Across multiple code LLMs and benchmarks,
+    no review collapses fastest, Human-gate filters slow but do not stop collapse,
+    and AI-self-gate filters can look strong early but later lose their filtering
+    effect. In the clearest case, the binary self-gate enters a rubber-stamp regime
+    where acceptance scores rise while benchmark correctness falls. We explain this
+    behavior by formulating review as gated distributional reweighting, proving that
+    AI self-gating degenerates to ungated self-training under a self-confirming acceptance
+    condition, and giving a spectral analysis of representation-level covariance concentration
+    under recursive retraining. These results suggest that stable recursive code LLM
+    training requires exogenous verification rather than model-coupled self-review.'
+- title: 'Philosophical Dispositions as Behavioral Constraints for AI-Assisted Code
+    Review: An Empirical Study'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.23108v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Kaushal Bansal
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: AI-assisted code review tools typically operate as generic "expert reviewer"
+    agents, producing homogeneous findings regardless of the analysis type needed.
+    We present a system that constrains AI reviewer behavior through philosophical
+    dispositions -- coherent personality lenses grounded in specific epistemological
+    traditions (Pyrrhonist Skepticism, Navya-Ny=aya logic, Diogenes' Cynicism, Confucian
+    relational ethics) that direct attention to structurally different types of issues.
+    Each disposition is defined apophatically (by what it refuses to do), equipped
+    with a self-monitoring failure mode (hamartia), and orchestrated in sequence by
+    role protocols. We evaluate this system on 50 merged pull requests across 7 repositories
+    spanning 5 programming languages (Python, Go, C++, Java, Terraform), 5 organizations
+    (2 enterprise, 3 open-source), and 2 temporal eras (pre-AI 2020, post-AI 2024--2026).
+    The disposition system achieves 46% convergence with human reviewers (validating
+    signal quality), identifies unique findings at a 75% rate, and produces no findings
+    judged false-positive by the author across 601 total findings (inter-rater agreement
+    was not assessed and remains a limitation). A controlled baseline comparison demonstrates
+    that 51% of disposition findings are not produced by the same model using generic
+    "expert reviewer" prompting, and these unique findings target structural, operational,
+    and logical concerns rather than standard code-level issues. Preliminary cross-model
+    validation (Claude Opus vs.\ GPT Codex 5.3-xhigh) on 3 PRs shows 100% framework-structure
+    adherence with 39% finding-level agreement, suggesting the framework provides
+    real behavioral constraint while preserving model-specific analytical perspective.
+- title: 'Evaluation of LLM-Based Software Engineering Tools: Practices, Challenges,
+    and Future Directions'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.24621v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Utku Boran Torun
+  - Veli Karakaya
+  - Ali Babar
+  - Eray Tüzün
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Large Language Models (LLMs) are increasingly embedded in software engineering
+    (SE) tools, powering applications such as code generation, automated code review,
+    and bug triage. As these LLM-based AI for Software Engineering (AI4SE) systems
+    transition from experimental prototypes to widely deployed tools, the question
+    of what it means to evaluate their behavior reliably has become both critical
+    and unanswered. Unlike traditional SE or machine learning systems, LLM-based tools
+    often produce open-ended, natural language outputs, admit multiple valid answers,
+    and exhibit non-deterministic behavior across runs. These characteristics fundamentally
+    challenge long-standing evaluation assumptions such as the existence of a single
+    ground truth, deterministic outputs, and objective correctness. In this paper,
+    we examine LLM evaluation as a general, task-dependent concept through the lens
+    of SE tasks. We discuss why reliable evaluation is essential for trust, adoption,
+    and meaningful assessment of LLM-based tools, summarize the current state of evaluation
+    practices, and highlight their limitations in realistic AI4SE settings. We then
+    identify key challenges facing current approaches, including the absence of stable
+    ground truth, subjectivity and multi-dimensional quality, evaluation instability
+    due to non-determinism, limitations of automated and model-based evaluation, and
+    fragmentation of evaluation practices. Finally, we outline future directions aimed
+    at advancing LLM evaluation toward more robust, scalable, and trustworthy methodologies,
+    to stimulate discussion on principled evaluation practices that can keep pace
+    with the growing role of LLMs in SE.
+- title: When is Generated Code Difficult to Comprehend? Assessing AI Agent Python
+    Code Proficiency in the Wild
+  date: 2026-03
+  url: https://arxiv.org/abs/2604.00299v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Nanthit Temkulkiat
+  - Chaiyong Ragkhitwetsagul
+  - Morakot Choetkiertikul
+  - Ruksit Rojpaisarnkit
+  - Raula Gaikovina Kula
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'The rapid adoption of AI coding agents is fundamentally shifting software
+    developers'' roles from code authors to code reviewers. While developers spend
+    a significant portion of their time reading and comprehending code, the linguistic
+    proficiency and complexity of the Python code generated by these agents remain
+    largely unexplored. This study investigates the code proficiency of AI agents
+    to determine the skill level required for developers to maintain their code. Leveraging
+    the AIDev dataset, we mined 591 pull requests containing 5,027 Python files generated
+    by three distinct AI agents and employed pycefr, a static analysis tool that maps
+    Python constructs to six proficiency levels, ranging from A1 (Basic) to C2 (Mastery),
+    to analyze the code. Our results reveal that: AI agents predominantly generate
+    Basic-level code, with over 90% of constructs falling into the A1 and A2 categories,
+    and less than 1% classified as Mastery (C2); AI agents'' and humans'' pull requests
+    share a broadly similar proficiency profile; High-proficiency code by AI agents
+    are from feature addition and bug fixing tasks. These findings suggest that while
+    AI-generated code is generally accessible to developers with basic Python skills,
+    specific tasks may require advanced proficiency to review and maintain complex,
+    agent-generated constructs.'
+- title: Runtime-Structured Task Decomposition for Agentic Coding Systems
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.15425v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Shubhi Asthana
+  - Bing Zhang
+  - Chad DeLuca
+  - Hima Patel
+  - Ruchi Mahindru
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Agentic coding systems increasingly use large language models (LLMs)
+    for software engineering tasks such as debugging, root cause analysis, and code
+    review. However, many existing systems encode task logic, execution flow, and
+    output generation inside monolithic prompts. This design creates brittle behavior,
+    limited debuggability, and high retry costs because failures often require rerunning
+    the full workflow. We present runtime-structured task decomposition, an architectural
+    approach in which task partitioning and execution flow are managed through executable
+    control logic rather than prompt structure alone. LLMs are used only for focused
+    judgment tasks, and outputs are validated against predefined schemas before downstream
+    execution. We evaluate this approach on two software engineering workloads using
+    three configurations: monolithic execution, static decomposition with fixed subtasks
+    and no runtime branching, and runtime-structured decomposition. Each configuration
+    was evaluated across 10 runs. Our results show that decomposition alone does not
+    necessarily reduce retry cost. In the Kubernetes root cause analysis workload,
+    the static decomposition baseline produced a retry cost of 1,632 +/- 145 tokens
+    versus 904 +/- 17 tokens for the monolithic baseline because failures forced reruns
+    of downstream subtasks. A similar pattern appeared in the multi-file debugging
+    workload, where the static baseline consumed 933 tokens compared to 703 tokens
+    for the monolithic system. The runtime-structured approach reran only failed subtasks,
+    reducing retry costs to 436 +/- 132 tokens for root cause analysis and 460 tokens
+    for debugging. Overall, the approach achieved up to 51.7% lower retry cost than
+    monolithic systems and 73.2% lower retry cost than static decomposition baselines,
+    improving efficiency, debuggability, and operational reliability in agentic coding
+    systems.'
+- title: 'Self-Improving AI Coding Agents Through Accumulated Behavioral Rules: A
+    Closed-Loop Framework'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.13091v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Aditya Aggarwal
+  - Nahid Farhady Ghalaty
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: LLM-based coding agents repeat the same classes of mistakes across sessions
+    because they lack a mechanism to retain corrections from human review feedback.
+    We present a closed-loop framework in which every accepted review comment is codified
+    as a persistent behavioral rule, progressively expanding the set of error classes
+    the agent can self-detect. The framework combines an accumulating rule set in
+    a version-controlled instruction file, a self-review checklist executed before
+    code submission, and automated validation that ensures rule set integrity as it
+    grows. In deployment across a 35+ service microservices platform, the rule set
+    grew from 5 to 18 behavioral rules, 15+ language-specific standards, and a 15-item
+    self-review checklist, all derived from real review feedback. We present empirical
+    results from 11 recorded working sessions spanning code generation, PR review,
+    incident investigation, and cross service refactoring. We observe that accumulated
+    rules shift review effort from low-level correctness toward design-level validation,
+    achieve a measured 0% recurrence rate for ruled-against error classes, and transfer
+    across heterogeneous agent interfaces. We compare our approach against related
+    work in experiential LLM learning (Reflexion, ExpeL, Voyager) and automated code
+    review (CodeReviewer, SWE-bench agents), showing that our framework achieves persistent
+    cross-session learning without weight updates, operates on production codebases
+    rather than synthetic benchmarks, and addresses an orthogonal dimension (behavioral
+    consistency over time) that existing benchmarks do not measure. The result is
+    a coding agent that improves with every review cycle, accumulating the engineering
+    wisdom of its human collaborators without changing a single model weight.
+- title: 'Closed-Loop Autonomous Software Development via Jira-Integrated Backlog
+    Orchestration: A Case Study in Deterministic Control and Safety-Constrained Automation'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.05000v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Elias Calboreanu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: This paper presents a closed-loop system for software lifecycle management
+    framed as a control architecture rather than a code-generation tool. The system
+    manages a backlog of approximately 1,602 rows across seven task families, ingests
+    13 structured source documents, and executes a deterministic seven-stage pipeline
+    implemented as seven scheduled automation lanes. The automation stack comprises
+    approximately 12,661 lines of Python across 23 scripts plus 6,907 lines of versioned
+    prompt specifications, with checkpoint-based time budgets, 101 exception handlers,
+    and 12 centralized lock mechanisms implemented through four core functions and
+    eight reusable patterns. A Jira Status Contract provides externally observable
+    collision locking, and a degraded-mode protocol supports continued local operation
+    when Jira is unavailable. Artificial-intelligence assistance is bounded by structured
+    context packages, configured resource caps, output re-validation, and human review
+    gates. A formal evaluation of the initial 152-run window yielded 100% terminal-state
+    success with a 95% Clopper-Pearson interval of [97.6%, 100%]; the system has since
+    accumulated more than 795 run artifacts in continuous operation. Three rounds
+    of adversarial code review identified 51 findings, all closed within the study
+    scope (48 fully remediated, 3 closed with deferred hardening), with zero false
+    negatives within the injected set. In an autonomous security ticket family of
+    10 items, six were completed through pipeline-autonomous dispatch and verification,
+    two required manual remediation, and two were closed by policy decision. The results
+    indicate that bounded, traceable lifecycle automation is practical when autonomy
+    is embedded within explicit control, recovery, and audit mechanisms.
+- title: 'When AI Is Wrong on Purpose: How Students Respond to Buggy GenAI Code'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.05068v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Victor-Alexandru Pădurean
+  - Kaitlin Riegel
+  - Alkis Gotovos
+  - Jyotika Mahapatra
+  - Ahana Ghosh
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As Generative AI (GenAI) becomes increasingly central to software development,
+    CS education is integrating prompt-centered workflows where students describe
+    intended program behavior in natural language to elicit code. However, professional
+    practice requires careful review and verification of GenAI-generated code that
+    may appear correct while containing subtle faults. This creates a challenge for
+    CS1-level activities, where current models often solve tasks correctly and reduce
+    students' incentive to closely inspect generated outputs. We investigate how prompt-centered
+    programming activities can be adapted to better foster these practices. Specifically,
+    we explore an approach where realistic, runnable bugs are injected into otherwise
+    correct solutions, thus requiring students to read and repair generated outputs.
+    We analyzed 2,636 sessions from 917 students, and examined behavior across instances
+    of naturally occurring prompt-related failures and deliberately injected bugs
+    within each session. Our findings show that students responded differently across
+    bug sources. Deliberately injected bugs more often led to direct code edits and
+    higher next-attempt success, suggesting localized repair of near-miss solutions.
+    Prompt-related failures instead more often led students to refine prompts by clarifying
+    constraints, updating function signatures, adding edge cases, or reframing the
+    task. Student reflections reinforce the emphasis on review and repair, describing
+    useful practice in code understanding, code review, and debugging, as well as
+    a more careful verification mindset and greater awareness of GenAI limitations.
+    Ultimately, prompt-related failures and injected bugs together support a pedagogically
+    useful GenAI workflow, where students practice both specification refinement through
+    prompts and debugging through code editing.
+- title: 'Investigating Autonomous Agent Contributions in the Wild: Activity Patterns
+    and Code Change over Time'
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.00917v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Razvan Mihai Popescu
+  - David Gros
+  - Andrei Botocan
+  - Rahul Pandita
+  - Prem Devanbu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The rise of large language models for code has reshaped software development.
+    Autonomous coding agents, able to create branches, open pull requests, and perform
+    code reviews, now actively contribute to real-world projects. Their growing role
+    offers a unique and timely opportunity to investigate AI-driven contributions
+    and their effects on code quality, team dynamics, and software maintainability.
+    In this work, we construct a novel dataset of approximately $110,000$ open-source
+    pull requests, including associated commits, comments, reviews, issues, and file
+    changes, collectively representing millions of lines of source code. We compare
+    five popular coding agents, including OpenAI Codex, Claude Code, GitHub Copilot,
+    Google Jules, and Devin, examining how their usage differs in various development
+    aspects such as merge frequency, edited file types, and developer interaction
+    signals, including comments and reviews. Furthermore, we emphasize that code authoring
+    and review are only a small part of the larger software engineering process, as
+    the resulting code must also be maintained and updated over time. Hence, we offer
+    several longitudinal estimates of survival and churn rates for agent-generated
+    versus human-authored code. Ultimately, our findings indicate an increasing agent
+    activity in open-source projects, although their contributions are associated
+    with more churn over time compared to human-authored code.
+- title: 'Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review
+    Efficiency'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.30208v2
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Chris Adams
+  - Arjun Singh Banga
+  - Parveen Bansal
+  - Souvik Bhattacharya
+  - Payal Bhuptani
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'AI-assisted coding tools have altered software production. At Meta, significant
+    lines of code per human-landed diff grew by 105.9% year over year and per-developer
+    diff volume rose 51%, with agentic AI responsible for over 80% of that growth.
+    Meanwhile, the share of diffs receiving timely review has declined, exposing a
+    widening gap between code supply and reviewer bandwidth. We ask three questions
+    that progress from feasibility through calibration to impact: (1) can risk-stratified
+    automation operate at scale across diverse organizations, (2) how does tuning
+    the risk threshold affect the trade-off between automation yield and safety, and
+    (3) to what extent does automated review reduce end-to-end latency for AI-generated
+    changes? We deployed RADAR (Risk Aware Diff Auto Review), a multi-stage funnel
+    that classifies each diff by authorship and source type, applies eligibility gates,
+    static heuristics, a machine-learned Diff Risk Score, LLM-based Automated Code
+    Review, and deterministic validation before landing qualifying changes. We evaluate
+    RADAR through telemetry covering 535K+ RADAR-reviewed diffs, observational before-after
+    comparisons for policy changes, and difference-in-differences analysis of efficiency
+    outcomes. RADAR has reviewed 535K+ diffs and landed 331K+. Relaxing the Diff Risk
+    Score threshold from the 25th to the 50th percentile increased the approve rate
+    to 60.31%. The revert rate for RADAR-reviewed diffs is 1/3 that of non-RADAR diffs,
+    and the Production Incident rate is 1/50 that of non-RADAR diffs. RADAR reduces
+    median time to close by over 330% and median diff review wall time by 35%. Risk-aware
+    layered automation can materially reduce review bottlenecks created by AI-driven
+    code growth without compromising production safety.'
+- title: LLM-Based Automated Diagnosis Of Integration Test Failures At Google
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.12108v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Celal Ziftci
+  - Ray Liu
+  - Spencer Greene
+  - Livio Dalloro
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Integration testing is critical for the quality and reliability of complex
+    software systems. However, diagnosing their failures presents significant challenges
+    due to the massive volume, unstructured nature, and heterogeneity of logs they
+    generate. These result in a high cognitive load, low signal-to-noise ratio, and
+    make diagnosis difficult and time-consuming. Developers complain about these difficulties
+    consistently and report spending substantially more time diagnosing integration
+    test failures compared to unit test failures. To address these shortcomings, we
+    introduce Auto-Diagnose, a novel diagnosis tool that leverages LLMs to help developers
+    efficiently determine the root cause of integration test failures. Auto-Diagnose
+    analyzes failure logs, produces concise summaries with the most relevant log lines,
+    and is integrated into Critique, Google''s internal code review system, providing
+    contextual and in-time assistance. Based on our case studies, Auto-Diagnose is
+    highly effective. A manual evaluation conducted on 71 real-world failures demonstrated
+    90.14% accuracy in diagnosing the root cause. Following its Google-wide deployment,
+    Auto-Diagnose was used across 52, 635 distinct failing tests. User feedback indicated
+    that the tool was deemed "Not helpful" in only 5.8% of cases, and it was ranked
+    #14 in helpfulness among 370 tools that post findings in Critique. Finally, user
+    interviews confirmed the perceived usefulness of Auto-Diagnose and positive reception
+    of integrating automatic diagnostic assistance into existing workflows. We conclude
+    that LLMs are highly successful in diagnosing integration test failures due to
+    their capacity to process and summarize complex textual data. Integrating such
+    AI-powered tooling automatically into developers'' daily workflows is perceived
+    positively, with the tool''s accuracy remaining a critical factor in shaping developer
+    perception and adoption.'
+- title: 'tap: A File-Based Protocol for Heterogeneous LLM Agent Collaboration'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.14445v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Minseo Kim
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Existing multi-agent software development systems have proposed many forms
+    of agent collaboration, including role-based collaboration and automated code
+    review. However, many systems assume a common runtime, a central conversation
+    server, or the same API family. Under these assumptions, LLM agents from different
+    vendors cannot easily exchange messages directly from their own execution environments
+    while dividing development and review work on a shared codebase. This paper presents
+    tap, a file-based collaboration protocol that allows Claude (Anthropic) and Codex
+    (OpenAI) to collaborate on one codebase without shared memory or an identical
+    runtime. The core of tap is a file-first design that preserves markdown files
+    with metadata as original messages, combines a file inspection path (file communication,
+    Tier 1) with real-time notification paths for Claude and Codex (real-time communication,
+    Tier 2), and isolates work through separate git worktrees. Even if real-time notification
+    fails or a receiver restarts, the message file remains available and the same
+    content can be inspected again. In a 27-day, 37-generation self-applied operation
+    where tap was used to develop and review itself, we collected 209 tap-related
+    pull requests and 717 operational artifacts. An analysis of 375 review artifacts
+    showed that the share of reviews recording at least one defect or requested change
+    was 69.8% for heterogeneous model pairs and 53.1% for homogeneous model pairs.
+    These results show that tap, which combines file-based message preservation with
+    real-time notification, operates in a real production repository, and that combining
+    heterogeneous models and execution environments can broaden review perspectives.
+    tap is distributed as the open-source npm package @hua-labs/tap (v0.5.2).
+- title: Understanding the (In)Security of Vibe-Coded Applications
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.23130v2
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Junquan Deng
+  - Zhiyu Fan
+  - Ruijie Meng
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Recent advances in large language models (LLMs) have enabled vibe coding,
+    an emerging software development paradigm in which users create applications primarily
+    through natural-language interactions with AI agents. Due to its low barrier to
+    entry, vibe coding is rapidly gaining adoption in practice. Unlike conventional
+    AI-assisted programming, where developers remain responsible for implementation
+    and code review, vibe coding delegates a substantial portion of development to
+    AI systems. This shift raises a fundamental question: how (in)secure are applications
+    developed through vibe coding? In this paper, we conduct a systematic study of
+    the security of vibe-coded applications. We collect a large corpus of real-world
+    applications developed using popular AI agents and design a vulnerability analysis
+    framework that combines agent-assisted code auditing with human validation. Using
+    this framework, we examine the prevalence, severity, and root causes of vulnerabilities
+    in the deployed vibe-coded applications. Our study reveals several key findings:
+    (1) vibe-coded applications exhibit recurring vulnerability patterns that differ
+    from those commonly observed in conventional software development workflows, including
+    placeholder logic, unfiltered input, and secret exposure; (2) these vulnerabilities
+    arise from systematic limitations of AI agents throughout the vibe-coding lifecycle,
+    such as memory loss, locally optimized objectives and insufficient security knowledge;
+    and (3) while advances in LLM capabilities and improved prompting strategies can
+    reduce the incidence of vulnerabilities, they do not eliminate the underlying
+    security risks. Overall, our study provides an empirical understanding of the
+    security landscape of vibe-coded applications and lays the groundwork for addressing
+    the security challenges introduced by the growing delegation of software development
+    to AI systems.'
+- title: Assessing Language Models for Salient Class Identification
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.21629v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Bo Xiong
+  - Chaoran Cai
+  - Kaipeng Xiong
+  - Chong Wang
+  - Peng Liang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Code review requires reviewers to understand the core intent of code
+    changes, which becomes difficult when a commit modifies multiple classes. In such
+    commits, one or more primarily modified classes, referred to as salient classes,
+    may induce modifications in other classes. Accurate identification of salient
+    classes offers reviewers an effective entry point to navigate code changes and
+    facilitates program comprehension. Existing state-of-the-art approaches rely on
+    complex program-analysis procedures, including Abstract Syntax Tree (AST) parsing,
+    class relation extraction, handcrafted feature engineering, or dependency graph
+    construction. To this end, we study whether language models (LMs) can identify
+    salient classes directly from commits without feature engineering, graph construction,
+    or training. We first construct a new dataset ApacheJavaCM, derived from the ApacheCM
+    dataset, containing 7,911 commits and 25,914 labeled classes. On this dataset,
+    we systematically evaluate whether LMs can identify salient classes directly from
+    commits and compare with the strongest reproducible state-of-the-art (SOTA) baseline.
+    The evaluation covers two large language models (LLMs), GPT-5.4 and DeepSeek-V3.2,
+    one small language model (SLM), Qwen3.5-9B, and three prompting strategies: zero-shot,
+    few-shot, and chain-of-thought. The LMs substantially outperform the baseline
+    while remaining stable across commit characteristics and selected LMs. We also
+    found that, for salient class identification tasks, a 9B-parameter open-source
+    SLM, Qwen3.5-9B, under few-shot prompting, achieves performance comparable to
+    that of a much larger closed-source LLM, GPT-5.4. These results suggest that lightweight,
+    locally deployable SLMs are sufficient for industrial salient class identification
+    tasks and can reduce both cost and privacy barriers associated with relying on
+    closed-source LLMs.'
+- title: 'Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.11229v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Neil Fendley
+  - Zhengyu Liu
+  - Aonan Guan
+  - Jiacheng Zhong
+  - Yinzhi Cao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Automation platforms such as GitHub Actions and n8n are increasingly
+    adopting so-called agentic workflows, which integrate Large Language Model (LLM)
+    agents for tasks such as code review and data synchronization. While bringing
+    convenience for developers, this integration exposes a new risk: An adversary
+    may control and craft certain inputs, such as GitHub issue comments, to manipulate
+    the LLM agent for unwanted actions, such as credential exfiltration and arbitrary
+    command execution. To our knowledge, no prior academic work has studied such a
+    risk in agentic workflows. In this paper, we design the first detection and exploitation
+    framework, called JAW, to hijack agentic workflows hosted on automation platforms
+    via a novel approach called Context-Grounded Evolution. Our key idea is to evolve
+    agentic workflow inputs under the contexts derived from hybrid program analysis
+    for hijacking purposes. Specifically, JAW generates agentic workflow contexts
+    through three analyses: (i) static path-feasibility analysis to identify feasible
+    agent-invocation paths and the input constraints required to trigger them, (ii)
+    dynamic prompt-provenance analysis to determine how that input is transformed
+    and embedded into the LLM context, and (iii) capability analysis to identify the
+    actions and restrictions available to the agent at runtime. Our evaluation of
+    JAW on GitHub workflows and n8n templates showed that 4714 GitHub workflows and
+    eight n8n templates can be successfully hijacked, for example, to leak user credentials.
+    Our findings span 15 widely-used GitHub Actions, including official GitHub Actions
+    for Claude Code, Gemini CLI, Qwen CLI, and Cursor CLI, and two official n8n nodes.
+    We responsibly disclosed all findings to the affected vendors and received many
+    acknowledgements, fixes, and bug bounties, notably from GitHub, Google, and Anthropic.'
+- title: Understanding the Limits of Automated Evaluation for Code Review Bots in
+    Practice
+  date: 2026-04
+  url: https://arxiv.org/abs/2604.24525v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Veli Karakaya
+  - Utku Boran Torun
+  - Baykal Mehmet Uçar
+  - Eray Tüzün
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Automated code review (ACR) bots are increasingly used in industrial software
+    development to assist developers during pull request (PR) review. As adoption
+    grows, a key challenge is how to evaluate the usefulness of bot-generated comments
+    reliably and at scale. In practice, such evaluation often relies on developer
+    actions and annotations that are shaped by contextual and organizational factors,
+    complicating their use as objective ground truth. We examine the feasibility and
+    limitations of automating the evaluation of LLM-powered ACR bots in an industrial
+    setting. We analyze an industrial dataset from Beko comprising 2,604 bot-generated
+    PR comments, each labeled by software engineers as fixed/wontFix. Two automated
+    evaluation approaches, G-Eval and an LLM-as-a-Judge pipeline, are applied using
+    both binary decisions and a 0-4 Likert-scale formulation, enabling a controlled
+    comparison against developer-provided labels. Across Gemini-2.5-pro, GPT-4.1-mini,
+    and GPT-5.2, both evaluation strategies achieve only moderate alignment with human
+    labels. Agreement ratios range from approximately 0.44 to 0.62, with noticeable
+    variation across models and between binary and Likert-scale formulations, indicating
+    sensitivity to both model choice and evaluation design. Our findings highlight
+    practical limitations in fully automating the evaluation of ACR bot comments in
+    industrial contexts. Developer actions such as resolving or ignoring comments
+    reflect not only comment quality, but also contextual constraints, prioritization
+    decisions, and workflow dynamics that are difficult to capture through static
+    artifacts. Insights from a follow-up interview with a software engineering director
+    further corroborate that developer labeling behavior is strongly influenced by
+    workflow pressures and organizational constraints, reinforcing the challenges
+    of treating such signals as objective ground truth.
+- title: 'When Policies Change Probabilities: Modular Decision-Making for LLM Code
+    Review'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.02677v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Rasvik Kudum
+  - Max Corbett
+  - Hitansh Paliwal
+  - Romaisa Fatima
+  - Thomas Jiralerspong
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: LLM code reviewers often estimate patch risk and make approval decisions
+    in one prompt. A probability should depend on evidence; costs should determine
+    the action taken from it. We test whether four deployed reviewer interfaces preserve
+    this separation using 15,792 responses on 720 candidate patches, with one that
+    passed and one that failed an archived test harness for each of 360 repository
+    issues. In matched calls with the patch and monitor evidence fixed, replacing
+    an equal-cost policy with a 10:1 false-accept policy changes reported failure
+    probabilities by 13.6 to 16.9 percentage points on average. For every reviewer,
+    the actions returned under the high-cost prompt are worse than rejecting all patches.
+    Applying the same high-cost rule to probabilities elicited under equal costs reduces
+    loss for all four systems, showing that probability elicitation itself contributes
+    to the excess loss. We also evaluate a modular pipeline that elicits risk without
+    policy information, combines an independent monitor score, and applies costs in
+    code. Relative to calibrated reviewer-only scores, the pipeline improves average
+    probability accuracy and, at equal costs, reduces mean loss by .073 per issue
+    while accepting 58 to 68% of patches. At 10:1, it accepts none and matches reject-all.
+    Downstream policy can therefore change the probability it is meant to use, motivating
+    separate evaluation of risk, outside evidence, and action.
+- title: 'Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts
+    in Agentic Software Development'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.15678v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Sabry E. Farrag
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Coding agents author commits, open pull requests, and push code in production
+    repositories. Who is accountable is settled in two places that do not refer to
+    each other: the platform controls that gate what an agent may do, and the provider
+    terms that allocate responsibility for what it produces. We read both against
+    the workflow events that leave artifacts, across four agentic coding tools and
+    eighteen governing policy documents from seven providers, recording at each event
+    who holds authority, who executed and under which identity, who must verify, who
+    bears the consequence, and which artifact survives. The layers disagree. One provider
+    bars the developer who assigned a task from approving the resulting pull request;
+    another documents an agent that approves pull requests below a configured risk
+    threshold and can dismiss reviews. We therefore replace the usual three-way distinction
+    between enforced, advisory and absent verification with a grid separating whether
+    a mechanism compels the check from who performs it. Attribution runs in opposite
+    directions across providers, and no trailer is defined for agent authorship, though
+    one provider repurposes the co-authorship trailer for it. We argue that agentic
+    tooling did not create this gap. A decade of code-review research already recorded
+    that the approval artifact carries less than the terms assume. What changes is
+    that this weakness moved from a property of how people work to a property of what
+    a product does: a vendor now documents a product that stands at the approval event
+    and emits the same artifact with no party capable of forming a judgement present.
+    We do not claim the gap harms anyone. The selection rule is equalised across the
+    four tools, every reported absence is re-tested against a doubled page set with
+    the survival rate reported, and the source collection and its scripts are deposited.'
+- title: 'Trust-Calibrated Code Review: A Participatory Design Study of Review Workflows
+    for LLM-Generated Multi-File Changes'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.01969v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Lo Gullstrand Heander
+  - Agnia Sergeyuk
+  - Ilya Zakharov
+  - Emma Söderberg
+  - Nikita Mukhortov
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Background: Developers increasingly review multi-file code changes generated
+    by LLM-based agents, yet no validated end-to-end workflow or IDE tooling design
+    exists for this scenario. Aims: We investigate (RQ1) the challenges developers
+    face when reviewing LLM-generated multi-file changes and (RQ2) how developers
+    envision effective workflows for this task. Method: In collaboration with JetBrains,
+    we conducted a participatory design study structured using the double-diamond
+    design process with Discover, Define, Develop, and Deliver phases. Industry practitioners
+    participated in the Discover phase (N=17); seven of these returned for the Develop
+    phase. The Define phase was an author-led synthesis. The Deliver phase produced
+    a conceptual design and a high-fidelity semi-interactive prototype evaluated through
+    a follow-up survey with N=43 practitioners. Results: Participants identified trust-calibration
+    as the central challenge. The study yielded a three-level review workflow (overview,
+    file-analysis, code snippet review) supported by seven design constructs (chunk,
+    risk-per-line, risk-per-file, judge, walk-through, zooming in/out, and security
+    cage). In the validation survey, all three workflow levels scored above the neutral
+    midpoint (means 3.50--3.91 on a five-point scale). Of the respondents, 63% expected
+    reduced overall review effort, and 52% reduced trust-assessment effort, relative
+    to their current tools. These findings suggest that the design constructs indicate
+    a positive direction for future tool development. Conclusions: Reviewing LLM-generated
+    multi-file changes is a trust-calibration problem rather than a diffing problem.
+    The three-level workflow and the seven constructs we report give tool designers
+    a conceptual framework for building AI-ready code review tools that surface risk
+    and confidence signals at the granularity at which developers allocate attention.'
+- title: Taking a Closer Look at Warnings Generated by PMD and SonarQube, their Rules
+    and Compliance to Established Coding Standards
+  date: 2026-02
+  url: https://arxiv.org/abs/2603.00821v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Lakmal Deshapriya
+  - Sherlock A. Licorish
+  - Brendon J. Woodford
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Context: Static code analysis (SCA) tools play a vital role in software
+    development, reducing the cost and time required for code reviews. However, high
+    false-positive and false-negative rates are reported for the best tools in the
+    community. Accordingly, studies often aim to develop datasets for learning SCA
+    warning patterns to reduce false results. These datasets are meant to possess
+    high-quality and high-volume in covering the full range of faults/rules that typically
+    result in false warnings and be compliant with established coding standards. However,
+    existing studies have not utilised such datasets or identified the breadth of
+    rules that are prone to false positives and their compliance to coding standards.
+    Objectives: We analysed code from Stack Overflow and Apache Tomcat to capture
+    variations in code length and style in detecting false-positive warnings from
+    best-performing tools PMD and SonarQube, addressing this gap. Method: In deriving
+    false-positive warnings, outcomes from the tools were labelled using established
+    coding standards. Deeper analyses were then conducted to identify the rules that
+    are prone to false-positives, reasons for these, and agreement/gaps between SCA
+    rules and established standards. Results: Among our main outcomes, we observe
+    that only a few SCA rules generate false positives, ranging from 4.64% to 18.45%
+    across four datasets. Additionally, eliminating rules that contradict established
+    standards significantly reduce the false-positive rate. Additionally, our findings
+    reveal discrepancies between tools and established standards. Conclusion: Given
+    the evidence established in this study, we recommend further investigations into
+    gaps between tools and established standards, including the use of machine learning
+    approaches to annotate larger datasets.'
+- title: 'MOSAIC-Bench: Measuring Compositional Vulnerability Induction in Coding
+    Agents'
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.03952v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Jonathan Steinberg
+  - Oren Gal
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Coding agents often pass per-prompt safety review yet ship exploitable
+    code when their tasks are decomposed into routine engineering tickets. The challenge
+    is structural: existing safety alignment evaluates overt requests in isolation,
+    leaving models blind to malicious end-states that emerge from sequenced compliance
+    with innocuous-looking requests. We introduce MOSAIC-Bench (Malicious Objectives
+    Sequenced As Innocuous Compliance), a benchmark of 199 three-stage attack chains
+    paired with deterministic exploit oracles on deployed software substrates (10
+    web-application substrates, 31 CWE classes, 5 programming languages) that treats
+    both exploit ground truth and downstream reviewer protocol as first-class evaluation
+    axes. On this benchmark, nine production coding agents from Anthropic, OpenAI,
+    Google, Moonshot, Zhipu, and Minimax compose innocuous tickets at 53-86% end-to-end
+    ASR with only two refusals across all staged runs. In a matched direct-prompt
+    experiment over four frontier Claude/Codex agents, vulnerable-output rates fall
+    to 0-20.4%: Claude primarily refuses, while Codex primarily hardens rather than
+    emitting the vulnerable implementation - ticket staging silences both defense
+    modes simultaneously. Downstream, code reviewer agents approve 25.8% of these
+    confirmed-vulnerable cumulative diffs as routine PRs, and a full-context implementation
+    protocol closes only 50% of the staged/direct gap, ruling out context fragmentation
+    as the sole explanation. As a deployable but non-adaptive mitigation, reframing
+    the reviewer as an adversarial pentester reduces evasion across the evaluated
+    reviewer subset; pentester framed evasion ranges from 3.0% to 17.6%, and an open-weight
+    Gemma-4-E4B-it reviewer under this framing detects 88.4% of attacks on the dataset
+    with a 4.6% false-positive rate measured on 608 real-world GitHub PRs.'
+- title: Trace-Based Execution-Level Observability of VDM-SL Specifications
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.19510v1
+  category: code-quality
+  subcategory: method
+  authors:
+  - Tomohiro Oda
+  - Han-Myung Chang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: VDM has been pursuing rigorous verification through mathematical theorem
+    proving and software testing via simulated execution. Animation through an interpreter
+    enables validation of the specification to ensure it meets the required functionality.
+    Step-by-step execution in a debugger also allows the user to follow the internal
+    behavior of operations. In this paper, we propose the recording and utilization
+    of execution traces of assignments, operation calls, and return statements to
+    make the internal behavior of operations persistent and analyzable as state-based
+    models. The data model of events in execution traces, its implementation in ViennaTalk,
+    and its application to visualization will be introduced.
+- title: 'Sakura: An Approach for Generating Complex Tests from Natural Language Test
+    Descriptions'
+  date: 2026-05
+  url: https://arxiv.org/abs/2606.00530v3
+  category: code-quality
+  subcategory: method
+  authors:
+  - Tyler Stennett
+  - Rangeet Pan
+  - Bridget McGinn
+  - Alessandro Orso
+  - Saurabh Sinha
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Research on automating software testing has spanned several decades.
+    Most existing approaches generate unit tests for individual methods, validate
+    isolated API endpoints, or target user interface (UI) layers, with non-API and
+    non-UI generators typically exercising only a single focal method. Recent empirical
+    evidence shows a substantial gap between such generated tests and developer-written
+    ones, which often span several focal classes and methods, involve multi-step call
+    sequences, and contain chained assertions, all characteristics that current approaches
+    fail to capture. To address this gap, we propose generating tests from natural
+    language (NL) descriptions of developer intent, an expressive and accessible medium
+    for specifying complex test scenarios. We present Sakura, the first agent-based
+    framework for generating structurally complex tests from NL descriptions. Sakura
+    decomposes NL descriptions into structured blocks and processes them with a multi-agent
+    system: a localization agent grounds test steps in concrete application code via
+    static analysis, a composition agent synthesizes compilable test code and iteratively
+    refines it using execution feedback, and a supervisor agent coordinates their
+    interactions. To evaluate Sakura, we curate a novel dataset of NL test descriptions
+    at three levels of abstraction, reflecting different end-user personas, systematically
+    derived from developer-written tests in Apache Commons projects. Across 20 applications
+    and 1,464 test scenarios, Sakura substantially outperforms off-the-shelf agentic
+    tools such as Gemini CLI instantiated with multiple LLMs, achieving 50-78% higher
+    test compilability and 38-66% higher coverage overlap with ground-truth tests
+    using the same models. Moreover, Sakura paired with small open-source models such
+    as Devstral Small 2 and Qwen3-Coder outperforms Gemini CLI using large proprietary
+    models, at lower cost.'
+- title: 'TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.02469v1
+  category: code-quality
+  subcategory: method
+  authors:
+  - Jiale Amber Wang
+  - Kaiyuan Wang
+  - Pengyu Nie
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Software tests and code evolve together: a code change should be followed
+    by new or updated tests that record the new software behavior. Yet existing test
+    generation and update benchmarks often isolate the test from the code change,
+    and rely on static metadata that does not verify whether a test is executable
+    or semantically tied to the code change. This makes it difficult to evaluate whether
+    a test automation agent understands how a code change should propagate into the
+    test suite. We introduce TestEvo-Bench, a benchmark of test and code co-evolution
+    tasks mined from software repositories, with two tracks: in test generation, the
+    agent shall write new tests to capture the new software behavior; in test update,
+    the agent shall adapt failing existing tests to the changed software behavior.
+    Each task is anchored to a real commit history and packaged with environment configuration
+    to support execution-grounded metrics such as pass rate, coverage, and mutation
+    score. TestEvo-Bench is also a live benchmark: each task records the timestamp
+    of the test and code changes, and new tasks are periodically mined by our automated
+    pipeline, so evaluation can be restricted to tasks postdating a model''s training
+    cutoff to reduce data leakage risk. The current snapshot contains 746 test generation
+    and 509 test update tasks, curated from 59,950 candidate co-evolution records
+    across 152 open-source Java projects. We experiment with four state-of-the-art
+    agents that combine strong harnesses (Claude Code, Gemini CLI, and SWE-Agent)
+    with strong foundation models (Claude Opus 4.7 and Gemini 3.1 Pro). Results show
+    that they achieve up to 77.5% success rate on test generation and 74.6% on test
+    update. However, success rate is materially lower on the most recent benchmark
+    tasks and drops significantly under limited per-task cost.'

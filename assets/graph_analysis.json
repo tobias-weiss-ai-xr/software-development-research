@@ -27,7 +27,7 @@
   {
    "id": "code-quality",
    "name": "Code Quality",
-   "count": 829,
+   "count": 863,
    "trajectory": {
     "2006": 7,
     "2007": 1,
@@ -48,18 +48,18 @@
     "2023": 7,
     "2024": 5,
     "2025": 236,
-    "2026": 546
+    "2026": 580
    },
    "momentum": {
     "id": "code-quality",
     "name": "Code Quality",
-    "total": 829,
-    "recent": 779,
+    "total": 863,
+    "recent": 813,
     "prior": 3,
-    "growth_pct": 25866.7,
-    "recent_share": 0.94,
-    "papers_per_month": 64.9,
-    "score": 25960.7
+    "growth_pct": 27000.0,
+    "recent_share": 0.942,
+    "papers_per_month": 67.8,
+    "score": 27094.2
    }
   },
   {
@@ -296,12 +296,12 @@
   {
    "id": "evaluation",
    "name": "Evaluation",
-   "count": 407
+   "count": 438
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 1557
+   "count": 1560
   },
   {
    "id": "survey",
@@ -10843,6 +10843,16 @@
   [
    "2026-02",
    "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-02",
+   "code-quality",
    "method"
   ],
   [
@@ -12533,6 +12543,11 @@
   [
    "2026-03",
    "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-03",
+   "code-quality",
    "method"
   ],
   [
@@ -14728,6 +14743,36 @@
   [
    "2026-04",
    "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-04",
+   "code-quality",
    "method"
   ],
   [
@@ -16773,6 +16818,51 @@
   [
    "2026-05",
    "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
+  ],
+  [
+   "2026-05",
+   "code-quality",
    "method"
   ],
   [
@@ -18468,6 +18558,31 @@
   [
    "2026-06",
    "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-06",
+   "code-quality",
    "method"
   ],
   [
@@ -20089,6 +20204,31 @@
    "2026-07",
    "code-quality",
    "evaluation"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
   ],
   [
    "2026-07",
@@ -21489,6 +21629,36 @@
    "2026-08",
    "code-quality",
    "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "method"
   ],
   [
    "2026-08",
@@ -22184,68 +22354,68 @@
    "recent": 121,
    "total": 121,
    "burst_score": 1.06,
-   "recent_share": 0.0294
+   "recent_share": 0.0292
   },
   {
    "keyword": "automated testing",
    "recent": 40,
    "total": 40,
    "burst_score": 1.06,
-   "recent_share": 0.0097
+   "recent_share": 0.0096
   },
   {
    "keyword": "llm",
-   "recent": 1075,
-   "total": 1088,
+   "recent": 1095,
+   "total": 1108,
    "burst_score": 1.05,
-   "recent_share": 0.2612
+   "recent_share": 0.2639
   },
   {
    "keyword": "large language model",
-   "recent": 795,
-   "total": 805,
+   "recent": 803,
+   "total": 813,
    "burst_score": 1.05,
-   "recent_share": 0.1931
+   "recent_share": 0.1935
   },
   {
    "keyword": "code review",
-   "recent": 175,
-   "total": 179,
+   "recent": 204,
+   "total": 208,
    "burst_score": 1.04,
-   "recent_share": 0.0425
+   "recent_share": 0.0492
   },
   {
    "keyword": "security",
-   "recent": 709,
-   "total": 739,
+   "recent": 713,
+   "total": 743,
    "burst_score": 1.02,
-   "recent_share": 0.1723
+   "recent_share": 0.1718
   },
   {
    "keyword": "code generation",
-   "recent": 298,
-   "total": 308,
+   "recent": 301,
+   "total": 311,
    "burst_score": 1.02,
-   "recent_share": 0.0724
+   "recent_share": 0.0725
   },
   {
    "keyword": "static analysis",
-   "recent": 233,
-   "total": 242,
+   "recent": 235,
+   "total": 244,
    "burst_score": 1.02,
    "recent_share": 0.0566
   },
   {
    "keyword": "microservices",
-   "recent": 176,
-   "total": 185,
+   "recent": 177,
+   "total": 186,
    "burst_score": 1.01,
-   "recent_share": 0.0428
+   "recent_share": 0.0427
   },
   {
    "keyword": "observability",
-   "recent": 136,
-   "total": 144,
+   "recent": 137,
+   "total": 145,
    "burst_score": 1.0,
    "recent_share": 0.033
   },
@@ -22254,35 +22424,35 @@
    "recent": 149,
    "total": 159,
    "burst_score": 0.99,
-   "recent_share": 0.0362
-  },
-  {
-   "keyword": "developer experience",
-   "recent": 94,
-   "total": 101,
-   "burst_score": 0.99,
-   "recent_share": 0.0228
+   "recent_share": 0.0359
   },
   {
    "keyword": "devops",
    "recent": 217,
    "total": 234,
    "burst_score": 0.98,
-   "recent_share": 0.0527
+   "recent_share": 0.0523
   },
   {
    "keyword": "type system",
    "recent": 132,
    "total": 142,
    "burst_score": 0.98,
-   "recent_share": 0.0321
+   "recent_share": 0.0318
+  },
+  {
+   "keyword": "developer experience",
+   "recent": 94,
+   "total": 101,
+   "burst_score": 0.98,
+   "recent_share": 0.0227
   },
   {
    "keyword": "open source",
    "recent": 110,
    "total": 121,
    "burst_score": 0.96,
-   "recent_share": 0.0267
+   "recent_share": 0.0265
   }
  ]
 }
