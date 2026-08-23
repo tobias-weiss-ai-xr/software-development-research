@@ -113,6 +113,7 @@ def main():
 
     if args.write_doc:
         out = REPO / "docs" / "research" / "concept_map.md"
+        out.parent.mkdir(parents=True, exist_ok=True)
         lines = ["# Concept Map — Knowledge Graph of the Corpus",
                  "",
                  f"**Generated:** {len(nodes)} concepts, {len(edges)} relationships "
