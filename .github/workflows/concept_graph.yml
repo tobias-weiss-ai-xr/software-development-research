@@ -1,0 +1,48 @@
+name: Concept Graph
+
+# Portable knowledge-enrichment workflow (mirrors ai-literacy-research /
+# skeleton-research). Builds the concept & idea co-occurrence graph from
+# papers.yaml on every push. Generated artifacts are committed back only when
+# this repo tracks them (ai-literacy convention); repos that gitignore
+# generated outputs (skeleton convention) build without committing.
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'papers.yaml'
+      - 'config/**'
+      - 'tools/extract_concepts.py'
+      - 'tools/relate_concepts.py'
+      - 'concepts.json'
+      - 'concept_graph.json'
+      - 'docs/research/concept_map.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Build concept graph
+        run: |
+          python3 tools/extract_concepts.py --papers papers.yaml --out concepts.json
+          python3 tools/relate_concepts.py --papers papers.yaml --concepts concepts.json --write-doc > concept_graph.json
+      - name: Commit generated artifacts (repos that track them)
+        run: |
+          git config user.name "research-bot"
+          git config user.email "bot@tobias-weiss.org"
+          git add concepts.json concept_graph.json docs/research/concept_map.md 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No tracked artifact changes to commit"
+          else
+            git commit -m "chore: refresh concept graph"
+            git push
+          fi
