@@ -92,6 +92,24 @@ def load_curated():
     return terms
 
 
+def load_extraction_config():
+    """Optional config/extraction.yaml: {"mode": "broad"|"selective"}.
+
+    'selective' extracts only the structural (taxonomy) + curated seed
+    concepts and skips the noisy emergent bigrams, yielding a clean,
+    high-signal concept graph. Missing file or unknown mode => 'broad'.
+    """
+    p = REPO / "config" / "extraction.yaml"
+    if not p.exists():
+        return {}
+    try:
+        with open(p, encoding="utf-8") as f:
+            cfg = yaml.safe_load(f) or {}
+    except yaml.YAMLError:
+        return {}
+    return cfg
+
+
 def mine_bigrams(papers, min_df):
     bi = Counter()
     for e in papers:
@@ -110,8 +128,15 @@ def main():
     ap.add_argument("--papers", default="papers.yaml")
     ap.add_argument("--min-df", type=int, default=8)
     ap.add_argument("--max", type=int, default=120)
+    ap.add_argument("--mode", choices=["broad", "selective"],
+                    help="broad = taxonomy+curated+emergent (default); "
+                         "selective = taxonomy+curated only (no emergent bigrams)")
     ap.add_argument("--out", help="write concepts JSON here (default: stdout)")
     args = ap.parse_args()
+    cfg_mode = (load_extraction_config() or {}).get("mode")
+    mode = args.mode or cfg_mode or "broad"
+    if mode not in ("broad", "selective"):
+        mode = "broad"
 
     papers = load_papers(args.papers)
     concepts = {}
@@ -131,12 +156,13 @@ def main():
         concepts[term] = {"term": term, "kind": "curated", "seed": True,
                           "df": 0, "match": {"type": "text", "forms": [term.lower()]}}
 
-    # 3) emergent bigrams — text
-    for term, df in sorted(mine_bigrams(papers, args.min_df).items(),
-                           key=lambda x: -x[1])[:args.max]:
-        if term not in concepts:
-            concepts[term] = {"term": term, "kind": "emergent", "seed": False,
-                              "df": 0, "match": {"type": "text", "forms": [term]}}
+    # 3) emergent bigrams — text (broad mode only)
+    if mode == "broad":
+        for term, df in sorted(mine_bigrams(papers, args.min_df).items(),
+                               key=lambda x: -x[1])[:args.max]:
+            if term not in concepts:
+                concepts[term] = {"term": term, "kind": "emergent", "seed": False,
+                                  "df": 0, "match": {"type": "text", "forms": [term]}}
 
     # text-match pass for curated + emergent
     text_cs = [c for c in concepts.values() if c["match"]["type"] == "text"]
