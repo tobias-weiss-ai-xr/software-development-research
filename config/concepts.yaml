@@ -2,6 +2,7 @@
 # Optional: repo-specific important concepts/ideas, added on top of the
 # taxonomy categories (associated structurally) and the statistically-mined
 # emergent bigrams. Leave empty to rely on taxonomy + emergent terms only.
-# Portable across all *-research repos: copy tools/extract_concepts.py and
-# tools/relate_concepts.py as-is; only papers.yaml is required.
+# Portable across all *-research repos: copy tools/extract_concepts.py,
+# tools/relate_concepts.py and tools/analyze_concept_graph.py as-is; only
+# papers.yaml is required.
 concepts: []
