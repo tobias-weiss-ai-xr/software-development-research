@@ -15,6 +15,7 @@ on:
       - 'tools/extract_concepts.py'
       - 'tools/relate_concepts.py'
       - 'tools/analyze_concept_graph.py'
+      - 'tools/feedback_concepts.py'
       - 'concepts.json'
       - 'concept_graph.json'
       - 'concept_graph_analysis.json'
