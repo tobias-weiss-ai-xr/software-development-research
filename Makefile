@@ -1,5 +1,5 @@
 # Software Development Research — task runner (Unix-minimal)
-.PHONY: test validate check pipeline all
+.PHONY: test validate check pipeline triage all
 
 # Test layer: hermetic contract tests (no network, ~4s)
 test:
@@ -12,6 +12,10 @@ validate:
 # Contract: confirm README.md matches papers.yaml
 check:
 	python3 scripts/generate_readme.py --check
+
+# Read-only corpus quality triage (writes docs/research/corpus_triage.md)
+triage:
+	python3 tools/triage_corpus.py
 
 # Full pipeline (validate -> README -> stats -> reports)
 pipeline:

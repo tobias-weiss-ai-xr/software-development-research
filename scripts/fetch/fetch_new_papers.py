@@ -82,8 +82,7 @@ def classify_subcategory(title, abstract="", cfg=None):
 def load_existing_papers(yaml_path):
     if not yaml_path.exists():
         return {}, []
-    with open(yaml_path, "r") as f:
-        data = yaml.safe_load(f) or {}
+    data = research_config.load_yaml(yaml_path) or {}
     papers = data.get("papers", [])
     by_id = {}
     titles_lower = []
@@ -296,8 +295,7 @@ def main():
     if args.local:
         print(f"\nAppending {len(all_new)} new papers to papers.yaml locally...", flush=True)
         try:
-            with open(yaml_path, "r") as f:
-                data = yaml.safe_load(f) or {}
+            data = research_config.load_yaml(yaml_path) or {}
             papers = data.get("papers", [])
             before = len(papers)
             for entry in all_new:
@@ -340,8 +338,7 @@ def main():
             subprocess.run(
                 ["git", "checkout", "-b", branch_name], check=True, cwd=yaml_path.parent
             )
-            with open(yaml_path, "r") as f:
-                data = yaml.safe_load(f) or {}
+            data = research_config.load_yaml(yaml_path) or {}
             papers = data.get("papers", [])
             for entry in all_new:
                 papers.append(

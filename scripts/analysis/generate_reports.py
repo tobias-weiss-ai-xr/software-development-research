@@ -44,7 +44,7 @@ def _display(kebab):
 
 
 def load_papers():
-    data = yaml.safe_load((REPO / "papers.yaml").read_text(encoding="utf-8"))
+    data = research_config.load_yaml(REPO / "papers.yaml")
     return data.get("papers", [])
 
 

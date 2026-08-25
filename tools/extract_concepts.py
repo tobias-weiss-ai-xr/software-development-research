@@ -29,6 +29,9 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+import research_config
+
 import yaml
 
 REPO = Path(__file__).resolve().parent.parent
@@ -50,8 +53,7 @@ development application method theory survey experiment review mechanism analysi
 
 
 def load_papers(path):
-    with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f).get("papers", [])
+    return research_config.load_yaml(path).get("papers", [])
 
 
 def load_taxonomy_categories():

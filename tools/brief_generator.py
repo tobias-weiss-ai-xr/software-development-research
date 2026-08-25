@@ -43,8 +43,7 @@ def slugify(topic):
 
 
 def load_papers():
-    with open(REPO / "papers.yaml", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+    data = research_config.load_yaml(REPO / "papers.yaml")
     return data.get("papers", [])
 
 

@@ -61,8 +61,7 @@ def _date_in(datestring, lo, end):
 
 
 def main():
-    with open(REPO / "papers.yaml", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+    data = research_config.load_yaml(REPO / "papers.yaml")
     entries = data.get("papers", [])
     print(f"Parsed {len(entries)} papers")
 

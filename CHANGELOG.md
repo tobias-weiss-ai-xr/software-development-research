@@ -1,6 +1,19 @@
 # Changelog
 
 ## [Unreleased]
+- **Performance:** all corpus loads now use the PyYAML C loader via new
+  `research_config.load_yaml()` (CSafeLoader with SafeLoader fallback).
+  `validate_papers.py` 41s → 5.5s, `standard_stats.py` ~60s → ~5s, and every
+  tool (topic_planner / trend_scanner / landscape_analyzer / brief_generator /
+  concept-graph / export_bibtex) got the same 10x+ parse speedup. Routed
+  through the existing single-source-of-truth loader in 14 scripts + 6 tools.
+  Also regenerated stale `paper/references.bib` (21,200 lines of accumulated
+  drift — the BibTeX exporter had not been run since the last ingestion).
+- **Corpus triage tool:** new read-only `tools/triage_corpus.py` flags
+  vanity-platform preprints (32), no-abstract unvetted bulk-ingest entries
+  (781), out-of-domain topics (56), and suspicious venues (12) —
+  860/6021 (14.3%) flagged overall — into `docs/research/corpus_triage.md`.
+  Deleting nothing; human reviews the report. `make triage`.
 - **Spec–contract–test pyramid:** added the missing test layer and the spec
   layer. `openspec/specs/papers-corpus/` now documents the corpus contract
   (data model, validation gates, pipeline, agent guardrails) in Gherkin

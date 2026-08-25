@@ -69,8 +69,7 @@ def get_queries(cfg):
 
 
 def load_existing_papers(yaml_path):
-    with open(yaml_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    data = research_config.load_yaml(yaml_path) or {}
     papers = data.get("papers", [])
     by_id = {}
     titles_lower = []

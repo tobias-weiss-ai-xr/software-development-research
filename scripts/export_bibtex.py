@@ -13,6 +13,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+import research_config
+
 import yaml
 
 REPO = Path(__file__).resolve().parent.parent
@@ -28,7 +31,7 @@ def main():
     if not yaml_path.exists():
         print("papers.yaml not found — nothing to export.")
         return
-    data = yaml.safe_load(yaml_path.read_text(encoding="utf-8")) or {}
+    data = research_config.load_yaml(yaml_path) or {}
     papers = data.get("papers", [])
     entries = []
     for i, paper in enumerate(papers):

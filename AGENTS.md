@@ -58,7 +58,7 @@ scripts/generate_readme.py    ← README.md + docs/papers.json from papers.yaml
 scripts/standard_stats.py     ← statistics.json + papers.json + graph data
 scripts/analysis/generate_reports.py → docs/research/{literature_review,trends}.md
 scripts/fetch/                ← arXiv/OpenAlex/dblp/crossref/europepmc/GitHub/GitLab/Codeberg discovery
-tools/                        ← topic_planner, trend_scanner, landscape_analyzer, brief_generator
+tools/                        ← topic_planner, trend_scanner, landscape_analyzer, brief_generator, triage_corpus
 tests/                        ← pytest contract suite (hermetic, no network, fast)
 openspec/specs/papers-corpus/ ← the spec layer (corpus contract, Gherkin scenarios)
 docs/index.html               ← GitHub Pages paper browser (reads docs/papers.json)
@@ -69,6 +69,9 @@ docs/index.html               ← GitHub Pages paper browser (reads docs/papers.
 - **"Add this paper"** → follow the checklist above.
 - **"What are the hottest topics?"** → `python3 tools/trend_scanner.py --months 12`
 - **"What are the research gaps?"** → `python3 tools/landscape_analyzer.py`
+- **"Triage corpus quality"** → `python3 tools/triage_corpus.py` (read-only report
+  of vanity-platforms / no-abstract junk / off-topic entries; nothing is
+  deleted — review `docs/research/corpus_triage.md` and decide)
 - **"Suggest article topics"** → `python3 tools/topic_planner.py --top 10`
 - **"Find new papers"** → `python3 scripts/fetch/fetch_new_papers.py --local` (needs network)
 - **"Find GitHub repos"** → add ``github_queries`` to ``config/taxonomy.yaml``, then `python3 scripts/fetch/fetch_github_repos.py --dry-run`

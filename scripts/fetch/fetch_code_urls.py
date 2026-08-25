@@ -14,6 +14,9 @@ from pathlib import Path
 import requests
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+import research_config
+
 ARXIV_ID_PATTERN = re.compile(r"(\d{4}\.\d{4,5})")
 SS_BASE = "https://api.semanticscholar.org/graph/v1/paper/arXiv:{}"
 SS_FIELDS = "externalIds,is_open_access,openAccessPdf"
@@ -100,8 +103,7 @@ def main():
         print(f"ERROR: {yaml_path} not found", flush=True)
         sys.exit(1)
 
-    with open(yaml_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    data = research_config.load_yaml(yaml_path) or {}
 
     papers = data.get("papers", [])
     total = len(papers)

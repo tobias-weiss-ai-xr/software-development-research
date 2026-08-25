@@ -19,6 +19,22 @@ import yaml
 
 REPO = Path(__file__).resolve().parent.parent
 
+
+def load_yaml(path):
+    """Parse a YAML file with the C loader (~10x faster on large corpora).
+
+    PyYAML's pure-Python SafeLoader takes ~60s to parse a 6k-paper corpus;
+    the C extension (CSafeLoader, shipped with standard PyYAML wheels) does
+    the same load in ~5s. All corpus-loading scripts should use this helper
+    instead of ``yaml.safe_load``.
+    """
+    try:
+        from yaml import CSafeLoader
+        loader = CSafeLoader
+    except ImportError:
+        loader = yaml.SafeLoader
+    with open(path, encoding="utf-8") as f:
+        return yaml.load(f, Loader=loader)
 # Fallback keyword lists used when taxonomy.yaml does not define them.
 # These are intentionally generic; each repo should override via config.
 _DEFAULT_TREND_KEYWORDS = [
@@ -45,7 +61,7 @@ def load_config(path=None):
             "subcategory_keywords": [],
         }
     with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+        return load_yaml(path) or {}
 
 
 def get_topic(cfg):
@@ -114,8 +130,7 @@ def load_papers(path=None):
     path = path or (REPO / "papers.yaml")
     if not path.exists():
         return []
-    with open(path, encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    data = load_yaml(path) or {}
     return data.get("papers", [])
 
 

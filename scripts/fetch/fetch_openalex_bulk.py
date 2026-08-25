@@ -57,8 +57,7 @@ def load_existing_papers(yaml_path):
     """Load existing papers and build lookup structures."""
     if not yaml_path.exists():
         return {}, []
-    with open(yaml_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    data = research_config.load_yaml(yaml_path) or {}
     papers = data.get("papers", [])
     by_id = {}
     titles_lower = []
@@ -339,8 +338,7 @@ def fetch_category(terms, months, per_category, sleep, subcat_keywords=None, mai
 
 def append_papers(yaml_path, new_papers):
     if yaml_path.exists():
-        with open(yaml_path, "r") as f:
-            data = yaml.safe_load(f) or {}
+        data = research_config.load_yaml(yaml_path) or {}
     else:
         data = {}
     papers = data.get("papers", [])

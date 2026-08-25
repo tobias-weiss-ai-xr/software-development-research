@@ -125,6 +125,21 @@ def test_arxiv_url_must_be_normalized(mini_cfg):
     assert data["papers"][0]["url"] == "https://arxiv.org/abs/2405.12345"
 
 
+def test_versioned_arxiv_url_rejected_and_fixed(mini_cfg):
+    """arXiv URLs with a version suffix (…v1) violate the canonical form.
+
+    Regression for a latent CI failure: ~90 corpus entries carried …v1/…v2
+    suffixes that the contract rejects.
+    """
+    data = {"papers": [_valid_paper(url="https://arxiv.org/abs/2608.19674v1")]}
+    errors, _, _, _ = vp.validate_papers(data, mini_cfg)
+    assert any("not normalized" in e for e in errors)
+    errors, _, fixed, _ = vp.validate_papers(data, mini_cfg, fix=True)
+    assert errors == []
+    assert fixed == 1
+    assert data["papers"][0]["url"] == "https://arxiv.org/abs/2608.19674"
+
+
 def test_duplicate_entry_fails(mini_cfg):
     data = {"papers": [_valid_paper(), _valid_paper()]}
     errors, _, _, _ = vp.validate_papers(data, mini_cfg)

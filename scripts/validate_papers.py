@@ -203,8 +203,7 @@ def main():
 
     cfg = research_config.load_config()
 
-    with open(yaml_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    data = research_config.load_yaml(yaml_path) or {}
 
     errors, warnings, fixed, papers = validate_papers(data, cfg, fix=args.fix, sort=args.sort)
 

@@ -39,6 +39,8 @@ import requests
 import yaml
 
 BASE = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(BASE / "scripts"))
+import research_config
 ARXIV_ID_RE = re.compile(r"(\d{4}\.\d{4,5})")
 
 DEFAULT_CONFIG = BASE / "config" / "other_sources_queries.yaml"
@@ -92,8 +94,7 @@ def load_existing_papers(yaml_path):
     """Load papers.yaml and return (by_id dict, titles_lower list)."""
     if not yaml_path.exists():
         return {}, []
-    with open(yaml_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    data = research_config.load_yaml(yaml_path) or {}
     papers = data.get("papers", [])
     by_id = {}
     titles_lower = []
@@ -429,8 +430,7 @@ def is_dup(entry, by_id, titles_lower):
 # ── YAML append ─────────────────────────────────────────────────────────
 
 def append_to_yaml(yaml_path, new_papers):
-    with open(yaml_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    data = research_config.load_yaml(yaml_path) or {}
     papers = data.get("papers", [])
     for e in new_papers:
         entry = {
