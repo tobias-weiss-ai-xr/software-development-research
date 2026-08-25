@@ -58,7 +58,7 @@ scripts/generate_readme.py    ← README.md + docs/papers.json from papers.yaml
 scripts/standard_stats.py     ← statistics.json + papers.json + graph data
 scripts/analysis/generate_reports.py → docs/research/{literature_review,trends}.md
 scripts/fetch/                ← arXiv/OpenAlex/dblp/crossref/europepmc/GitHub/GitLab/Codeberg discovery
-tools/                        ← topic_planner, trend_scanner, landscape_analyzer, brief_generator, triage_corpus
+tools/                        ← topic_planner, trend_scanner, landscape_analyzer, brief_generator, triage_corpus (read-only quality flags), remove_audited_noise.py (one-shot audited cleanup, guard-protected)
 tests/                        ← pytest contract suite (hermetic, no network, fast)
 openspec/specs/papers-corpus/ ← the spec layer (corpus contract, Gherkin scenarios)
 docs/index.html               ← GitHub Pages paper browser (reads docs/papers.json)
@@ -72,6 +72,9 @@ docs/index.html               ← GitHub Pages paper browser (reads docs/papers.
 - **"Triage corpus quality"** → `python3 tools/triage_corpus.py` (read-only report
   of vanity-platforms / no-abstract junk / off-topic entries; nothing is
   deleted — review `docs/research/corpus_triage.md` and decide)
+- **"Curation history"** → `docs/research/removed_entries.yaml` logs every
+  entry removed by `tools/remove_audited_noise.py` (one-shot, refuses to rerun
+  after `.removal_applied`; reversibility via git)
 - **"Suggest article topics"** → `python3 tools/topic_planner.py --top 10`
 - **"Find new papers"** → `python3 scripts/fetch/fetch_new_papers.py --local` (needs network)
 - **"Find GitHub repos"** → add ``github_queries`` to ``config/taxonomy.yaml``, then `python3 scripts/fetch/fetch_github_repos.py --dry-run`
