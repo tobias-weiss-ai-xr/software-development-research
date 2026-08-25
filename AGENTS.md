@@ -23,9 +23,17 @@ for a research topic: papers live in `papers.yaml`, everything else is generated
    python3 scripts/standard_stats.py && \
    python3 scripts/analysis/generate_reports.py
    ```
-5. **Validate before committing:** `python3 scripts/validate_papers.py` must
+5. **Run the test suite** after any change to `scripts/` or `config/`:
+   ```bash
+   python3 -m pytest          # fast, hermetic contract tests (~4s, no network)
+   ```
+6. **Validate before committing:** `python3 scripts/validate_papers.py` must
    exit 0. Fix errors (schema, duplicates, URL normalization) — do not
    bypass validation.
+7. **Spec–contract–test pyramid:** `openspec/specs/papers-corpus/` is the spec,
+   `scripts/validate_papers.py` (+ `generate_readme.py --check`) is the contract,
+   `tests/` is the test layer. If you change the contract, update the spec AND
+   add a test for the new behavior.
 
 ## Adding a paper (agent checklist)
 
@@ -51,6 +59,8 @@ scripts/standard_stats.py     ← statistics.json + papers.json + graph data
 scripts/analysis/generate_reports.py → docs/research/{literature_review,trends}.md
 scripts/fetch/                ← arXiv/OpenAlex/dblp/crossref/europepmc/GitHub/GitLab/Codeberg discovery
 tools/                        ← topic_planner, trend_scanner, landscape_analyzer, brief_generator
+tests/                        ← pytest contract suite (hermetic, no network, fast)
+openspec/specs/papers-corpus/ ← the spec layer (corpus contract, Gherkin scenarios)
 docs/index.html               ← GitHub Pages paper browser (reads docs/papers.json)
 ```
 

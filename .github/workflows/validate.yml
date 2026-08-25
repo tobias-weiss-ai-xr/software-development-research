@@ -33,7 +33,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install pyyaml requests
+        run: pip install pyyaml requests pytest
 
       - name: Validate papers.yaml
         continue-on-error: false
@@ -42,6 +42,10 @@ jobs:
       - name: Check README is up-to-date
         continue-on-error: false
         run: python3 scripts/generate_readme.py --check
+
+      - name: Run pytest contract suite
+        continue-on-error: false
+        run: python3 -m pytest
 
   discover:
     if: github.event_name == 'schedule'

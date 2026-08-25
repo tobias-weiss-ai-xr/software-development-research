@@ -1,6 +1,18 @@
 # Changelog
 
 ## [Unreleased]
+- **Spec–contract–test pyramid:** added the missing test layer and the spec
+  layer. `openspec/specs/papers-corpus/` now documents the corpus contract
+  (data model, validation gates, pipeline, agent guardrails) in Gherkin
+  scenarios; `tests/` adds a hermetic, network-free pytest suite (37 tests,
+  ~4s) covering `validate_papers`, `research_config`, `generate_readme`,
+  `standard_stats` helpers, `saturate_papers` dedup, and `export_bibtex`.
+  CI (`validate.yml`) now runs `pytest` and `generate_readme.py --check`.
+  Re-ran the pipeline to repair stale generated artifacts (README was
+  2,469 lines out of date vs. `papers.yaml`).
+- **Contract hardening:** `validate_papers.py` now flags non-peer-reviewed
+  Research Square DOIs (`doi.org/10.21203/...`) via the vanity-domain check
+  (37 corpus entries were previously invisible to the quality gate).
 - **Bug fix:** All arXiv API calls now use `https://` instead of `http://`
   (`fetch_new_papers.py`, `fetch_metadata.py`, `saturate_papers.py`).  Many
   networks block plain HTTP; HTTPS is required for arXiv's API.

@@ -1,46 +1,46 @@
 # Trends (12-Month View)
 
-**Generated:** 2026-08-20  
-**Window:** since 2025-08 — 3334 of 3576 papers
+**Generated:** 2026-08-25  
+**Window:** since 2025-08 — 5779 of 6021 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| llm | 952 | 965 | 1.1× |
-| large language model | 709 | 719 | 1.1× |
-| software architecture | 105 | 105 | 1.1× |
-| automated testing | 32 | 32 | 1.1× |
-| security | 574 | 604 | 1.0× |
-| code generation | 257 | 267 | 1.0× |
-| static analysis | 172 | 181 | 1.0× |
-| devops | 168 | 185 | 1.0× |
-| code review | 143 | 147 | 1.0× |
-| microservices | 142 | 151 | 1.0× |
-| program repair | 132 | 142 | 1.0× |
-| type system | 129 | 139 | 1.0× |
-| observability | 126 | 134 | 1.0× |
-| open source | 107 | 118 | 1.0× |
-| developer experience | 82 | 89 | 1.0× |
+| llm | 1402 | 1415 | 1.0× |
+| large language model | 1007 | 1017 | 1.0× |
+| security | 952 | 982 | 1.0× |
+| code generation | 383 | 393 | 1.0× |
+| static analysis | 345 | 354 | 1.0× |
+| devops | 301 | 318 | 1.0× |
+| code review | 257 | 261 | 1.0× |
+| microservices | 240 | 249 | 1.0× |
+| technical debt | 221 | 242 | 1.0× |
+| continuous integration | 207 | 226 | 1.0× |
+| type system | 182 | 192 | 1.0× |
+| program repair | 173 | 183 | 1.0× |
+| open source | 170 | 181 | 1.0× |
+| observability | 163 | 171 | 1.0× |
+| software architecture | 139 | 139 | 1.0× |
 
 ## 📈 Fastest-Growing Cells
 
 | Cell | Recent | Total | Recent Share |
 |------|--------|-------|--------------|
-| `developer-tools/method` | 122 | 122 | 100% |
-| `human-factors/evaluation` | 49 | 49 | 100% |
-| `devops/application` | 92 | 92 | 100% |
-| `devops/development` | 22 | 22 | 100% |
-| `software-architecture/systems` | 107 | 107 | 100% |
-| `software-architecture/method` | 135 | 135 | 100% |
-| `ai-for-se/evaluation` | 20 | 20 | 100% |
-| `security/method` | 175 | 175 | 100% |
-| `security/development` | 28 | 28 | 100% |
-| `software-engineering/application` | 27 | 27 | 100% |
-| `software-engineering/method` | 105 | 105 | 100% |
-| `software-engineering/development` | 7 | 7 | 100% |
+| `developer-tools/method` | 220 | 220 | 100% |
+| `devops/method` | 264 | 265 | 100% |
+| `human-factors/evaluation` | 54 | 54 | 100% |
+| `devops/application` | 126 | 126 | 100% |
+| `devops/development` | 28 | 28 | 100% |
+| `software-architecture/systems` | 138 | 138 | 100% |
+| `software-architecture/method` | 230 | 230 | 100% |
+| `ai-for-se/evaluation` | 40 | 40 | 100% |
+| `security/method` | 283 | 283 | 100% |
+| `security/development` | 38 | 38 | 100% |
+| `software-engineering/application` | 54 | 54 | 100% |
+| `software-engineering/method` | 248 | 248 | 100% |
+| `software-engineering/development` | 10 | 10 | 100% |
 | `software-engineering/systems` | 1 | 1 | 100% |
-| `code-quality/development` | 18 | 18 | 100% |
-| `code-quality/theory` | 30 | 30 | 100% |
+| `code-quality/development` | 40 | 40 | 100% |
 
 Regenerate with `python3 tools/trend_scanner.py --months 12`.

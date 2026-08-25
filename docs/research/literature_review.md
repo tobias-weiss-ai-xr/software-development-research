@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-08-20  
-**Corpus:** 3,576 papers across 10 categories
+**Generated:** 2026-08-25  
+**Corpus:** 6,021 papers across 10 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,17 +11,17 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Code Quality | 664 |
-| 2 | DevOps & CI/CD | 457 |
-| 3 | Developer Tools | 403 |
-| 4 | AI for Software Engineering | 373 |
-| 5 | Software Architecture | 368 |
-| 6 | Security & Supply Chain | 367 |
-| 7 | Programming Languages | 304 |
-| 8 | Software Engineering | 241 |
+| 1 | Code Quality | 1102 |
+| 2 | DevOps & CI/CD | 814 |
+| 3 | Developer Tools | 682 |
+| 4 | AI for Software Engineering | 607 |
+| 5 | Software Architecture | 577 |
+| 6 | Security & Supply Chain | 576 |
+| 7 | Programming Languages | 562 |
+| 8 | Software Engineering | 470 |
 
 **Time span:** 1986–2026 (median year 2013)
-**Dominant aspects:** Method (1222), Surveys & Reviews (521), Theory (470)
+**Dominant aspects:** Method (2264), Theory (971), Surveys & Reviews (628)
 
 ---
 
@@ -29,16 +29,16 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Code Quality | 664 | 614 | 3 | +20367% | 92% | 51.2 |
-| Open Source | 173 | 163 | 1 | +16200% | 94% | 13.6 |
-| Developer Tools | 403 | 394 | 3 | +13033% | 98% | 32.8 |
-| Devops | 457 | 433 | 4 | +10725% | 95% | 36.1 |
-| Ai For Se | 373 | 352 | 5 | +6940% | 94% | 29.3 |
-| Software Engineering | 241 | 211 | 3 | +6933% | 88% | 17.6 |
-| Security | 367 | 340 | 14 | +2329% | 93% | 28.3 |
-| Human Factors | 226 | 192 | 19 | +910% | 85% | 16.0 |
-| Software Architecture | 368 | 358 | 0 | — | 97% | 29.8 |
-| Programming Languages | 304 | 277 | 0 | — | 91% | 23.1 |
+| Code Quality | 1102 | 1052 | 3 | +34967% | 96% | 87.7 |
+| Open Source | 275 | 265 | 1 | +26400% | 96% | 22.1 |
+| Developer Tools | 682 | 673 | 3 | +22333% | 99% | 56.1 |
+| Devops | 814 | 790 | 4 | +19650% | 97% | 65.8 |
+| Software Engineering | 470 | 440 | 3 | +14567% | 94% | 36.7 |
+| Ai For Se | 607 | 586 | 5 | +11620% | 96% | 48.8 |
+| Security | 576 | 549 | 14 | +3821% | 95% | 45.8 |
+| Human Factors | 356 | 322 | 19 | +1595% | 90% | 26.8 |
+| Software Architecture | 577 | 567 | 0 | — | 98% | 47.2 |
+| Programming Languages | 562 | 535 | 0 | — | 95% | 44.6 |
 
 ---
 
@@ -47,13 +47,13 @@
 | Cell | Papers |
 |------|--------:|
 | `software-engineering/systems` | 1 |
-| `programming-languages/tooling` | 1 |
-| `open-source/systems` | 2 |
-| `ai-for-se/survey` | 3 |
+| `software-engineering/evaluation` | 1 |
+| `human-factors/tooling` | 2 |
+| `security/tooling` | 2 |
 | `software-architecture/tooling` | 3 |
-| `software-architecture/development` | 4 |
-| `human-factors/systems` | 4 |
-| `security/systems` | 4 |
+| `programming-languages/tooling` | 5 |
+| `open-source/systems` | 6 |
+| `programming-languages/development` | 6 |
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### Code Quality (`code-quality`)
 
-**Corpus size:** 664 papers
+**Corpus size:** 1102 papers
 
 **Recent papers:**
 
@@ -74,7 +74,7 @@
 
 ### DevOps & CI/CD (`devops`)
 
-**Corpus size:** 457 papers
+**Corpus size:** 814 papers
 
 **Recent papers:**
 
@@ -86,7 +86,7 @@
 
 ### Developer Tools (`developer-tools`)
 
-**Corpus size:** 403 papers
+**Corpus size:** 682 papers
 
 **Recent papers:**
 
@@ -98,7 +98,7 @@
 
 ### AI for Software Engineering (`ai-for-se`)
 
-**Corpus size:** 373 papers
+**Corpus size:** 607 papers
 
 **Recent papers:**
 
@@ -110,7 +110,7 @@
 
 ### Software Architecture (`software-architecture`)
 
-**Corpus size:** 368 papers
+**Corpus size:** 577 papers
 
 **Recent papers:**
 
@@ -122,7 +122,7 @@
 
 ### Security & Supply Chain (`security`)
 
-**Corpus size:** 367 papers
+**Corpus size:** 576 papers
 
 **Recent papers:**
 
@@ -134,7 +134,7 @@
 
 ### Programming Languages (`programming-languages`)
 
-**Corpus size:** 304 papers
+**Corpus size:** 562 papers
 
 **Recent papers:**
 
@@ -146,7 +146,7 @@
 
 ### Software Engineering (`software-engineering`)
 
-**Corpus size:** 241 papers
+**Corpus size:** 470 papers
 
 **Recent papers:**
 
@@ -158,7 +158,7 @@
 
 ### Human Factors & DX (`human-factors`)
 
-**Corpus size:** 226 papers
+**Corpus size:** 356 papers
 
 **Recent papers:**
 
@@ -170,7 +170,7 @@
 
 ### Open Source (`open-source`)
 
-**Corpus size:** 173 papers
+**Corpus size:** 275 papers
 
 **Recent papers:**
 
