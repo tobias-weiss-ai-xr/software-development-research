@@ -50622,6 +50622,21 @@ papers:
     failure rates ranging from 11 to 27 percent for test flak
   doi: 10.3389/frai.2026.1776546
   venue: MED
+- title: 'Multi-Sallm: A Multilingual Security Assessment of Generated Code'
+  date: 2025-01
+  url: https://doi.org/10.21203/rs.3.rs-7745381/v1
+  category: human-factors
+  subcategory: survey
+  authors:
+  - Siddiq ML
+  - Ulfat N
+  - Raihan N
+  abstract: '<title>Abstract</title>  <p>As Large Language Models (LLMs) become increasingly
+    integrated into software engineers'' daily workflows, it is critical to ensure
+    the code they generate is not just functionally correct but also secure. While
+    LLMs can boost developer productivity, prior empirical studies '
+  doi: 10.21203/rs.3.rs-7745381/v1
+  venue: PPR
 - title: 'AI4SWEng manifest: Empowering the future of software engineering with advanced
     trustworthy artificial intelligence'
   date: 2025-01
@@ -50696,6 +50711,22 @@ papers:
     traditional coding assistance, offering proactive and autonomou
   doi: 10.20944/preprints202506.0821.v1
   venue: PPR
+- title: 'LEDGE : Leveraging Dependency Graphs for Enhanced Context Aware Documentation
+    Generation'
+  date: 2025-01
+  url: https://doi.org/10.21203/rs.3.rs-6827966/v1
+  category: human-factors
+  subcategory: survey
+  authors:
+  - Panchal M
+  - Deo A
+  - Prabhu V
+  abstract: <title>Abstract</title>  <p>In software engineering, effective documentation
+    is crucial for understanding complex codebases, yet it often remains incomplete
+    or outdated, hindering developer productivity. This paper introduces LEDGE (Leveraging
+    Dependency Graphs for Enhanced Context Aware Documentati
+  doi: 10.21203/rs.3.rs-6827966/v1
+  venue: PPR
 - title: Software bug report dataset from Eclipse projects.
   date: 2025-01
   url: https://doi.org/10.1016/j.dib.2025.112016
@@ -50727,6 +50758,20 @@ papers:
     pressing questions that engineering organizations are facing on '
   doi: 10.31234/osf.io/2gej5_v2
   venue: PPR
+- title: 'Autonomous AI and Agentic Testing Agents: A Multi-Agent Architecture for
+    Self-Directed Software Quality Assurance'
+  date: 2026-01
+  url: https://doi.org/10.21203/rs.3.rs-10220882/v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Gajjar U
+  abstract: <title>Abstract</title>  <p>Software testing has historically depended
+    on scripted automation and human-crafted test oracles, both of which struggle
+    to keep pace with continuously evolving user interfaces, microservice topologies,
+    and release cadences. This paper presents an architecture and workflo
+  doi: 10.21203/rs.3.rs-10220882/v1
+  venue: PPR
 - title: Development and feasibility assessment of an in-house gravimetric control
     system for quality assurance of antineoplastic compounding.
   date: 2026-01
@@ -50743,6 +50788,20 @@ papers:
     settings.ObjectivesTo develop, and preliminarily assess '
   doi: 10.1177/10781552261470007
   venue: MED
+- title: 'AI Quality Ops Platform: A Unified, Containerised Ecosystem for Continuous
+    AI Quality Assurance'
+  date: 2026-01
+  url: https://doi.org/10.21203/rs.3.rs-10002757/v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Kalluraya A
+  abstract: '<title>Abstract</title>  <p>The rapid deployment of large language models
+    (LLMs) and agentic AI systems has created an urgent demand for continuous, multi‑dimensional
+    quality assurance that goes far beyond traditional software testing. Today''s
+    quality tools address only isolated aspects---accuracy, '
+  doi: 10.21203/rs.3.rs-10002757/v1
+  venue: PPR
 - title: A python framework for single-image characterization of X-ray focal spot
     distribution and detector point spread function.
   date: 2026-01
@@ -50775,6 +50834,19 @@ papers:
     clinical scenarios. Sixteen gross tumour volumes (GTVs) were contoured '
   doi: 10.1007/s13246-026-01765-9
   venue: MED
+- title: CrisisConnect
+  date: 2026-01
+  url: https://doi.org/10.21203/rs.3.rs-9634199/v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Baranwal Sk
+  abstract: <title>Abstract</title>  <p>The increasing frequency of natural and manmade
+    disasters has exposed significant weaknesses in traditional emergency communication
+    and coordination systems. Existing disaster response platforms are often fragmented,
+    lack real-time connectivity, and fail to support coordi
+  doi: 10.21203/rs.3.rs-9634199/v1
+  venue: PPR
 - title: Automated Analysis for MR Coil QA.
   date: 2026-01
   url: https://doi.org/10.1002/acm2.70624
@@ -50838,6 +50910,21 @@ papers:
     and to analyze the statistically mediating role of physical s
   doi: 10.1038/s41598-026-58957-2
   venue: MED
+- title: Intelligent and Secure Automation of CI/CD Pipelines for Cloud Infrastructures
+  date: 2026-01
+  url: https://doi.org/10.21203/rs.3.rs-9260975/v1
+  category: devops
+  subcategory: tooling
+  authors:
+  - Borghol R
+  - Zoglami R
+  - Sarraj H
+  abstract: <title>Abstract</title>  <p>The paradigm shift towards cloud-native applications
+    and microservices architectures has introduced significant complexities in software
+    deployment and management. Traditional manual deployment processes are inadequate,
+    being error-prone, slow, and insecure. This paper pr
+  doi: 10.21203/rs.3.rs-9260975/v1
+  venue: PPR
 - title: Economic Evaluation of Artificial Intelligence-Driven Software Testing in
     Modern IT Enterprises
   date: 2026-01
@@ -50989,6 +51076,20 @@ papers:
     literature review aims to consolidate existing research '
   doi: 10.20944/preprints202605.1638.v1
   venue: PPR
+- title: 'Agentic AI for Code Quality: A Four-Agent Machine Learning System for Repository
+    Refactoring, Public RAG, Groq Reasoning, and Reinforcement Learning'
+  date: 2026-01
+  url: https://doi.org/10.21203/rs.3.rs-10348169/v1
+  category: ai-for-se
+  subcategory: tooling
+  authors:
+  - Tejs AP
+  abstract: <title>Abstract</title>  <p>  <bold>Background:</bold>  Software repositories
+    continuously accumulate technical debt in the form of code smells, duplicated
+    logic, high complexity, and poor maintainability. Although static analysis tools
+    can identify these issues, they typically stop at diagnosis and
+  doi: 10.21203/rs.3.rs-10348169/v1
+  venue: PPR
 - title: Relationships Between Trust, Compliance, and Performance for Novice Programmers
     Using AI Code Generation.
   date: 2026-01
@@ -51005,6 +51106,22 @@ papers:
     rapid upheaval due to state-of-the-art AIDEs, '
   doi: 10.1177/00187208261467254
   venue: MED
+- title: 'From Prompt to Production: A Case Study of Human-AI Collaborative Software
+    Development Using Claude Code Multi-Agent Orchestration'
+  date: 2026-01
+  url: https://doi.org/10.21203/rs.3.rs-10253296/v1
+  category: ai-for-se
+  subcategory: tooling
+  authors:
+  - Thuong PT
+  - Quang ND
+  - Phuong NTL
+  abstract: <title>Abstract</title>  <p>The emergence of advanced AI coding assistants
+    with multi-agent orchestration capabilities has fundamentally transformed the
+    software development landscape. However, the practical methodology for effective
+    human-AI collaboration in building production-grade, full-stack so
+  doi: 10.21203/rs.3.rs-10253296/v1
+  venue: PPR
 - title: 'Editorial: Advancing AI-driven code generation and synthesis: challenges,
     metrics, and ethical implications.'
   date: 2026-01
@@ -51017,6 +51134,22 @@ papers:
   - Allison DS
   doi: 10.3389/frai.2026.1816684
   venue: MED
+- title: 'AI Skills as Structural Engineering Checking Assistants: A Framework for
+    Conversational, Traceable Code Compliance Using ACI 318-25 and ASCE 7-22'
+  date: 2026-01
+  url: https://doi.org/10.21203/rs.3.rs-10009671/v1
+  category: ai-for-se
+  subcategory: tooling
+  authors:
+  - Mohamed RR
+  - Anand R
+  - Sonani JM
+  abstract: '<title>Abstract</title>  <p>The integration of artificial intelligence
+    into structural engineering practice has predominantly followed two trajectories:
+    autonomous design generation and building information modeling integrated compliance
+    checking. However, both share fundamental limitations. They po'
+  doi: 10.21203/rs.3.rs-10009671/v1
+  venue: PPR
 - title: A Comparative Analysis of Cryptographic vs. Heuristic Session Anchors for
     AI Commit Provenance in Distributed Version Control Systems
   date: 2026-01
@@ -70090,6 +70223,17 @@ papers:
     its utility through the recognition of steroid-like compounds in untargeted gas
     chromatography-mass spectrometry analysis of biological samples.
   venue: Journal of the American Society for Mass Spectrometry
+- title: Benchmarking gate-based quantum computers via certification of qubit von
+    Neumann measurements
+  date: 2025-11
+  url: https://doi.org/10.21203/rs.3.rs-7095567/v1
+  category: developer-tools
+  subcategory: evaluation
+  authors:
+  - Paulina Lewandowska
+  - Martin Beseda
+  abstract: ''
+  venue: Research Square
 - title: Exploring proteins and protein–ligand complexes through residue interaction
     networks
   date: 2026-03
@@ -75564,6 +75708,16 @@ papers:
     to traditional and baseline automated refactoring tools. Our work charts a course
     toward more intelligent, secure, and transparent software maintenance paradigms
   venue: ''
+- title: Software Architecture and Automation Patterns for Large-Scale Server Rack
+    Validation
+  date: 2026-05
+  url: https://doi.org/10.21203/rs.3.rs-9581829/v1
+  category: software-architecture
+  subcategory: systems
+  authors:
+  - Gopi mahesh Vatram
+  abstract: ''
+  venue: Research Square
 - title: 'VibeLayer Development: An Architectural Pattern for Long-Running Autonomous
     Software Development'
   date: 2025-11
@@ -75641,6 +75795,18 @@ papers:
     framework for subsequent research and advancement in software engineering.
   venue: Scientific and technical journal of information technologies mechanics and
     optics
+- title: 'Software Patterns for the 21st Century: From Monolithic Designs to AI-Driven
+    Architectures'
+  date: 2025-08
+  url: https://doi.org/10.21203/rs.3.rs-7437898/v1
+  category: software-architecture
+  subcategory: systems
+  authors:
+  - Rahmon Ariyo Badru
+  - Akeem Olamide Arikeuyo
+  - Idowu Olugbenga Adewumi
+  abstract: ''
+  venue: Research Square
 - title: Dark Patterns in Software Engineering An Empirical Study of Behavioral Manipulation
     at the Architectural Level
   date: 2026-04
@@ -82069,6 +82235,18 @@ papers:
     type of distributed system should be flexible, resilient, and efficient to sustain
     the quality of the software at scale.
   venue: International Journal of Data Science and IoT Management System
+- title: 'Data Challenges in AI Systems and their Solutions: A Requirements and AI
+    Engineering Systematic Literature Review and Comparison'
+  date: 2025-11
+  url: https://doi.org/10.21203/rs.3.rs-8077403/v1
+  category: ai-for-se
+  subcategory: evaluation
+  authors:
+  - Peng Yi
+  - Hans-Martin Heyn
+  - Jennifer Horkoff
+  abstract: ''
+  venue: Research Square
 - title: 'Unlocking the Potential of the Prompt Engineering Paradigm in Software Engineering:
     A Systematic Literature Review'
   date: 2025-08
@@ -83791,6 +83969,18 @@ papers:
     demonstrate that RE-APR significantly outperforms current state-of-the-art (SOTA)
     baselines in terms of repair accuracy.
   venue: ''
+- title: 'StructFix: A Structure-Aware Reasoning Framework for Automated Program Repair
+    with Code Property Graphs'
+  date: 2026-07
+  url: https://doi.org/10.21203/rs.3.rs-10222746/v1
+  category: ai-for-se
+  subcategory: method
+  authors:
+  - Mengtian Cui
+  - Ying Liu
+  - Zhibo Lu
+  abstract: ''
+  venue: Research Square
 - title: 'FlowRepair: Search-based automated program repair of CPS controllers modeled
     in Simulink-Stateflow'
   date: 2026-01
@@ -86596,6 +86786,17 @@ papers:
     rate of 57.4% in vulnerability detection tasks, demonstrating its practical applicability
     in real-world vulnerability detection.
   venue: Applied Sciences
+- title: Machine Learning Approaches for Vulnerability Detection in Smart Contracts
+  date: 2025-10
+  url: https://doi.org/10.21203/rs.3.rs-6691317/v1
+  category: security
+  subcategory: method
+  authors:
+  - Christopher De Baets
+  - Basem Suleiman
+  - Armin Chitizadeh
+  abstract: ''
+  venue: Research Square
 - title: Explainable DNN for smart contract vulnerability detection in the Metaverse
   date: 2025-11
   url: https://doi.org/10.1016/j.hcc.2025.100374
@@ -86856,6 +87057,18 @@ papers:
   - Nguyen Tan Cam
   abstract: ''
   venue: Future Generation Computer Systems
+- title: 'Data and Context Matter: Towards Generalizing AI-based Software Vulnerability
+    Detection'
+  date: 2025-12
+  url: https://doi.org/10.21203/rs.3.rs-7821055/v1
+  category: security
+  subcategory: development
+  authors:
+  - Rijha Safdar
+  - Danyail Mateen
+  - Syed Taha Ali
+  abstract: ''
+  venue: Research Square
 - title: Contract-Graph Fusion and Cross-Graph Matching for Smart-Contract Vulnerability
     Detection
   date: 2025-10
@@ -95835,6 +96048,17 @@ papers:
   - Static-Analysis-study
   abstract: 'Full Changelog: https://github.com/Static-Analysis-study/home/compare/v1.0.0...v1.0.1'
   venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Static DNA-Methylation Burden Discriminates Hematologic-Malignancy Subtypes
+    but Does Not License Per-Patient Trajectory Inference: A Public-Cohort Analysis
+    and an Identifiability Framework'
+  date: 2026-07
+  url: https://doi.org/10.21203/rs.3.rs-10397076/v1
+  category: code-quality
+  subcategory: method
+  authors:
+  - Frederic Scheer
+  abstract: ''
+  venue: Research Square
 - title: 'R Code for Regional Analysis: Integrated GTFS-Static and Realtime Public
     Transit Data Visualization 地域分析のためのRコード: GTFS静的・リアルタイム公共交通データの統合的可視化(都営バス、知多市「あいあいバス」、広島電鉄バスを例に)'
   date: 2026-05
@@ -103849,6 +104073,17 @@ papers:
     addressing three pillars: people (third-party developers), processes (developer
     onboarding and participation), and technology (SECO portals).'
   venue: ''
+- title: 'VQD-CTS Prediction Model: An AI-Driven Framework for Predicting Cost-to-Serve
+    Using Engineering Velocity, Quality, and Developer Experience'
+  date: 2026-08
+  url: https://doi.org/10.21203/rs.3.rs-10637566/v1
+  category: human-factors
+  subcategory: method
+  authors:
+  - Basavaraj Chunchure
+  - Mantesh Patil
+  abstract: ''
+  venue: Research Square
 - title: 'Server-Side Rendering (SSR) vs Client-Side Rendering (CSR) in React/Next.js:
     A Comparative Study on Performance, SEO, and Developer Experience'
   date: 2026-04
@@ -108920,6 +109155,17 @@ papers:
   - Mohammed Abubaker
   abstract: ''
   venue: Engineering Applications of Artificial Intelligence
+- title: 'Quantum Sentinel Framework: Machine Learning-Based Detection and Mitigation
+    of Quantum-Vulnerable Cryptography'
+  date: 2026-02
+  url: https://doi.org/10.21203/rs.3.rs-8777424/v1
+  category: security
+  subcategory: method
+  authors:
+  - Sultan Mesfer Aldossary
+  - Manjur Kolhar
+  abstract: ''
+  venue: Research Square
 - title: Community-based vulnerability prediction framework for IoT intrusion detection
     using only network topology
   date: 2026-03
@@ -119378,6 +119624,18 @@ papers:
     developing three architecture‐based systems. Selecting a system architecture is
     correlated and one of project management's success factors.
   venue: Journal of Software Evolution and Process
+- title: 'Multimodal Data Synchronization: A High-Level Software Methodology for Heterogeneous
+    Devices'
+  date: 2026-03
+  url: https://doi.org/10.21203/rs.3.rs-9008593/v1
+  category: software-engineering
+  subcategory: method
+  authors:
+  - Damiano Fruet
+  - Stefano Cimignolo
+  - Giandomenico Nollo
+  abstract: ''
+  venue: Research Square
 - title: Progress and new challenges in image-based profiling
   date: 2026-03
   url: https://doi.org/10.1038/s44320-026-00197-7
@@ -123262,6 +123520,18 @@ papers:
     and national regulatory requirements is provided as a reference for application
     developers, privacy auditors, and regulators.
   venue: 'IDEALIS : InDonEsiA journaL Information System'
+- title: Static Analysis-Guided Patch Synthesis for Correcting LLM-Generated Insecure
+    Code
+  date: 2026-03
+  url: https://doi.org/10.21203/rs.3.rs-8992030/v1
+  category: code-quality
+  subcategory: tooling
+  authors:
+  - Miriam Koch
+  - Daniel Weber
+  - Lukas Schneider
+  abstract: ''
+  venue: Research Square
 - title: 'Improving the Accuracy of Nonlinear Static Analysis for Soft-Story Frames:
     Optimization Approach'
   date: 2026-04
@@ -123561,6 +123831,17 @@ papers:
     that semantics-guided analysis provides a robust and scalable foundation for control
     flow reconstruction in metadata-deficient firmware.'
   venue: Proceedings of the ACM on software engineering.
+- title: Longitudinal Effects of Automated Static Analysis Adoption on GitHub Open
+    Source Workflow Dynamics
+  date: 2026-05
+  url: https://doi.org/10.21203/rs.3.rs-9620511/v1
+  category: code-quality
+  subcategory: theory
+  authors:
+  - Mazen Al-Asali
+  - Mohammad El-Ramly
+  abstract: ''
+  venue: Research Square
 - title: 'Static Analysis-based Android Malware Detection (2021–2026): A Systematic
     Survey and Taxonomy'
   date: 2026-06
@@ -124147,6 +124428,18 @@ papers:
   - Yong Gyu Kim
   abstract: ''
   venue: Information and Software Technology
+- title: 'Bias and Fairness in Code Review Systems: A Systematic Review and a Multidimensional
+    AI Framework for Detection and Mitigation'
+  date: 2026-05
+  url: https://doi.org/10.21203/rs.3.rs-9771379/v1
+  category: code-quality
+  subcategory: method
+  authors:
+  - Isah Muhammad Alhassan
+  - Shamsu Sabo
+  - Abubakar Muhammad Umaru
+  abstract: ''
+  venue: Research Square
 - title: AI-Based Code Review and Pull-Request Assistant System with IDE Integration
   date: 2026-06
   url: https://doi.org/10.64523/ijett.13.1.2026.009
@@ -127443,6 +127736,16 @@ papers:
     findings highlight the need for further research on CGM implementation in the
     hospital setting.'
   venue: UNC Libraries
+- title: 'Lyapunov Integrability Test (LIT): a numerical framework for exploring integrability
+    in continuous dynamical systems'
+  date: 2026-07
+  url: https://doi.org/10.21203/rs.3.rs-10244436/v1
+  category: devops
+  subcategory: method
+  authors:
+  - Wojciech Szumiński
+  abstract: ''
+  venue: Research Square
 - title: String-Powered Microfluidic Chip Integrating Heparin-Mediated One-Pot RT-RPA/CRISPR-Cas12a
     for Multiplex Detection of HFMD Viruses
   date: 2026-05
@@ -146442,6 +146745,16 @@ papers:
   - 廖继康
   abstract: ''
   venue: Lecture notes in computer science
+- title: 'GMVD: Smart Contract Vulnerability Detection Based on GAT-Mamba Framework'
+  date: 2026-03
+  url: https://doi.org/10.21203/rs.3.rs-8968309/v1
+  category: security
+  subcategory: method
+  authors:
+  - Mingyan Liu
+  - Changli Zhang
+  abstract: ''
+  venue: Research Square
 - title: Bytecode-Level Ensemble Framework for V8 Vulnerability Detection in Regression
     Tests
   date: 2026-04
@@ -147589,6 +147902,17 @@ papers:
     bug triaging significantly improves assignment accuracy and decreases the manual
     workload, as evidenced by tests conducted on real-world open-source datasets.
   venue: JDEBM
+- title: 'GREAC: An Open-source software for Genome Region Extraction and Classification'
+  date: 2026-07
+  url: https://doi.org/10.21203/rs.3.rs-10241989/v1
+  category: open-source
+  subcategory: development
+  authors:
+  - Felipe Bueno de Souza
+  - Matheus Henrique Pimenta-Zanon
+  - Dora Henriques
+  abstract: ''
+  venue: Research Square
 - title: 'Biomedical open source software: Crucial packages and hidden heroes'
   date: 2026-05
   url: https://doi.org/10.1371/journal.pcbi.1014260
@@ -150777,6 +151101,18 @@ papers:
     and offer guidance for educators aiming to integrate AI tools while maintaining
     pedagogical rigor.
   venue: Computers
+- title: 'REMoH: A Reflective Evolution of Multi-objective Heuristics approach via
+    Large Language Models'
+  date: 2026-03
+  url: https://doi.org/10.21203/rs.3.rs-8837965/v1
+  category: programming-languages
+  subcategory: method
+  authors:
+  - Diego Forniés-Tabuenca
+  - Alejandro Uribe
+  - Urtzi Otamendi
+  abstract: ''
+  venue: Research Square
 - title: 'Kasteran* — WebAssembly: Design, Capabilities, and Performance — Compiler,
     Programming Languages, Type Theory, Sovereign AI, and Post-Cloud Architecture
     (Kasteran)'
@@ -151324,6 +151660,18 @@ papers:
     not as clinical tools but as relational collaborators in high-stakes, community-led
     care.'
   venue: ''
+- title: 'Artificial Intelligence Integration in U.S. Healthcare Professional Degree
+    Programs: A Rapid Scoping Review'
+  date: 2026-06
+  url: https://doi.org/10.21203/rs.3.rs-9819693/v1
+  category: programming-languages
+  subcategory: survey
+  authors:
+  - Reza Taheri
+  - Max Foroughi
+  - Keykavous Parang
+  abstract: ''
+  venue: Research Square
 - title: Design and Development of an Android-Based Application for Receiving and
     Tracking Menu Orders in a Café
   date: 2026-05

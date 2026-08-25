@@ -7,12 +7,15 @@ tools/triage_corpus.py (single source of truth — no duplicated regex), plus an
 explicit keep-list for the few SE-relevant exceptions.
 
   REMOVED (objective, no content judgment):
-    - Research Square preprints (10.21203) — non-peer-reviewed platform
     - entries from known predatory / non-peer-reviewed venues
   REMOVED (human-reviewed): triage 'off-topic' entries, minus keep-list
 
+  EXCLUDED BY POLICY (accepted sources, never removed):
+    - Research Square preprints (10.21203) — corpus maintainer decision
+    - HAL entries (legitimate national repository, incl.
+      INRIA/CentraleSupélec)
+
   KEPT intentionally (reviewed exceptions):
-    - HAL entries (legitimate national repository, incl. INRIA/CentraleSupélec)
     - Galene (SE toolkit, IEEE APSEC), MSTI-3 (auto codegen, IEEE SmallSat),
       LEISA (microservices, arXiv), Qlik data-versioning (data engineering)
 
@@ -83,8 +86,6 @@ def reason_for(paper) -> str | None:
         return "SEO-spam title (exam dump / fake review)"
 
     flags = {fid: detail for fid, _, detail in triage.flags_for(paper)}
-    if "vanity-platform" in flags and "10.21203" in url:
-        return "non-peer-reviewed preprint platform (Research Square)"
     if "junk-venue" in flags:
         return "predatory / non-peer-reviewed venue"
     if "off-topic" in flags:

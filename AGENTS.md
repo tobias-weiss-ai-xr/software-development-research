@@ -71,7 +71,9 @@ docs/index.html               ← GitHub Pages paper browser (reads docs/papers.
 - **"What are the research gaps?"** → `python3 tools/landscape_analyzer.py`
 - **"Triage corpus quality"** → `python3 tools/triage_corpus.py` (read-only report
   of vanity-platforms / no-abstract junk / off-topic entries; nothing is
-  deleted — review `docs/research/corpus_triage.md` and decide)
+  deleted — review `docs/research/corpus_triage.md` and decide). Policy:
+  **Research Square (10.21203) and HAL are ACCEPTED sources** — do not flag,
+  remove, or “verify” them; they stay in the corpus by maintainer decision.
 - **"Curation history"** → `docs/research/removed_entries.yaml` logs every
   entry removed by `tools/remove_audited_noise.py` (one-shot, refuses to rerun
   after `.removal_applied`; reversibility via git)

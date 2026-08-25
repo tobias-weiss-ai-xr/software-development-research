@@ -1,55 +1,4 @@
 - date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Multi-Sallm: A Multilingual Security Assessment of Generated Code'
-  url: https://doi.org/10.21203/rs.3.rs-7745381/v1
-  date: 2025-01
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'LEDGE : Leveraging Dependency Graphs for Enhanced Context Aware Documentation
-    Generation'
-  url: https://doi.org/10.21203/rs.3.rs-6827966/v1
-  date: 2025-01
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Autonomous AI and Agentic Testing Agents: A Multi-Agent Architecture for
-    Self-Directed Software Quality Assurance'
-  url: https://doi.org/10.21203/rs.3.rs-10220882/v1
-  date: 2026-01
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'AI Quality Ops Platform: A Unified, Containerised Ecosystem for Continuous
-    AI Quality Assurance'
-  url: https://doi.org/10.21203/rs.3.rs-10002757/v1
-  date: 2026-01
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: CrisisConnect
-  url: https://doi.org/10.21203/rs.3.rs-9634199/v1
-  date: 2026-01
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: Intelligent and Secure Automation of CI/CD Pipelines for Cloud Infrastructures
-  url: https://doi.org/10.21203/rs.3.rs-9260975/v1
-  date: 2026-01
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Agentic AI for Code Quality: A Four-Agent Machine Learning System for Repository
-    Refactoring, Public RAG, Groq Reasoning, and Reinforcement Learning'
-  url: https://doi.org/10.21203/rs.3.rs-10348169/v1
-  date: 2026-01
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'From Prompt to Production: A Case Study of Human-AI Collaborative Software
-    Development Using Claude Code Multi-Agent Orchestration'
-  url: https://doi.org/10.21203/rs.3.rs-10253296/v1
-  date: 2026-01
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'AI Skills as Structural Engineering Checking Assistants: A Framework for
-    Conversational, Traceable Code Compliance Using ACI 318-25 and ASCE 7-22'
-  url: https://doi.org/10.21203/rs.3.rs-10009671/v1
-  date: 2026-01
-- date_removed: '2026-08-25'
   reason: out-of-domain for software-development corpus ('Aquatic' in title/abstract
     (foreign domain))
   title: 'Evolution and Vulnerability of the Global Ready-to-Eat Aquatic Products
@@ -192,35 +141,11 @@
   url: https://doi.org/10.1093/ve/veaf095
   date: 2025-12
 - date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: Benchmarking gate-based quantum computers via certification of qubit von
-    Neumann measurements
-  url: https://doi.org/10.21203/rs.3.rs-7095567/v1
-  date: 2025-11
-- date_removed: '2026-08-25'
   reason: out-of-domain for software-development corpus ('irrigation' in title/abstract
     (foreign domain))
   title: AgriMicro—A Microservices-Based Platform for Optimization of Farm Decisions
   url: https://doi.org/10.3390/agriengineering7090299
   date: 2025-09
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: Software Architecture and Automation Patterns for Large-Scale Server Rack
-    Validation
-  url: https://doi.org/10.21203/rs.3.rs-9581829/v1
-  date: 2026-05
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Software Patterns for the 21st Century: From Monolithic Designs to AI-Driven
-    Architectures'
-  url: https://doi.org/10.21203/rs.3.rs-7437898/v1
-  date: 2025-08
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Data Challenges in AI Systems and their Solutions: A Requirements and AI
-    Engineering Systematic Literature Review and Comparison'
-  url: https://doi.org/10.21203/rs.3.rs-8077403/v1
-  date: 2025-11
 - date_removed: '2026-08-25'
   reason: out-of-domain for software-development corpus ('livestock' in title/abstract
     (foreign domain))
@@ -228,23 +153,6 @@
     and future prospects'
   url: https://doi.org/10.1093/af/vfaf050
   date: 2025-10
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'StructFix: A Structure-Aware Reasoning Framework for Automated Program Repair
-    with Code Property Graphs'
-  url: https://doi.org/10.21203/rs.3.rs-10222746/v1
-  date: 2026-07
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: Machine Learning Approaches for Vulnerability Detection in Smart Contracts
-  url: https://doi.org/10.21203/rs.3.rs-6691317/v1
-  date: 2025-10
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Data and Context Matter: Towards Generalizing AI-based Software Vulnerability
-    Detection'
-  url: https://doi.org/10.21203/rs.3.rs-7821055/v1
-  date: 2025-12
 - date_removed: '2026-08-25'
   reason: out-of-domain for software-development corpus ('genomic' in title/abstract
     (foreign domain))
@@ -283,13 +191,6 @@
     PMs'
   url: https://doi.org/10.55277/researchhub.kdgeljqt.1
   date: 2026-04
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Static DNA-Methylation Burden Discriminates Hematologic-Malignancy Subtypes
-    but Does Not License Per-Patient Trajectory Inference: A Public-Cohort Analysis
-    and an Identifiability Framework'
-  url: https://doi.org/10.21203/rs.3.rs-10397076/v1
-  date: 2026-07
 - date_removed: '2026-08-25'
   reason: SEO-spam title (exam dump / fake review)
   title: Best AWS Devops Course in PUNE
@@ -334,12 +235,6 @@
   title: 'Crowe Logic Pharma: a biomedical knowledge-graph discovery pipeline'
   url: https://doi.org/10.5281/zenodo.20724459
   date: 2026-06
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'VQD-CTS Prediction Model: An AI-Driven Framework for Predicting Cost-to-Serve
-    Using Engineering Velocity, Quality, and Developer Experience'
-  url: https://doi.org/10.21203/rs.3.rs-10637566/v1
-  date: 2026-08
 - date_removed: '2026-08-25'
   reason: out-of-domain for software-development corpus ('microbiome' in title/abstract
     (foreign domain))
@@ -410,12 +305,6 @@
   url: https://doi.org/10.55041/ijcope.v2i5.879
   date: 2026-05
 - date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Quantum Sentinel Framework: Machine Learning-Based Detection and Mitigation
-    of Quantum-Vulnerable Cryptography'
-  url: https://doi.org/10.21203/rs.3.rs-8777424/v1
-  date: 2026-02
-- date_removed: '2026-08-25'
   reason: predatory / non-peer-reviewed venue
   title: Static Code Analysis Framework for Automated Security Vulnerability Detection
   url: https://doi.org/10.55041/ijcope.v2i8.112
@@ -440,12 +329,6 @@
   url: https://doi.org/10.55041/ijcope.v2i6.084
   date: 2026-06
 - date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Multimodal Data Synchronization: A High-Level Software Methodology for Heterogeneous
-    Devices'
-  url: https://doi.org/10.21203/rs.3.rs-9008593/v1
-  date: 2026-03
-- date_removed: '2026-08-25'
   reason: out-of-domain for software-development corpus ('veterinary' in title/abstract
     (foreign domain))
   title: Development of software for the automation of pedigree accounting in cattle
@@ -459,18 +342,6 @@
     for AI-Assisted Software Development'
   url: https://doi.org/10.5281/zenodo.19323404
   date: 2026-03
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: Static Analysis-Guided Patch Synthesis for Correcting LLM-Generated Insecure
-    Code
-  url: https://doi.org/10.21203/rs.3.rs-8992030/v1
-  date: 2026-03
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: Longitudinal Effects of Automated Static Analysis Adoption on GitHub Open
-    Source Workflow Dynamics
-  url: https://doi.org/10.21203/rs.3.rs-9620511/v1
-  date: 2026-05
 - date_removed: '2026-08-25'
   reason: SEO-spam content farm (researchhub exam-dumps / scam reviews)
   title: Ancestral Abundance Code (( Be Careful ! )) Ancestral Abundance Code Review
@@ -498,12 +369,6 @@
   url: https://doi.org/10.55277/researchhub.11xepkj8
   date: 2026-03
 - date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Bias and Fairness in Code Review Systems: A Systematic Review and a Multidimensional
-    AI Framework for Detection and Mitigation'
-  url: https://doi.org/10.21203/rs.3.rs-9771379/v1
-  date: 2026-05
-- date_removed: '2026-08-25'
   reason: SEO-spam content farm (researchhub exam-dumps / scam reviews)
   title: '~$^)@+.Wealth Rhythm Code ReviEws (2026): We Tried It—My Honest Review!!&'
   url: https://doi.org/10.55277/researchhub.keuyy8yt
@@ -530,12 +395,6 @@
   title: Towards resource-efficient washing within the continuous vacuum screw filter
   url: https://doi.org/10.1016/j.seppur.2026.139106
   date: 2026-06
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Lyapunov Integrability Test (LIT): a numerical framework for exploring integrability
-    in continuous dynamical systems'
-  url: https://doi.org/10.21203/rs.3.rs-10244436/v1
-  date: 2026-07
 - date_removed: '2026-08-25'
   reason: SEO-spam content farm (researchhub exam-dumps / scam reviews)
   title: Design Scalable Releases with Salesforce DevOps Architect Prep
@@ -663,20 +522,10 @@
   url: https://doi.org/10.55041/ijcope.v2i3.251
   date: 2026-03
 - date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'GMVD: Smart Contract Vulnerability Detection Based on GAT-Mamba Framework'
-  url: https://doi.org/10.21203/rs.3.rs-8968309/v1
-  date: 2026-03
-- date_removed: '2026-08-25'
   reason: predatory / non-peer-reviewed venue
   title: The Role of Open-Source Software in Modern Application Development
   url: https://doi.org/10.55041/ijcope.v2i4.629
   date: 2026-04
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'GREAC: An Open-source software for Genome Region Extraction and Classification'
-  url: https://doi.org/10.21203/rs.3.rs-10241989/v1
-  date: 2026-07
 - date_removed: '2026-08-25'
   reason: out-of-domain for software-development corpus ('genomic' in title/abstract
     (foreign domain))
@@ -684,18 +533,6 @@
     Based on Whole-Genome Sequencing
   url: https://doi.org/10.3390/jof12080579
   date: 2026-08
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'REMoH: A Reflective Evolution of Multi-objective Heuristics approach via
-    Large Language Models'
-  url: https://doi.org/10.21203/rs.3.rs-8837965/v1
-  date: 2026-03
-- date_removed: '2026-08-25'
-  reason: non-peer-reviewed preprint platform (Research Square)
-  title: 'Artificial Intelligence Integration in U.S. Healthcare Professional Degree
-    Programs: A Rapid Scoping Review'
-  url: https://doi.org/10.21203/rs.3.rs-9819693/v1
-  date: 2026-06
 - date_removed: '2026-08-25'
   reason: out-of-domain for software-development corpus ('livestock' in title/abstract
     (foreign domain))

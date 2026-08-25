@@ -1,13 +1,13 @@
 # Changelog
 
 ## [Unreleased]
-- **Curation pass (audited):** removed 115 confirmed-pollution entries
-  (6021 → 5906, taxonomy saturation unchanged at 97.5%): Research Square
-  preprints (28), SEO-spam content farms / exam-dumps (23), predatory
-  venues (12), out-of-domain topics incl. agronomy/pharma/bioinformatics (52).
-  Applied via one-shot `tools/remove_audited_noise.py` (idempotency guard +
-  audit log `docs/research/removed_entries.yaml`; reversibility via git).
-  Kept reviewed exceptions (HAL entries, Galene, MSTI-3, LEISA, Qlik).
+- **Policy: Research Square is an accepted source.** Restored the 28 Research
+  Square preprints (10.21203) that the previous audited cleanup had removed
+  (5934 papers overall: 6021 − 87 other removals + 28 restored). The triage
+  tool no longer flags Research Square or HAL as vanity-platform; the contract
+  keeps an advisory (non-blocking) warning for both.
+- **Curation pass (audited):** removed 87 confirmed-pollution entries
+  (6021 → 5934, taxonomy saturation unchanged at 97.5%): SEO-spam content
 - **Performance:** all corpus loads now use the PyYAML C loader via new
   `research_config.load_yaml()` (CSafeLoader with SafeLoader fallback).
   `validate_papers.py` 41s → 5.5s, `standard_stats.py` ~60s → ~5s, and every

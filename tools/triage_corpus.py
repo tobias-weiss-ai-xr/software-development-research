@@ -6,8 +6,9 @@ cleanup step) can review them. Extracts nothing, deletes nothing: output is a
 reviewable markdown report (default) or JSON.
 
 Signals (built to be low-false-positive, flag-only):
-  - vanity-platform : non-peer-reviewed preprint platforms (Research Square,
-    preprints.org, techrxiv, hal.science, zenodo-oi, rgdoi)
+  - vanity-platform : non-peer-reviewed preprint platforms (preprints.org,
+    techrxiv, zenodo-oi, rgdoi). Research Square (10.21203) and HAL are
+    ACCEPTED by policy and are NOT flagged (corpus maintainer decision).
   - no-abstract     : no abstract AND not from arXiv/DBLP (bulk-OpenAlex junk)
   - off-topic       : title/abstract clearly outside the software-development
                       domain (irrigation, climate models, pharma, ...)
@@ -36,8 +37,7 @@ REPO = Path(__file__).resolve().parent.parent
 # --- signals ----------------------------------------------------------------
 
 VANITY_URL = re.compile(
-    r"(researchsquare\.com|10\.21203|rgdoi\.net|preprints\.org|techrxiv\.org|"
-    r"hal\.science|zenodo\.org/doi)",
+    r"(rgdoi\.net|preprints\.org|techrxiv\.org|zenodo\.org/doi)",
     re.IGNORECASE,
 )
 

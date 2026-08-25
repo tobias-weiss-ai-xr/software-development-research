@@ -3,31 +3,31 @@
   {
    "id": "ai-for-se",
    "name": "AI for Software Engineering",
-   "count": 599,
+   "count": 604,
    "trajectory": {
     "2021": 3,
     "2022": 3,
     "2023": 4,
     "2024": 6,
-    "2025": 121,
-    "2026": 462
+    "2025": 122,
+    "2026": 466
    },
    "momentum": {
     "id": "ai-for-se",
     "name": "Ai For Se",
-    "total": 599,
-    "recent": 578,
+    "total": 604,
+    "recent": 583,
     "prior": 5,
-    "growth_pct": 11460.0,
+    "growth_pct": 11560.0,
     "recent_share": 0.965,
-    "papers_per_month": 48.2,
-    "score": 11556.5
+    "papers_per_month": 48.6,
+    "score": 11656.5
    }
   },
   {
    "id": "code-quality",
    "name": "Code Quality",
-   "count": 1085,
+   "count": 1092,
    "trajectory": {
     "2006": 7,
     "2007": 1,
@@ -48,46 +48,46 @@
     "2023": 7,
     "2024": 5,
     "2025": 236,
-    "2026": 802
+    "2026": 809
    },
    "momentum": {
     "id": "code-quality",
     "name": "Code Quality",
-    "total": 1085,
-    "recent": 1035,
+    "total": 1092,
+    "recent": 1042,
     "prior": 3,
-    "growth_pct": 34400.0,
+    "growth_pct": 34633.3,
     "recent_share": 0.954,
-    "papers_per_month": 86.2,
-    "score": 34495.4
+    "papers_per_month": 86.8,
+    "score": 34728.7
    }
   },
   {
    "id": "developer-tools",
    "name": "Developer Tools",
-   "count": 667,
+   "count": 668,
    "trajectory": {
     "2023": 1,
     "2024": 6,
-    "2025": 145,
+    "2025": 146,
     "2026": 515
    },
    "momentum": {
     "id": "developer-tools",
     "name": "Developer Tools",
-    "total": 667,
-    "recent": 658,
+    "total": 668,
+    "recent": 659,
     "prior": 3,
-    "growth_pct": 21833.3,
+    "growth_pct": 21866.7,
     "recent_share": 0.987,
-    "papers_per_month": 54.8,
-    "score": 21932.0
+    "papers_per_month": 54.9,
+    "score": 21965.4
    }
   },
   {
    "id": "devops",
    "name": "DevOps & CI/CD",
-   "count": 792,
+   "count": 794,
    "trajectory": {
     "2007": 1,
     "2015": 1,
@@ -100,24 +100,24 @@
     "2023": 2,
     "2024": 4,
     "2025": 148,
-    "2026": 624
+    "2026": 626
    },
    "momentum": {
     "id": "devops",
     "name": "Devops",
-    "total": 792,
-    "recent": 768,
+    "total": 794,
+    "recent": 770,
     "prior": 4,
-    "growth_pct": 19100.0,
+    "growth_pct": 19150.0,
     "recent_share": 0.97,
-    "papers_per_month": 64.0,
-    "score": 19197.0
+    "papers_per_month": 64.2,
+    "score": 19247.0
    }
   },
   {
    "id": "human-factors",
    "name": "Human Factors & DX",
-   "count": 348,
+   "count": 351,
    "trajectory": {
     "2009": 1,
     "2013": 2,
@@ -126,49 +126,49 @@
     "2019": 3,
     "2023": 6,
     "2024": 1,
-    "2025": 73,
-    "2026": 260
+    "2025": 75,
+    "2026": 261
    },
    "momentum": {
     "id": "human-factors",
     "name": "Human Factors",
-    "total": 348,
-    "recent": 316,
-    "prior": 17,
-    "growth_pct": 1758.8,
-    "recent_share": 0.908,
-    "papers_per_month": 26.3,
-    "score": 1849.6
+    "total": 351,
+    "recent": 317,
+    "prior": 19,
+    "growth_pct": 1568.4,
+    "recent_share": 0.903,
+    "papers_per_month": 26.4,
+    "score": 1658.7
    }
   },
   {
    "id": "open-source",
    "name": "Open Source",
-   "count": 271,
+   "count": 272,
    "trajectory": {
     "2004": 2,
     "2012": 5,
     "2019": 1,
     "2022": 1,
     "2025": 77,
-    "2026": 185
+    "2026": 186
    },
    "momentum": {
     "id": "open-source",
     "name": "Open Source",
-    "total": 271,
-    "recent": 261,
+    "total": 272,
+    "recent": 262,
     "prior": 1,
-    "growth_pct": 26000.0,
+    "growth_pct": 26100.0,
     "recent_share": 0.963,
     "papers_per_month": 21.8,
-    "score": 26096.3
+    "score": 26196.3
    }
   },
   {
    "id": "programming-languages",
    "name": "Programming Languages",
-   "count": 550,
+   "count": 552,
    "trajectory": {
     "1990": 1,
     "1992": 1,
@@ -186,68 +186,68 @@
     "2022": 1,
     "2024": 6,
     "2025": 146,
-    "2026": 377
+    "2026": 379
    },
    "momentum": {
     "id": "programming-languages",
     "name": "Programming Languages",
-    "total": 550,
-    "recent": 523,
+    "total": 552,
+    "recent": 525,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.951,
-    "papers_per_month": 43.6,
+    "papers_per_month": 43.8,
     "score": 95.1
    }
   },
   {
    "id": "security",
    "name": "Security & Supply Chain",
-   "count": 563,
+   "count": 567,
    "trajectory": {
     "2024": 13,
-    "2025": 162,
-    "2026": 388
+    "2025": 164,
+    "2026": 390
    },
    "momentum": {
     "id": "security",
     "name": "Security",
-    "total": 563,
-    "recent": 536,
+    "total": 567,
+    "recent": 540,
     "prior": 14,
-    "growth_pct": 3728.6,
+    "growth_pct": 3757.1,
     "recent_share": 0.952,
-    "papers_per_month": 44.7,
-    "score": 3823.8
+    "papers_per_month": 45.0,
+    "score": 3852.3
    }
   },
   {
    "id": "software-architecture",
    "name": "Software Architecture",
-   "count": 573,
+   "count": 575,
    "trajectory": {
     "2019": 4,
     "2022": 5,
     "2024": 1,
-    "2025": 137,
-    "2026": 426
+    "2025": 138,
+    "2026": 427
    },
    "momentum": {
     "id": "software-architecture",
     "name": "Software Architecture",
-    "total": 573,
-    "recent": 563,
+    "total": 575,
+    "recent": 565,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.983,
-    "papers_per_month": 46.9,
+    "papers_per_month": 47.1,
     "score": 98.3
    }
   },
   {
    "id": "software-engineering",
    "name": "Software Engineering",
-   "count": 458,
+   "count": 459,
    "trajectory": {
     "1986": 1,
     "2000": 1,
@@ -267,18 +267,18 @@
     "2023": 2,
     "2024": 2,
     "2025": 109,
-    "2026": 322
+    "2026": 323
    },
    "momentum": {
     "id": "software-engineering",
     "name": "Software Engineering",
-    "total": 458,
-    "recent": 428,
+    "total": 459,
+    "recent": 429,
     "prior": 3,
-    "growth_pct": 14166.7,
-    "recent_share": 0.934,
-    "papers_per_month": 35.7,
-    "score": 14260.1
+    "growth_pct": 14200.0,
+    "recent_share": 0.935,
+    "papers_per_month": 35.8,
+    "score": 14293.5
    }
   }
  ],
@@ -291,37 +291,37 @@
   {
    "id": "development",
    "name": "Development",
-   "count": 220
+   "count": 222
   },
   {
    "id": "evaluation",
    "name": "Evaluation",
-   "count": 514
+   "count": 519
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 2216
+   "count": 2226
   },
   {
    "id": "survey",
    "name": "Survey",
-   "count": 613
+   "count": 616
   },
   {
    "id": "systems",
    "name": "Systems",
-   "count": 339
+   "count": 341
   },
   {
    "id": "theory",
    "name": "Theory",
-   "count": 958
+   "count": 959
   },
   {
    "id": "tooling",
    "name": "Tooling",
-   "count": 575
+   "count": 580
   }
  ],
  "timeline": [
@@ -1417,6 +1417,16 @@
   ],
   [
    "2025-01",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2025-01",
+   "human-factors",
+   "survey"
+  ],
+  [
+   "2025-01",
    "security",
    "survey"
   ],
@@ -1813,7 +1823,7 @@
   [
    "2025-08",
    "software-architecture",
-   "theory"
+   "systems"
   ],
   [
    "2025-08",
@@ -1832,6 +1842,11 @@
   ],
   [
    "2025-08",
+   "software-architecture",
+   "theory"
+  ],
+  [
+   "2025-08",
    "software-engineering",
    "development"
   ],
@@ -4838,6 +4853,11 @@
   [
    "2025-10",
    "security",
+   "method"
+  ],
+  [
+   "2025-10",
+   "security",
    "survey"
   ],
   [
@@ -5254,6 +5274,11 @@
    "2025-11",
    "ai-for-se",
    "application"
+  ],
+  [
+   "2025-11",
+   "ai-for-se",
+   "evaluation"
   ],
   [
    "2025-11",
@@ -5704,6 +5729,11 @@
    "2025-11",
    "developer-tools",
    "development"
+  ],
+  [
+   "2025-11",
+   "developer-tools",
+   "evaluation"
   ],
   [
    "2025-11",
@@ -7588,6 +7618,11 @@
   [
    "2025-12",
    "security",
+   "development"
+  ],
+  [
+   "2025-12",
+   "security",
    "evaluation"
   ],
   [
@@ -8199,6 +8234,21 @@
    "2026-01",
    "ai-for-se",
    "theory"
+  ],
+  [
+   "2026-01",
+   "ai-for-se",
+   "tooling"
+  ],
+  [
+   "2026-01",
+   "ai-for-se",
+   "tooling"
+  ],
+  [
+   "2026-01",
+   "ai-for-se",
+   "tooling"
   ],
   [
    "2026-01",
@@ -8394,6 +8444,21 @@
    "2026-01",
    "code-quality",
    "development"
+  ],
+  [
+   "2026-01",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-01",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-01",
+   "code-quality",
+   "evaluation"
   ],
   [
    "2026-01",
@@ -9414,6 +9479,11 @@
    "2026-01",
    "devops",
    "theory"
+  ],
+  [
+   "2026-01",
+   "devops",
+   "tooling"
   ],
   [
    "2026-01",
@@ -11734,6 +11804,11 @@
    "2026-02",
    "security",
    "evaluation"
+  ],
+  [
+   "2026-02",
+   "security",
+   "method"
   ],
   [
    "2026-02",
@@ -13054,6 +13129,11 @@
    "2026-03",
    "code-quality",
    "theory"
+  ],
+  [
+   "2026-03",
+   "code-quality",
+   "tooling"
   ],
   [
    "2026-03",
@@ -14569,6 +14649,11 @@
    "2026-03",
    "programming-languages",
    "evaluation"
+  ],
+  [
+   "2026-03",
+   "programming-languages",
+   "method"
   ],
   [
    "2026-03",
@@ -14984,6 +15069,11 @@
    "2026-03",
    "security",
    "evaluation"
+  ],
+  [
+   "2026-03",
+   "security",
+   "method"
   ],
   [
    "2026-03",
@@ -15589,6 +15679,11 @@
    "2026-03",
    "software-engineering",
    "development"
+  ],
+  [
+   "2026-03",
+   "software-engineering",
+   "method"
   ],
   [
    "2026-03",
@@ -20169,6 +20264,11 @@
    "2026-05",
    "code-quality",
    "evaluation"
+  ],
+  [
+   "2026-05",
+   "code-quality",
+   "method"
   ],
   [
    "2026-05",
@@ -20468,6 +20568,11 @@
   [
    "2026-05",
    "code-quality",
+   "theory"
+  ],
+  [
+   "2026-05",
+   "code-quality",
    "tooling"
   ],
   [
@@ -22409,6 +22514,11 @@
    "2026-05",
    "software-architecture",
    "survey"
+  ],
+  [
+   "2026-05",
+   "software-architecture",
+   "systems"
   ],
   [
    "2026-05",
@@ -24479,6 +24589,11 @@
    "2026-06",
    "programming-languages",
    "method"
+  ],
+  [
+   "2026-06",
+   "programming-languages",
+   "survey"
   ],
   [
    "2026-06",
@@ -25609,6 +25724,11 @@
    "2026-07",
    "ai-for-se",
    "evaluation"
+  ],
+  [
+   "2026-07",
+   "ai-for-se",
+   "method"
   ],
   [
    "2026-07",
@@ -26069,6 +26189,11 @@
    "2026-07",
    "code-quality",
    "evaluation"
+  ],
+  [
+   "2026-07",
+   "code-quality",
+   "method"
   ],
   [
    "2026-07",
@@ -26839,6 +26964,11 @@
    "2026-07",
    "devops",
    "evaluation"
+  ],
+  [
+   "2026-07",
+   "devops",
+   "method"
   ],
   [
    "2026-07",
@@ -27264,6 +27394,11 @@
    "2026-07",
    "open-source",
    "application"
+  ],
+  [
+   "2026-07",
+   "open-source",
+   "development"
   ],
   [
    "2026-07",
@@ -29194,6 +29329,11 @@
    "2026-08",
    "human-factors",
    "evaluation"
+  ],
+  [
+   "2026-08",
+   "human-factors",
+   "method"
   ],
   [
    "2026-08",
@@ -29910,19 +30050,19 @@
    "papers": 22
   },
   {
-   "name": "SSRN Electronic Journal",
-   "papers": 19
+   "name": "Research Square",
+   "papers": 20
   },
   {
-   "name": "CoRR",
-   "papers": 18
+   "name": "PPR",
+   "papers": 19
   }
  ],
  "keyword_bursts": [
   {
    "keyword": "software architecture",
-   "recent": 138,
-   "total": 138,
+   "recent": 139,
+   "total": 139,
    "burst_score": 1.04,
    "recent_share": 0.0244
   },
@@ -29935,22 +30075,22 @@
   },
   {
    "keyword": "llm",
-   "recent": 1400,
-   "total": 1412,
+   "recent": 1402,
+   "total": 1415,
    "burst_score": 1.03,
-   "recent_share": 0.2471
+   "recent_share": 0.2463
   },
   {
    "keyword": "large language model",
-   "recent": 1004,
-   "total": 1013,
+   "recent": 1006,
+   "total": 1016,
    "burst_score": 1.03,
-   "recent_share": 0.1772
+   "recent_share": 0.1767
   },
   {
    "keyword": "code review",
-   "recent": 247,
-   "total": 251,
+   "recent": 248,
+   "total": 252,
    "burst_score": 1.03,
    "recent_share": 0.0436
   },
@@ -29959,26 +30099,26 @@
    "recent": 383,
    "total": 393,
    "burst_score": 1.02,
-   "recent_share": 0.0676
+   "recent_share": 0.0673
   },
   {
    "keyword": "static analysis",
-   "recent": 341,
-   "total": 350,
+   "recent": 344,
+   "total": 353,
    "burst_score": 1.02,
-   "recent_share": 0.0602
+   "recent_share": 0.0604
   },
   {
    "keyword": "security",
    "recent": 938,
-   "total": 967,
+   "total": 968,
    "burst_score": 1.01,
-   "recent_share": 0.1655
+   "recent_share": 0.1648
   },
   {
    "keyword": "microservices",
-   "recent": 238,
-   "total": 247,
+   "recent": 239,
+   "total": 248,
    "burst_score": 1.0,
    "recent_share": 0.042
   },
@@ -29987,12 +30127,12 @@
    "recent": 181,
    "total": 191,
    "burst_score": 0.99,
-   "recent_share": 0.0319
+   "recent_share": 0.0318
   },
   {
    "keyword": "program repair",
-   "recent": 172,
-   "total": 182,
+   "recent": 173,
+   "total": 183,
    "burst_score": 0.99,
    "recent_share": 0.0304
   },
@@ -30001,28 +30141,28 @@
    "recent": 162,
    "total": 170,
    "burst_score": 0.99,
-   "recent_share": 0.0286
+   "recent_share": 0.0285
   },
   {
    "keyword": "devops",
    "recent": 290,
    "total": 307,
    "burst_score": 0.98,
-   "recent_share": 0.0512
+   "recent_share": 0.0509
   },
   {
    "keyword": "open source",
-   "recent": 167,
-   "total": 178,
+   "recent": 168,
+   "total": 179,
    "burst_score": 0.98,
    "recent_share": 0.0295
   },
   {
    "keyword": "developer experience",
-   "recent": 102,
-   "total": 109,
+   "recent": 103,
+   "total": 110,
    "burst_score": 0.98,
-   "recent_share": 0.018
+   "recent_share": 0.0181
   }
  ]
 }

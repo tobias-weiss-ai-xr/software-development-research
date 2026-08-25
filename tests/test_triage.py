@@ -37,8 +37,16 @@ def test_arxiv_no_abstract_is_still_clean():
 
 
 def test_vanity_platform_flagged():
-    fl = triage.flags_for(_paper(url="https://doi.org/10.21203/rs.3.rs-123/v1"))
+    fl = triage.flags_for(
+        _paper(url="https://www.preprints.org/manuscript/202507.1234/v1"))
     assert any(fid == "vanity-platform" for fid, _, _ in fl)
+
+
+def test_research_square_is_accepted_policy():
+    # Research Square is an ACCEPTED source (maintainer decision); a
+    # non-abstract RS entry must NOT be flagged via the vanity signal.
+    fl = triage.flags_for(_paper(url="https://doi.org/10.21203/rs.3.rs-123/v1"))
+    assert not any(fid == "vanity-platform" for fid, _, _ in fl)
 
 
 def test_foreign_domain_flagged():
@@ -69,7 +77,7 @@ def test_venue_list_handled():
 def test_score_and_scan_sorting():
     papers = [
         _paper(),  # clean
-        _paper(url="https://doi.org/10.21203/x"),  # vanity (score 4)
+        _paper(url="https://www.preprints.org/manuscript/202507.99"),  # vanity (4)
         _paper(abstract="", url="https://doi.org/10.1000/x"),  # no-abstract (2)
         _paper(title="Furrow irrigation system", abstract="",
                url="https://doi.org/10.5678/x"),  # off-topic + no-abstract (5)
