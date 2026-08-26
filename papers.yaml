@@ -157408,3 +157408,493 @@ papers:
     and SWE-BENCH PRO across four LLMs, achieving 9-50% reduction in average input
     tokens per task, 15-32% shorter final prompts, and up to 37% fewer reasoning cycles
     while maintaining comparable pass rates.
+- title: 'SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository
+    Stack Migration?'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23564v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Deyao Hong
+  - Yizhe Chi
+  - Wenyi Li
+  - Xiaoqiu Wang
+  - Mingju Gao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Modern software systems accumulate technical debt over decades of development,
+    which makes migration expensive and largely manual. As coding agents become increasingly
+    capable at bug fixing, can they autonomously perform such migrations? Existing
+    benchmarks cannot answer this question because they evaluate only behavioural
+    correctness, not whether the migration actually occurred. This leads an easy hack:
+    agents copy the original implementation to make tests pass. We call this Blindness.
+    To address this problem, we introduce SWE Refactor Bench, a benchmark comprising
+    20 whole-repository migrations, covering 4 kinds of technical debt. A three-stage
+    evaluation protocol measures both migration completeness and behavioural correctness.
+    (1) Migration Audit verifies that the migration occurred. (2) Behavioural Tests
+    measure correctness with a fixed test suite. (3) Agentic Verification uses 6 independent
+    coding agents to generate targeted tests for hidden behavioural differences. Across
+    520 runs from 8 frontier models and 26 model-effort configurations, only 28 of
+    520 runs ($5.4\%$) pass all three stages, 13 of the 20 tasks receive no accepted
+    solution, and the best model (claude-opus-5) scores $47.0/100$. Migration completeness
+    and behavioural correctness are distinct abilities: a few runs preserve behaviour
+    by skipping the migration and are stopped at Migration Audit; most attempt it
+    and break behaviour, and are stopped at Behavioural Tests. Agents cannot deliver
+    a perfect migration: among the 340 runs that pass Migration Audit, $58\%$ reach
+    $99\%$ of the fixed checks, yet only $26\%$ reach $100\%$. Agent capability differs
+    across migration categories: agents score $31.4$ on build toolchain rewrites but
+    only $5.6$ on language rewrites. Together, these findings position SWE Refactor
+    Bench as a rigorous testbed for developing coding agents for reliable whole-repository
+    migrations.'
+- title: 'Do Not Copy/Paste: Soft Barriers for Copying in AI-Assisted Programming'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22638v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Iyiola E. Olatunji
+  - Alberick Euraste Djire
+  - Jacques Klein
+  - Tegawendé F. Bissyandé
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Copying a function from a chat window into an editor takes less than
+    a second. For many uses of AI coding tools, that speed is the point; in settings
+    such as programming education, code review, and security-sensitive development,
+    it can also be the problem. This paper frames copy-paste as an \emph{AI code handoff
+    problem}: the moment model-generated text crosses from a conversational context
+    into executable or committed software is a design boundary that current tools
+    leave largely unmanaged. We argue that AI coding assistants should not only be
+    evaluated by the code they generate, but also by how they mediate the transfer
+    of that code into software artifacts. We propose \emph{soft barriers} as one class
+    of handoff-aware mechanisms. Soft barriers preserve access to AI assistance while
+    making unexamined transfer less frictionless. As an initial technical probe, we
+    instantiate this idea using Unicode output perturbations that preserve visual
+    readability but disrupt naive copy-paste execution. We introduce Copy-Paste Resistance
+    (CPR), the fraction of functionally correct clean solutions that become syntactically
+    invalid after perturbation. Across HumanEval and MBPP with four LLMs and four
+    perturbation families, we find that output-level barriers can achieve high copy-paste
+    resistance, but their effectiveness is highly model- and task-dependent. An exploratory
+    pilot with 18 participants provides early evidence that soft barriers can shift
+    users from direct transfer toward editing and reconstruction. We do not present
+    Unicode perturbations as a deployment-ready solution; rather, we use them as a
+    minimal probe for a broader research agenda on practical, transparent, and policy-aware
+    AI code handoff.'
+- title: 'KONTOGRAPH: Verified Point-in-Time Feature Consistency and Amortised Explanation
+    for Real-Time Anti-Money Laundering under a 200 ms Decision Budget'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22389v1
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Ahmed Abolfadl
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Regulation (EU) 2024/886 obliges European payment service providers to
+    settle euro credit transfers in under ten seconds, around the clock. This removes
+    both the overnight batch window in which anti-money-laundering (AML) analytics
+    traditionally ran and the settlement delay that made recovery possible, forcing
+    detection, explanation and decision inside a single-digit-second envelope. We
+    present KONTOGRAPH, an end-to-end AML pipeline for the SEPA Instant rail built
+    under a self-imposed 200 ms 99th-percentile budget, and report an empirical study
+    on 1,562,860 simulated payments with injected typologies and deliberately incomplete
+    labels. Three findings are of interest beyond the system itself. First, a temporal
+    graph network with per-node memory improves PR-AUC over a gradient-boosted tabular
+    baseline from 0.0053 to 0.1717, a paired day-blocked bootstrap difference of +0.166
+    with 95% CI [0.105, 0.241]; per-node memory alone more than doubles the score.
+    Second, expressing each feature once and compiling it to three execution backends,
+    with equivalence enforced by property-based tests that perturb the future, surfaced
+    three point-in-time violations that code review had passed--each of which would
+    have inflated reported performance. Third, and most consequential for practice,
+    exporting the deployed tree ensemble to ONNX changed only $7.4 \times 10^{-8}$
+    in mean score yet altered 0.26% of decisions and inflated the alert volume by
+    12%, because 32-bit accumulation perturbs scores across a cost-optimal threshold
+    of $3.98 \times 10^{-4}$. We argue that a serving-format conversion must be treated
+    as a model change until measured, and that fidelity metrics for subgraph explainers
+    can be vacuous when candidate neighbourhoods are small--a null result we report
+    in full.
+- title: 'XRFix: Exploring Performance Bug Repair of Extended Reality Applications
+    with Large Language Models'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.21718v1
+  category: code-quality
+  subcategory: tooling
+  authors:
+  - Jingwen Wu
+  - Hanyang Guo
+  - Hong-Ning Dai
+  - Xiapu Luo
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'As an emerging technology, Extended Reality provides end-users with an
+    immersive experience of interacting with virtual and physical environments. Unlike
+    traditional software, the execution of XR applications involves more computationally
+    complex operations, such as 3D scene rendering, real-time animation, and process
+    simulations. Inefficient coding practices during the software development of XR
+    applications may cause various performance bugs, degrading user experience and
+    even causing motion sickness. Thus, it is an urgent need to develop an automated
+    program repair framework for fixing performance bugs in complex XR programs. However,
+    it is non-trivial to achieve this goal due to several technical challenges: (1)
+    a lack of a real-world XR codebase and bug dataset, (2) no accurate bug detection
+    tool, and (3) no effective bug-fixing tool designed for XR performance bugs. To
+    tackle these challenges, we present a novel large language model-based framework,
+    namely XRFix, to repair performance bugs for open-source XR programs. We first
+    construct a corpus of domain-specific performance bugs built with a codebase from
+    23 open-source XR projects and a dataset of XR-related bugs containing 104 real-world
+    bugs. Then, we tailor two static analysis tools for accurately detecting bugs
+    in both C# scripts and asset files. Last, we design different prompts to instruct
+    LLMs to fix XR bugs in three types of bug scenarios with different complexities,
+    i.e., single-line level, function level, and class level. We conduct extensive
+    experiments on five off-the-shelf LLMs to evaluate the bug-fixing performance
+    of XRFix. We also compare our XRFix with three SOTA APR approaches. Through static
+    analysis, reference answer comparison, and manual inspection, we demonstrate that
+    our XRFix can effectively fix XR bugs, outperforming SOTA APR methods.'
+- title: 'Mitigating Error Propagation in Chain-of-Thought: A Tree-of-Thought Framework
+    for Smart Contract Repair'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.22345v1
+  category: code-quality
+  subcategory: tooling
+  authors:
+  - Jingping Zhu
+  - Hongping Wang
+  - Xiaoqi Li
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Smart contracts power blockchain applications such as DeFi and NFTs. However,
+    once deployed, they cannot be modified. Even minor bugs can result in significant
+    financial losses. Current AI-based repair methods rely on linear reasoning, which
+    leads to the accumulation of errors and unreliable patches. Our method combines
+    document parsing, static analysis, and Tree of Thoughts reasoning. We first convert
+    audit reports into structured data. Then we use Slither to locate the exact vulnerable
+    code. Our three-step framework explores multiple repair paths simultaneously,
+    evaluates options, and eliminates poor choices. Finally, we verify patches through
+    compilation and manual checks. We test our method on 50 real vulnerabilities from
+    Code4Rena. Our method achieves a 62% single success rate and an 84% top-3 success
+    rate, outperforming ContractTinker by 12 and 6 percentage points, respectively.
+    We also increase the proportion of fully effective patches to 44%, while reducing
+    defective patches from 38% to 22% and invalid patches from 10% to 4%. This approach
+    overcomes the limitations of linear reasoning and makes smart contract repair
+    more accurate and practical.
+- title: 'REFINE: A Multi-Agent LLM Approach for Evidence-Guided Code Refactoring'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23611v1
+  category: code-quality
+  subcategory: tooling
+  authors:
+  - Muhammad Waseem
+  - Aakash Ahmad
+  - Pekka Abrahamsson
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Large Language Models (LLMs) offer new opportunities for automated code
+    refactoring. However, generated changes must reduce targeted quality problems
+    without introducing new issues or altering behaviour-relevant code structures.
+    We introduce REFINE (Refactoring with Evidence-aware Flow for Integrated ageNtic
+    Execution), a tool-agnostic, evidence-aware multi-agent approach for generating
+    Java file-level refactoring candidates. REFINE combines static-analysis-guided
+    smell identification, smell-informed planning, LLM-based transformation, automated
+    re-analysis, preservation checks, and structured reporting. We evaluate REFINE
+    on 450 Java files from 15 open-source systems, producing 1,350 model-pass outputs
+    using OpenAI GPT-5.5, Google Gemini 3.1 Pro Preview, and Anthropic Claude Opus
+    4.8. REFINE reduces detected code smells by 68.26%, 72.79%, and 68.49% across
+    the three configurations, respectively, with the strongest reductions observed
+    for major smells. A matched 150-file direct-prompt baseline shows that REFINE
+    achieves a higher median code-smell reduction with smaller edits and fewer public-method
+    removals. However, broader quality improvements are inconsistent, and preservation
+    checks reveal residual risks, including assert/fail-call changes and public-method
+    removal. Therefore, REFINE outputs should be treated as refactoring candidates
+    requiring compilation, testing, dependency analysis, and human review before adoption
+    in repository- or system-level settings.
+- title: Automated Synthesis of Cloud Emulators
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23842v1
+  category: devops
+  subcategory: survey
+  authors:
+  - Archit Bhatnagar
+  - Zhenning Yang
+  - Sarah McClure
+  - Yiming Qiu
+  - Sylvia Ratnasamy
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'DevOps programming (e.g., using CLI/API scripts or IaC frameworks) is
+    key to cloud infrastructure management. Unlike traditional programming tasks,
+    DevOps program testing needs provisioning and execution against actual cloud resources,
+    which is often time-consuming, unsafe, and costly. Cloud emulators have gained
+    popularity for easing DevOps program testing; they are generally API-level mocks
+    that can execute DevOps programs in a local environment. Still, building these
+    emulators remains challenging: developers must manually interpret extensive cloud
+    documentation and handcraft logic for each service, API, and their interaction.
+    This does not scale to the complexity of the cloud, which is further a moving
+    target as the services and APIs evolve. CloudEmu is an automated approach that
+    constructs emulators based on cloud documentation via neurosymbolic code synthesis.
+    The key idea is to combine LLMs'' general strengths in documentation understanding
+    and code generation with cloud-specific symbolic abstractions that suppress hallucinations
+    and enforce precision at scale, while using the real cloud as an oracle for automated
+    testing, repair, and alignment. Our evaluation shows the effectiveness of CloudEmu
+    on major cloud provider (AWS and GCP) services in both coverage and accuracy.
+    CloudEmu outperforms the existing leading tool LocalStack, which was manually
+    developed by a large team of engineers over a decade.'
+- title: A Survey of Timing Variability in Microservice-Based Software-Defined Vehicles
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23649v1
+  category: software-architecture
+  subcategory: systems
+  authors:
+  - Cyrus K. Vattes
+  - Habib Mostafaei
+  - Nirvana Meratnia
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Microservice-based systems are modular and adaptable, but their distributed
+    structure makes their timing behavior difficult to analyze and guarantee. Because
+    latency emerges from interactions among service dependencies, shared resources,
+    and coordinating middleware, local timing disturbances can propagate into system-level
+    effects. This survey examines the sources, propagation mechanisms, and observable
+    impacts of timing variability in microservice-based systems, using software-defined
+    vehicles as a motivating example. It compares major classes of timing models by
+    their assumptions about workload stability, execution structure, resource sharing,
+    observability, and guarantee admissibility, and summarizes their limitations within
+    microservice-based software-defined vehicles.
+- title: 'Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis
+    in Cloud Systems'
+  date: 2026-02
+  url: https://arxiv.org/abs/2603.00468v2
+  category: software-architecture
+  subcategory: systems
+  authors:
+  - Yilun Wang
+  - Guangba Yu
+  - Haiyu Huang
+  - Yujie Huang
+  - Zirui Wang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: LLM agents are increasingly explored for automating root cause analysis
+    (RCA) in cloud-native systems, creating a need to evaluate both diagnostic correctness
+    and the quality of the supporting investigation. Existing static benchmarks offer
+    repeatable inputs but limited system-facing interaction, while live testbeds expose
+    realistic tools but hinder controlled comparison because incident evidence varies
+    across runs; both paradigms focus primarily on final answers. To address these
+    limitations, we present Cloud-OpsBench, an evaluation infrastructure for interactive
+    and evidence-grounded cloud RCA. It comprises 754 runtime-verified cases across
+    57 fault types on two microservice workloads spanning application services and
+    Kubernetes platform layers. Each fault is captured as a state snapshot and replayed
+    through standard diagnostic interfaces, with outcome labels and diagnostic evidence
+    graphs that enable matched comparisons and process-level analysis. Across ten
+    LLM agents, the strongest Joint RCA Accuracy (JRA) reaches 0.76 on OnlineBoutique
+    and 0.68 on TrainTicket, while the corresponding Evidence Closure Rates (ECR)
+    are only 0.38 and 0.15. This outcome--process gap shows that final-answer correctness
+    alone substantially overestimates agents' ability to perform evidence-grounded
+    diagnosis.
+- title: 'DeepRepoQA: Code Repository Question Answering with Deep Agent Exploration'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24221v1
+  category: software-architecture
+  subcategory: survey
+  authors:
+  - Weihan Peng
+  - Yuling Shi
+  - Yingwei Ma
+  - Longfei Yun
+  - Beijun Shen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Answering developer questions about a software repository is a critical
+    yet under-explored problem in software engineering. While existing repository
+    understanding methods have advanced the field, they predominantly rely on surface-level
+    code retrieval and lack the ability for deep reasoning over multiple files, complex
+    software architectures, and grounding answers in long-range code dependencies.
+    To address these limitations, we propose DeepRepoQA, a novel question answering
+    (QA) framework for repository-level code understanding. DeepRepoQA builds on an
+    agentic framework where LLM agents find answers through a systematic tree search
+    over the repository structure. A Monte-Carlo Tree Search (MCTS) mechanism is employed
+    to empower agents to dynamically search, navigate, and inspect code, enabling
+    effective multi-hop reasoning over long-range code dependencies. Comprehensive
+    experiments on the SWE-QA benchmark demonstrate substantial performance gains
+    over strong baselines, validating the effectiveness of systematic MCTS-guided
+    exploration for multi-hop repository reasoning.
+- title: 'MGQL: An Executable, Small-Step Semantics of GQL'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24565v1
+  category: programming-languages
+  subcategory: theory
+  authors:
+  - Aditya Thimmaiah
+  - Tong-Nong Lin
+  - Milos Gligoric
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'ISO Graph Query Language (GQL) is the first international standard for
+    property graph-based graph query languages, standardized as ISO/IEC 39075 in 2024.
+    However, ISO/IEC 39075 codifies its semantics informally across 600+ pages of
+    prose, making it difficult to formally reason about the standard or for a standard-faithful
+    implementation. Existing formalizations are not adequate because they either:
+    (1) significantly reduce the semantic complexity by omitting bag semantics, schemas,
+    and composite queries on multiple graphs; (2) or significantly reduce the syntactic
+    complexity by only considering isolated fragments such as pattern-matching, leaving
+    the full query pipeline unformalized. Yet it is these semantic-syntactic features
+    that make formalizing GQL non-trivial. We present MGQL, the first mechanized,
+    small-step operational semantics for a substantial read-only fragment of GQL that
+    is grounded in the ISO/IEC 39075 standard. Our formalization models multi-graph
+    property graphs with mixed edge directionality and supports a large fraction of
+    GQL pattern constructs: quantified paths and edges, directional and undirected
+    matching, label expressions, pattern lists, and composite queries. The semantics
+    is supported by a schema-aware type system that refines variable types via closed-graph
+    schemas, tracks nullability, supports multiple composite query operators, and
+    models quantified-path bindings with list types. We prove that our type system
+    is sound, ensuring an end-to-end guarantee of well-formed queries yielding results
+    that conform to their declared schemas. MGQL provides the first bridge between
+    GQL''s informal specification and a mechanized implementation, enabling formal
+    reasoning about correctness.'
+- title: 'Rebuild Dossier: Mechanically-Enforced Specs for Agentic App Rebuilds, and
+    What Model-Tier Failures Reveal'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23616v1
+  category: developer-tools
+  subcategory: tooling
+  authors:
+  - Parker Fawcett
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'An AI agent''s rebuild is only as good as the process that produced it.
+    Prior work found that once a model is strong enough, a multi-agent rebuild pipeline
+    loses to the simplest approach: giving the model the original code and one instruction
+    (AgentModernize). We present rebuild-dossier, an open-source tool that locks an
+    application''s real interface - its exact inputs and outputs - before any code
+    is written, then enforces one-test-at-a-time building through automated checks,
+    not written instructions alone. Three results shape this evaluation, with differing
+    amounts of evidence. First, in a small comparison, the compliant agent failed
+    a held-back test while the rule-breaking agent passed everything - proof that
+    a passing suite doesn''t certify correctness when tests can be gamed. Second,
+    we tested whether this beats simply giving the weaker model the source and one
+    instruction: tied on a small app, but lost outright on a larger one where the
+    automated check wasn''t even running - pointing to the check mechanism, not interface-locking,
+    which held up separately. Third, every claim here is checked at three levels -
+    the agent''s own report, an automated log, and the actual files produced - catching
+    real errors, including a bug in our own logging code, that a single level would
+    have missed. These risks reproduce on a different model and toolchain: a stronger
+    model followed our process three times running, something the weaker model never
+    managed. The tool is public, MIT licensed, and reproduces end to end against our
+    own applications.'
+- title: 'ExploreAI: Agentic Exploration Knowledge Bases for Reproducible Observable-Regression
+    Testing of Black-Box VR and 3D Applications'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.21628v1
+  category: developer-tools
+  subcategory: tooling
+  authors:
+  - Jiajie Wang
+  - Kebin Peng
+  - Wei Wang
+  - Xiaoyin Wang
+  - Sen He
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Black-box VR and 3D applications are difficult to regression test because
+    observable failures depend on where a tester moves, what objects are visible,
+    and which views are captured. Manual exploratory testing can find such failures,
+    but its evidence is time-consuming to reproduce; systematic sweeps are reproducible,
+    but they lack semantic guidance and spend exploration budget on low-value viewpoints.
+    We observe that an LLM can make the high-level decisions a human tester makes
+    during exploration: interpreting a task, choosing which objects to inspect, grouping
+    related objects, recording what it saw, and deciding when missing evidence should
+    trigger another attempt. Based on this observation, we present ExploreAI, an LLM-driven
+    agentic framework that offloads repeated perception, navigation, multi-view capture
+    execution, and logging to specialized modules while using the LLM for planning,
+    evidence recording, capture-policy decisions, and verification decisions. ExploreAI
+    constructs an Exploration Knowledge Base (EKB): a structured, per-object record
+    of one exploration run. For each object the agent finds, the EKB stores the scan
+    evidence that exposed it, the selected target, the navigation path, the multi-view
+    capture, and the self-verification result. The EKB is a reusable testing artifact
+    that supports reproducible observable-regression checking across versions of a
+    VR or 3D application. Across six indoor and outdoor scenes in Unity, AI2-THOR,
+    and BeamNG, ExploreAI constructs high-completeness EKBs under both complete and
+    target exploration, and an LLM-module ablation shows where semantic planning,
+    capture policy, evidence recording, and self-verification contribute. Reproduction
+    pilots further show that EKB-guided traces help both humans and LLM-based reproducers
+    reproduce exact object-view evidence more effectively than conditions without
+    EKB context.'
+- title: 'PatchWrite: One Line, Not One Section -- Compile-Gated, Validity-Preserving
+    Editing for AI-Drafted Manuscripts'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23001v1
+  category: developer-tools
+  subcategory: tooling
+  authors:
+  - Weiwei Yang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Automated manuscript pipelines often regenerate an entire section to
+    repair a local defect, allowing unrelated metrics and citations to change even
+    when the resulting PDF still builds. PatchWrite instead constrains how candidate
+    edits become committed manuscript states: it reuses bounded EDIT N M editing and
+    rollback, but tightens compilation acceptance with fatal-log checks and adds evidence
+    locks that require every cited key and experimental numeric token to be attested
+    by a reference registry or experimental log. Candidates that fail either check
+    are rejected and the previous HEAD is retained. On a 24-manuscript x 8-fault oracle
+    stress test (768 jobs, evenly split between compile-breaking and content-only
+    faults), whole-slot rewriting mutated an unrelated "12-layer" line in every case
+    (0/192 preserved; numeric Jaccard 0.6667), whereas PatchWrite preserved it in
+    192/192 cases. Removing the compile gate reduced acceptance to 0, while removing
+    the evidence gate allowed a hallucinated citation to pass. The same pattern held
+    across all eight faults. To test the protocol with generation rather than oracle
+    edits, we reran the 192 jobs with the writer model proposing the edits. The model''s
+    candidates were accepted in 75% of cases; nearly all rejections came from one
+    reproducible failure mode in which the model attempted to delete a line using
+    an empty replacement unsupported by the current grammar. Every accepted candidate
+    passed both gates, and 93.75% fixed the injected fault; the remaining cases involved
+    a technically valid but sentence-inappropriate citation and one markup-changing
+    near-miss. In a blind evaluation of sixteen PDF pairs, both raters preferred PatchWrite
+    for preserving lab-grounded facts (C1 Likert 5.0 vs. 2.0), while rating prose
+    quality nearly identically. Logs from 193 in-product drafting tasks show the same
+    classes of failures occurring in practice.'
+- title: 'ARGUS: MCP-Grounded Root Cause Analysis for Kubernetes Incidents'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.23084v1
+  category: developer-tools
+  subcategory: tooling
+  authors:
+  - Ergi Senja
+  - Seyed Mohammad Reza Razavi Zadegan
+  - Philipp Leitner
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Kubernetes incident triage requires correlating signals from metrics,
+    logs, container state, and messaging systems across multiple monitoring tools,
+    a fragmented workflow that slows diagnosis and contributes to alert fatigue. Large
+    language models (LLMs) have shown promise for automated root cause analysis (RCA),
+    but existing systems rely on custom, system-specific data access layers that cannot
+    be reused across organisations. We present ARGUS, an MCP-grounded RCA assistant
+    that connects a commercial LLM to live Kubernetes observability data through standardised
+    MCP servers covering Kubernetes state, Prometheus metrics, Loki logs, and NATS
+    messaging, and delivers structured diagnostic summaries inside the Slack incident
+    channel where on-call engineers already work. We conduct a preliminary evaluation
+    of ARGUS using three complementary methods: controlled fault injection across
+    ten Kubernetes incident scenarios, rubric-based scoring of the resulting RCA summaries
+    on three dimensions, and semi-structured interviews with six on-call engineers
+    at an industrial partner. ARGUS named the correct root cause in all ten scenarios
+    with an aggregate MCP success ratio of 0.91. Practitioners trusted the diagnostic
+    output but consistently expressed scepticism toward the recommended fixes. Our
+    central finding is a diagnostic/prescriptive asymmetry: ARGUS reliably identifies
+    what went wrong, but is perceived as less reliable or trustworthy at specifying
+    what to do next. This pattern can be observed across all three evaluation methods,
+    and has important implications for future autonomous agentic incident handling
+    systems.'

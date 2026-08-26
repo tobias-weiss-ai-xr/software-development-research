@@ -27,7 +27,7 @@
   {
    "id": "code-quality",
    "name": "Code Quality",
-   "count": 1092,
+   "count": 1098,
    "trajectory": {
     "2006": 7,
     "2007": 1,
@@ -48,46 +48,46 @@
     "2023": 7,
     "2024": 5,
     "2025": 236,
-    "2026": 809
+    "2026": 815
    },
    "momentum": {
     "id": "code-quality",
     "name": "Code Quality",
-    "total": 1092,
-    "recent": 1042,
+    "total": 1098,
+    "recent": 1048,
     "prior": 3,
-    "growth_pct": 34633.3,
+    "growth_pct": 34833.3,
     "recent_share": 0.954,
-    "papers_per_month": 86.8,
-    "score": 34728.7
+    "papers_per_month": 87.3,
+    "score": 34928.7
    }
   },
   {
    "id": "developer-tools",
    "name": "Developer Tools",
-   "count": 668,
+   "count": 672,
    "trajectory": {
     "2023": 1,
     "2024": 6,
     "2025": 146,
-    "2026": 515
+    "2026": 519
    },
    "momentum": {
     "id": "developer-tools",
     "name": "Developer Tools",
-    "total": 668,
-    "recent": 659,
+    "total": 672,
+    "recent": 663,
     "prior": 3,
-    "growth_pct": 21866.7,
+    "growth_pct": 22000.0,
     "recent_share": 0.987,
-    "papers_per_month": 54.9,
-    "score": 21965.4
+    "papers_per_month": 55.2,
+    "score": 22098.7
    }
   },
   {
    "id": "devops",
    "name": "DevOps & CI/CD",
-   "count": 794,
+   "count": 795,
    "trajectory": {
     "2007": 1,
     "2015": 1,
@@ -100,18 +100,18 @@
     "2023": 2,
     "2024": 4,
     "2025": 148,
-    "2026": 626
+    "2026": 627
    },
    "momentum": {
     "id": "devops",
     "name": "Devops",
-    "total": 794,
-    "recent": 770,
+    "total": 795,
+    "recent": 771,
     "prior": 4,
-    "growth_pct": 19150.0,
+    "growth_pct": 19175.0,
     "recent_share": 0.97,
     "papers_per_month": 64.2,
-    "score": 19247.0
+    "score": 19272.0
    }
   },
   {
@@ -168,7 +168,7 @@
   {
    "id": "programming-languages",
    "name": "Programming Languages",
-   "count": 552,
+   "count": 553,
    "trajectory": {
     "1990": 1,
     "1992": 1,
@@ -186,13 +186,13 @@
     "2022": 1,
     "2024": 6,
     "2025": 146,
-    "2026": 379
+    "2026": 380
    },
    "momentum": {
     "id": "programming-languages",
     "name": "Programming Languages",
-    "total": 552,
-    "recent": 525,
+    "total": 553,
+    "recent": 526,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.951,
@@ -224,23 +224,23 @@
   {
    "id": "software-architecture",
    "name": "Software Architecture",
-   "count": 575,
+   "count": 578,
    "trajectory": {
     "2019": 4,
     "2022": 5,
     "2024": 1,
     "2025": 138,
-    "2026": 427
+    "2026": 430
    },
    "momentum": {
     "id": "software-architecture",
     "name": "Software Architecture",
-    "total": 575,
-    "recent": 565,
+    "total": 578,
+    "recent": 568,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 0.983,
-    "papers_per_month": 47.1,
+    "papers_per_month": 47.3,
     "score": 98.3
    }
   },
@@ -296,7 +296,7 @@
   {
    "id": "evaluation",
    "name": "Evaluation",
-   "count": 519
+   "count": 522
   },
   {
    "id": "method",
@@ -306,22 +306,22 @@
   {
    "id": "survey",
    "name": "Survey",
-   "count": 616
+   "count": 618
   },
   {
    "id": "systems",
    "name": "Systems",
-   "count": 341
+   "count": 343
   },
   {
    "id": "theory",
    "name": "Theory",
-   "count": 959
+   "count": 960
   },
   {
    "id": "tooling",
    "name": "Tooling",
-   "count": 580
+   "count": 587
   }
  ],
  "timeline": [
@@ -12078,6 +12078,11 @@
   [
    "2026-02",
    "software-architecture",
+   "systems"
+  ],
+  [
+   "2026-02",
+   "software-architecture",
    "theory"
   ],
   [
@@ -12109,16 +12114,6 @@
    "2026-02",
    "software-engineering",
    "evaluation"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "method"
-  ],
-  [
-   "2026-02",
-   "software-engineering",
-   "method"
   ],
   [
    "2026-02",
@@ -12173,6 +12168,16 @@
   [
    "2026-02",
    "software-engineering",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
+   "method"
+  ],
+  [
+   "2026-02",
+   "software-engineering",
    "survey"
   ],
   [
@@ -28703,6 +28708,21 @@
   [
    "2026-08",
    "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "evaluation"
+  ],
+  [
+   "2026-08",
+   "code-quality",
    "method"
   ],
   [
@@ -28902,6 +28922,21 @@
   ],
   [
    "2026-08",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-08",
+   "code-quality",
+   "tooling"
+  ],
+  [
+   "2026-08",
    "developer-tools",
    "application"
   ],
@@ -29132,6 +29167,26 @@
   ],
   [
    "2026-08",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-08",
+   "developer-tools",
+   "tooling"
+  ],
+  [
+   "2026-08",
    "devops",
    "application"
   ],
@@ -29209,6 +29264,11 @@
    "2026-08",
    "devops",
    "method"
+  ],
+  [
+   "2026-08",
+   "devops",
+   "survey"
   ],
   [
    "2026-08",
@@ -29617,6 +29677,11 @@
   ],
   [
    "2026-08",
+   "programming-languages",
+   "theory"
+  ],
+  [
+   "2026-08",
    "security",
    "application"
   ],
@@ -29844,6 +29909,16 @@
    "2026-08",
    "software-architecture",
    "method"
+  ],
+  [
+   "2026-08",
+   "software-architecture",
+   "survey"
+  ],
+  [
+   "2026-08",
+   "software-architecture",
+   "systems"
   ],
   [
    "2026-08",
@@ -30061,108 +30136,108 @@
  "keyword_bursts": [
   {
    "keyword": "software architecture",
-   "recent": 139,
-   "total": 139,
+   "recent": 140,
+   "total": 140,
    "burst_score": 1.04,
-   "recent_share": 0.0244
+   "recent_share": 0.0245
   },
   {
    "keyword": "automated testing",
-   "recent": 49,
-   "total": 49,
+   "recent": 50,
+   "total": 50,
    "burst_score": 1.04,
-   "recent_share": 0.0086
+   "recent_share": 0.0088
   },
   {
    "keyword": "llm",
-   "recent": 1402,
-   "total": 1415,
+   "recent": 1410,
+   "total": 1423,
    "burst_score": 1.03,
-   "recent_share": 0.2463
+   "recent_share": 0.2471
   },
   {
    "keyword": "large language model",
-   "recent": 1006,
-   "total": 1016,
+   "recent": 1009,
+   "total": 1019,
    "burst_score": 1.03,
-   "recent_share": 0.1767
+   "recent_share": 0.1768
   },
   {
    "keyword": "code review",
-   "recent": 248,
-   "total": 252,
+   "recent": 250,
+   "total": 254,
    "burst_score": 1.03,
-   "recent_share": 0.0436
+   "recent_share": 0.0438
   },
   {
    "keyword": "code generation",
-   "recent": 383,
-   "total": 393,
+   "recent": 384,
+   "total": 394,
    "burst_score": 1.02,
    "recent_share": 0.0673
   },
   {
    "keyword": "static analysis",
-   "recent": 344,
-   "total": 353,
+   "recent": 346,
+   "total": 355,
    "burst_score": 1.02,
-   "recent_share": 0.0604
+   "recent_share": 0.0606
   },
   {
    "keyword": "security",
-   "recent": 938,
-   "total": 968,
+   "recent": 939,
+   "total": 969,
    "burst_score": 1.01,
-   "recent_share": 0.1648
+   "recent_share": 0.1645
   },
   {
    "keyword": "microservices",
    "recent": 239,
    "total": 248,
    "burst_score": 1.0,
-   "recent_share": 0.042
+   "recent_share": 0.0419
   },
   {
    "keyword": "type system",
-   "recent": 181,
-   "total": 191,
+   "recent": 182,
+   "total": 192,
    "burst_score": 0.99,
-   "recent_share": 0.0318
+   "recent_share": 0.0319
   },
   {
    "keyword": "program repair",
-   "recent": 173,
-   "total": 183,
+   "recent": 174,
+   "total": 184,
    "burst_score": 0.99,
-   "recent_share": 0.0304
+   "recent_share": 0.0305
   },
   {
    "keyword": "observability",
-   "recent": 162,
-   "total": 170,
+   "recent": 164,
+   "total": 172,
    "burst_score": 0.99,
-   "recent_share": 0.0285
+   "recent_share": 0.0287
   },
   {
    "keyword": "devops",
-   "recent": 290,
-   "total": 307,
+   "recent": 291,
+   "total": 308,
    "burst_score": 0.98,
-   "recent_share": 0.0509
+   "recent_share": 0.051
   },
   {
    "keyword": "open source",
    "recent": 168,
    "total": 179,
    "burst_score": 0.98,
-   "recent_share": 0.0295
+   "recent_share": 0.0294
   },
   {
    "keyword": "developer experience",
    "recent": 103,
    "total": 110,
    "burst_score": 0.98,
-   "recent_share": 0.0181
+   "recent_share": 0.018
   }
  ]
 }
