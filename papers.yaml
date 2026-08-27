@@ -126626,8 +126626,8 @@ papers:
     optimal transport. The algorithm operates on a parameter manifold equipped with
     a combined Fisher-Wasserstein metric and incorporates Sinkhorn-type projections
     to enforce distributional constraints on layer activations. We establish convergence
-    guarantees showing that GEO achieves an $O(1/\sqrt{T}) + O(\rho ^{2K})$ O ( 1
-    / T ) + O ( ρ 2 K ) rate, where the first term reflects Riemannian gradient descent
+    guarantees showing that GEO achieves an O(1/\sqrt{T}) + O(\rho ^{2K}) O ( 1 /
+    T ) + O ( ρ 2 K ) rate, where the first term reflects Riemannian gradient descent
     and the second captures the contraction of Sinkhorn iterations. Computational
     experiments on continuous control tasks and language modeling demonstrate consistent
     improvements over standard optimizers, with performance gains of approximately
@@ -134553,13 +134553,13 @@ papers:
     parametric quintic spline method is considered. The proposed approach efficiently
     handles the initial singularity and reduces computational cost through a fast
     nonuniform time discretization scheme. The resulting method is computationally
-    efficient, with a complexity of approximately $\mathcal{O}(MN \log^2 N) and storage
+    efficient, with a complexity of approximately \mathcal{O}(MN \log^2 N) and storage
     requirements of \mathcal{O}(M \log^2 N) , where N and M denote the total number
     of grid points in the time and spatial directions, respectively. Furthermore,
     the method is proven to be unconditionally stable and convergent, with an error
     of order \mathcal{O}\left(h^{4.5} + N^{-\min\{r\mu, 2\}}+\epsilon\right) , where
     \mu is the fractional derivative order, r is the mesh grading parameter, h is
-    the spatial mesh size and \epsilon$ represents the approximation tolerance introduced
+    the spatial mesh size and \epsilon represents the approximation tolerance introduced
     by the fast sum-of-exponentials technique. Numerical experiments are presented
     to validate the theoretical analysis and demonstrate the method’s effectiveness
     in achieving high accuracy and computational efficiency.
@@ -146023,7 +146023,7 @@ papers:
     SVDet and LineVul, two graph-based models, IVDetect and JLineVD, and two large
     language models, LLama and Mistral. The experimental analysis shows that resampling
     strategies combining over-sampling and under-sampling can improve model performance
-    by up to $22\% and yield gains of up to 1000\%$ in terms of MCC, a suited metric
+    by up to 22\% and yield gains of up to 1000\% in terms of MCC, a suited metric
     for imbalanced data evaluation. Appropriate resampling methodologies, loss-function
     refinements, and retrieval-augmented generation techniques improve the performance
     of graph-based models, sequence-based models, and large language models, respectively,
@@ -151016,17 +151016,17 @@ papers:
   - Andrei Gasparovici
   abstract: Abstract This paper is concerned with the analysis of mixed Dirichlet–Robin
     boundary value problems for the anisotropic Brinkman and Darcy–Forchheimer–Brinkman
-    systems, as well as a system of $d \ge 1 d ≥ 1 coupled anisotropic Darcy–Forchheimer–Brinkman
+    systems, as well as a system of d \ge 1 d ≥ 1 coupled anisotropic Darcy–Forchheimer–Brinkman
     equations in bounded Lipschitz domains in \mathbb {R}^n, n = 2,3 R n , n = 2 ,
     3 . These systems provide general models for flows of anisotropic viscous incompressible
     fluids in heterogeneous and multidisperse porous media. By combining a variational
     approach and fixed-point techniques, we establish the existence and uniqueness
-    of weak solutions in \textrm{L}^2-$ L 2 - based Sobolev spaces under suitable
-    smallness conditions on the given data. To demonstrate the applicability of the
-    theoretical results, we carry out a numerical investigation of the lid-driven
-    flow problem in a square monodisperse or bidisperse porous cavity containing a
-    solid circular obstacle, employing a Robin boundary condition on the moving lid
-    and examining the effect of key physical parameters on the flow behavior.
+    of weak solutions in \textrm{L}^2- L 2 - based Sobolev spaces under suitable smallness
+    conditions on the given data. To demonstrate the applicability of the theoretical
+    results, we carry out a numerical investigation of the lid-driven flow problem
+    in a square monodisperse or bidisperse porous cavity containing a solid circular
+    obstacle, employing a Robin boundary condition on the moving lid and examining
+    the effect of key physical parameters on the flow behavior.
   venue: Zeitschrift für angewandte Mathematik und Physik
 - title: Shortcut to Adiabatic Transfer in a Four-Level N-type System using Counterdiabatic
     Driving
@@ -157411,7 +157411,7 @@ papers:
 - title: 'SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository
     Stack Migration?'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23564v1
+  url: https://arxiv.org/abs/2608.23564
   category: code-quality
   subcategory: evaluation
   authors:
@@ -157436,20 +157436,20 @@ papers:
     measure correctness with a fixed test suite. (3) Agentic Verification uses 6 independent
     coding agents to generate targeted tests for hidden behavioural differences. Across
     520 runs from 8 frontier models and 26 model-effort configurations, only 28 of
-    520 runs ($5.4\%$) pass all three stages, 13 of the 20 tasks receive no accepted
-    solution, and the best model (claude-opus-5) scores $47.0/100$. Migration completeness
+    520 runs (5.4\%) pass all three stages, 13 of the 20 tasks receive no accepted
+    solution, and the best model (claude-opus-5) scores 47.0/100. Migration completeness
     and behavioural correctness are distinct abilities: a few runs preserve behaviour
     by skipping the migration and are stopped at Migration Audit; most attempt it
     and break behaviour, and are stopped at Behavioural Tests. Agents cannot deliver
-    a perfect migration: among the 340 runs that pass Migration Audit, $58\%$ reach
-    $99\%$ of the fixed checks, yet only $26\%$ reach $100\%$. Agent capability differs
-    across migration categories: agents score $31.4$ on build toolchain rewrites but
-    only $5.6$ on language rewrites. Together, these findings position SWE Refactor
+    a perfect migration: among the 340 runs that pass Migration Audit, 58\% reach
+    99\% of the fixed checks, yet only 26\% reach 100\%. Agent capability differs
+    across migration categories: agents score 31.4 on build toolchain rewrites but
+    only 5.6 on language rewrites. Together, these findings position SWE Refactor
     Bench as a rigorous testbed for developing coding agents for reliable whole-repository
     migrations.'
 - title: 'Do Not Copy/Paste: Soft Barriers for Copying in AI-Assisted Programming'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.22638v1
+  url: https://arxiv.org/abs/2608.22638
   category: code-quality
   subcategory: evaluation
   authors:
@@ -157463,13 +157463,13 @@ papers:
   abstract: 'Copying a function from a chat window into an editor takes less than
     a second. For many uses of AI coding tools, that speed is the point; in settings
     such as programming education, code review, and security-sensitive development,
-    it can also be the problem. This paper frames copy-paste as an \emph{AI code handoff
-    problem}: the moment model-generated text crosses from a conversational context
+    it can also be the problem. This paper frames copy-paste as an AI code handoff
+    problem: the moment model-generated text crosses from a conversational context
     into executable or committed software is a design boundary that current tools
     leave largely unmanaged. We argue that AI coding assistants should not only be
     evaluated by the code they generate, but also by how they mediate the transfer
-    of that code into software artifacts. We propose \emph{soft barriers} as one class
-    of handoff-aware mechanisms. Soft barriers preserve access to AI assistance while
+    of that code into software artifacts. We propose soft barriers as one class of
+    handoff-aware mechanisms. Soft barriers preserve access to AI assistance while
     making unexamined transfer less frictionless. As an initial technical probe, we
     instantiate this idea using Unicode output perturbations that preserve visual
     readability but disrupt naive copy-paste execution. We introduce Copy-Paste Resistance
@@ -157485,7 +157485,7 @@ papers:
 - title: 'KONTOGRAPH: Verified Point-in-Time Feature Consistency and Amortised Explanation
     for Real-Time Anti-Money Laundering under a 200 ms Decision Budget'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.22389v1
+  url: https://arxiv.org/abs/2608.22389
   category: code-quality
   subcategory: evaluation
   authors:
@@ -157509,17 +157509,17 @@ papers:
     with equivalence enforced by property-based tests that perturb the future, surfaced
     three point-in-time violations that code review had passed--each of which would
     have inflated reported performance. Third, and most consequential for practice,
-    exporting the deployed tree ensemble to ONNX changed only $7.4 \times 10^{-8}$
-    in mean score yet altered 0.26% of decisions and inflated the alert volume by
-    12%, because 32-bit accumulation perturbs scores across a cost-optimal threshold
-    of $3.98 \times 10^{-4}$. We argue that a serving-format conversion must be treated
+    exporting the deployed tree ensemble to ONNX changed only 7.4 \times 10^{-8} in
+    mean score yet altered 0.26% of decisions and inflated the alert volume by 12%,
+    because 32-bit accumulation perturbs scores across a cost-optimal threshold of
+    3.98 \times 10^{-4}. We argue that a serving-format conversion must be treated
     as a model change until measured, and that fidelity metrics for subgraph explainers
     can be vacuous when candidate neighbourhoods are small--a null result we report
     in full.
 - title: 'XRFix: Exploring Performance Bug Repair of Extended Reality Applications
     with Large Language Models'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.21718v1
+  url: https://arxiv.org/abs/2608.21718
   category: code-quality
   subcategory: tooling
   authors:
@@ -157556,7 +157556,7 @@ papers:
 - title: 'Mitigating Error Propagation in Chain-of-Thought: A Tree-of-Thought Framework
     for Smart Contract Repair'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.22345v1
+  url: https://arxiv.org/abs/2608.22345
   category: code-quality
   subcategory: tooling
   authors:
@@ -157583,7 +157583,7 @@ papers:
     more accurate and practical.
 - title: 'REFINE: A Multi-Agent LLM Approach for Evidence-Guided Code Refactoring'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23611v1
+  url: https://arxiv.org/abs/2608.23611
   category: code-quality
   subcategory: tooling
   authors:
@@ -157614,7 +157614,7 @@ papers:
     in repository- or system-level settings.
 - title: Automated Synthesis of Cloud Emulators
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23842v1
+  url: https://arxiv.org/abs/2608.23842
   category: devops
   subcategory: survey
   authors:
@@ -157646,7 +157646,7 @@ papers:
     developed by a large team of engineers over a decade.'
 - title: A Survey of Timing Variability in Microservice-Based Software-Defined Vehicles
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23649v1
+  url: https://arxiv.org/abs/2608.23649
   category: software-architecture
   subcategory: systems
   authors:
@@ -157669,7 +157669,7 @@ papers:
 - title: 'Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis
     in Cloud Systems'
   date: 2026-02
-  url: https://arxiv.org/abs/2603.00468v2
+  url: https://arxiv.org/abs/2603.00468
   category: software-architecture
   subcategory: systems
   authors:
@@ -157700,7 +157700,7 @@ papers:
     diagnosis.
 - title: 'DeepRepoQA: Code Repository Question Answering with Deep Agent Exploration'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.24221v1
+  url: https://arxiv.org/abs/2608.24221
   category: software-architecture
   subcategory: survey
   authors:
@@ -157728,7 +157728,7 @@ papers:
     exploration for multi-hop repository reasoning.
 - title: 'MGQL: An Executable, Small-Step Semantics of GQL'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.24565v1
+  url: https://arxiv.org/abs/2608.24565
   category: programming-languages
   subcategory: theory
   authors:
@@ -157763,7 +157763,7 @@ papers:
 - title: 'Rebuild Dossier: Mechanically-Enforced Specs for Agentic App Rebuilds, and
     What Model-Tier Failures Reveal'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23616v1
+  url: https://arxiv.org/abs/2608.23616
   category: developer-tools
   subcategory: tooling
   authors:
@@ -157794,7 +157794,7 @@ papers:
 - title: 'ExploreAI: Agentic Exploration Knowledge Bases for Reproducible Observable-Regression
     Testing of Black-Box VR and 3D Applications'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.21628v1
+  url: https://arxiv.org/abs/2608.21628
   category: developer-tools
   subcategory: tooling
   authors:
@@ -157833,7 +157833,7 @@ papers:
 - title: 'PatchWrite: One Line, Not One Section -- Compile-Gated, Validity-Preserving
     Editing for AI-Drafted Manuscripts'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23001v1
+  url: https://arxiv.org/abs/2608.23001
   category: developer-tools
   subcategory: tooling
   authors:
@@ -157867,7 +157867,7 @@ papers:
     classes of failures occurring in practice.'
 - title: 'ARGUS: MCP-Grounded Root Cause Analysis for Kubernetes Incidents'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23084v1
+  url: https://arxiv.org/abs/2608.23084
   category: developer-tools
   subcategory: tooling
   authors:
