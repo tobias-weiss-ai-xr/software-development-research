@@ -148,6 +148,23 @@ def load_papers(path=None):
     return data.get("papers", [])
 
 
+def load_yaml(path):
+    """Parse a YAML file with the C loader (~10x faster on large corpora).
+
+    PyYAML's pure-Python SafeLoader takes ~60s to parse a 6k-paper corpus;
+    the C extension (CSafeLoader, shipped with standard PyYAML wheels) does
+    the same load in ~5s. All corpus-loading scripts should use this helper
+    instead of ``yaml.safe_load``.
+    """
+    try:
+        from yaml import CSafeLoader
+        loader = CSafeLoader
+    except ImportError:
+        loader = yaml.SafeLoader
+    with open(path, encoding="utf-8") as f:
+        return yaml.load(f, Loader=loader)
+
+
 def validate_config(cfg, path=None):
     """Validate the structure of a taxonomy config and return a list of errors.
 

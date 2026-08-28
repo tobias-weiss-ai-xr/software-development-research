@@ -60,6 +60,17 @@ KEEP_TITLES = {
 
 KEEP_DOMAINS = ("hal.science",)  # HAL = legitimate national repository, keep
 
+# Explicitly untrusted sources: non-peer-reviewed self-uploads / predatory
+# venues that routinely carry no abstract. BLOCKLIST (not a whitelist) so
+# legit abstract-less publishers (Springer/Elsevier/IEEE/ACM, SPIE, AIP,
+# SpaceOps, ASEE, SciTePress) are never caught.
+UNTRUSTED_HOST = re.compile(
+    r"(researchgate|rgdoi|irjmets|ijsrem|smujo|neliti|researchhub)", re.IGNORECASE
+)
+UNTRUSTED_PREFIX = re.compile(
+    r"^(10\.13140|10\.56726|10\.55041|10\.32388|10\.18280)", re.IGNORECASE
+)
+
 # Gross SEO-spam content (content farms, exam-dump / scam-review mills).
 # These carry no abstract and no scientific value; removing is uncontroversial.
 SPAM_HOSTS = ("researchhub",)  # exam-dumps / fake-review content farm
@@ -90,6 +101,14 @@ def reason_for(paper) -> str | None:
         return "predatory / non-peer-reviewed venue"
     if "off-topic" in flags:
         return f"out-of-domain for software-development corpus ({flags['off-topic'][:80]})"
+    if not (paper.get("abstract") or "") and not any(
+        h in (paper.get("url", "") or "") for h in ("arxiv.org", "dblp.org")
+    ):
+        u = paper.get("url", "") or ""
+        m = re.match(r"https?://doi\.org/(10\.\d{4,9})", u)
+        pre = m.group(1) if m else ""
+        if UNTRUSTED_HOST.search(u) or (pre and UNTRUSTED_PREFIX.match(pre)):
+            return "no abstract + untrusted source (ResearchGate / predatory venue)"
     return None
 
 
@@ -125,8 +144,13 @@ def main():
         for p, why in removed
     ]
     REMOVED_LOG.parent.mkdir(parents=True, exist_ok=True)
+    if REMOVED_LOG.exists():
+        prior = yaml.safe_load(REMOVED_LOG.read_text(encoding="utf-8")) or []
+    else:
+        prior = []
+    prior.extend(log_entries)
     REMOVED_LOG.write_text(
-        yaml.dump(log_entries, default_flow_style=False, allow_unicode=True,
+        yaml.dump(prior, default_flow_style=False, allow_unicode=True,
                   sort_keys=False),
         encoding="utf-8",
     )

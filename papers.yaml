@@ -49461,6 +49461,19 @@ papers:
   - Claes Wohlin
   doi: 10.1109/icgse.2010.14
   venue: 2010 5th IEEE International Conference on Global Software Engineering
+  abstract: This paper presents the results of systematically reviewing the current
+    research literature on the use of agile practices and lean software development
+    in global software engineering (GSE). The primary purpose is to highlight under
+    which circumstances they have been applied efficiently. Some common terms related
+    to agile practices (e.g. scrum, extreme programming) were considered in formulating
+    the search strings, along with a number of alternatives for GSE such as offshoring,
+    outsourcing, and virtual teams. The results were limited to peer-reviewed conference
+    papers/journal articles, published between 1999 and 2009. The synthesis was made
+    through classifying the papers into different categories (e.g. research type,
+    distribution). The analysis revealed that in most cases agile practices were modified
+    with respect to the context and situational requirements. This indicates the need
+    for future research on how to integrate all experiences and practices in a way
+    to assist practitioners when setting up non-collocated agile projects.
 - title: 'People Management Problems and Practices in Software Development Projects:
     A Systematic Literature Review'
   date: 2023-01
@@ -49500,6 +49513,27 @@ papers:
   - Javier Robledo
   doi: 10.1109/fie.2018.8658576
   venue: 2018 IEEE Frontiers in Education Conference (FIE)
+  abstract: 'This research presents that teaching software engineering can be a demanding
+    challenge for instructors, considering that the software industry grows rapidly
+    and there are new development technologies being released constantly. Some of
+    the methodologies being used in industry with time are converted in “best practices”.
+    This systematic literature review (SLR) focuses on finding what are the software
+    engineering best practices being taught to students in academia. It is expected
+    to show with this SLR what are the best practices being taught and how, so other
+    instructors and the teaching staff can evaluate what to choose and level up their
+    courses to the extent of what is being used and is already tested. To perform
+    this SLR, a well-known protocol was used with the search string: “software engineering
+    education” and “best practices” (variations and synonyms of the words were also
+    used), the search was performed in six well-known databases. It is surprising
+    that the amount of primary studies found in this SLR was not what was expected,
+    seventeen primary studies were identified. These studies mentioned a total of
+    seventy best practices that are being used in academia to teach software engineering,
+    some of them are mentioned in more than one paper. But the granularity of the
+    primary studies was quite different some of the best practices are really software
+    engineering best practices and others are instructional best practices. It was
+    also evaluated how the use of these practices was validated and reported, and
+    the results are very diverse, some of them did not have a validation, others have
+    qualitative data, and a few qualitative and quantitative data.'
 - title: 'Best Practices and Evaluation Methods for Narrative Information Visualizations:
     A Systematic Review'
   date: 2025-01
@@ -49543,6 +49577,13 @@ papers:
   - K. Rain Leander
   doi: 10.1007/979-8-8688-0242-3_10
   venue: Developer Experience Unleashed
+  abstract: As we venture into the intricate world of technology and software development,
+    understanding the nuances of Developer Experience (DevEx) becomes crucial. DevEx
+    is more than a concept; it's a comprehensive approach that profoundly impacts
+    the success and efficiency of software and technology projects. This chapter delves
+    into various case studies that illustrate the vital role of DevEx in different
+    technological environments, ranging from open-source projects and enterprise software
+    to startups and emerging technologies.
 - title: The Future of Developer Experience
   date: 2025-01
   url: https://doi.org/10.1007/979-8-8688-0242-3_11
@@ -49552,6 +49593,17 @@ papers:
   - K. Rain Leander
   doi: 10.1007/979-8-8688-0242-3_11
   venue: Developer Experience Unleashed
+  abstract: At the heart of this chapter is exploring how emerging trends and technologies
+    are reshaping the landscape of DevEx. We’re not just talking about the latest
+    tools or programming languages but paradigm shifts redefining what it means to
+    be a developer. This includes the rise of low-code and no-code platforms, which
+    democratize development and open up new possibilities for people from non-technical
+    backgrounds. Artificial Intelligence and Machine Learning are not just tools in
+    the developer's arsenal but are becoming integral to the development process.
+    The realms of Virtual and Augmented Reality are no longer just the stuff of science
+    fiction but are now tangible tools that developers can use to create immersive
+    experiences. Blockchain technology and decentralized applications are challenging
+    traditional data storage and transaction notions.
 - title: The Essence of Developer Experience
   date: 2025-01
   url: https://doi.org/10.1007/979-8-8688-0242-3_1
@@ -49561,6 +49613,9 @@ papers:
   - K. Rain Leander
   doi: 10.1007/979-8-8688-0242-3_1
   venue: Developer Experience Unleashed
+  abstract: This chapter invites you on a journey into the heart of the Developer
+    Experience (DevEx). This concept lies at the core of successful software development
+    and the creation of robust digital ecosystems.
 - title: Developer Experience As a Competitive Advantage
   date: 2025-01
   url: https://doi.org/10.1007/979-8-8688-0242-3_2
@@ -49581,6 +49636,9 @@ papers:
   - Collin Green
   doi: 10.1109/ms.2023.3275268
   venue: IEEE Software
+  abstract: 'On the surface, build latency is a purely technical problem. But humans
+    experience and respond to it in interesting ways: forming expectations, making
+    choices, and organizing work around build latency and similar factors.'
 - title: 'Interactions with Generative AI: Wearables to Measure Developer Experience
     and Productivity Objectively'
   date: 2025-04
@@ -49592,6 +49650,20 @@ papers:
   doi: 10.1109/icse-companion66252.2025.00043
   venue: '2025 IEEE/ACM 47th International Conference on Software Engineering: Companion
     Proceedings (ICSE-Companion)'
+  abstract: With recent advances in AI, many technology firms and developers are exploring
+    whether Generative AI (GenAI) tools can help improve productivity, code quality
+    and the overall developer experience. Current evaluations primarily depend on
+    subjective questionnaire data or code quality metrics. A supplemental objective,
+    continuous, real-time developer-centered measure is missing. Wearables with body
+    sensors that measure the physiological activity of a person have the aforementioned
+    benefits. With their help, impeding factors from GenAI tools on a developer's
+    well-being and cognitive load may be detected. Implications for productivity may
+    be deduced from these cognitive load measures. This research aims to use body
+    sensor data to (1) assess the ability of wearables to measure developers' cognitive
+    load in their everyday working context to then (2) evaluate developer experience,
+    productivity and GenAI interactions in real-life work environments. A holistic
+    mixed-method approach by combining subjective and objective measures in a developer-centered
+    manner is taken.
 - title: Streamlining Developer Tooling
   date: 2025-01
   url: https://doi.org/10.1007/979-8-8688-0242-3_4
@@ -49601,6 +49673,16 @@ papers:
   - K. Rain Leander
   doi: 10.1007/979-8-8688-0242-3_4
   venue: Developer Experience Unleashed
+  abstract: As we embark on the journey through Chapter 4 , “Streamlining Developer
+    Tooling,” we will immerse ourselves in the universe of tools that a developer
+    wields. Much like a craftsman choosing their tools, a developer must select the
+    suitable instruments to carry out their work efficiently. These tools are not
+    merely a means to an end but a crucial component of the developer experience,
+    influencing productivity, collaboration, and overall quality of work. To quote
+    Antoine de Saint-Exupéry, "Perfection is achieved, not when there is nothing more
+    to add, but when there is nothing left to take away." In this vein, we aim to
+    find the perfect set of tools, streamlined and tailored to each project's unique
+    requirements.
 - title: Designing Developer-Centric APIs
   date: 2025-01
   url: https://doi.org/10.1007/979-8-8688-0242-3_5
@@ -49610,6 +49692,11 @@ papers:
   - K. Rain Leander
   doi: 10.1007/979-8-8688-0242-3_5
   venue: Developer Experience Unleashed
+  abstract: In this chapter, we navigate the world of API design with a clear focus
+    on the developer experience. As you'll discover, an API is more than a mere interface
+    between software components. It's a journey of communication, a bridge that connects
+    your organization's services to the ecosystem of developers who rely on them to
+    build special applications.
 - title: Providing Stellar Developer Support
   date: 2025-01
   url: https://doi.org/10.1007/979-8-8688-0242-3_6
@@ -49619,6 +49706,12 @@ papers:
   - K. Rain Leander
   doi: 10.1007/979-8-8688-0242-3_6
   venue: Developer Experience Unleashed
+  abstract: Welcome to Chapter 6 , where we delve into what makes a delightful and
+    efficient developer environment—providing stellar developer support. This essential
+    component in the developer experience encourages developers to use and stick with
+    your tools, builds trust, and fosters a collaborative community around your platform
+    or product. This chapter will demystify the various aspects of providing top-notch
+    developer support.
 - title: Continuous Integration
   date: 2021-11
   url: https://doi.org/10.1201/9781003221579-9
@@ -49628,6 +49721,18 @@ papers:
   - Qiao Liang
   doi: 10.1201/9781003221579-9
   venue: Continuous Delivery 2.0
+  abstract: This chapter discusses the origin and definition of Continuous Integration
+    (CI), the CI workflow of team and individuals, the connection between CI, and
+    deployment pipeline guided by different branch strategies, the common problems
+    in the daily work of CI and the corresponding solutions. Daily build usually involves
+    a small number of automation smoke tests to help the team determine whether new
+    changes have destroyed the original features. The key part is that each build
+    must include modifications and tests of new code. Personal workspace refers to
+    the local working directory used by each engineer. Personal build refers to the
+    activity of an engineer to run automation task on his branch before submitting
+    it to the team trunk, in an aim to ensure that his code could meet functional
+    requirements without disrupting other functions. Automation unit tests cannot
+    cover all operating scenarios of the software.
 - title: 'Securing Cloud-Based DevOps: Integration of Security into Continuous Delivery'
   date: 2024-01
   url: https://doi.org/10.31219/osf.io/bqdjh
@@ -49655,6 +49760,15 @@ papers:
   - Wouter de Kort
   doi: 10.1007/978-1-4842-1446-6_9
   venue: DevOps on the Microsoft Stack
+  abstract: If you've followed along until now, you have already accomplished quite
+    a lot. You learned how to use the Agile Project Management tools, looked into
+    increasing the quality of your code, and learned how Visual Studio and Visual
+    Studio Team Services support you in these endeavors. On your road to DevOps and
+    continuous delivery, the next step to take is setting up continuous integration.
+    What is continuous integration and why do you need it? This chapter will show
+    you what continuous integration is and how you can configure it for your projects.
+    You will also learn about SonarQube, a specialized tool for measuring the quality
+    of your code on a continuous basis.
 - title: Continuous integration, delivery, and deployment
   date: 2026-01
   url: https://doi.org/10.1016/b978-0-443-45032-7.00008-0
@@ -49675,6 +49789,29 @@ papers:
   - Aliyu Enemosah
   doi: 10.55248/gengpi.6.0125.0229
   venue: International Journal of Research Publication and Reviews
+  abstract: The adoption of Artificial Intelligence (AI) in DevOps workflows has transformed
+    traditional Continuous Integration and Deployment (CI/CD) pipelines by enabling
+    predictive modelling to enhance efficiency, reliability, and scalability.As modern
+    software systems grow in complexity, the need for intelligent automation to optimize
+    CI/CD processes has become critical.This paper investigates the integration of
+    AI-driven predictive models in DevOps pipelines, focusing on their ability to
+    forecast build failures, optimize resource allocation, and streamline testing
+    and deployment cycles.The study explores various AI techniques, including machine
+    learning algorithms like regression, clustering, and neural networks, to address
+    specific challenges in CI/CD processes.Predictive models trained on historical
+    pipeline data can identify patterns, detect anomalies, and recommend proactive
+    actions to prevent bottlenecks and failures.Additionally, the use of reinforcement
+    learning enables dynamic resource management, ensuring efficient scaling during
+    peak workloads.Key case studies illustrate the application of AI-driven predictive
+    models in optimizing Jenkins and GitLab pipelines, achieving significant reductions
+    in build times and improving deployment success rates.The research also highlights
+    the role of AI in prioritizing test cases, automating performance monitoring,
+    and enhancing feedback loops for continuous improvement.While emphasizing the
+    benefits of AI integration, this paper also addresses challenges such as data
+    quality, algorithm selection, and organizational readiness for adopting intelligent
+    systems.By synthesizing these advancements, the paper provides a roadmap for leveraging
+    AI to revolutionize DevOps workflows, paving the way for faster, more reliable
+    software delivery in dynamic environments.
 - title: Branch Strategy Conducive to Integration
   date: 2021-11
   url: https://doi.org/10.1201/9781003221579-8
@@ -49684,6 +49821,18 @@ papers:
   - Qiao Liang
   doi: 10.1201/9781003221579-8
   venue: Continuous Delivery 2.0
+  abstract: This chapter introduces the branching strategy to realize efficient multiperson
+    collaboration with the source code repository. The version control system (VCS)
+    is mainly used to store and track all revisions of directories (folders) and files,
+    which enables its users to go back to any revision of any code under its control.
+    The emergence of the CVCS solves the problem of how multiple people collaborate
+    with each other in code modification. The characteristic of the DVCS is that any
+    changes can be checked locally without going through the server, so the speed
+    is faster. The core problem to be solved by the VCS is the file version management
+    in the process of multiperson collaboration. The low-frequency delivery is usually
+    seen in large-scale software projects with a long period. It is one of the oldest
+    software development modes born in the era when a delivery cycle had lasted months
+    or even years in the information technology (IT) industry.
 - title: 'Continuous Integration and Continuous Delivery  (CI/CD) Pipelines: Explore
     How Devops Practices Ensure Seamless Integration And Delivery of AI-Models'
   date: 2024-01
@@ -49719,6 +49868,10 @@ papers:
   - Chaminda Chandrasekara
   - Pushpa Herath
   doi: 10.1007/978-1-4842-5902-3
+  abstract: This book covers how to build, package, and deploy software projects,
+    developed with any language targeting any platform, using Azure pipelines. It
+    starts with an overview of CI/CD and the need for software delivery automation.
+    It further delves into the basic concepts of Azure pipelines.
 - title: 'Nova AI: AI-Powered Code Generation SaaS Using Next.js and LLM'
   date: 2026-03
   url: https://doi.org/10.22214/ijraset.2026.78390
@@ -49746,6 +49899,22 @@ papers:
   - David Alfred Ostrowski
   doi: 10.1109/aixse64906.2025.00018
   venue: 2025 Conference on AI x Software Engineering (AIxSE)
+  abstract: Organizations are increasingly exploring the integration of Generative
+    AI (GenAI) into software engineering workflows. Despite the promise of improved
+    productivity, the challenge of generating correct, parallelized, and testable
+    code remains a significant barrier to adoption. This paper introduces a framework
+    for parallel-aware code generation and evaluation, built on local large language
+    models (LLMs) orchestrated with open-source infrastructure. The system curates
+    prompts from MBPP tasks and custom-designed computational kernels, generates code
+    with explicit vectorization and multiprocessing constraints, validates correctness,
+    and benchmarks runtime speedups against sequential baselines. Experiments on 20
+    workloads—10 kernel benchmarks (e.g., GEMM, FFT, Conv2D, BFS) and 10 MBPP tasks—demonstrate
+    that correctness is preserved while measurable speedups are achieved, particularly
+    for computationally intensive workloads. Results highlight that performance gains
+    depend heavily on workload size, type, and available compute resources. Notably,
+    speedup was observable even when running on a personal PC, underscoring the reproducibility
+    of the framework. This work contributes a methodology and open-source pipeline
+    that foregrounds both correctness and efficiency in LLM-based software synthesis.
 - title: Multi-Disease AI Diagnosis System Using Minimal Code and LLM-Powered Explanations
   date: 2024-01
   url: https://doi.org/10.22541/au.175269957.75269693/v1
@@ -49785,6 +49954,23 @@ papers:
   - Pengyu Nie
   doi: 10.1145/3805760.3814902
   venue: Proceedings of the 3rd ACM International Conference on AI-Powered Software
+  abstract: Large Language Models (LLMs) for code generation risk memorizing and reproducing
+    sensitive training data, including licensed code and proprietary information.
+    We investigate memorization behavior in recent open-weight LLMs in code generation
+    using a two-stage memorization evaluation pipeline, which combines a similarity-based
+    extractability filter with a targeted data extraction attack. We evaluate four
+    models (StarCoder2-3B, StarCoder2-7B, Llama3-8B, and DeepSeek-R1-distilled-Llama-8B)
+    on a custom dataset of 30,000+ Python files. Our results reveal memorization rates
+    of 42-64%, with code-specialized models exhibiting higher rates than general-purpose
+    models. Categorical analysis shows that repetitive content (license headers, documentation)
+    is memorized at rates up to 70%, while complex code exhibits lower susceptibility.
+    Notably, realistic code completion scenarios trigger unintentional memorization
+    in 13-14% of cases, posing practical risks for AI coding assistants. We demonstrate
+    that knowledge distillation reduces extraction rates by approximately 19%, offering
+    a cost-effective mitigation approach. Our findings confirm that memorization persists
+    in modern LLMs and is influenced more by a complex interplay of training domain,
+    dataset composition, architectural choices, and content characteristics, rather
+    than parameter count alone.
 - title: 'Rediscovering Architectural Decision Records: How Persistent Design Context
     Improves LLM Code Generation'
   date: 2024-01
@@ -49798,15 +49984,6 @@ papers:
     design intent is lost across sessionsremains a serious challenge that leads to
     quality deterioration as projects grow in complexity. Thi
   doi: 10.36227/techrxiv.177205025.54351571/v1
-- title: 'Review of: "DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous
-    Agent"'
-  date: 2025-02
-  url: https://doi.org/10.32388/p3nbe5
-  category: ai-for-se
-  subcategory: tooling
-  authors:
-  - Jeeyong Lee
-  doi: 10.32388/p3nbe5
 - title: 'CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation'
   date: 2024-06
   url: https://doi.org/10.1109/lad62341.2024.10691798
@@ -49818,6 +49995,18 @@ papers:
   - Jeyavijayan Rajendran
   doi: 10.1109/lad62341.2024.10691798
   venue: 2024 IEEE LLM Aided Design Workshop (LAD)
+  abstract: Large Language Models (LLMs) have proved effective and efficient in generating
+    code, leading to their utilization within the hardware design process. Prior works
+    evaluating LLMs’ abilities for register transfer level code generation solely
+    focus on functional correctness. However, the creativity associated with these
+    LLMs, or the ability to generate novel and unique solutions, is a metric not as
+    well understood, in part due to the challenge of quantifying this quality.To address
+    this research gap, we present CreativEval, a framework for evaluating the creativity
+    of LLMs within the context of generating hardware designs. We quantify four creative
+    sub-components, fluency, flexibility, originality, and elaboration, through various
+    prompting and post-processing techniques. We then evaluate multiple popular LLMs
+    (including GPT models, CodeLlama, and VeriGen) upon this creativity metric, with
+    results indicating GPT-3.5 as the most creative model in generating hardware designs.
 - title: 'Automated Context Generation for AI Code Assistants: An LLM-Powered Framework
     for Developer Intent Capture and Documentation Automation'
   date: 2026-05
@@ -49841,6 +50030,14 @@ papers:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2_8
   venue: Supply Chain Software Security
+  abstract: The digital transformation of supply chains has ushered in an era of unprecedented
+    efficiency and connectivity. However, this progress comes with its own set of
+    vulnerabilities. As companies increasingly rely on digital infrastructure, the
+    security of these networks becomes paramount. This chapter delves into real-world
+    case studies that highlight successful implementations of next-gen supply chain
+    security measures and the critical lessons learned from past incidents. These
+    stories serve as both inspiration and cautionary tales for organizations aiming
+    to bolster their supply chain security.
 - title: Emerging Trends in Software Supply Chain Security
   date: 2024-01
   url: https://doi.org/10.1007/979-8-8688-0799-2_10
@@ -49850,6 +50047,12 @@ papers:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2_10
   venue: Supply Chain Software Security
+  abstract: The chapter explores how emerging technologies reshape supply chains while
+    introducing new cybersecurity vulnerabilities. With threats evolving from AI-driven
+    attacks to quantum computing risks, robust encryption and AI Security Posture
+    Management (AISPM) are highlighted as essential safeguards. Emphasizing a proactive
+    approach, the chapter advocates for integrating advanced technologies to build
+    resilient, future-ready supply chains.
 - title: Implementing Comprehensive Security in Your Software Supply Chain
   date: 2024-01
   url: https://doi.org/10.1007/979-8-8688-0799-2_9
@@ -49859,6 +50062,13 @@ papers:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2_9
   venue: Supply Chain Software Security
+  abstract: In today's globalized world, supply chains have become increasingly intricate
+    and expansive. What once consisted of simple, linear chains has evolved into vast,
+    interconnected networks spanning multiple countries and involving numerous stakeholders.
+    This complexity brings unparalleled opportunities for efficiency and cost savings
+    but also introduces significant security vulnerabilities. The goal is to provide
+    a holistic framework for organizations to proactively mitigate supply chain vulnerabilities
+    and ensure the integrity of products, data, and operations.
 - title: DevSecOps Integration in Supply Chain Security
   date: 2024-01
   url: https://doi.org/10.1007/979-8-8688-0799-2_5
@@ -49868,6 +50078,14 @@ papers:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2_5
   venue: Supply Chain Software Security
+  abstract: The evolution of software development practices has progressively embraced
+    security as a fundamental component, rather than an afterthought. This paradigm
+    shift has given birth to DevSecOps, an approach that integrates security measures
+    throughout the development, deployment, and maintenance phases. In the domain
+    of supply chain management, adopting a DevSecOps framework is crucial due to the
+    complex, interconnected nature of modern supply chains. This chapter explores
+    how integrating DevSecOps can mitigate risks, enhance efficiency, and secure the
+    supply chain against emerging threats.
 - title: Key Technologies in Supply Chain Security
   date: 2024-01
   url: https://doi.org/10.1007/979-8-8688-0799-2_2
@@ -49877,6 +50095,13 @@ papers:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2_2
   venue: Supply Chain Software Security
+  abstract: This chapter examines the transformative role of AI, IoT, and application
+    security in shaping future industries and safeguarding software supply chains.
+    It discusses how AI drives efficiency across sectors like automotive and agriculture,
+    while IoT enables real-time data tracking and control. Additionally, it highlights
+    the importance of application security in mitigating vulnerabilities, emphasizing
+    practices such as DevSecOps and Software Bill of Materials (SBOM) for enhanced
+    transparency and security in software development.
 - title: The Evolution of Supply Chain Threats
   date: 2024-01
   url: https://doi.org/10.1007/979-8-8688-0799-2_1
@@ -49886,6 +50111,15 @@ papers:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2_1
   venue: Supply Chain Software Security
+  abstract: This chapter examines the critical role of AI and IoT in strengthening
+    supply chain security and efficiency in today’s interconnected global commerce
+    landscape. It explores how digital technologies are transforming supply chains
+    while introducing new vulnerabilities, from cyber threats to systemic inefficiencies,
+    and presents comprehensive strategies for addressing these challenges. The text
+    provides detailed insights into emerging trends, security tools, stakeholder roles,
+    and the integration of IoT and cloud security measures, emphasizing the importance
+    of building resilient, secure supply chains through technological innovation and
+    collaborative approaches.
 - title: The Anatomy of Supply Chain Applications
   date: 2024-01
   url: https://doi.org/10.1007/979-8-8688-0799-2_3
@@ -49895,6 +50129,14 @@ papers:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2_3
   venue: Supply Chain Software Security
+  abstract: This chapter explores the critical role of cybersecurity in supply chain
+    applications, addressing the vulnerabilities and attack vectors that threaten
+    various industries, from agriculture to automotive. Through case studies on ransomware
+    attacks in agriculture and vehicle control exploitation, the chapter underscores
+    the need for robust defenses and stakeholder collaboration to secure the supply
+    chain ecosystem. Emphasis is placed on adopting proactive security strategies
+    and cultivating cybersecurity awareness to enhance resilience against evolving
+    cyber threats.
 - title: Supply Chain Software Security
   date: 2024-01
   url: https://doi.org/10.1007/979-8-8688-0799-2
@@ -49903,6 +50145,8 @@ papers:
   authors:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2
+  abstract: This book is a comprehensive guide to integrating AI, IoT, and application
+    security to fortify the supply chain against contemporary threats.
 - title: Securing IoT-Driven Supply Chains
   date: 2024-01
   url: https://doi.org/10.1007/979-8-8688-0799-2_7
@@ -49912,6 +50156,15 @@ papers:
   - Aamiruddin Syed
   doi: 10.1007/979-8-8688-0799-2_7
   venue: Supply Chain Software Security
+  abstract: In the rapidly evolving landscape of the Internet of Things (IoT), security
+    and monitoring are critical components that ensure the safe and efficient operation
+    of connected devices. As IoT continues to expand across various sectors, including
+    supply chains, healthcare, smart cities, and more, the need for robust security
+    measures and real-time monitoring solutions has never been more imperative. This
+    chapter delves into the specifics of IoT security and monitoring, focusing on
+    IoT devices in supply chains, securing IoT endpoints and data, and real-time IoT
+    monitoring solutions. The goal is to provide a framework for supply chain organizations
+    to mitigate IoT-specific vulnerabilities and ensure supply chain integrity.
 - title: Software Supply Chain and DevOps Security Practices
   date: 2025-01
   url: https://doi.org/10.6028/nist.sp.1800-44
@@ -49930,6 +50183,11 @@ papers:
   - Minghui Zhou
   doi: 10.1145/3531056.3542767
   venue: Federated Africa and Middle East Conference on Software Engineering
+  abstract: Open source Software (OSS) ecosystems have had a tremendous impact on
+    computing and society, while their sustainability poses great challenges to both
+    practitioners and researchers. We utilize vast collections of open data produced
+    by distributed version control and social media to discover the mechanisms by
+    which such ecosystems form and operate, which we call open source software sociology.
 - title: From Open Source Software to Open Source Hardware
   date: 2012-01
   url: https://doi.org/10.1007/978-3-642-33442-9_23
@@ -49960,6 +50218,31 @@ papers:
   - Abdullahi Abdullahi
   doi: 10.61955/josrch
   venue: Journal of Information Resource Management (JIRM)
+  abstract: This study investigated librarians' perceptions of the sustainability
+    of Open Source Software (OSS) for library automation in academic libraries in
+    Adamawa State, Nigeria.A descriptive research design was employed.The population
+    comprised 103 librarians from six tertiary institutions, selected through census
+    sampling technique.Data were collected using a structured questionnaire titled
+    Perception of Librarians on Sustainability of Open Source Software Questionnaire
+    (PSOSSQ).Mean and standard deviation were used to answer research questions, while
+    ANOVA tested hypotheses at a 0.05 significance level.Findings revealed that librarians
+    generally support OSS adoption, citing improvements in library operations.There
+    were no significant differences in mean ratings across institutions regarding
+    perceptions of OSS adoption, reasons for its use, or sustainability (p > 0.05).Key
+    benefits identified included free licensing, multiple installations, community
+    support, and system integration.Perceived sustainability was linked to collective
+    decision-making, training opportunities, written procedures, and periodic evaluations.Challenges
+    included lack of training, insufficient technical staff, poor ICT infrastructure,
+    unstable power supply, and inadequate funding.Suggested sustainability measures
+    included regular training, institutional-industry partnerships, consistent software
+    updates, technical support, and improved funding.The study concluded that OSS
+    offers cost-effective and flexible solutions for library automation.However, its
+    sustainability depends on institutions investing in technical training, reliable
+    infrastructure, and supportive policies.This implies that successful OSS adoption
+    requires not just installation, but an ecosystem of support that addresses human,
+    financial, and operational gaps.It is therefore recommended that library management
+    develop structured training programs, build institutional-industry partnerships,
+    and allocate sustainable funding to ensure long-term success.
 - title: Open Source Software
   date: 2004-01
   url: https://doi.org/10.1016/b978-155558320-0/50002-7
@@ -50029,6 +50312,20 @@ papers:
   authors: []
   doi: 10.1017/9781316771273.004
   venue: Introduction to Software Testing
+  abstract: This extensively classroom-tested text takes an innovative approach to
+    explaining software testing that defines it as the process of applying a few precise,
+    general-purpose criteria to a structure or model of the software. The book incorporates
+    cutting-edge developments, including techniques to test modern types of software
+    such as OO, web applications, and embedded software. This revised second edition
+    significantly expands coverage of the basics, thoroughly discussing test automaton
+    frameworks, and it adds new, improved examples and numerous exercises. The theory
+    of coverage criteria is carefully and cleanly explained to help students understand
+    concepts before delving into practical applications, while extensive use of the
+    JUnit test framework gives students practical experience in a test framework popular
+    in the industry. Exercises, meanwhile, feature specifically tailored tools that
+    allow students to check their own work. The book's website also offers an instructor's
+    manual, PowerPoint slides, testing tools for students, and example software programs
+    in Java.
 - title: Testing
   date: 2017-01
   url: https://doi.org/10.1007/978-1-4842-3162-3_2
@@ -50038,6 +50335,12 @@ papers:
   - Gennadiy Alpaev
   doi: 10.1007/978-1-4842-3162-3_2
   venue: Software Testing Automation Tips
+  abstract: However, there are some rules we should take into account when automating
+    existing test cases and user cases, or when we decide what should be automated
+    and what should stay for manual execution. This chapter describes best practices
+    related to the testing process and the relationship between manual and automated
+    testing. These keywords were added by machine and not by the authors. This process
+    is experimental and the keywords may be updated as the learning algorithm improves.
 - title: Automation Testing in Software Organization
   date: 2022-07
   url: https://doi.org/10.21275/sr22629212828
@@ -50048,6 +50351,12 @@ papers:
   - Abdullah Shaikh
   doi: 10.21275/sr22629212828
   venue: International Journal of Science and Research (IJSR)
+  abstract: In software testing, automation testing plays a huge role for increasing
+    test efficiency of the software which is under test. Sometimes manual testing
+    may not be efficient due to its inconsistency, lack of coverage and none repeating
+    in nature. To overcome this issue, Test automation is used in software industry.
+    This research paper will present a comprehensive study of Automation testing and
+    comparison between types of Automation testing tools used in the software organization.
 - title: Suitable Software Automation Testing Tools for Microservices Architectures
     API Testing
   date: 2024-01
@@ -50071,6 +50380,24 @@ papers:
   doi: 10.1109/ast.2017.20
   venue: 2017 IEEE/ACM 12th International Workshop on Automation of Software Testing
     (AST)
+  abstract: 'Writing good software tests is difficult, not every software developer''s
+    favorite occupation, and not a prominent aspect in programming education. However,
+    human involvement in testing is unavoidable: What makes a test good is often down
+    to intuition; what makes a test useful depends on an understanding of the program
+    context; what makes a test find bugs depends on understanding the intended program
+    behaviour. Because the consequences of insufficient testing can be dire, this
+    paper explores a new angle to address the testing problem: Gamification is the
+    approach of converting potentially tedious or boring tasks to components of entertaining
+    gameplay, where the competitive nature of humans motivates them to compete and
+    excel. By applying gamification concepts to software testing, there is potential
+    to fundamentally change software testing in several ways: First, gamification
+    can help to overcome deficiencies in education, where testing is a highly neglected
+    topic. Second, gamification engages practitioners in testing tasks they would
+    otherwise neglect, and gets them to use advanced testing tools and techniques
+    they would otherwise not consider. Finally, gamification makes it possible to
+    crowdsource complex testing tasks through games with a purpose. Collectively,
+    these applications of gamification have the potential to substantially improve
+    software testing practice, and thus software quality.'
 - title: Software Testing from Manual to AI-Driven Automation
   date: 2025-01
   url: https://doi.org/10.1007/979-8-8688-1829-5_2
@@ -50080,6 +50407,11 @@ papers:
   - Srinivasa Rao Bittla
   doi: 10.1007/979-8-8688-1829-5_2
   venue: AI-Driven Software Testing
+  abstract: 'I was cleaning out my desk last month and found a stack of printed test
+    plans from 2008. There were 23 pages filled with detailed test cases for a basic
+    web application. Each test case was meticulously documented: "Step 1: Click the
+    Login button. Expected result: Login dialog appears." It took three people two
+    weeks to write those test cases and another week to execute them.'
 - title: The Importance of Software Testing
   date: 2023-01
   url: https://doi.org/10.1007/978-1-4842-9514-4_1
@@ -50089,6 +50421,11 @@ papers:
   - Panagiotis Leloudas
   doi: 10.1007/978-1-4842-9514-4_1
   venue: Introduction to Software Testing
+  abstract: Software testing is a crucial part of the software development process.
+    It is the process of evaluating a software system or application to find defects,
+    errors, or bugs, and verifying that it meets its intended requirements and functions
+    correctly. Software testing is essential because it ensures that the software
+    performs as expected, meets user needs, and is reliable and efficient.
 - title: Software Testing Automation Tips
   date: 2017-01
   url: https://doi.org/10.1007/978-1-4842-3162-3
@@ -50097,6 +50434,26 @@ papers:
   authors:
   - Gennadiy Alpaev
   doi: 10.1007/978-1-4842-3162-3
+  abstract: 'Quickly access 50 tips for software test engineers using automated methods.
+    The tips point to practices that save time and increase the accuracy and reliability
+    of automated test techniques. Techniques that play well during demos of testing
+    tools often are not the optimal techniques to apply on a running project. This
+    book highlights those differences, helping you apply techniques that are repeatable
+    and callable in professionally run software development projects. Emphasis is
+    placed on creating tests that, while automated, are easily adapted as the software
+    under construction evolves toward its final form. Techniques in the book are arranged
+    into five categories: scripting, testing, the environment, running and logging
+    of tests, and reviewing of the results. Every automation engineer sooner or later
+    will face similar issues to the ones covered in these categories, and you will
+    benefit from the simple and clear answers provided in this book. While the focus
+    of the book is on the use of automated tools, the tips are not specific to any
+    one vendor solution. The tips cover general issues that are faced no matter the
+    specific tool, and are broadly applicable, often even to manual testing efforts.
+    What You''ll Learn: Employ best-practices in automated test design Write test
+    scripts that will easily be understood by others Choose the proper environment
+    for running automated tests Avoid techniques that demo well, but do not scale
+    in practice Manage tests effectively, including testing of test scripts themselves
+    Know when to go beyond automation to employ manual methods instead.'
 - title: Software Testing Types and Techniques
   date: 2023-01
   url: https://doi.org/10.1007/978-1-4842-9514-4_2
@@ -50106,6 +50463,15 @@ papers:
   - Panagiotis Leloudas
   doi: 10.1007/978-1-4842-9514-4_2
   venue: Introduction to Software Testing
+  abstract: Software testing is a complex process that involves various types and
+    techniques to ensure that the software is working correctly and meets its intended
+    requirements. In this chapter, we will discuss the different types of software
+    testing and the techniques used in each type, starting with functional testing
+    and the four levels it involves. We will continue with nonfunctional testing,
+    which can include performance testing, compliance testing, and all the different
+    types of -ility testing (usability, compatibility, availability, etc.). After
+    that, we will see the benefits of static testing, where we can detect potential
+    defects just by carefully examining the code without even executing it.
 - title: Challenges and Solutions in Software Testing
   date: 2023-01
   url: https://doi.org/10.1007/978-1-4842-9514-4_9
@@ -50115,6 +50481,12 @@ papers:
   - Panagiotis Leloudas
   doi: 10.1007/978-1-4842-9514-4_9
   venue: Introduction to Software Testing
+  abstract: Software testing is an essential part of software development that helps
+    to ensure the quality and reliability of software products. However, the software
+    testing process is often accompanied by various challenges that can affect the
+    effectiveness and efficiency of the testing process. In this chapter, we will
+    discuss some of the common challenges in software testing and provide some solutions
+    to overcome these challenges.
 - title: Microservices Design Patterns
   date: 2022-01
   url: https://doi.org/10.1007/978-1-4842-7809-3_3
@@ -50125,6 +50497,9 @@ papers:
   - Shailesh S. Agaskar
   doi: 10.1007/978-1-4842-7809-3_3
   venue: Azure Kubernetes Services with Microservices
+  abstract: Now that you have gone through the architectural and organizational considerations
+    for assessing maturity and readiness for microservices, this chapter covers the
+    design patterns that are used with microservices.
 - title: Microservices Architecture
   date: 2019-01
   url: https://doi.org/10.1007/978-1-4842-4501-9_4
@@ -50134,6 +50509,18 @@ papers:
   - Binildas Christudas
   doi: 10.1007/978-1-4842-4501-9_4
   venue: Practical Microservices Architectural Patterns
+  abstract: After the initial three chapters, you now have set a solid knowledge base
+    to distinguish between the microservices style of software architecture and the
+    architecture of a traditional monolith. You learned the technique of breaking
+    down the monolith into multiple small logical and physically separate groupings
+    called microservices, thereby improving the scale out capability in a flexible
+    manner. While in the traditional monolith schema of architecture you have one
+    single, big application to manage, the same application when redesigned into a
+    microservices architecture will be more than one single deployment and hence many
+    more concerns like the intermicroservice communications, will pop up. You will
+    explore the details of this new set of architectural concerns in this chapter.
+    You will also explore a few relevant trends in the software paradigm that have
+    compelled software architects to move away from traditional architectural styles.
 - title: Patterns for Microservices-Centric Applications
   date: 2019-08
   url: https://doi.org/10.1201/9780429329920-8
@@ -50145,6 +50532,21 @@ papers:
   - Pethuru Raj
   doi: 10.1201/9780429329920-8
   venue: Essentials of Microservices Architecture
+  abstract: Microservices Architecture is considered as the most efficient architectural
+    pattern and style for producing and sustaining enterprise-grade applications which
+    require frequent deployment and continuous delivery. This chapter presents popular
+    design patterns that are useful for the design, development, and deployment of
+    microservices. It aims to understand how different categories of patterns, such
+    as decomposition patterns, composition patterns, observability patterns, database
+    architecture patterns, cross-cutting concern patterns, and deployment patterns,
+    are useful for Microservices architecture. The chapter examines in order to detail
+    all kinds of useful and usable patterns toward microservices-centric application
+    design, development, composition, and deployment. The goal of microservices is
+    to increase the velocity of application releases; patterns can help mitigate the
+    challenges associated with the design, development, and deployment of microservices-based
+    applications. Microservices are nothing more than regular distributed systems.
+    The key differentiator is that the number of participating and contributing microservices
+    for any distributed application is quite huge.
 - title: Distributed Computing Architecture Landscape
   date: 2019-01
   url: https://doi.org/10.1007/978-1-4842-4501-9_1
@@ -50154,6 +50556,15 @@ papers:
   - Binildas Christudas
   doi: 10.1007/978-1-4842-4501-9_1
   venue: Practical Microservices Architectural Patterns
+  abstract: The technology landscape within any given enterprise of considerable size
+    is often very complex, with aging legacy systems, fragmented by business verticals,
+    internal departments, supply chain, and so on. In some cases, enterprises have
+    more than one system per business process, given that many enterprises have grown
+    through mergers and acquisitions and thus kept multiple systems and also operate
+    internationally and need to maintain links to different partners and service providers.
+    As a result, the technology infrastructure is often described as “spaghetti architecture,”
+    with many-to-many direct dependencies between business systems, partner and supply
+    chain systems, and other service providers.
 - title: Axon for CQRS Architecture
   date: 2019-01
   url: https://doi.org/10.1007/978-1-4842-4501-9_12
@@ -50163,6 +50574,15 @@ papers:
   - Binildas Christudas
   doi: 10.1007/978-1-4842-4501-9_12
   venue: Practical Microservices Architectural Patterns
+  abstract: In Chapter 11 , you learned about events and event-driven architecture,
+    and you also looked into the theorems and constraints within which any EDA-based
+    application can operate. Microservices architecture inherently bring partitions,
+    hence concrete mechanisms to attain partition tolerance are of great importance.
+    You will do that in this chapter with the help of Axon. Axon is a lightweight
+    framework that will help you develop applications following the CQRS pattern.
+    The Axon framework is licensed under the Apache 2 license so you can use the framework
+    in any application for free. However, if you need professional services around
+    Axon, they are provided by AxonIQ B.V., which is based in Amsterdam.
 - title: 'Microservices: Architecting and Design Considerations'
   date: 2022-01
   url: https://doi.org/10.1007/978-1-4842-7809-3_2
@@ -50173,6 +50593,10 @@ papers:
   - Shailesh S. Agaskar
   doi: 10.1007/978-1-4842-7809-3_2
   venue: Azure Kubernetes Services with Microservices
+  abstract: Now that you have learned about the evolution of distributed computing
+    and have come to the modern-day patterns, which provide more robust, scalable,
+    and quicker services, this chapter covers the microservice considerations of architecture
+    and design.
 - title: Introduction to Microservices and AKS
   date: 2022-01
   url: https://doi.org/10.1007/978-1-4842-7809-3_1
@@ -50183,6 +50607,15 @@ papers:
   - Shailesh S. Agaskar
   doi: 10.1007/978-1-4842-7809-3_1
   venue: Azure Kubernetes Services with Microservices
+  abstract: Congratulations, you have taken a step toward understanding microservices
+    better. This book will help you decide when to use microservices and how to solve
+    business problems using microservices. If you are reading this book, you must
+    be interested in designing and developing microservices. Perhaps you are interested
+    in exposing your business to new markets by building external-facing APIs for
+    third parties or perhaps you want to develop and deploy software incrementally
+    and more frequently with agility. Maybe you have no idea what microservices are,
+    but you want to understand this new architectural style that everyone is talking
+    about.
 - title: Structural Patterns and Chaining Processes
   date: 2022-01
   url: https://doi.org/10.1007/978-1-4842-7468-2_4
@@ -50192,6 +50625,7 @@ papers:
   - Hugo Filipe Oliveira Rocha
   doi: 10.1007/978-1-4842-7468-2_4
   venue: Practical Event-Driven Microservices Architecture
+  abstract: 'This chapter covers:'
 - title: 'Microservices Architecture in Cloud Computing: A Comprehensive Analysis
     of Design Patterns, Scalability, and Performance'
   date: 2024-01
@@ -50226,6 +50660,7 @@ papers:
   - Aleksei Zubarev
   doi: 10.31144/si.2307-6410.2017.n9.p1-22
   venue: System Informatics
+  abstract: '.. ( , ) P : , . . ('
 - title: An Incremental Type Inference System for the Programming Language Id
   date: 1990-11
   url: https://doi.org/10.21236/ada230085
@@ -50234,6 +50669,19 @@ papers:
   authors:
   - Shail A. Gupta
   doi: 10.21236/ada230085
+  abstract: Modern computing environments strive to be robust and reliable, and at
+    the same time, aim at providing enough flexibility to an interactive user to edit,
+    debug, and test programs easily and efficiently. Strongly typed languages satisfactorily
+    meet the former goal by guaranteeing that "type-consistent" programs will not
+    incur run-time type-errors. But most programming environments for such languages
+    have to sacrifice the flexibility of interactive and incremental program development
+    in order to achieve this consistency over the whole program. The problem is further
+    complicated by the presence of polymorphism in many of these languages, where
+    the definition of "type-consistency" is one of inclusion, rather than equality.
+    In this thesis, we address the latter goal of providing an interactive and incremental
+    program development environment in context of Id, which is a polymorphic, strongly
+    typed, incrementally compiled, parallel programming language, developed at the
+    Laboratory for Compute...
 - title: PCubeS Type Architecture and IT Programming Language
   date: 2024-01
   url: https://doi.org/10.18130/v3m319
@@ -50242,6 +50690,11 @@ papers:
   authors:
   - Muhammad Yanhaona
   doi: 10.18130/v3m319
+  abstract: As the rate of improvement of uniprocessors slows, parallel programming
+    has become an issue for more programmers now, not just for high performance scientific
+    computing developers. Multicore processors and accelerators are now ubiquitous
+    in both small and large scale computing devices. The potential for performance
+    improvement through parallelism is significant in contemporary hardware.
 - title: A Unified System Modelling and Programming Language based on JavaScript and
     a Semantic Type System
   date: 2018-01
@@ -50252,6 +50705,16 @@ papers:
   - Stefan Bosse
   doi: 10.1016/j.promfg.2018.06.005
   venue: Procedia Manufacturing
+  abstract: The design and simulation of complex mechatronic and intelligent systems
+    require a unified system modelling and programming language. This work introduces
+    JavaScript as a unified modelling and programming language by extending JavaScript
+    with a semantic type system extension JST as a possible solution to fill the gap
+    between models and implementations, finally resulting in the JS+ super set language
+    combining typing, modelling, and programming. The paper shows various model domains
+    and their relation to the JS+ programming model including some generic transformation
+    rules. Finally, a system compiler framework is introduced that can process JS+
+    models and program code. The tool uses JS+ input to produce a wide range of output
+    formats for software and hardware design, and multi-domain simulation.
 - title: 'Table 7: Dataset distribution by smell type and programming language.'
   date: 2024-01
   url: https://doi.org/10.7717/peerj-cs.3642/table-7
@@ -50276,6 +50739,22 @@ papers:
   - I.E. Bronshteyn
   doi: 10.15514/ispras-2013-24-9
   venue: Proceedings of the Institute for System Programming of RAS
+  abstract: 'The article presents type inference for programs written in Python programming
+    language. At first, type inference algorithms for parametric polymorphism that
+    were described in the scientific literature are reviewed. The algorithms evolved
+    from “basic” algorithm (also known as Palsberg — Schwartzbach algorithm) to Cartesian
+    product algorithm (CPA). It was shown that CPA is both precise and efficient,
+    however it has to be modified to be used on Python code. Afterwards, we present
+    a new algorithm (a modification of CPA) for Python. It is shown how type inference
+    module using the new algorithm analyses various Python language structures: constants
+    (literals), basic Python collections, variable names, assignments, function and
+    class definitions, attribute and index expressions. It is also shown how the algorithm
+    deals with external (non-Python) functions using special annotations that specify
+    output types depending on input types of the function. Afterwards, the results
+    of work on the prototype (module that implements described type inference algorithm)
+    are presented. The paper is concluded by an overview of possible future work directions
+    such as generating a defect trace, i.e. description that specifies how expression
+    got its incorrect types.'
 - title: Information technology. Programming languages, their environments and system
     software interfaces. Programming language ISLISP
   date: 2024-01
@@ -50284,6 +50763,7 @@ papers:
   subcategory: theory
   authors: []
   doi: 10.3403/01206946u
+  abstract: '35.060'
 - title: 'Observability Challenges in Distributed Enterprise Transaction Systems:
     Beyond Traditional Logging'
   date: 2024-01
@@ -50334,6 +50814,17 @@ papers:
   - Daniel Gomez Blanco
   doi: 10.1007/978-1-4842-9075-0_8
   venue: Practical OpenTelemetry
+  abstract: Logs are one of the earliest forms of telemetry. As such, this signal
+    benefits from native support in many languages and from well-supported frameworks
+    that allow to produce them as structured or unstructured events. At the time of
+    writing, the OpenTelemetry Logs specification is still under development, in the
+    experimental stage. Therefore, the concepts and examples used in this chapter
+    are subject to change. Nonetheless, even at this early stage, the specification
+    contemplates that in order to support this long legacy of logging solutions, the
+    OpenTelemetry Logs API and SDK must integrate with existing frameworks and protocols,
+    rather than start from a clean slate. In this chapter, we’ll cover how OpenTelemetry
+    can integrate with existing solutions and the purpose of application logging in
+    modern observability.
 - title: 'Observability and Monitoring for Front-End: A Holistic Approach to Logging,
     Tracing, and Metrics with the Advent of AI'
   date: 2024-08
@@ -50391,6 +50882,23 @@ papers:
   - Sai Krishna Manohar Cheemakurthi
   doi: 10.53555/nveo.v10i1.5761
   venue: 'CLOUD OBSERVABILITY IN FINANCE: MONITORING STRATEGIES FOR ENHANCED SECURITY'
+  abstract: 'Cloud observability thus has an important role to play in improving security
+    for financial systems because it offers complete visibility of the cloud. With
+    a growing number of financial institutions implementing cloud solutions in their
+    operations, enhanced security becomes vital. Cloud observability involves the
+    monitoring and identification of security threats in live to avoid issues related
+    to cyber security threats, privacy, and regulatory compliance. This paper focuses
+    on how monitoring approaches utilizing cloud observability can assist in enhancing
+    the security of financial systems. By leveraging sophisticated tools such as digital
+    logs, metrics, and distributed tracing, it becomes possible to acquire valuable
+    data on cloud infrastructure to respond to threats actively. Traditional monitoring
+    is replaced by cloud observability, which encompasses more profound access to
+    the system’s functioning and performance, without which it is impossible to ensure
+    the reliability, confidentiality, and availability of financial information. It
+    is within this context that this paper underlines the importance of implementing
+    the proposed principles and practices to attain higher levels of cloud observability
+    that are efficient, secure, and effective in supporting the financial ecosystem
+    of the future. Published Date: 5 October 2022'
 - title: A General Framework for Modernizing Logging and Monitoring
   date: 2024-07
   url: https://doi.org/10.2172/2407257
@@ -50402,6 +50910,15 @@ papers:
   - Jeny Teheran
   doi: 10.2172/2407257
   venue: A General Framework for Modernizing Logging and Monitoring
+  abstract: Flowchart of the Steps for Modernizing Logging and MonitoringThis summer,
+    I applied modern logging and monitoring principles to assess and enhance Fermilab's
+    existing infrastructure.The process began with an evaluation of their current
+    system to identify strengths, weaknesses in their logging and alerting capabilities.This
+    assessment included documenting existing dashboards, alerts, and saved searches,
+    and analyzing the effectiveness of their log collection and management practices.Based
+    on this review, I developed a strategic plan to transition from their existing
+    systems to a more advanced solution, focusing on maintaining critical features
+    such as alerts and log analysis.
 - title: Estimating Refactoring Efforts for Architecture Technical Debt
   date: 2024-01
   url: https://doi.org/10.33915/etd.7711
@@ -50410,6 +50927,28 @@ papers:
   authors:
   - Samir Deeb
   doi: 10.33915/etd.7711
+  abstract: Paying-off the Architectural Technical Debt by refactoring the flawed
+    code is important to control the debt and to keep it as low as possible. Project
+    Managers tend to delay paying off this debt because they face difficulties in
+    comparing the cost of the refactoring against the benefits they gain. For these
+    managers to decide whether to refactor or to postpone, they need to estimate the
+    cost and the efforts required to conduct these refactoring activities as well
+    as to decide which flaws have higher priority to be refactored among others. Our
+    research is based on a dataset used by other researchers in the technical debt
+    field. It includes more than 18,000 refactoring operations performed on 33 apache
+    java projects. To estimate the refactoring efforts done, we applied the COCOMO
+    II:2000 model to calculate the refactoring cost in person-months units per release.
+    Furthermore, we investigated the correlation between the refactoring efforts and
+    two static code metrics of the refactored code, mainly, the LOC and the complexity.
+    The research revealed a moderate correlation between the refactoring efforts and
+    each one of the size of the project and code complexity. Finally, we applied the
+    DesigniteJava tool and machine learning practices to verify our research results.
+    From the analysis we found a significant correlation between the ranking of the
+    architecture smells and the ranking of refactoring efforts for each package. Using
+    machine learning practices, we took the architecture smells level and the code
+    metrics of each release as an input to predict the levels of the refactoring effort
+    of the next release. We calculated the results using our model and found that
+    we can predict the higher refactoring cost levels with 93\% accuracy.
 - title: 'Reducing Technical Debt Density: Refactoring vs. Writing Clean New Code'
   date: 2024-01
   url: https://doi.org/10.33612/diss.181245089
@@ -50419,6 +50958,13 @@ papers:
   - ''
   - George Digkas
   doi: 10.33612/diss.181245089
+  abstract: Technical Debt (TD) is a powerful metaphor that represents shortcuts taken
+    in a software development project, usually to meet business goals such as limited
+    time or budget. Technical Debt concerns mostly invisible parts of the system (i.e.
+    no visible features or defects) and has a detrimental effect on the maintainability
+    and evolvability of software. Technical Debt manifests in both design and implementation
+    constructs such as sub-optimal design decisions, design and code smells, use of
+    impertinent technologies, lack of documentation etc.
 - title: Tools for Repaying Technical Debt
   date: 2015-01
   url: https://doi.org/10.1016/b978-0-12-801397-7.15002-7
@@ -50460,6 +51006,18 @@ papers:
   - Christian D. Newman
   doi: 10.1145/3524842.3528527
   venue: Proceedings of the 19th International Conference on Mining Software Repositories
+  abstract: To meet project timelines or budget constraints, developers intentionally
+    deviate from writing optimal code to feasible code in what is known as incurring
+    Technical Debt (TD). Furthermore, as part of planning their correction, developers
+    document these deficiencies as comments in the code (i.e., self-admitted technical
+    debt or SATD). As a means of improving source code quality, developers often apply
+    a series of refactoring operations to their codebase. In this study, we explore
+    developers repaying this debt through refactoring operations by examining occurrences
+    of SATD removal in the code of 76 open-source Java systems. Our findings show
+    that TD payment usually occurs with refactoring activities and developers refactor
+    their code to remove TD for specific reasons. We envision our findings supporting
+    vendors in providing tools to better support developers in the automatic repayment
+    of technical debt.
 - title: Lessons from the Exponential Growth of Refactoring Research in the Last Decade
   date: 2019-05
   url: https://doi.org/10.1109/techdebt.2019.00020
@@ -50469,6 +51027,17 @@ papers:
   - Danny Dig
   doi: 10.1109/techdebt.2019.00020
   venue: 2019 IEEE/ACM International Conference on Technical Debt (TechDebt)
+  abstract: In the last decade refactoring research has seen exponential growth. I
+    will attempt to map this vast landscape and the advances that the community has
+    made by answering questions such as who does what, when, where, why, and how.
+    I will muse on some of the factors contributing to the growth of the field (e.g.,
+    refactoring the definition of refactoring to include other artifacts besides source
+    code), the adoption of research into industry, and the lessons that we learned
+    along this journey. This talk will present the value of prioritizing the important
+    tasks, yet often the difficult ones. Several cases studies will show that everything
+    worth doing is uphill all the way. This will inspire and equip you so that you
+    can make a difference, with people who make a difference, at a time when it makes
+    a difference.
 - title: Refactoring of Code to Remove Technical Debt and Reduce Maintenance Effort
   date: 2020-12
   url: https://doi.org/10.1109/icosst51357.2020.9332917
@@ -50480,6 +51049,30 @@ papers:
   doi: 10.1109/icosst51357.2020.9332917
   venue: 2020 14th International Conference on Open Source Systems and Technologies
     (ICOSST)
+  abstract: Software development organizations face issue like Technical Debt in their
+    software projects. Technical Debt (TD) is incurred when a person involved in engineering
+    of software, intentionally or unintentionally makes wrong or non-optimal design
+    decisions. This problem occurs due to non-systematic and undefined approach to
+    manage the high level of uncertainty in requirements. These non-optimal design
+    decisions and the nonsystematic approach can result in introduction of code smells.
+    Code smells are actually technical debt (also known as perceived debt), which
+    may cause a project to fade out with time. Code of a software project with technical
+    debt is considered as unclean code. Refactoring is an activity of modifying the
+    code to remove technical debt from a software project and make the project code
+    clean. Goal of this work is to study the impact of removing TD on the effort required
+    to add features and remove bugs from software. To this end, this work uses a stepwise
+    approach; first code smells (considered as TD) are identified, and in the next
+    step the smells are removed and impact of removing the code smells (on removing
+    bug and adding new feature) is observed in terms of effort required during maintenance.
+    Technical debt in five open source software applications has been calculated and
+    impact of removing the code smells has been observed on one of the applications
+    named NopCommerce (an ecommerce-based system). Effort to add a new feature and
+    remove a bug, before and after refactoring, has been calculated in terms of man-hours.
+    The effort required to add new feature and remove a bug from the clean code has
+    been 7% less as compared to the effort required to do the same in unclean code.
+    Whether to perform refactoring or not is a decision made by software developers.
+    The impact of refactoring in reducing effort required to maintain code will help
+    a developer make a decision regarding refactoring.
 - title: An empirically developed method to aid decisions on architectural technical
     debt refactoring
   date: 2016-05
@@ -50492,6 +51085,27 @@ papers:
   doi: 10.1145/2889160.2889224
   venue: Proceedings of the 38th International Conference on Software Engineering
     Companion
+  abstract: Architectural Technical Debt is regarded as sub-optimal architectural
+    solutions that need to be refactored in order to avoid the payment of a costly
+    interest in the future. However, decisions on if and when to refactor architecture
+    are extremely important and difficult to take, since changing software at the
+    architectural level is quite expensive. Therefore it is important, for software
+    organizations, to have methods and tools that aid architects and managers to understand
+    if Architecture Technical Debt will generate a costly and growing interest to
+    be paid or not. Current knowledge, especially empirically developed and evaluated,
+    is quite scarce. In this paper we developed and evaluated a method, AnaConDebt,
+    by analyzing, together with several practitioners, 12 existing cases of Architecture
+    Debt in 6 companies. The method has been refined several times in order to be
+    useful and effective in practice. We also report the evaluation of the method
+    with a final case, for which we present anonymized results and subsequent refactoring
+    decisions. The method consists of several components that need to be analyzed,
+    combining the theoretical Technical Debt framework and the practical experience
+    of the practitioners, in order to identify the key factors involved in the growth
+    of interest. The output of the method shows summarized indicators that visualizes
+    the factors in a useful way for the stakeholders. This analysis aids the practitioners
+    in deciding on if and when to refactor Architectural Technical Debt items. The
+    method has been evaluated and has been proven useful to support the architects
+    into systematically analyze and decide upon a case.
 - title: 'Self-Admitted Technical Debt Removal and Refactoring Actions: Co-Occurrence
     or More?'
   date: 2019-09
@@ -50505,6 +51119,17 @@ papers:
   doi: 10.1109/icsme.2019.00029
   venue: 2019 IEEE International Conference on Software Maintenance and Evolution
     (ICSME)
+  abstract: Technical Debt (TD) concerns the lack of an adequate solution in a software
+    project, from its design to the source code. Its admittance through comments or
+    commit messages is referred to as Self-Admitted Technical Debt (SATD). Previous
+    research has studied SATD from different perspectives, including its distribution,
+    impact on software quality, and removal. In this paper, we investigate the relationship
+    between refactorings and SATD removal. By leveraging a dataset of SATD and their
+    removals in four open-source projects and by using an automated refactoring detection
+    tool, we study the co-occurrence of refactorings and SATD removals. Results of
+    the study indicate that refactorings are more likely to co-occur with SATD removals
+    than with other commits, however, in most cases, they belong to different quality
+    improvement activities performed at the same time.
 - title: Scaling genetic improvement and automated program repair
   date: 2022-05
   url: https://doi.org/10.1145/3524459.3527353
@@ -50514,6 +51139,9 @@ papers:
   - Mark Harman
   doi: 10.1145/3524459.3527353
   venue: Proceedings of the Third International Workshop on Automated Program Repair
+  abstract: This paper outlines techniques and research directions for scaling genetic
+    improvement and automated program repair, highlighting possible directions for
+    future work and open challenges.
 - title: ARJA-e for the First International Competition on Automated Program Repair
   date: 2024-04
   url: https://doi.org/10.1145/3643788.3648019
@@ -50524,6 +51152,10 @@ papers:
   doi: 10.1145/3643788.3648019
   venue: Proceedings of the 5th ACM/IEEE International Workshop on Automated Program
     Repair
+  abstract: ARJA-e is an enhanced repair system based on ARJA. Here we briefly introduces
+    ARJA-e and report the results of ARJA-e for the First International Competition
+    on Automated Program Repair on two competition tracks, including the AI Generated
+    Code track and the Functional Errors track.
 - title: Revisiting object similarity-based patch ranking in automated program repair
   date: 2022-05
   url: https://doi.org/10.1145/3524459.3527354
@@ -50533,6 +51165,17 @@ papers:
   - Ali Ghanbari
   doi: 10.1145/3524459.3527354
   venue: Proceedings of the Third International Workshop on Automated Program Repair
+  abstract: Test-based generate-and-validate automated program repair (APR) systems
+    often generate plausible patches that pass the test suite without fixing the bug.
+    So far, several approaches for automatic assessment of the APR-generated patches
+    are proposed. Among them, dynamic patch correctness assessment relies on comparing
+    run-time information obtained from the program before and after patching. Object
+    similarity-based dynamic patch ranking approaches, specifically, capture system
+    state snapshots after the impact point of patches and express behavior differences
+    in term of object graphs similarities. Dynamic approaches rely on the assumption
+    that, when running the originally passing test cases, the correct patches will
+    not alter the program behavior in a significant way, but such patches will significantly
+    change program behavior for the failing test cases.
 - title: 'ASAP-Repair: API-Specific Automated Program Repair Based on API Usage Graphs'
   date: 2024-04
   url: https://doi.org/10.1145/3643788.3648011
@@ -50545,6 +51188,18 @@ papers:
   doi: 10.1145/3643788.3648011
   venue: Proceedings of the 5th ACM/IEEE International Workshop on Automated Program
     Repair
+  abstract: Modern software development relies on the reuse of code via Application
+    Programming Interfaces (APIs). Such reuse relieves developers from learning and
+    developing established algorithms and data structures anew, enabling them to focus
+    on their problem at hand. However, there is also the risk of misusing an API due
+    to a lack of understanding or proper documentation. While many techniques target
+    API misuse detection, only limited efforts have been put into automatically repairing
+    API misuses. In this paper, we present our advances on our technique API-Specific
+    Automated Program Repair (ASAP-Repair). ASAP-Repair is intended to fix API misuses
+    based on API Usage Graphs (AUGs) by leveraging API usage templates of state-of-the-art
+    API misuse detectors. We demonstrate that ASAP-Repair is in principle applicable
+    on an established API misuse dataset. Moreover, we discuss next steps and challenges
+    to evolve ASAP-Repair towards a full-fledged Automatic Program Repair (APR) technique.
 - title: Be realistic
   date: 2022-05
   url: https://doi.org/10.1145/3524459.3527346
@@ -50555,6 +51210,11 @@ papers:
   - Gary T. Leavens
   doi: 10.1145/3524459.3527346
   venue: Proceedings of the Third International Workshop on Automated Program Repair
+  abstract: Automated program repair (APR) tools have promising results, but what
+    are APR's limits? The answer could help researchers design tool trade-offs and
+    manage user expectations. Since APR is undecidable, as are two of its typical
+    phases, tools must use conservative approximations. Such approximations can help
+    APR tools be better understood and can lead to a theory of sound APR.
 - title: Program Repair Competition
   date: 2023-05
   url: https://doi.org/10.1109/apr59189.2023.00010
@@ -50566,6 +51226,13 @@ papers:
   - Abhik Roychoudhury
   doi: 10.1109/apr59189.2023.00010
   venue: 2023 IEEE/ACM International Workshop on Automated Program Repair (APR)
+  abstract: Automated Program Repair(APR) is a rapidly de-veloping technology that
+    can assist developers in fixing software system errors. An essential part of any
+    scientific work is a fair and comprehensive evaluation of the state-of-the-art
+    techniques. At present there is no publicly available standard mechanism to perform
+    comparisons for program repair. In this paper, we propose such a standardization
+    in the form of a competition to foster comparability, advancing the state-of-the-art
+    capabilities and to pave the path for the next-generation repair technology.
 - title: Program Committee
   date: 2021-06
   url: https://doi.org/10.1109/apr52552.2021.00007
@@ -50586,6 +51253,27 @@ papers:
   - Tibor Gyimóthy
   doi: 10.1109/apr59189.2023.00013
   venue: 2023 IEEE/ACM International Workshop on Automated Program Repair (APR)
+  abstract: 'Bug fixing is one of the most time-consuming and resource-intensive tasks
+    in the software development life cycle. Automated Program Repair (APR) might be
+    able to help in this process, but it still has to overcome many obstacles. Deep
+    learning models have shown promise for automated program repair in recent years,
+    but their effectiveness can depend on the representation of the source code used
+    as input. In this paper, we conduct an experimental study to compare the performance
+    of deep learning models on two popular programming languages, Java and JavaScript,
+    using three different code representations: raw text, command sequences, and abstract
+    syntax trees (ASTs). We also experiment with varying models, including T5, CodeT5,
+    (for solving sequence-to-sequence tasks) RoBERTa, and GPTNeo (to encode/decode
+    AST graph information). We evaluate the models on a set of real-world defects
+    from open-source projects and compare the performance, and the repair patches
+    generated by the models. Our results show that training on command sequence representation
+    outperforms most other configurations. We achieve a best of 19.88% accuracy on
+    the java-small dataset, and 11.87% on java-medium, using text representation.
+    Using command sequence representation, we achieve 30.64% on java-small and 18.53%
+    on the medium dataset. However, when representing the source with ast+text information,
+    our models significantly underperform compared to other representations, achieving
+    results below one percent. Our findings contribute to a better understanding of
+    the strengths and limitations of deep learning models for automated program repair
+    and provide practical guidance for their use in practice.'
 - title: Challenging the Stigma of Formal Program Repair
   date: 2021-06
   url: https://doi.org/10.1109/apr52552.2021.00015
@@ -50595,6 +51283,14 @@ papers:
   - Bat-Chen Rothenberg
   doi: 10.1109/apr52552.2021.00015
   venue: 2021 IEEE/ACM International Workshop on Automated Program Repair (APR)
+  abstract: 'Formal program repair automatically finds a patch to a program that makes
+    it meet a formal specification, such as a logical formula. That is, a repair obtained
+    through formal program repair is required to satisfy the specification for all
+    possible inputs. In this short paper, we examine formal program repair from three
+    aspects: efficiency, scalability, and repair quality. In particular, we present
+    evidence to undermine the stigma that formal program repair is inefficient. We
+    hope that by doing so this paper is able to attract researchers towards engaging
+    in this type of repair.'
 - title: 'Please hold on: more time = more patches? Automated program repair as anytime
     algorithms'
   date: 2021-06
@@ -50607,6 +51303,14 @@ papers:
   - Fabio Massacci
   doi: 10.1109/apr52552.2021.00009
   venue: 2021 IEEE/ACM International Workshop on Automated Program Repair (APR)
+  abstract: Current evaluations of automatic program repair (APR) techniques focus
+    on tools' effectiveness, while little is known about the practical aspects of
+    using APR tools, such as how long one should wait for a tool to generate a bug
+    fix. In this work, we empirically study whether APR tools are any time algorithms
+    (e.g., the more time they have, the more fixes they generate, so it makes sense
+    to trade off longer time for better quality). Our preliminary experiment shows
+    that the amount of plausible patches, given exponentially greater time, only increases
+    linearly or not at all.
 - title: 'AI-augmented reliability in CI/CD: a framework for predictive, adaptive,
     and self-correcting pipelines.'
   date: 2026-01
@@ -51134,6 +51838,68 @@ papers:
   - Allison DS
   doi: 10.3389/frai.2026.1816684
   venue: MED
+  abstract: 'Artificial intelligence (AI) has become an integral part of contemporary
+    software engineering practice. Automated programming techniques, particularly
+    AI-driven code generation, are increasingly used to accelerate development, reduce
+    repetitive effort, and lower barriers to software creation. Recent advances in
+    large language models (LLMs) have substantially expanded the scope of program
+    synthesis, enabling systems that generate executable code directly from natural
+    language descriptions (Jiang et al., 2026;Lyu et al., 2025). These capabilities
+    have prompted widespread interest across research, industry, and education, positioning
+    code generation as one of the most visible applications of generative AI.Despite
+    this progress, fundamental challenges remain. LLM-based systems often struggle
+    with complex programming tasks that require precise interpretation of problem
+    intent, multi-step reasoning, and iterative refinement (Ferrag et al., 2025).
+    Also, there are persistent challenges related to correctness, evaluation, human
+    trust, and ethical responsibility (Afroogh et al., 2024).This research topic was
+    motivated by the recognition that addressing these challenges requires more than
+    continued improvements in model architecture or scale. Progress in AI-driven code
+    generation depends equally on how systems are designed and orchestrated, how their
+    outputs are evaluated, and how their use is situated within human and organizational
+    contexts.The articles in this research topic collectively examine how AI-driven
+    code generation can be advanced through improved system design, evaluation practices,
+    and attention to broader implications. Although the contributions vary in scope
+    and methodology, they share a common goal of moving beyond surface-level performance
+    gains toward more reliable, interpretable, and context-aware code synthesis.One
+    contribution, Blueprint2Code: a multi-agent pipeline for reliable code generation
+    via blueprint planning and repair, presents a multi-agent framework that reframes
+    code generation as a staged process encompassing task interpretation, explicit
+    solution planning, implementation, and iterative repair. By decoupling planning
+    from execution and incorporating test-informed debugging, this work demonstrates
+    how system-level orchestration can mitigate common failure modes associated with
+    single-pass generation and improve overall robustness.Another article, The Test
+    Pyramid 2.0: AI-assisted testing across the pyramid, focuses on evaluation from
+    the perspective of software testing. By extending the traditional test pyramid
+    to reflect AI-assisted development workflows, this contribution highlights the
+    limitations of narrow correctness-based metrics and argues for validation strategies
+    that better capture maintainability, integration challenges, and longer-term system
+    behavior.A more exploratory contribution, A quantum-inspired, biomimetic, and
+    fractal framework for self-healing AI code generation: bridging responsible automation
+    and emergent intelligence, investigates self-healing approaches to code generation
+    inspired by quantum systems, biological processes, and fractal structures. This
+    work shifts attention toward adaptive and autonomously correcting architectures,
+    raising important questions about controllability, transparency, and responsibility
+    as automation becomes increasingly sophisticated.The collection also includes
+    AI-assisted design synthesis and human creativity in engineering education, which
+    examines the role of AI-assisted code generation in human-centered settings. Focusing
+    on engineering education, this contribution explores how generative tools influence
+    creativity, learning, and design practices, emphasizing that code generation systems
+    act not only as automation technologies but also as collaborators that shape problem-solving
+    processes.Taken together, these articles reflect a broader shift in the field
+    toward treating AI-driven code generation as a structured, socio-technical process
+    rather than a purely model-centric task. They highlight the growing importance
+    of integrating architectural design, rigorous evaluation, and human considerations
+    alongside continued advances in model capability.Collectively, the contributions
+    in this research topic suggest that future progress in AI-driven code generation
+    will depend on more than incremental gains in model performance. Advances in system
+    architecture, evaluation methodology, and ethical awareness are increasingly central
+    to building trustworthy, deployable code-generation systems. The works presented
+    here point toward a more holistic research agenda in which technical innovation
+    is coupled with careful consideration of context, responsibility, and real-world
+    use.By bringing together these perspectives, this topic aims to support ongo-ing
+    dialogue at the intersection of machine learning, software engineering, and responsible
+    AI, and to encourage future research that advances not only what code generation
+    systems can produce, but also how and under what conditions they should be used.'
 - title: 'AI Skills as Structural Engineering Checking Assistants: A Framework for
     Conversational, Traceable Code Compliance Using ACI 318-25 and ASCE 7-22'
   date: 2026-01
@@ -51268,6 +52034,19 @@ papers:
   - Darzi A
   doi: 10.1038/s41746-026-02534-4
   venue: MED
+  abstract: The recent Darzi review of the National Health Service (NHS) warned that,
+    without full-scale digitisation, the NHS cannot deliver the transformation needed
+    for a modern, resilient health system 1 . Amid growing systemic strain, technological
+    stagnation, and health inequities in the NHS, the UK government recently published
+    its 10-year NHS strategy. This plan establishes the drive to reform the NHS by
+    digital transformational change 2 . As the NHS advances its digital agenda, technologies
+    such as Artificial Intelligence (AI), the Internet of Medical Things (IoMT), and
+    digital twins are progressively being integrated into the NHS. One notable example
+    of this transformation is the growing adoption of connected medical devices (CMD),
+    which are becoming more interconnected and interdependent on the NHS’s infrastructure.
+    As these digital advancements accelerate, they also expose the NHS to greater
+    cybersecurity risks, particularly due to the increasing interconnectivity and
+    dependency of CMD on critical health infrastructure.
 - title: 'A generative AI-driven cybersecurity framework for small and medium enterprises
     software development: an ANN-ISM approach.'
   date: 2026-01
@@ -69217,7 +69996,12 @@ papers:
   - Tobias Borsdorff
   - Denis de Leeuw Duarte
   - Joris van Zwieten
-  abstract: ''
+  abstract: Random Forest classifiers are widely used machine learning methods that
+    combine multiple decision trees to improve predictive accuracy and reduce overfitting
+    (Breiman, 2001).While implementations like scikit-learn (Pedregosa et al., 2011)
+    are popular in the Python ecosystem, operational processing environments often
+    require high-performance C++ implementations that can handle large datasets efficiently
+    while maintaining low memory footprints.
   venue: The Journal of Open Source Software
 - title: How Can Clinicians Leverage Vibe Coding for Machine Learning and Deep Learning
     Research?
@@ -76824,16 +77608,6 @@ papers:
   - Deena M. Hamza
   abstract: ''
   venue: SSRN Electronic Journal
-- title: 'Loop Engineering for Agentic Software Systems: LEAF Architecture, Pattern
-    Taxonomy, Use Cases, Evaluation, Challenges, and Future Directions'
-  date: 2026-07
-  url: https://doi.org/10.13140/rg.2.2.13129.10081
-  category: software-architecture
-  subcategory: evaluation
-  authors:
-  - Partha Pratim Ray
-  abstract: ''
-  venue: ''
 - title: 'The financial implications of open innovation: Evidence from stock market
     reactions to public companies'' open source software releases'
   date: 2026-05
@@ -76995,17 +77769,6 @@ papers:
     Overall, APS offers a complete, end-to-end methodology that significantly reduces
     the development cycle of ISAXs, making agile processor specialization practical
     to the research and open-source hardware communities.
-  venue: ''
-- title: 'BEHAVIORAL SAFEGUARDS BY DESIGN: A COMPARATIVE ARCHITECTURAL ANALYSIS OF
-    SOFTWARE DESIGN PATTERNS FOR MITIGATING PROBLEMATIC GAMBLING BEHAVIOR IN REAL-TIME
-    SYSTEMS'
-  date: 2026-01
-  url: https://doi.org/10.13140/rg.2.2.12979.59680
-  category: software-architecture
-  subcategory: systems
-  authors:
-  - Motshegwe Bakang Monei
-  abstract: ''
   venue: ''
 - title: Design Pattern Prediction From Source Code Using LLM–Based Feature Engineering
     and SVM Classification
@@ -77423,16 +78186,6 @@ papers:
     predictability, reduce rework, and balance productivity with quality.'
   venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones
     Científicas)
-- title: Analysis of Factors Influencing Developer Productivity on GitHub
-  date: 2026-01
-  url: https://doi.org/10.13140/rg.2.2.35449.84324
-  category: human-factors
-  subcategory: theory
-  authors:
-  - Muhammad Ibnu Mualifin
-  - syahiduz zaman
-  abstract: ''
-  venue: ''
 - title: 'MEASURING SOFTWARE DEVELOPER PRODUCTIVITY: REVIEW OF APPROACHES AND THEIR
     LIMITATIONS'
   date: 2026-04
@@ -77726,16 +78479,6 @@ papers:
     Artificial Intelligence, Scalability, Developer Productivity, DevOps, Cloud-Native
     Applications, Distributed Systems.'
   venue: International Scientific Journal of Engineering and Management
-- title: 'LLM-Assisted Rapid Prototyping in Software Engineering: A Practitioner Study
-    of Developer Productivity'
-  date: 2026-01
-  url: https://doi.org/10.13140/rg.2.2.29994.89286
-  category: human-factors
-  subcategory: development
-  authors:
-  - Kaan Esendemir
-  abstract: ''
-  venue: ''
 - title: Governance-Aware AI-Assisted Developer Productivity Evaluation in Hybrid
     Work Environments
   date: 2026-05
@@ -95133,16 +95876,6 @@ papers:
   - Issa Qandah
   abstract: ''
   venue: Cluster Computing
-- title: 'A Comparative Survey of Software Testing Techniques: Manual vs Automated
-    Testing'
-  date: 2026-05
-  url: https://doi.org/10.55041/ijsrem63214
-  category: code-quality
-  subcategory: method
-  authors:
-  - Aasirbad Biswal Aasirbad Biswal
-  abstract: ''
-  venue: INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT
 - title: A Review of Machine Learning Approaches for Software Testing in Secure Modern
     Systems
   date: 2026-07
@@ -96647,17 +97380,6 @@ papers:
     postupem a ověřeno pomocí prototypování a uživatelského testování. Funkčnost detektorů
     byla ověřena na sadě reálných kontraktů a reálné úspory plynu empiricky změřeny.
   venue: Cvut DSpace (Czech Technical University)
-- title: 'CodeSense: A Static Analysis Tool for Detecting Code Smells'
-  date: 2026-03
-  url: https://doi.org/10.18280/isi.310319
-  category: code-quality
-  subcategory: tooling
-  authors:
-  - Hesham A. Alabbasi
-  - Mohanad Ridha Ghanim
-  - Hiba A. Abu-Alsaad
-  abstract: ''
-  venue: Ingénierie des systèmes d information
 - title: FP-Predictor - False Positive Prediction for Static Analysis Reports
   date: 2026-03
   url: https://arxiv.org/abs/2603.10558
@@ -98639,16 +99361,6 @@ papers:
     the staging dichotomy without reintroducing the scheduling bottlenecks characteristic
     of naive full-environment ephemeral strategies.'
   venue: International Journal of Intelligent Systems and Applications in Engineering
-- title: Synthetic Monitoring as a Quality Gate in Continuous Integration and Deployment
-    (CI/CD) and AI Augmentation
-  date: 2026-05
-  url: https://doi.org/10.56726/irjmets95831
-  category: devops
-  subcategory: theory
-  authors: []
-  abstract: ''
-  venue: International Research Journal of Modernization in Engineering Technology
-    and Science
 - title: Real-Time Performance Feedback Loops for DevOps-Based Continuous Integration
     and Deployment Systems
   date: 2026-06
@@ -99031,16 +99743,6 @@ papers:
     The findings from this study contribute to the understanding of the uniquechallenges
     and recommendations for improving DevOps education.'
   venue: Zenodo (CERN European Organization for Nuclear Research)
-- title: 'Elevating DevOps: How Platform Engineering Mitigates DevOps Challenges in
-    Modern Software Development'
-  date: 2026-07
-  url: https://doi.org/10.55041/ijsrem65885
-  category: devops
-  subcategory: systems
-  authors:
-  - Sagar Chhabra Sagar Chhabra
-  abstract: ''
-  venue: INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT
 - title: Best DevOps Training Institute in Jaipur for Beginners
   date: 2026-05
   url: https://doi.org/10.5281/zenodo.20070302
@@ -107501,7 +108203,14 @@ papers:
   authors:
   - Penghui Wang
   - Shan Wang
-  abstract: ''
+  abstract: Abstract. In this paper, we derive a Pontryagin-type maximum principle
+    for optimal control of quantum systems in fermion fields. These systems have gained
+    significant prominence in numerous quantum applications ranging from physical
+    chemistry to multidimensional nuclear magnetic resonance experiments. Furthermore,
+    we establish the existence and uniqueness of solutions to backward quantum stochastic
+    differential equations driven by fermion Brownian motion. The application of noncommutative
+    martingale inequalities and the martingale representation theorem enables this
+    achievement.
   venue: SIAM Journal on Control and Optimization
 - title: Study on Sloshing Structural Strength Assessment for Membrane-Type Liquefied
     Hydrogen Cargo Containment System
@@ -122015,16 +122724,6 @@ papers:
   - Abdul Rehman Baloch Imran Anwar Ujan
   abstract: ''
   venue: Zenodo (CERN European Organization for Nuclear Research)
-- title: 'Software Testing Automation Frameworks (Traditional and AI-Powered): How
-    to Decide'
-  date: 2026-03
-  url: https://doi.org/10.56726/irjmets84043
-  category: code-quality
-  subcategory: method
-  authors: []
-  abstract: ''
-  venue: International Research Journal of Modernization in Engineering Technology
-    and Science
 - title: 'STARouter: Internal State based LLM Router for Software Testing Tasks'
   date: 2026-05
   url: https://doi.org/10.1109/icstw72326.2026.00015
@@ -124802,16 +125501,6 @@ papers:
     its analyzer are dated correction documents, never edits. OSF deposit is the next
     act; its timestamp becomes the public proof of order. No data have been contacted.'
   venue: Open MIND
-- title: 'Minimizing Technical Debt in Long-Lived Software: Strategies and Practical
-    Tools'
-  date: 2026-04
-  url: https://doi.org/10.56726/irjmets80991
-  category: code-quality
-  subcategory: development
-  authors: []
-  abstract: ''
-  venue: International Research Journal of Modernization in Engineering Technology
-    and Science
 - title: Replication Package for Characterizing Self-Admitted Technical Debt Generated
     by AI Coding Agents
   date: 2026-05
@@ -124977,18 +125666,6 @@ papers:
     ratios. These findings delineate the trade-offs among methods, offering actionable
     guidance for selecting SATD detection models under varying imbalance conditions.'
   venue: International Journal of Software Engineering and Knowledge Engineering
-- title: 'On Characterizing and Classifying Self-Admitted Technical Debt in C++ and
-    Java: A Registered Report'
-  date: 2026-06
-  url: https://doi.org/10.13140/rg.2.2.25641.56160
-  category: code-quality
-  subcategory: theory
-  authors:
-  - Phuoc Pham
-  - Matteo Esposito
-  - Davide Taibi
-  abstract: ''
-  venue: ''
 - title: Strategic Technical Debt — pre-registration EP3' (validation-event refactoring
     timing)
   date: 2026-08
@@ -125041,16 +125718,6 @@ papers:
     edits. OSF deposit is the next act; its timestamp becomes the public proof of
     order. No data have been contacted.'
   venue: Open MIND
-- title: Technical Debt in ERP Data The DAC Framework for AI-Ready Accounting Data
-  date: 2026-08
-  url: https://doi.org/10.13140/rg.2.2.36668.60803/1
-  category: code-quality
-  subcategory: method
-  authors:
-  - Magnus Kald
-  - Charlotte Pollak
-  abstract: ''
-  venue: ''
 - title: 'WoRIE’26 Keynote: Reliability in Intelligent Environments: A Technical Debt
     Perspective in the Age of Generative AI'
   date: 2026-06
@@ -128543,16 +129210,6 @@ papers:
   - Anoop R
   abstract: ''
   venue: Zenodo (CERN European Organization for Nuclear Research)
-- title: Empirical Insights into the Synergy of Extreme Programming, DevOps, and Microservices
-  date: 2026-05
-  url: https://doi.org/10.18280/isi.310524
-  category: devops
-  subcategory: application
-  authors:
-  - Nagalambika Swamy
-  - L. Manjunatha Rao
-  abstract: ''
-  venue: Ingénierie des systèmes d information
 - title: Self-Healing Systems in DevOps Using Docker and CI/CD Pipelines
   date: 2026-04
   url: https://doi.org/10.5281/zenodo.19782467
@@ -136099,17 +136756,6 @@ papers:
     while maintaining robust system reliability and operational efficiency throughout
     their digital transformation journey.
   venue: Journal of Information Systems Engineering & Management
-- title: 'Software Architecture Patterns for Building Scalable Intelligent Systems:
-    A Polyglot Architecture Framework for High-Performance, Resilient, and AI-Enabled
-    Applications'
-  date: 2026-08
-  url: https://doi.org/10.13140/rg.2.2.24514.95682
-  category: software-architecture
-  subcategory: method
-  authors:
-  - Motshegwe Bakang Monei
-  abstract: ''
-  venue: ''
 - title: TA-14 Admissibility Before Execution Doctrine — No Consequence Before Admissible
     Evidence
   date: 2026-05
@@ -142908,15 +143554,6 @@ papers:
     adjudication log, search protocol and traceability table, and all analysis/figure
     scripts (Python + PSPP).
   venue: OSF Preprints (OSF Preprints)
-- title: 'Review of: "Challenges and Paths Towards AI for Software Engineering"'
-  date: 2026-05
-  url: https://doi.org/10.32388/v82l2k
-  category: ai-for-se
-  subcategory: survey
-  authors:
-  - Олександр Ротар
-  abstract: ''
-  venue: ''
 - title: Engineering Design Utilizing AI-Enhanced Software Systems
   date: 2026-04
   url: https://doi.org/10.29013/ajt-26-3.4-263-271

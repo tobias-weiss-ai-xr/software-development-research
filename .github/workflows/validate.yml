@@ -15,7 +15,8 @@ on:
       - 'config/'
       - 'requirements.txt'
   schedule:
-    - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC — discover new papers
+    - cron: '0 6 * * 1'   # Every Monday at 06:00 UTC — discover new papers
+    - cron: '17 6 * * *'  # Daily at 06:17 UTC — auto-fix derived-artifact drift
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -68,6 +69,49 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/fetch/fetch_new_papers.py --months 1 --create-pr
+
+  sync-on-drift:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml requests pytest
+
+      - name: Regenerate derived artifacts (README / stats / reports / bib)
+        run: |
+          make pipeline
+          python3 scripts/export_bibtex.py
+
+      - name: Open fix PR if drift detected
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.email "bot@users.noreply.github.com"
+            git config user.name "curation-bot"
+            BR="auto/sync-drift-$(date +%Y%m%d-%H%M)"
+            git checkout -b "$BR"
+            git add -A
+            git commit -m "chore: regenerate derived artifacts (fix drift)"
+            git push origin "$BR"
+            gh pr create --title "chore: sync derived artifacts (auto-fix drift)" \
+              --body "CI detected README/stats/bib drift and regenerated the derived artifacts. Auto-opened by sync-on-drift." \
+              --base main || true
+          else
+            echo "No drift."
+          fi
 
   pages:
     runs-on: ubuntu-latest

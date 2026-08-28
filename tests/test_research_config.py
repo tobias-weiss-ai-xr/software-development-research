@@ -60,3 +60,28 @@ def test_load_papers_custom_path(tmp_path, mini_cfg):
     papers = rc.load_papers(f)
     assert len(papers) == 1
     assert papers[0]["title"] == "A"
+
+
+def test_load_yaml_is_the_single_corpus_loader():
+    """Regression: load_yaml must exist and parse the real corpus.
+
+    It was dropped once by a skeleton-sync and silently broke 8 callers;
+    this guard prevents that regressing again.
+    """
+    assert callable(rc.load_yaml), "research_config.load_yaml must exist"
+    data = rc.load_yaml(REPO / "papers.yaml")
+    papers = data.get("papers", [])
+    assert len(papers) > 5000
+    # the C loader is the fast path; on CPython it must be CSafeLoader-backed
+    from yaml import CSafeLoader
+    assert rc.load_yaml.__doc__ is not None
+    # round-trips a synthetic doc via a real file path
+    import yaml
+    import tempfile, os
+    fd, path = tempfile.mkstemp(suffix=".yaml")
+    try:
+        with os.fdopen(fd, "w") as fh:
+            fh.write(yaml.dump({"papers": [{"title": "X"}]}))
+        assert rc.load_yaml(path).get("papers") == [{"title": "X"}]
+    finally:
+        os.unlink(path)

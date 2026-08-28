@@ -1,7 +1,29 @@
 # Changelog
 
 ## [Unreleased]
-- **Policy: Research Square is an accepted source.** Restored the 28 Research
+- **Abstract enrichment (curate, don't delete):** new
+  `scripts/fetch/fetch_abstracts.py` backfills missing abstracts for real
+  papers from OpenAlex (`abstract_inverted_index`); recovers what OpenAlex
+  has without deleting anything. First run reclaimed **75** abstracts
+  (closed-access Springer/Nature/IEEE lack them in OA, so recovery is
+  partial by design).
+- **Precision curation:** triage now flags `low-confidence-source` (no
+  abstract + explicitly untrusted source: ResearchGate self-uploads, `irjmets`
+  /`ijsrem`/`isi` predatory venues, `10.32388`). Audited one-shot removal
+  dropped **16** such entries; `docs/research/removed_entries.yaml` now logs
+  **103** total removals (52 off-topic + 22 SEO-spam + 16 untrusted + 12
+  predatory + 1 spam-title). `make enrich` added.
+- **Contract aligned to policy:** validator no longer warns on Research
+  Square (`10.21203`) or HAL (accepted sources); still warns on
+  techrxiv/preprints.org/zenodo-doi/rgdoi. `research_config.load_yaml()`
+  restored (a skeleton-sync had dropped it, silently breaking 8 callers)
+  and covered by a regression test.
+- **Spec:** added "Curation & Quality Gates" requirement (accepted sources,
+  read-only triage, audited/reversible removal, abstract enrichment).
+- **CI:** `validate.yml` adds a daily `sync-on-drift` job that regenerates
+  README/stats/bib and opens a fix-PR on derived-artifact drift.
+- **Tests:** +18 (65 total) — load_yaml regression, fetch_abstracts, R.S./HAL
+  acceptance, low-confidence-source.
   Square preprints (10.21203) that the previous audited cleanup had removed
   (5934 papers overall: 6021 − 87 other removals + 28 restored). The triage
   tool no longer flags Research Square or HAL as vanity-platform; the contract

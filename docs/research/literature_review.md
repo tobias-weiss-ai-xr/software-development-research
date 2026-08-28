@@ -1,7 +1,7 @@
 # Literature Review
 
-**Generated:** 2026-08-25  
-**Corpus:** 5,934 papers across 10 categories
+**Generated:** 2026-08-28  
+**Corpus:** 5,933 papers across 10 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -12,16 +12,16 @@
 | Rank | Category | Papers |
 |------|----------|--------|
 | 1 | Code Quality | 1092 |
-| 2 | DevOps & CI/CD | 794 |
-| 3 | Developer Tools | 668 |
-| 4 | AI for Software Engineering | 604 |
+| 2 | DevOps & CI/CD | 792 |
+| 3 | Developer Tools | 672 |
+| 4 | AI for Software Engineering | 602 |
 | 5 | Software Architecture | 575 |
 | 6 | Security & Supply Chain | 567 |
-| 7 | Programming Languages | 552 |
+| 7 | Programming Languages | 553 |
 | 8 | Software Engineering | 459 |
 
 **Time span:** 1986–2026 (median year 2013)
-**Dominant aspects:** Method (2226), Theory (959), Surveys & Reviews (616)
+**Dominant aspects:** Method (2222), Theory (957), Surveys & Reviews (617)
 
 ---
 
@@ -31,14 +31,14 @@
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
 | Code Quality | 1092 | 1042 | 3 | +34633% | 95% | 86.8 |
 | Open Source | 272 | 262 | 1 | +26100% | 96% | 21.8 |
-| Developer Tools | 668 | 659 | 3 | +21867% | 99% | 54.9 |
-| Devops | 794 | 770 | 4 | +19150% | 97% | 64.2 |
+| Developer Tools | 672 | 663 | 3 | +22000% | 99% | 55.2 |
+| Devops | 792 | 768 | 4 | +19100% | 97% | 64.0 |
+| Ai For Se | 602 | 582 | 4 | +14450% | 97% | 48.5 |
 | Software Engineering | 459 | 429 | 3 | +14200% | 94% | 35.8 |
-| Ai For Se | 604 | 583 | 5 | +11560% | 96% | 48.6 |
 | Security | 567 | 540 | 14 | +3757% | 95% | 45.0 |
-| Human Factors | 351 | 317 | 19 | +1568% | 90% | 26.4 |
+| Human Factors | 349 | 315 | 19 | +1558% | 90% | 26.2 |
 | Software Architecture | 575 | 565 | 0 | — | 98% | 47.1 |
-| Programming Languages | 552 | 525 | 0 | — | 95% | 43.8 |
+| Programming Languages | 553 | 526 | 0 | — | 95% | 43.8 |
 
 ---
 
@@ -74,7 +74,7 @@
 
 ### DevOps & CI/CD (`devops`)
 
-**Corpus size:** 794 papers
+**Corpus size:** 792 papers
 
 **Recent papers:**
 
@@ -86,7 +86,7 @@
 
 ### Developer Tools (`developer-tools`)
 
-**Corpus size:** 668 papers
+**Corpus size:** 672 papers
 
 **Recent papers:**
 
@@ -98,7 +98,7 @@
 
 ### AI for Software Engineering (`ai-for-se`)
 
-**Corpus size:** 604 papers
+**Corpus size:** 602 papers
 
 **Recent papers:**
 
@@ -134,7 +134,7 @@
 
 ### Programming Languages (`programming-languages`)
 
-**Corpus size:** 552 papers
+**Corpus size:** 553 papers
 
 **Recent papers:**
 
@@ -158,7 +158,7 @@
 
 ### Human Factors & DX (`human-factors`)
 
-**Corpus size:** 351 papers
+**Corpus size:** 349 papers
 
 **Recent papers:**
 

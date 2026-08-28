@@ -13,6 +13,10 @@ Signals (built to be low-false-positive, flag-only):
   - off-topic       : title/abstract clearly outside the software-development
                       domain (irrigation, climate models, pharma, ...)
   - junk-venue      : suspicious non-peer-reviewed venue names
+  - low-confidence-source : no abstract AND an explicitly untrusted source
+                      (ResearchGate self-uploads, predatory 'ijsrem'/'irjmets'
+                      /'isi' venues, 10.32388). Legit niche publishers whose
+                      abstracts merely aren't in OpenAlex are NOT flagged.
 
 Each flag carries a weight; entries are ranked by total suspicion score.
 
@@ -41,6 +45,17 @@ VANITY_URL = re.compile(
     re.IGNORECASE,
 )
 
+# Sources that are NOT peer-reviewed and routinely carry no abstract: flag
+# (alongside no-abstract) as low-confidence. Deliberately a BLOCKLIST, not a
+# whitelist — major but abstract-less publishers (Springer/Elsevier/IEEE/ACM)
+# and legit niche venues (SPIE, AIP, SpaceOps, ASEE, SciTePress) stay clean.
+UNTRUSTED_HOST = re.compile(
+    r"(researchgate|rgdoi|irjmets|ijsrem|smujo|neliti|researchhub)", re.IGNORECASE
+)
+UNTRUSTED_PREFIX = re.compile(
+    r"^(10\.13140|10\.56726|10\.55041|10\.32388|10\.18280)", re.IGNORECASE
+)
+
 FOREIGN_TOPIC = re.compile(
     r"\b(irrigation|furrow|crop yield|lactat|human milk|milk bank|breastfeed|"
     r"chemotherap|pharmaceutical|veterinary|livestock|genomic|protein engineer|"
@@ -64,6 +79,7 @@ FLAG_NAMES = {
     "no-abstract": "no abstract (unvetted source)",
     "off-topic": "outside software-development domain",
     "junk-venue": "suspicious venue",
+    "low-confidence-source": "no abstract + untrusted source",
 }
 
 
@@ -92,6 +108,13 @@ def flags_for(paper):
 
     if venue and JUNK_VENUE.search(venue):
         flags.append(("junk-venue", 3, f"venue '{venue[:60]}' looks non-peer-reviewed"))
+
+    if not abst and not any(h in url for h in VETTED_HOSTS):
+        m = re.match(r"https?://doi\.org/(10\.\d{4,9})", url)
+        pre = m.group(1) if m else ""
+        if UNTRUSTED_HOST.search(url) or (pre and UNTRUSTED_PREFIX.match(pre)):
+            flags.append(("low-confidence-source", 3,
+                          f"no abstract and untrusted source ({url[:60]})"))
 
     return flags
 

@@ -49,6 +49,18 @@ def test_research_square_is_accepted_policy():
     assert not any(fid == "vanity-platform" for fid, _, _ in fl)
 
 
+def test_low_confidence_source_flagged():
+    # No abstract from an explicitly untrusted source (ResearchGate / predatory
+    # venue) is flagged; a major publisher with no abstract is NOT.
+    fl = triage.flags_for(_paper(abstract="",
+                                 url="https://doi.org/10.13140/rg.2.2.12345/1"))
+    assert any(fid == "low-confidence-source" for fid, _, _ in fl)
+    # Springer with no abstract must stay clean (abstract just isn't in OpenAlex)
+    fl2 = triage.flags_for(_paper(abstract="",
+                                  url="https://doi.org/10.1007/s10664-026-10857-9"))
+    assert not any(fid == "low-confidence-source" for fid, _, _ in fl2)
+
+
 def test_foreign_domain_flagged():
     fl = triage.flags_for(_paper(title="Development of a decision support system "
                                       "for furrow and border irrigation",

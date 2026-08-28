@@ -160,3 +160,43 @@ network access, so it runs fast and hermetically in CI and locally.
 - **WHEN** it runs (no network)
 - **THEN** it SHALL pass quickly against synthetic papers and the real config
 - **AND** no test SHALL require the corpus to contain specific real papers
+
+### Requirement: Curation & Quality Gates
+
+The corpus is curated by tooling, not by hand-editing `papers.yaml`. Curation
+SHALL be transparent, reversible, and low-false-positive. Accepted sources and
+quality signals SHALL be documented so agents and humans apply them
+consistently.
+
+#### Scenario: Accepted sources are never removed
+
+- **GIVEN** a corpus entry hosted on Research Square (`10.21203`) or HAL
+- **WHEN** curation tooling runs
+- **THEN** the entry SHALL be retained
+- **AND** it SHALL NOT be flagged for removal (it MAY still be flagged `no-abstract` if it lacks an abstract)
+
+#### Scenario: Triage is read-only
+
+- **GIVEN** `tools/triage_corpus.py`
+- **WHEN** it scans `papers.yaml`
+- **THEN** it SHALL emit reviewable quality flags (vanity-platform, no-abstract,
+  off-topic, junk-venue, low-confidence-source) to stdout / `docs/research/corpus_triage.md`
+- **AND** it SHALL NOT modify `papers.yaml`
+
+#### Scenario: Removal is audited and reversible
+
+- **GIVEN** `tools/remove_audited_noise.py`
+- **WHEN** it removes entries (SEO-spam, predatory venues, off-topic, or
+  no-abstract + untrusted source)
+- **THEN** it SHALL write an audit log to `docs/research/removed_entries.yaml`
+- **AND** it SHALL refuse to re-run while its idempotency guard exists
+- **AND** the change SHALL be revertible via `git`
+- **AND** it SHALL NEVER remove accepted sources (Research Square, HAL)
+
+#### Scenario: Abstracts are enriched, not papers deleted
+
+- **GIVEN** `scripts/fetch/fetch_abstracts.py`
+- **WHEN** it finds a real paper whose abstract is missing
+- **THEN** it SHALL backfill the abstract from OpenAlex
+- **AND** it SHALL NOT delete the paper or overwrite an existing abstract
+

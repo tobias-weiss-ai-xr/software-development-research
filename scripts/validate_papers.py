@@ -53,8 +53,7 @@ LATEX_PATTERNS = [
     re.compile(r"\\[a-zA-Z]+\{"),
 ]
 VANITY_DOMAINS = re.compile(
-    r"(researchsquare\.com|techrxiv\.org|preprints\.org|hal\.science|"
-    r"zenodo\.org/doi|rgdoi\.net)",
+    r"(techrxiv\.org|preprints\.org|zenodo\.org/doi|rgdoi\.net)",
     re.IGNORECASE,
 )
 

@@ -157,12 +157,23 @@ def test_latex_artifact_warns_and_fixes(mini_cfg):
 
 
 def test_vanity_domain_warns(mini_cfg):
-    for domain in ("https://www.preprints.org/x", "https://www.researchsquare.com/x",
-                   "https://doi.org/10.21203/rs.3.rs-123/v1",  # Research Square DOI prefix
-                   "https://www.rgdoi.net/10.13140/RG.2.2.12345"):
+    # Unvetted preprint platforms are flagged (advisory, non-blocking).
+    for domain in ("https://www.preprints.org/x", "https://www.techrxiv.org/x",
+                   "https://www.rgdoi.net/10.13140/RG.2.2.12345",
+                   "https://zenodo.org/doi/10.5281/zenodo.123"):
         data = {"papers": [_valid_paper(url=domain)]}
         _, warnings, _, _ = vp.validate_papers(data, mini_cfg)
         assert any("non-peer-reviewed" in w for w in warnings), domain
+
+
+def test_research_square_and_hal_accepted_by_policy(mini_cfg):
+    # Policy (maintainer decision): Research Square (10.21203) and HAL are
+    # accepted sources and MUST NOT trip the vanity-platform warning.
+    for url in ("https://doi.org/10.21203/rs.3.rs-123/v1",
+                "https://hal.science/hal-05613841"):
+        data = {"papers": [_valid_paper(url=url)]}
+        _, warnings, _, _ = vp.validate_papers(data, mini_cfg)
+        assert not any("non-peer-reviewed" in w for w in warnings), url
 
 
 def test_empty_corpus_fails(mini_cfg):
