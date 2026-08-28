@@ -158535,3 +158535,419 @@ papers:
     what to do next. This pattern can be observed across all three evaluation methods,
     and has important implications for future autonomous agentic incident handling
     systems.'
+- title: 'Closing the Gap: Automated Discovery of Secure Dockerfile Reference Standards
+    via Semantic Clustering in Enterprise Inner Source'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25793
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Jessica Hösl
+  - Benedikt Hofmann
+  - Patrick Stöckle
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Containerization dominates enterprise software delivery, yet Dockerfiles
+    that assemble container images frequently harbor security misconfigurations and
+    structural technical debt. This problem is poorly understood in corporate inner-source
+    environments, where proprietary context and isolated governance prevent direct
+    application of open-source findings. We present an automated, six-stage pipeline
+    that: (1) crawls an enterprise GitLab instance, (2) enriches each Dockerfile with
+    static security and quality metrics (Hadolint, ShellCheck, Trivy) and lifecycle
+    data, (3) groups functionally identical workloads using LLM-generated semantic
+    descriptions and HDBSCAN, and (4) quantifies the optimization gap against cluster-internal
+    reference implementations. Applied to 11,470 Dockerfiles from over 6,200 repositories
+    at a single large industrial company, we find a systemic deficit: 99\% of files
+    contain at least one security misconfiguration, 80.8\% violate Dockerfile best
+    practices, and the median artifact has not been revised for 838~days. Despite
+    this, high-quality reference implementations already exist within 83\% of functional
+    clusters. Adopting these internal standards would increase the average security
+    posture score by 60.4\% without developing any new templates. These findings,
+    grounded in one organization''s inner-source ecosystem, provide a data-driven
+    foundation for future automated, context-aware recommender systems targeting enterprise
+    supply-chain security; whether the observed technical-debt distribution and optimization
+    gap generalize to other enterprises remains an open question for future multi-organization
+    study.'
+- title: 'A Few Pages of Markdown: Committed AI Configuration and Lower Quality Cost
+    after Coding-Agent Adoption'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25241
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Yegor Denisov-Blanch
+  - Shyam Agarwal
+  - Pavel Azaletskiy
+  - Hao He
+  - Rylan Schaeffer
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Coding agents increase development velocity but also technical debt.
+    Prior work reports only average effects across adopters, hiding wide differences
+    between teams. We introduce RAMP (Repository AI Maturity Profile), a four-level
+    cumulative maturity model grounded in version-controlled artifacts that teams
+    commit to configure AI tools. RAMP runs from behavioral rules and coding standards
+    through named agent definitions to multi-agent orchestration, with observed practice
+    concentrated in the first three levels. Across 441 repositories the levels behave
+    as a cumulative scale, and independent human annotation reproduces RAMP''s repository-level
+    labels on 97% of a held-out sample. Adoption is cumulative, forward-only, and
+    set-and-forget: 73.8% of artifacts are committed once and never modified. Re-estimating
+    an existing agent-adoption panel within each stratum, agents accelerate development
+    regardless of maturity (28-38% more commits), but quality diverges: among agent-first
+    repositories, where the contrast is identified, those without committed AI configuration
+    show roughly twice the increase in cognitive complexity (+53% versus +27%) and
+    1.7x the increase in static-analysis warnings. Because maturity is observational,
+    correlated engineering discipline or model capability may explain part of the
+    gap; we present these findings as hypothesis-generating and release RAMP as a
+    reusable instrument.'
+- title: 'From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.27442
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Dewu Zheng
+  - Yanlin Wang
+  - Xiwen Wang
+  - Kefeng Duan
+  - Hongyu Zhang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'In real-world software development, code review typically involves iterative
+    interactions between developers and reviewers to improve software quality, making
+    the process costly and time-consuming. Although recent work explores large language
+    models (LLMs) for automated code review, most approaches oversimplify code review
+    into a single-round, static decision task, which fails to capture the multi-round
+    interactive nature and the complex problem-solving processes inherent in realistic
+    review scenarios. To bridge this gap, we introduce MCR-Bench, the first defect
+    state-aware benchmark designed for realistic multi-round code review. MCR-Bench
+    covers five commonly-used programming languages and consists of 2,269 real-world
+    multi-round code review tasks, each of which is annotated with fine-grained defect
+    information and cross-round state labels. Each task in MCR-Bench is equipped with
+    fine-grained defect metadata (e.g., description, type, severity) alongside dynamic
+    state annotations, capturing the complete evolutionary trajectory of a defect
+    throughout the multi-round process. We obtain several findings through extensive
+    experiments on MCR-Bench with mainstream LLMs. (1) Limited overall capability:
+    experiments reveal that mainstream LLMs exhibit limited overall performance in
+    defect detection and defect lifecycle state tracking, with performance degrading
+    significantly as the number of interaction rounds increases; (2) Defect-sensitive
+    performance: LLMs'' performance varies substantially across different defect types
+    and severity levels, with semantically complex or low-salience defects being significantly
+    more likely to be missed; (3) Underlying Failure Mechanisms: our in-depth error
+    analysis dissects the distinct drivers of false positives and false negatives,
+    revealing critical weaknesses such as cross-round temporal misalignment and inadequate
+    long-range memory.'
+- title: 'When Review Alone No Longer Scales: Layered Supervision in AI-Assisted Software
+    Engineering'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26316
+  category: code-quality
+  subcategory: evaluation
+  authors:
+  - Markus Stolze
+  - Mirco Strässle
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'AI-assisted development tools enable software engineers to generate implementations
+    at substantially higher speed and volume than in traditional workflows. Software
+    teams have long relied on guardrails -- standing control mechanisms such as code
+    review, linting, testing, and CI/CD pipelines -- to maintain quality and coordination.
+    High-throughput AI-assisted generation increases pressure on these guardrails
+    -- straining their capacity to keep pace with the volume and rate of generated
+    changes -- and reshapes how organizations supervise development workflows, yet
+    relatively little is known about how existing guardrails evolve in response. We
+    conducted a qualitative interview study with five software engineering practitioners,
+    situated within a broader practitioner survey. Our findings indicate that organizations
+    distribute the work of supervision across multiple guardrail layers: preventive
+    guardrails (produced by externalizing architectural intent and conventions into
+    machine-interpretable form), executable guardrails (linting, testing, and CI/CD
+    repurposed as scalable supervision infrastructure), and human oversight (shifting
+    from line-by-line inspection toward supervisory interpretation focused on architectural
+    reasoning, explainability, and long-term maintainability). We characterize this
+    as a transition from review- centric guardrails toward layered supervision, in
+    which no single guardrail carries the supervision load alone.'
+- title: An Empirical Evaluation of Using Large Language Models for Automated Model-Based
+    Test Generation
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.27094
+  category: code-quality
+  subcategory: method
+  authors:
+  - Hafize Sanli
+  - Onur Kilincceker
+  - Cihat Cetinkaya
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Large language models have shown strong potential for software engineering
+    tasks, particularly software testing. Model-based testing (MBT) is a software
+    testing technique. To address the broad scalability challenge for industrial adoption
+    of MBTs, our paper presents an empirical evaluation of Large Language Models (LLMs)
+    for automated model-based test generation, compared with a state-of-the-art model-based
+    testing tool (GraphWalker) and its built-in algorithms (random and quick random
+    for edge and vertex coverage settings). Our evaluation indicates strong potential
+    to optimize and shorten test paths and step sizes using the recent five state-of-the-art
+    LLMs (GPT-5.1, GPT-5.2, Claude Opus 4.5, Claude Sonnet 4.5, and Gemini 2.5 Pro)
+    against four GraphWalker models (two web applications (Parabank and Testinium)
+    and two hardware applications (TLC and RISC-V) ) of escalating complexity.
+- title: Investigating Software Aging in LLM-Generated Software Systems across Generation-and-Execution
+    Environments
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26391
+  category: code-quality
+  subcategory: tooling
+  authors:
+  - Cesar Santos
+  - Michele Vitagliano
+  - Roberto Natella
+  - Ermeson Andrade
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Large Language Models (LLMs) are increasingly used to generate executable
+    software systems from natural language specifications, accelerating development
+    and reducing manual implementation effort. Although recent studies have investigated
+    the functional correctness, security, maintainability, and robustness of LLM-generated
+    code, little is known about the long-term reliability of such systems under sustained
+    execution. In this paper, we experimentally investigate software aging symptoms
+    in LLM-generated service-based applications across different programming languages.
+    Using backend scenarios derived from BaxBench, we generated applications targeting
+    JavaScript, Python, and Rust through LLM-based generation platforms, validated
+    them with BaxBench-derived tests, and subjected them to 48-hour workload executions.
+    We monitored memory usage, response time, and throughput and analyzed them using
+    the Mann--Kendall test and Sen's slope estimator. We further complemented the
+    runtime evaluation with static analysis of the generated source code and an exploratory
+    comparison with human-written implementations of related backend scenarios. The
+    results show that memory usage is the most consistent indicator of potential software
+    aging, with statistically significant upward trends in most application-language
+    combinations, while response time and throughput exhibit more heterogeneous behavior.
+    Static analysis identified plausible code-level aging mechanisms, and the comparison
+    with human-written systems showed that aging trends can also emerge in manually
+    developed implementations. These findings indicate that functional correctness
+    alone is insufficient to assess the operational reliability of LLM-generated software
+    before deployment in continuously running environments.
+- title: 'Vulnerable Code Search: Transferable Attack for Code Language Models'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26031
+  category: human-factors
+  subcategory: evaluation
+  authors:
+  - Kaicheng Wang
+  - Liyan Huang
+  - Jesse Thomason
+  - Weihang Wang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Reliable code retrieval is crucial for developer productivity and effective
+    code reuse. However, current neural code language models (CLMs) powering search
+    tools are susceptible to adversarial attacks targeting non-functional textual
+    elements. In this paper, we introduce a programming language-agnostic, transferable,
+    adversarial attack that exploits this CLM vulnerability. Our approach perturbs
+    identifiers within a code snippet without altering the snippet's functionality
+    to artificially align the code with a target query. We demonstrate that our attack,
+    even when computed using smaller code embedding models, such as CodeT5+, is highly
+    effective and transferable to larger, closed-source embedding models, like Voyage-code-3,
+    or LLMs like Gemini-3.1-Pro. Our attack can increase the similarity between the
+    query and arbitrary, irrelevant code snippets, consequently degrading key retrieval
+    metrics such as the Mean Reciprocal Rank (MRR) of state-of-the-art models by up
+    to 77%. The experimental results highlight the fragility of current code search
+    methods and underscore the need for more robust, semantic-aware approaches.
+- title: Evaluating and Preventing Security Smells in AI-Generated Ansible Code
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24962
+  category: devops
+  subcategory: development
+  authors:
+  - Pandu Ranga Reddy Konala
+  - Vimal Kumar
+  - David Bainbridge
+  - Junaid Haseeb
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: AI coding assistants generate Infrastructure as Code, yet no work has
+    examined whether this code meets security requirements. This matters because security
+    smells in infrastructure code propagate to deployed systems, producing infrastructure
+    that is insecure and untrustworthy. We evaluate 16 AI models generating Ansible
+    roles for Apache Tomcat v10 and MongoDB v7, analysing 278 Ansible roles against
+    CIS benchmarks. Without security guidance, all 16 AI models produced code containing
+    security smells, resulting in vulnerable infrastructure that fails compliance
+    verification and underperforms code written by human developers. We introduce
+    an approach integrating Ansible best practices and CIS benchmarks into prompts
+    through an extended CO-STAR framework, enabling security smell prevention during
+    synthesis rather than detection after deployment. When this approach is applied,
+    4 out of 16 models generate compliant code, with the leading model achieving 95%-100%
+    CIS compliance, a fourfold improvement over humans at 23%-43%, with overall code
+    quality improving by 19%-49%. The remaining 12 models fail not because they cannot
+    generate code but because they cannot follow instructions with multiple constraints.
+    For capable models, the approach requires no retraining and can be adopted through
+    system prompts.
+- title: 'Retry Amplification in Distributed Systems: A Systematic Analysis of Retry
+    Policies and Their Role in Cascading Failures'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25403
+  category: software-architecture
+  subcategory: systems
+  authors:
+  - Rishabh Mehan
+  - Jasmit Kaur Saluja
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Retry mechanisms are a standard component of resilient distributed systems,
+    but their collective behavior, when every tier in a call path retries concurrently,
+    is less well understood than the per-client guidance that produced them. This
+    paper introduces the retry amplification factor (RAF), a metric quantifying the
+    additional request volume that retry policies generate during partial failures.
+    In a study of 200 open-source Python microservice projects, explicit retry logic
+    is detected in 11.5%, and an audit of our own false negatives places true prevalence
+    near 41%. Among the projects detected, 60.9% contain at least one configuration
+    without backoff, and after manual verification exactly one of 113 production configurations
+    randomizes its delay. We then evaluate these policies in simulation (n = 100 trials
+    per strategy). Under correlated failures, a naive standard retry policy reduces
+    the success rate from 55.4% to 41.5% relative to performing no retries at all.
+    We catalog five recurring anti-patterns, propose Adaptive Retry Budgeting (ARB),
+    and show that budget-constrained retries maintain success rates close to the no-retry
+    baseline while still recovering from transient faults. These results indicate
+    that retry behavior should be designed as a system-level property rather than
+    configured locally at each call site.
+- title: Static Detection of Post-Quantum Cryptographic Algorithms in Stripped Binaries
+    for Digital Forensic Examination and Migration Assurance
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25122
+  category: security
+  subcategory: survey
+  authors:
+  - Muhammad Shaheer Bin Junaid
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Currently, there is no method to verify from compiled binary code whether
+    a quantum-vulnerable algorithm has been replaced by an approved post-quantum algorithm.
+    Cryptographic discovery tools identify algorithms by symbols, library dependencies,
+    and runtime behaviour; however, all these signals are destroyed by stripping,
+    statically linking, and optimising a binary. This paper presents Kestrel, a static
+    analysis method for identifying the standardised lattice-based schemes ML-KEM
+    and ML-DSA in stripped binary code. Kestrel identifies ML-KEM and ML-DSA by detecting
+    the number-theoretic transform constant tables that form the read-only data upon
+    which the arithmetic depends. The fingerprints Kestrel derives from public scheme
+    parameters are localised by means of a normalisation-and-multiset-matching procedure;
+    the false-positive probability is established analytically. In experiments on
+    four independent implementation lineages and all build transformations, including
+    compiler-level obfuscation, Kestrel achieved recall of 128 of 128 with zero false
+    positives. Applying Kestrel to 6,224 binaries on a production Linux system disclosed
+    twelve uncatalogued programs containing ML-KEM; these included the OpenSSH key-exchange
+    program and the container-management stack. In several of these programs, post-quantum
+    code entered production through the language runtime without the awareness of
+    the projects distributing them. Kestrel distinguishes genuine post-quantum implementations
+    from advertised claims not backed by the underlying code, attributes each detection
+    to its originating codebase, and, in a forensic disk-image trial, recovered a
+    detection from unallocated space after the deleted binary could no longer be reconstructed.
+    Thus, Kestrel provides a practical basis for cryptographic migration assurance,
+    software supply-chain inspection, and post-quantum forensic examination.
+- title: 'FuzzingBrain-Bench V1: Evaluating Open-Ended Bug Discovery by LLMs'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25158
+  category: open-source
+  subcategory: survey
+  authors:
+  - Ze Sheng
+  - Aleksandar Kezic
+  - Zhicheng Chen
+  - Jeff Huang
+  venue: ''
+  code_url: https://github.com/fuzzingbrain/FuzzingBrain-Bench
+  project_url: ''
+  abstract: Evaluating the ability of large language models (LLMs) to discover software
+    bugs is increasingly important. Existing benchmarks typically evaluate this capability
+    by asking the model to generate a proof-of-concept input that triggers a predefined
+    target vulnerability. However, this setup may overlook valid crashes discovered
+    by the model when they do not match the predefined target. As a result, the evaluation
+    may not reflect the model's real capability. We present FuzzingBrain-Bench, a
+    benchmark for assessing AI models' ability to discover bugs in open-source software.
+    Models are given an open-source project and a sanitizer-instrumented harness in
+    a self-contained Docker image. Their goal is to generate inputs that trigger as
+    many distinct crashes as possible through the harness. A model's performance on
+    each challenge is scored based on the number of distinct crash signatures it produces,
+    capped at a predefined maximum and weighted by a difficulty coefficient. FuzzingBrain-Bench
+    V1 consists of 77 challenges drawn from 43 open-source projects, with 36 C, 32
+    C++, and 9 Java/JVM challenges. We evaluate Claude Haiku 4.5, Claude Sonnet 4.6,
+    and Claude Opus 4.8 on the full benchmark. Claude Opus 4.8 performs best, triggering
+    crashes in 60 of 77 challenges and achieving a score of 196 out of 579. None of
+    the three models triggers a crash in 13 challenges. The FuzzingBrain-Bench corpus
+    and harnesses are publicly available at https://github.com/fuzzingbrain/FuzzingBrain-Bench.
+- title: Predicting Struggling Students in CS1 Programming Using Keystroke-Level Editing
+    Features
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25769
+  category: developer-tools
+  subcategory: tooling
+  authors:
+  - Yasuyo Kofune
+  - Kazumasa Shimari
+  - Kenichi Matsumoto
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'This paper investigates the feasibility of early detection of struggling
+    students during CS1 programming exercises using keystroke-level logs. Some students
+    fail to reach a correct solution before the exercise ends, and by the time this
+    becomes apparent from grades or final outcomes, the opportunity for timely instructor
+    support aimed at helping them recover may have passed. We use data from the CodeBench
+    platform, which records real-time code editing events at the keystroke level,
+    alongside execution and submission logs. We define two outcome groups: Breakthrough
+    (BT) students, whose prior submissions all receive 0% and whose final submission
+    achieves full credit, and Fully Stuck (FS) students, whose submissions all receive
+    0% without reaching a correct solution. To examine this feasibility, we focus
+    on two questions: (RQ1) whether adding keystroke-level editing features improves
+    the prediction of FS students over execution-log features alone, and (RQ2) at
+    which stage BT and FS students can be predicted most accurately. Experiments on
+    the 2019-1 semester of the CodeBench dataset, comprising 507 students, compare
+    three feature configurations: execution-based features (ExecOnly), CodeMirror-based
+    features (CMOnly), and their combination (Combined). We evaluate prediction across
+    successive submission-based stages during each exercise. In the earliest stage,
+    CMOnly outperforms ExecOnly (AUROC 0.654 vs. 0.575), and Combined further improves
+    over ExecOnly by +0.098 (AUROC 0.674). Across all configurations, the earliest
+    stage yielded the strongest predictive signal. These findings indicate that behavioral
+    signals present at the very start of an exercise contain useful clues about whether
+    a student will ultimately solve the problem, and that keystroke-level editing
+    logs provide additional value for early prioritization beyond execution logs alone.'
+- title: Claude Code Complete User Handbook
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26742
+  category: devops
+  subcategory: tooling
+  authors:
+  - David Soldani
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Claude Code is an agentic work environment: a language model operating
+    in a loop with filesystem access, shell execution, browser control, scheduled
+    and cloud execution, external tool connections through the Model Context Protocol,
+    and multi-agent orchestration. Its capability envelope now exceeds what one practitioner
+    can supervise by attention alone, and its failure modes are systemic rather than
+    local: an unreviewed hook, an over-scoped connector, a stale completion condition,
+    an autonomous routine inheriting every credential on an account. This book is
+    a task-oriented reference for operating that system safely and productively, written
+    for practitioners accountable for the result. It advances four propositions. First,
+    capability without a defined and observable completion condition is not productivity.
+    Second, instruction, permission enforcement, sandboxing and operating-system isolation
+    are four distinct layers of a control stack, only two of which are enforced, and
+    conflating them is the most common cause of loss of control. Third, third-party
+    skills, plugins, marketplaces, channels and MCP servers are software supply-chain
+    dependencies and must be governed as such. Fourth, the correct unit of trust in
+    agentic work is observed evidence, not an agent''s closing statement. Thirty-four
+    chapters run from installation to a fully verified capstone, with a governance
+    part on managed policy, data residency and retention, observability and accessibility.
+    Every product claim carries a citation to a primary source; an evidence ledger
+    records where a claim in circulation was found wrong, what a later re-verification
+    changed, and what remains unverified. Controls are mapped to seventeen external
+    frameworks in a crosswalk, and an organisational adoption maturity model is proposed.
+    Claims not confirmable from primary sources are labelled UNVERIFIED rather than
+    softened.'
