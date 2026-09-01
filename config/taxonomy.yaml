@@ -2,7 +2,7 @@ topic:
   name: Software Development Research
   short: software-development
   description: Agentic literature review covering software engineering practices, developer tooling, DevOps/CI-CD, code quality, software architecture, AI-assisted software engineering, and the human factors of programming tools.
-  openalex_mailto: research@tobias-weiss-ai-xr.de
+  openalex_mailto: tobias@tobias-weiss.org
 taxonomy:
   categories:
   - id: software-engineering
