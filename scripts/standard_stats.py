@@ -61,8 +61,7 @@ def _date_in(datestring, lo, end):
 
 
 def main():
-    data = research_config.load_yaml(REPO / "papers.yaml")
-    entries = data.get("papers", [])
+    entries = research_config.load_papers(REPO / "papers.yaml")
     print(f"Parsed {len(entries)} papers")
 
     cats = [c for c in sorted({e.get("category", "unknown") for e in entries})
