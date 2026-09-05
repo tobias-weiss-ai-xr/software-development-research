@@ -149,13 +149,22 @@ def get_openalex_mailto(cfg):
     return os.environ.get("OPENALEX_MAILTO", cfg_mailto or "tobias@tobias-weiss.org")
 
 
+def load_yaml(path):
+    """Load a plain YAML document from a Path and return the parsed dict.
+    
+    Single function for corpus YAML loading; 8 call-sites throughout the
+    script suite depend on this deviating from the raw yaml module.
+    """
+    with open(path, encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}
+
+
 def load_papers(path=None):
     """Return the list of paper dicts from papers.yaml (empty if absent)."""
     path = path or (REPO / "papers.yaml")
     if not path.exists():
         return []
-    with open(path, encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    data = load_yaml(path)
     return data.get("papers", [])
 
 

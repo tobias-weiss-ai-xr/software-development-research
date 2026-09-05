@@ -3,31 +3,31 @@
   {
    "id": "ai-for-se",
    "name": "AI for Software Engineering",
-   "count": 602,
+   "count": 604,
    "trajectory": {
     "2021": 3,
     "2022": 3,
     "2023": 4,
-    "2024": 6,
-    "2025": 121,
+    "2024": 7,
+    "2025": 122,
     "2026": 465
    },
    "momentum": {
     "id": "ai-for-se",
     "name": "Ai For Se",
-    "total": 602,
+    "total": 604,
     "recent": 576,
-    "prior": 10,
-    "growth_pct": 5660.0,
-    "recent_share": 0.957,
+    "prior": 11,
+    "growth_pct": 5136.4,
+    "recent_share": 0.954,
     "papers_per_month": 48.0,
-    "score": 5755.7
+    "score": 5231.8
    }
   },
   {
    "id": "code-quality",
    "name": "Code Quality",
-   "count": 7028,
+   "count": 7034,
    "trajectory": {
     "2006": 7,
     "2007": 1,
@@ -45,21 +45,21 @@
     "2020": 1,
     "2021": 2,
     "2022": 3,
-    "2023": 806,
-    "2024": 2670,
-    "2025": 2053,
+    "2023": 807,
+    "2024": 2674,
+    "2025": 2054,
     "2026": 1464
    },
    "momentum": {
     "id": "code-quality",
     "name": "Code Quality",
-    "total": 7028,
+    "total": 7034,
     "recent": 2089,
-    "prior": 2152,
-    "growth_pct": -2.9,
+    "prior": 2155,
+    "growth_pct": -3.1,
     "recent_share": 0.297,
     "papers_per_month": 174.1,
-    "score": 26.8
+    "score": 26.6
    }
   },
   {
@@ -203,8 +203,9 @@
   {
    "id": "security",
    "name": "Security & Supply Chain",
-   "count": 568,
+   "count": 569,
    "trajectory": {
+    "2023": 1,
     "2024": 13,
     "2025": 164,
     "2026": 391
@@ -212,13 +213,13 @@
    "momentum": {
     "id": "security",
     "name": "Security",
-    "total": 568,
+    "total": 569,
     "recent": 534,
     "prior": 21,
     "growth_pct": 2442.9,
-    "recent_share": 0.94,
+    "recent_share": 0.938,
     "papers_per_month": 44.5,
-    "score": 2536.9
+    "score": 2536.7
    }
   },
   {
@@ -247,7 +248,7 @@
   {
    "id": "software-engineering",
    "name": "Software Engineering",
-   "count": 3533,
+   "count": 3534,
    "trajectory": {
     "1986": 1,
     "2000": 1,
@@ -264,7 +265,7 @@
     "2019": 1,
     "2021": 3,
     "2022": 3,
-    "2023": 432,
+    "2023": 433,
     "2024": 1621,
     "2025": 1040,
     "2026": 417
@@ -272,7 +273,7 @@
    "momentum": {
     "id": "software-engineering",
     "name": "Software Engineering",
-    "total": 3533,
+    "total": 3534,
     "recent": 644,
     "prior": 1271,
     "growth_pct": -49.3,
@@ -296,17 +297,17 @@
   {
    "id": "evaluation",
    "name": "Evaluation",
-   "count": 1035
+   "count": 1037
   },
   {
    "id": "method",
    "name": "Method",
-   "count": 10175
+   "count": 10181
   },
   {
    "id": "survey",
    "name": "Survey",
-   "count": 1201
+   "count": 1202
   },
   {
    "id": "systems",
@@ -321,7 +322,7 @@
   {
    "id": "tooling",
    "name": "Tooling",
-   "count": 853
+   "count": 854
   }
  ],
  "timeline": [
@@ -1046,6 +1047,16 @@
    "survey"
   ],
   [
+   "2023-07",
+   "software-engineering",
+   "method"
+  ],
+  [
+   "2023-08",
+   "security",
+   "evaluation"
+  ],
+  [
    "2023-09",
    "code-quality",
    "application"
@@ -8208,6 +8219,11 @@
   [
    "2023-12",
    "code-quality",
+   "method"
+  ],
+  [
+   "2023-12",
+   "code-quality",
    "survey"
   ],
   [
@@ -12879,6 +12895,11 @@
    "2024-01",
    "code-quality",
    "theory"
+  ],
+  [
+   "2024-01",
+   "code-quality",
+   "tooling"
   ],
   [
    "2024-01",
@@ -17082,6 +17103,11 @@
   ],
   [
    "2024-02",
+   "ai-for-se",
+   "method"
+  ],
+  [
+   "2024-02",
    "code-quality",
    "application"
   ],
@@ -27598,6 +27624,11 @@
   [
    "2024-06",
    "code-quality",
+   "survey"
+  ],
+  [
+   "2024-06",
+   "code-quality",
    "systems"
   ],
   [
@@ -34783,6 +34814,11 @@
   [
    "2024-09",
    "code-quality",
+   "method"
+  ],
+  [
+   "2024-09",
+   "code-quality",
    "survey"
   ],
   [
@@ -39443,6 +39479,11 @@
   [
    "2024-11",
    "code-quality",
+   "method"
+  ],
+  [
+   "2024-11",
+   "code-quality",
    "survey"
   ],
   [
@@ -43509,6 +43550,11 @@
    "2024-12",
    "software-engineering",
    "theory"
+  ],
+  [
+   "2025-01",
+   "ai-for-se",
+   "method"
   ],
   [
    "2025-01",
@@ -51604,6 +51650,11 @@
    "2025-03",
    "code-quality",
    "development"
+  ],
+  [
+   "2025-03",
+   "code-quality",
+   "evaluation"
   ],
   [
    "2025-03",
@@ -101897,8 +101948,8 @@
   {
    "keyword": "type system",
    "recent": 184,
-   "total": 209,
-   "burst_score": 2.3,
+   "total": 210,
+   "burst_score": 2.29,
    "recent_share": 0.0237
   },
   {
@@ -101933,13 +101984,13 @@
    "keyword": "code generation",
    "recent": 421,
    "total": 620,
-   "burst_score": 1.77,
+   "burst_score": 1.78,
    "recent_share": 0.0542
   },
   {
    "keyword": "large language model",
    "recent": 1148,
-   "total": 1700,
+   "total": 1701,
    "burst_score": 1.76,
    "recent_share": 0.1478
   },
